@@ -6,40 +6,57 @@ module.exports = [
     link: '/admin'
   },
   {
-    key: 'layouts',
+    key: 'route',
     name: 'Route',
     icon: 'view_column',
-    link: '/admin/tables/crud-table'
+    link: '/admin/route'
   },
   {
-    key: 'themes',
+    key: 'transporter',
     name: 'Transporter',
     icon: 'palette',
-    link: '/admin/themes'
+    link: '/admin/transporter'
   },
   {
-    key: 'tables',
+    key: 'employee',
     name: 'Employee',
     icon: 'grid_on',
-    link: '/admin/tables/crud-table'
+    child: [
+      {
+        key: 'driver',
+        name: 'Driver',
+        link: '/admin/employee/driver'
+      },
+      {
+        key: 'assistant',
+        name: 'Assistant',
+        link: '/admin/employee/assistant'
+      }
+    ]
   },
   {
-    key: 'forms',
-    name: 'Clients',
+    key: 'client',
+    name: 'Client',
     icon: 'border_color',
-    link: '/admin/tables/crud-table'
+    link: '/admin/client'
   },
   {
-    key: 'ui',
+    key: 'ticket',
+    name: 'Ticket',
+    icon: 'border_color',
+    link: '/admin/ticket'
+  },
+  {
+    key: 'tschedule',
     name: 'Transport Schedule',
     icon: 'flag',
-    link: '/admin/tables/crud-table'
+    link: '/admin/transport-schedule'
   },
   {
-    key: 'charts',
+    key: 'wschedule',
     name: 'Work Schedule',
     icon: 'insert_chart',
-    link: '/admin/tables/crud-table'
+    link: '/admin/work-schedule'
   },
   {
     key: 'themes',

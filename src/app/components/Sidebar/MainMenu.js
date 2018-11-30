@@ -70,7 +70,7 @@ class MainMenu extends React.Component {
               unmountOnExit
             >
               <List className={classes.dense} dense={dense}>
-                { getMenus(sortByKey(item.child, 'key')) }
+                { getMenus(item.child) }
               </List>
             </Collapse>
           </div>
