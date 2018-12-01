@@ -15,11 +15,11 @@ yarn.lock
 .DB
 
 *.log
-#.env
+.env
 
 # Dist
-#static/server
-#static/assets
+static/server
+static/assets
 
 # Webpack
 webpack-assets.json

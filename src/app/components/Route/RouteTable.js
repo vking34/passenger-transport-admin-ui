@@ -13,6 +13,11 @@ import {
   saveAction,
   closeNotifAction,
 } from '../../actions/CrudTbActions';
+
+import {
+  fetchRoutes
+} from '../../actions/routeActions';
+
 import { CrudTable, Notification } from '../';
 
 import routeConst from '../../constants/route';
@@ -43,7 +48,12 @@ const dataApi = [
   }
 ];
 
-class CrudTableDemo extends Component {
+class RouteTable extends Component {
+
+  componentWillMount(){
+    
+  }
+  
   render() {
     const {
       classes,
@@ -80,7 +90,7 @@ class CrudTableDemo extends Component {
   }
 }
 
-CrudTableDemo.propTypes = {
+RouteTable.propTypes = {
   classes: PropTypes.object.isRequired,
   fetchData: PropTypes.func.isRequired,
   dataTable: PropTypes.object.isRequired,
@@ -96,7 +106,7 @@ CrudTableDemo.propTypes = {
 const mapStateToProps = state => ({
   force: state, // force state from reducer
   dataTable: state.getIn([branch, 'dataTable']),
-  messageNotif: state.getIn([branch, 'notifMsg']),
+  messageNotif: state.getIn([branch, 'notifMsg'])
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -106,12 +116,12 @@ const mapDispatchToProps = dispatch => ({
   updateRow: bindActionCreators(updateAction, dispatch),
   editRow: bindActionCreators(editAction, dispatch),
   finishEditRow: bindActionCreators(saveAction, dispatch),
-  closeNotif: bindActionCreators(closeNotifAction, dispatch),
+  closeNotif: bindActionCreators(closeNotifAction, dispatch)
 });
 
-const CrudTableMapped = connect(
+const RouteTableMapped = connect(
   mapStateToProps,
   mapDispatchToProps
-)(CrudTableDemo);
+)(RouteTable);
 
-export default withStyles(styles)(CrudTableMapped);
+export default withStyles(styles)(RouteTableMapped);

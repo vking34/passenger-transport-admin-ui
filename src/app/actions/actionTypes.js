@@ -48,3 +48,6 @@ export const DELETE_EVENT = 'DELETE_EVENT';
 
 // Notification Form
 export const CLOSE_NOTIF = 'CLOSE_NOTIF';
+
+// Route
+export const FETCH_ROUTES = 'FETCH_ROUTES';

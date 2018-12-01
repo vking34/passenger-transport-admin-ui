@@ -205,95 +205,95 @@ var _PapperBlock2 = __webpack_require__(/*! ./PapperBlock/PapperBlock */ 35);
 
 var _PapperBlock3 = _interopRequireDefault(_PapperBlock2);
 
-var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 169);
+var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 171);
 
 var _CounterWidget3 = _interopRequireDefault(_CounterWidget2);
 
-var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 171);
+var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 173);
 
 var _CounterIconsWidget3 = _interopRequireDefault(_CounterIconsWidget2);
 
-var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 178);
+var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 180);
 
 var _AreaChartWidget3 = _interopRequireDefault(_AreaChartWidget2);
 
-var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 186);
+var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 188);
 
 var _CarouselWidget3 = _interopRequireDefault(_CarouselWidget2);
 
-var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 192);
+var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 194);
 
 var _AlbumWidget3 = _interopRequireDefault(_AlbumWidget2);
 
-var _TreeTable2 = __webpack_require__(/*! ./Tables/TreeTable */ 197);
+var _TreeTable2 = __webpack_require__(/*! ./Tables/TreeTable */ 199);
 
 var _TreeTable3 = _interopRequireDefault(_TreeTable2);
 
-var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 201);
+var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 203);
 
 var _CrudTable3 = _interopRequireDefault(_CrudTable2);
 
-var _AdvTable2 = __webpack_require__(/*! ./Tables/AdvTable */ 215);
+var _AdvTable2 = __webpack_require__(/*! ./Tables/AdvTable */ 217);
 
 var _AdvTable3 = _interopRequireDefault(_AdvTable2);
 
-var _EmptyData2 = __webpack_require__(/*! ./Tables/EmptyData */ 222);
+var _EmptyData2 = __webpack_require__(/*! ./Tables/EmptyData */ 224);
 
 var _EmptyData3 = _interopRequireDefault(_EmptyData2);
 
-var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 224);
+var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 226);
 
 var _Notification3 = _interopRequireDefault(_Notification2);
 
-var _LoginForm2 = __webpack_require__(/*! ./Forms/LoginForm */ 226);
+var _LoginForm2 = __webpack_require__(/*! ./Forms/LoginForm */ 228);
 
 var _LoginForm3 = _interopRequireDefault(_LoginForm2);
 
-var _RegisterForm2 = __webpack_require__(/*! ./Forms/RegisterForm */ 230);
+var _RegisterForm2 = __webpack_require__(/*! ./Forms/RegisterForm */ 232);
 
 var _RegisterForm3 = _interopRequireDefault(_RegisterForm2);
 
-var _LimitedBadges2 = __webpack_require__(/*! ./Badges/LimitedBadges */ 233);
+var _LimitedBadges2 = __webpack_require__(/*! ./Badges/LimitedBadges */ 235);
 
 var _LimitedBadges3 = _interopRequireDefault(_LimitedBadges2);
 
-var _Quote2 = __webpack_require__(/*! ./Quote/Quote */ 234);
+var _Quote2 = __webpack_require__(/*! ./Quote/Quote */ 236);
 
 var _Quote3 = _interopRequireDefault(_Quote2);
 
-var _ProfileCard2 = __webpack_require__(/*! ./CardPaper/ProfileCard */ 235);
+var _ProfileCard2 = __webpack_require__(/*! ./CardPaper/ProfileCard */ 237);
 
 var _ProfileCard3 = _interopRequireDefault(_ProfileCard2);
 
-var _GeneralCard2 = __webpack_require__(/*! ./CardPaper/GeneralCard */ 239);
+var _GeneralCard2 = __webpack_require__(/*! ./CardPaper/GeneralCard */ 241);
 
 var _GeneralCard3 = _interopRequireDefault(_GeneralCard2);
 
-var _NewsCard2 = __webpack_require__(/*! ./CardPaper/NewsCard */ 240);
+var _NewsCard2 = __webpack_require__(/*! ./CardPaper/NewsCard */ 242);
 
 var _NewsCard3 = _interopRequireDefault(_NewsCard2);
 
-var _PlayerCard2 = __webpack_require__(/*! ./CardPaper/PlayerCard */ 241);
+var _PlayerCard2 = __webpack_require__(/*! ./CardPaper/PlayerCard */ 243);
 
 var _PlayerCard3 = _interopRequireDefault(_PlayerCard2);
 
-var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 244);
+var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 246);
 
 var _PostCard3 = _interopRequireDefault(_PostCard2);
 
-var _ProductCard2 = __webpack_require__(/*! ./CardPaper/ProductCard */ 245);
+var _ProductCard2 = __webpack_require__(/*! ./CardPaper/ProductCard */ 247);
 
 var _ProductCard3 = _interopRequireDefault(_ProductCard2);
 
-var _VideoCard2 = __webpack_require__(/*! ./CardPaper/VideoCard */ 247);
+var _VideoCard2 = __webpack_require__(/*! ./CardPaper/VideoCard */ 249);
 
 var _VideoCard3 = _interopRequireDefault(_VideoCard2);
 
-var _IdentityCard2 = __webpack_require__(/*! ./CardPaper/IdentityCard */ 248);
+var _IdentityCard2 = __webpack_require__(/*! ./CardPaper/IdentityCard */ 250);
 
 var _IdentityCard3 = _interopRequireDefault(_IdentityCard2);
 
-var _SearchProduct2 = __webpack_require__(/*! ./Search/SearchProduct */ 249);
+var _SearchProduct2 = __webpack_require__(/*! ./Search/SearchProduct */ 251);
 
 var _SearchProduct3 = _interopRequireDefault(_SearchProduct2);
 
@@ -305,31 +305,31 @@ var _Cart2 = __webpack_require__(/*! ./Cart/Cart */ 116);
 
 var _Cart3 = _interopRequireDefault(_Cart2);
 
-var _AddContact2 = __webpack_require__(/*! ./Contact/AddContact */ 257);
+var _AddContact2 = __webpack_require__(/*! ./Contact/AddContact */ 259);
 
 var _AddContact3 = _interopRequireDefault(_AddContact2);
 
-var _ContactList2 = __webpack_require__(/*! ./Contact/ContactList */ 262);
+var _ContactList2 = __webpack_require__(/*! ./Contact/ContactList */ 264);
 
 var _ContactList3 = _interopRequireDefault(_ContactList2);
 
-var _ContactHeader2 = __webpack_require__(/*! ./Contact/ContactHeader */ 263);
+var _ContactHeader2 = __webpack_require__(/*! ./Contact/ContactHeader */ 265);
 
 var _ContactHeader3 = _interopRequireDefault(_ContactHeader2);
 
-var _ContactDetail2 = __webpack_require__(/*! ./Contact/ContactDetail */ 264);
+var _ContactDetail2 = __webpack_require__(/*! ./Contact/ContactDetail */ 266);
 
 var _ContactDetail3 = _interopRequireDefault(_ContactDetail2);
 
-var _EventCalendar2 = __webpack_require__(/*! ./Calendar/EventCalendar */ 267);
+var _EventCalendar2 = __webpack_require__(/*! ./Calendar/EventCalendar */ 269);
 
 var _EventCalendar3 = _interopRequireDefault(_EventCalendar2);
 
-var _DetailEvent2 = __webpack_require__(/*! ./Calendar/DetailEvent */ 271);
+var _DetailEvent2 = __webpack_require__(/*! ./Calendar/DetailEvent */ 273);
 
 var _DetailEvent3 = _interopRequireDefault(_DetailEvent2);
 
-var _AddEvent2 = __webpack_require__(/*! ./Calendar/AddEvent */ 274);
+var _AddEvent2 = __webpack_require__(/*! ./Calendar/AddEvent */ 276);
 
 var _AddEvent3 = _interopRequireDefault(_AddEvent2);
 
@@ -337,7 +337,7 @@ var _AddEventForm2 = __webpack_require__(/*! ./Calendar/AddEventForm */ 122);
 
 var _AddEventForm3 = _interopRequireDefault(_AddEventForm2);
 
-var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 276);
+var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 278);
 
 var _ErrorWrap3 = _interopRequireDefault(_ErrorWrap2);
 
@@ -437,55 +437,6 @@ module.exports = require("@material-ui/core/Button");
 
 /***/ }),
 /* 10 */
-/*!**********************************************!*\
-  !*** ./src/app/styles/components/Table.scss ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = {
-	"stripped": "stripped__2fOpn",
-	"hover": "hover__1FySl",
-	"bordered": "bordered__I1sSQ",
-	"small": "small__1e1Mc",
-	"medium": "medium__39KeO",
-	"big": "big__1PheA",
-	"nodata": "nodata___RV9Q",
-	"hideAction": "hideAction__2or4r",
-	"tableCrud": "tableCrud__2kmsS",
-	"hiddenField": "hiddenField__2nKRO",
-	"editing": "editing__XO4xW",
-	"crudInput": "crudInput__2BpzG",
-	"toggleCell": "toggleCell__DxhlB",
-	"coverReadonly": "coverReadonly__16T7D",
-	"show": "show__3rVz1"
-};
-
-/***/ }),
-/* 11 */
-/*!******************************!*\
-  !*** external "react-redux" ***!
-  \******************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("react-redux");
-
-/***/ }),
-/* 12 */
-/*!********************************************!*\
-  !*** external "@material-ui/core/Toolbar" ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Toolbar");
-
-/***/ }),
-/* 13 */
 /*!****************************************!*\
   !*** ./src/app/actions/actionTypes.js ***!
   \****************************************/
@@ -549,6 +500,9 @@ var DELETE_EVENT = exports.DELETE_EVENT = 'DELETE_EVENT';
 
 // Notification Form
 var CLOSE_NOTIF = exports.CLOSE_NOTIF = 'CLOSE_NOTIF';
+
+// Route
+var FETCH_ROUTES = exports.FETCH_ROUTES = 'FETCH_ROUTES';
 ;
 
 var _temp = function () {
@@ -625,9 +579,60 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(DELETE_EVENT, 'DELETE_EVENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
 
   __REACT_HOT_LOADER__.register(CLOSE_NOTIF, 'CLOSE_NOTIF', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
+
+  __REACT_HOT_LOADER__.register(FETCH_ROUTES, 'FETCH_ROUTES', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
 }();
 
 ;
+
+/***/ }),
+/* 11 */
+/*!**********************************************!*\
+  !*** ./src/app/styles/components/Table.scss ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"stripped": "stripped__2fOpn",
+	"hover": "hover__1FySl",
+	"bordered": "bordered__I1sSQ",
+	"small": "small__1e1Mc",
+	"medium": "medium__39KeO",
+	"big": "big__1PheA",
+	"nodata": "nodata___RV9Q",
+	"hideAction": "hideAction__2or4r",
+	"tableCrud": "tableCrud__2kmsS",
+	"hiddenField": "hiddenField__2nKRO",
+	"editing": "editing__XO4xW",
+	"crudInput": "crudInput__2BpzG",
+	"toggleCell": "toggleCell__DxhlB",
+	"coverReadonly": "coverReadonly__16T7D",
+	"show": "show__3rVz1"
+};
+
+/***/ }),
+/* 12 */
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
+
+/***/ }),
+/* 13 */
+/*!********************************************!*\
+  !*** external "@material-ui/core/Toolbar" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Toolbar");
 
 /***/ }),
 /* 14 */
@@ -642,6 +647,17 @@ module.exports = require("@material-ui/core/TableRow");
 
 /***/ }),
 /* 15 */
+/*!****************************!*\
+  !*** external "immutable" ***!
+  \****************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("immutable");
+
+/***/ }),
+/* 16 */
 /*!********************************************!*\
   !*** external "@material-ui/core/Divider" ***!
   \********************************************/
@@ -652,7 +668,7 @@ module.exports = require("@material-ui/core/TableRow");
 module.exports = require("@material-ui/core/Divider");
 
 /***/ }),
-/* 16 */
+/* 17 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Table" ***!
   \******************************************/
@@ -663,7 +679,7 @@ module.exports = require("@material-ui/core/Divider");
 module.exports = require("@material-ui/core/Table");
 
 /***/ }),
-/* 17 */
+/* 18 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TableHead" ***!
   \**********************************************/
@@ -672,17 +688,6 @@ module.exports = require("@material-ui/core/Table");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/TableHead");
-
-/***/ }),
-/* 18 */
-/*!****************************!*\
-  !*** external "immutable" ***!
-  \****************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("immutable");
 
 /***/ }),
 /* 19 */
@@ -1145,7 +1150,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 168);
+var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 170);
 
 var _papperStyleJss2 = _interopRequireDefault(_papperStyleJss);
 
@@ -1270,7 +1275,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _amber = __webpack_require__(/*! @material-ui/core/colors/amber */ 259);
+var _amber = __webpack_require__(/*! @material-ui/core/colors/amber */ 261);
 
 var _amber2 = _interopRequireDefault(_amber);
 
@@ -1282,15 +1287,15 @@ var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */
 
 var _deepPurple2 = _interopRequireDefault(_deepPurple);
 
-var _teal = __webpack_require__(/*! @material-ui/core/colors/teal */ 260);
+var _teal = __webpack_require__(/*! @material-ui/core/colors/teal */ 262);
 
 var _teal2 = _interopRequireDefault(_teal);
 
-var _brown = __webpack_require__(/*! @material-ui/core/colors/brown */ 261);
+var _brown = __webpack_require__(/*! @material-ui/core/colors/brown */ 263);
 
 var _brown2 = _interopRequireDefault(_brown);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 48);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 49);
 
 var _red2 = _interopRequireDefault(_red);
 
@@ -1598,11 +1603,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _default2 = __webpack_require__(/*! ./default */ 304);
+var _default2 = __webpack_require__(/*! ./default */ 306);
 
 var _default3 = _interopRequireDefault(_default2);
 
-var _environment = __webpack_require__(/*! ./environment */ 306);
+var _environment = __webpack_require__(/*! ./environment */ 308);
 
 var _environment2 = _interopRequireDefault(_environment);
 
@@ -1625,6 +1630,40 @@ var _temp = function () {
 
 /***/ }),
 /* 41 */
+/*!*******************************************!*\
+  !*** ./src/app/constants/notifMessage.js ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = {
+  saved: 'Data has been saved',
+  updated: 'Data has been updated',
+  removed: 'Item has been removed',
+  posted: 'Your post has been submitted',
+  commented: 'Your comment has been submitted',
+  discard: 'Action canceled',
+  addCart: 'Item added to cart',
+  checkout: 'Thank you for shopping',
+  sent: 'Email sent',
+  labeled: 'You just changed email label'
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ }),
+/* 42 */
 /*!**************************************!*\
   !*** external "react-router-config" ***!
   \**************************************/
@@ -1635,7 +1674,7 @@ var _temp = function () {
 module.exports = require("react-router-config");
 
 /***/ }),
-/* 42 */
+/* 43 */
 /*!*************************************************!*\
   !*** ./src/app/components/App/appStyles-jss.js ***!
   \*************************************************/
@@ -1788,7 +1827,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /*!********************************************!*\
   !*** external "@material-ui/icons/Search" ***!
   \********************************************/
@@ -1799,7 +1838,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/Search");
 
 /***/ }),
-/* 44 */
+/* 45 */
 /*!*************************************************!*\
   !*** ./src/app/styles/components/Messages.scss ***!
   \*************************************************/
@@ -1822,7 +1861,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 45 */
+/* 46 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Grid" ***!
   \*****************************************/
@@ -1833,7 +1872,7 @@ module.exports = {
 module.exports = require("@material-ui/core/Grid");
 
 /***/ }),
-/* 46 */
+/* 47 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Star" ***!
   \******************************************/
@@ -1844,7 +1883,7 @@ module.exports = require("@material-ui/core/Grid");
 module.exports = require("@material-ui/icons/Star");
 
 /***/ }),
-/* 47 */
+/* 48 */
 /*!*************************************************!*\
   !*** ./src/app/components/Widget/widget-jss.js ***!
   \*************************************************/
@@ -1871,11 +1910,11 @@ var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 92);
 
 var _blue2 = _interopRequireDefault(_blue);
 
-var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 175);
+var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 177);
 
 var _deepOrange2 = _interopRequireDefault(_deepOrange);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 48);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 49);
 
 var _red2 = _interopRequireDefault(_red);
 
@@ -1883,7 +1922,7 @@ var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 67);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 176);
+var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 178);
 
 var _purple2 = _interopRequireDefault(_purple);
 
@@ -1891,7 +1930,7 @@ var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */
 
 var _deepPurple2 = _interopRequireDefault(_deepPurple);
 
-var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 177);
+var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 179);
 
 var _lime2 = _interopRequireDefault(_lime);
 
@@ -2206,7 +2245,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 48 */
+/* 49 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/colors/red" ***!
   \***********************************************/
@@ -2217,7 +2256,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/colors/red");
 
 /***/ }),
-/* 49 */
+/* 50 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Chip" ***!
   \*****************************************/
@@ -2228,7 +2267,7 @@ module.exports = require("@material-ui/core/colors/red");
 module.exports = require("@material-ui/core/Chip");
 
 /***/ }),
-/* 50 */
+/* 51 */
 /*!***************************************************!*\
   !*** ./src/app/styles/components/Typography.scss ***!
   \***************************************************/
@@ -2265,7 +2304,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 51 */
+/* 52 */
 /*!*****************************************!*\
   !*** external "@material-ui/icons/Add" ***!
   \*****************************************/
@@ -2276,7 +2315,7 @@ module.exports = {
 module.exports = require("@material-ui/icons/Add");
 
 /***/ }),
-/* 52 */
+/* 53 */
 /*!***************************************************!*\
   !*** external "@material-ui/core/InputAdornment" ***!
   \***************************************************/
@@ -2287,7 +2326,7 @@ module.exports = require("@material-ui/icons/Add");
 module.exports = require("@material-ui/core/InputAdornment");
 
 /***/ }),
-/* 53 */
+/* 54 */
 /*!*****************************************!*\
   !*** external "redux-form-material-ui" ***!
   \*****************************************/
@@ -2298,7 +2337,7 @@ module.exports = require("@material-ui/core/InputAdornment");
 module.exports = require("redux-form-material-ui");
 
 /***/ }),
-/* 54 */
+/* 55 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/MoreVert" ***!
   \**********************************************/
@@ -2309,7 +2348,7 @@ module.exports = require("redux-form-material-ui");
 module.exports = require("@material-ui/icons/MoreVert");
 
 /***/ }),
-/* 55 */
+/* 56 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Calendar/calendar-jss.js ***!
   \*****************************************************/
@@ -2332,7 +2371,7 @@ var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */
 
 var _lightGreen2 = _interopRequireDefault(_lightGreen);
 
-var _lightBlue = __webpack_require__(/*! @material-ui/core/colors/lightBlue */ 270);
+var _lightBlue = __webpack_require__(/*! @material-ui/core/colors/lightBlue */ 272);
 
 var _lightBlue2 = _interopRequireDefault(_lightBlue);
 
@@ -2475,40 +2514,6 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 56 */
-/*!*******************************************!*\
-  !*** ./src/app/constants/notifMessage.js ***!
-  \*******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = {
-  saved: 'Data has been saved',
-  updated: 'Data has been updated',
-  removed: 'Item has been removed',
-  posted: 'Your post has been submitted',
-  commented: 'Your comment has been submitted',
-  discard: 'Action canceled',
-  addCart: 'Item added to cart',
-  checkout: 'Thank you for shopping',
-  sent: 'Email sent',
-  labeled: 'You just changed email label'
-};
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
-
-/***/ }),
 /* 57 */
 /*!*******************************************!*\
   !*** ./src/app/constants/themePalette.js ***!
@@ -2597,7 +2602,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.playTransitionAction = exports.changeThemeAction = exports.openAction = exports.toggleAction = undefined;
 
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
 
 var types = _interopRequireWildcard(_actionTypes);
 
@@ -2968,15 +2973,15 @@ var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 101);
 
 var _Close2 = _interopRequireDefault(_Close);
 
-var _CallMade = __webpack_require__(/*! @material-ui/icons/CallMade */ 254);
+var _CallMade = __webpack_require__(/*! @material-ui/icons/CallMade */ 256);
 
 var _CallMade2 = _interopRequireDefault(_CallMade);
 
-var _CallReceived = __webpack_require__(/*! @material-ui/icons/CallReceived */ 255);
+var _CallReceived = __webpack_require__(/*! @material-ui/icons/CallReceived */ 257);
 
 var _CallReceived2 = _interopRequireDefault(_CallReceived);
 
-var _panelJss = __webpack_require__(/*! ./panel-jss */ 256);
+var _panelJss = __webpack_require__(/*! ./panel-jss */ 258);
 
 var _panelJss2 = _interopRequireDefault(_panelJss);
 
@@ -3743,7 +3748,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
 
 var types = _interopRequireWildcard(_actionTypes);
 
@@ -4109,7 +4114,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _cyan = __webpack_require__(/*! @material-ui/core/colors/cyan */ 229);
+var _cyan = __webpack_require__(/*! @material-ui/core/colors/cyan */ 231);
 
 var _cyan2 = _interopRequireDefault(_cyan);
 
@@ -4117,7 +4122,7 @@ var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 93);
 
 var _indigo2 = _interopRequireDefault(_indigo);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 48);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 49);
 
 var _red2 = _interopRequireDefault(_red);
 
@@ -4459,7 +4464,7 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _ListSubheader = __webpack_require__(/*! @material-ui/core/ListSubheader */ 250);
+var _ListSubheader = __webpack_require__(/*! @material-ui/core/ListSubheader */ 252);
 
 var _ListSubheader2 = _interopRequireDefault(_ListSubheader);
 
@@ -4475,7 +4480,7 @@ var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 26
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _ListItemSecondaryAction = __webpack_require__(/*! @material-ui/core/ListItemSecondaryAction */ 251);
+var _ListItemSecondaryAction = __webpack_require__(/*! @material-ui/core/ListItemSecondaryAction */ 253);
 
 var _ListItemSecondaryAction2 = _interopRequireDefault(_ListItemSecondaryAction);
 
@@ -4489,7 +4494,7 @@ var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 70);
 
 var _Delete2 = _interopRequireDefault(_Delete);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -4497,11 +4502,11 @@ var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 1
 
 var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 50);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 51);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
-var _cartJss = __webpack_require__(/*! ./cart-jss */ 252);
+var _cartJss = __webpack_require__(/*! ./cart-jss */ 254);
 
 var _cartJss2 = _interopRequireDefault(_cartJss);
 
@@ -4792,7 +4797,7 @@ var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 124);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
-var _FormLabel = __webpack_require__(/*! @material-ui/core/FormLabel */ 275);
+var _FormLabel = __webpack_require__(/*! @material-ui/core/FormLabel */ 277);
 
 var _FormLabel2 = _interopRequireDefault(_FormLabel);
 
@@ -4804,13 +4809,13 @@ var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 97);
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 53);
+var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 54);
 
 var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 71);
 
 var _momentUtils2 = _interopRequireDefault(_momentUtils);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 72);
 
@@ -4820,7 +4825,7 @@ var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 121);
 
 var _Form2 = _interopRequireDefault(_Form);
 
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 55);
+var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 56);
 
 var _calendarJss2 = _interopRequireDefault(_calendarJss);
 
@@ -5614,9 +5619,9 @@ var _server = __webpack_require__(/*! react-dom/server */ 80);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 25);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 41);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _history = __webpack_require__(/*! history */ 139);
 
@@ -5624,15 +5629,15 @@ var _containers = __webpack_require__(/*! ./../../app/containers */ 140);
 
 var _containers2 = _interopRequireDefault(_containers);
 
-var _html = __webpack_require__(/*! ./html */ 307);
+var _html = __webpack_require__(/*! ./html */ 309);
 
 var _html2 = _interopRequireDefault(_html);
 
-var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 308);
+var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 310);
 
 var _ApiClient2 = _interopRequireDefault(_ApiClient);
 
-var _store = __webpack_require__(/*! ./../../app/redux/store */ 310);
+var _store = __webpack_require__(/*! ./../../app/redux/store */ 312);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -5750,31 +5755,31 @@ Object.defineProperty(exports, "__esModule", {
 
 var _components = __webpack_require__(/*! ./../components */ 8);
 
-var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 277);
+var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 279);
 
 var _Dashboard2 = _interopRequireDefault(_Dashboard);
 
-var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 279);
+var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 281);
 
 var _RoutePage2 = _interopRequireDefault(_RoutePage);
 
-var _Themes = __webpack_require__(/*! ./Themes */ 281);
+var _Themes = __webpack_require__(/*! ./Themes */ 283);
 
 var _Themes2 = _interopRequireDefault(_Themes);
 
-var _CrudTable = __webpack_require__(/*! ./Tables/CrudTable */ 283);
+var _CrudTable = __webpack_require__(/*! ./Tables/CrudTable */ 285);
 
 var _CrudTable2 = _interopRequireDefault(_CrudTable);
 
-var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 299);
+var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 301);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 300);
+var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 302);
 
 var _NotFoundDedicated2 = _interopRequireDefault(_NotFoundDedicated);
 
-var _withTracker = __webpack_require__(/*! ./withTracker */ 302);
+var _withTracker = __webpack_require__(/*! ./withTracker */ 304);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
@@ -5879,9 +5884,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 41);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _reactLoadingBar = __webpack_require__(/*! react-loading-bar */ 142);
 
@@ -5899,7 +5904,7 @@ __webpack_require__(/*! ../../styles/components/vendors/react-loading-bar/index.
 
 var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 58);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 42);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 43);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -6159,7 +6164,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 41);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
@@ -6175,7 +6180,7 @@ var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 81);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 42);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 43);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -6288,11 +6293,11 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 41);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
@@ -6304,7 +6309,7 @@ var _components = __webpack_require__(/*! ./../../components */ 8);
 
 var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 58);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 42);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 43);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -6551,11 +6556,11 @@ var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 60);
 
 var _AppBar2 = _interopRequireDefault(_AppBar);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 43);
+var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 44);
 
 var _Search2 = _interopRequireDefault(_Search);
 
@@ -6769,7 +6774,7 @@ var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 61);
 
 var _Badge2 = _interopRequireDefault(_Badge);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -6793,7 +6798,7 @@ var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */
 
 var _dummyContents2 = _interopRequireDefault(_dummyContents);
 
-var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 44);
+var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 45);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
@@ -7172,7 +7177,7 @@ var _List = __webpack_require__(/*! @material-ui/core/List */ 34);
 
 var _List2 = _interopRequireDefault(_List);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -7437,7 +7442,7 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 25);
 
@@ -8098,9 +8103,11 @@ var _Paper2 = _interopRequireDefault(_Paper);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _CrudTbActions = __webpack_require__(/*! ../../actions/CrudTbActions */ 90);
+
+var _routeActions = __webpack_require__(/*! ../../actions/routeActions */ 168);
 
 var _ = __webpack_require__(/*! ../ */ 8);
 
@@ -8139,16 +8146,19 @@ var dataApi = [{
   active: true
 }];
 
-var CrudTableDemo = function (_Component) {
-  _inherits(CrudTableDemo, _Component);
+var RouteTable = function (_Component) {
+  _inherits(RouteTable, _Component);
 
-  function CrudTableDemo() {
-    _classCallCheck(this, CrudTableDemo);
+  function RouteTable() {
+    _classCallCheck(this, RouteTable);
 
-    return _possibleConstructorReturn(this, (CrudTableDemo.__proto__ || Object.getPrototypeOf(CrudTableDemo)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (RouteTable.__proto__ || Object.getPrototypeOf(RouteTable)).apply(this, arguments));
   }
 
-  _createClass(CrudTableDemo, [{
+  _createClass(RouteTable, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {}
+  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -8190,10 +8200,10 @@ var CrudTableDemo = function (_Component) {
     }
   }]);
 
-  return CrudTableDemo;
+  return RouteTable;
 }(_react.Component);
 
-CrudTableDemo.propTypes = {
+RouteTable.propTypes = {
   classes: _propTypes2.default.object.isRequired,
   fetchData: _propTypes2.default.func.isRequired,
   dataTable: _propTypes2.default.object.isRequired,
@@ -8226,9 +8236,9 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 
-var CrudTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(CrudTableDemo);
+var RouteTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(RouteTable);
 
-var _default = (0, _styles.withStyles)(styles)(CrudTableMapped);
+var _default = (0, _styles.withStyles)(styles)(RouteTableMapped);
 
 exports.default = _default;
 ;
@@ -8244,13 +8254,13 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(dataApi, 'dataApi', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 
-  __REACT_HOT_LOADER__.register(CrudTableDemo, 'CrudTableDemo', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
+  __REACT_HOT_LOADER__.register(RouteTable, 'RouteTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 
   __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 
-  __REACT_HOT_LOADER__.register(CrudTableMapped, 'CrudTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
+  __REACT_HOT_LOADER__.register(RouteTableMapped, 'RouteTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
 }();
@@ -8259,6 +8269,74 @@ var _temp = function () {
 
 /***/ }),
 /* 168 */
+/*!*****************************************!*\
+  !*** ./src/app/actions/routeActions.js ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.fetchRoutes = undefined;
+
+var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
+
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 169);
+
+var _crossFetch2 = _interopRequireDefault(_crossFetch);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var fetchRoutes = exports.fetchRoutes = function fetchRoutes() {
+    return function (dispatch) {
+        (0, _crossFetch2.default)('https://passenger-transport.herokuapp.com/api/route', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json, */*',
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            }
+        }).then(function (resp) {
+            return resp.json();
+        }).then(function (data) {
+            console.log(data);
+            dispatch({
+                type: _actionTypes.FETCH_ROUTES,
+                payload: data
+            });
+        });
+    };
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(fetchRoutes, 'fetchRoutes', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/routeActions.js');
+}();
+
+;
+
+/***/ }),
+/* 169 */
+/*!******************************!*\
+  !*** external "cross-fetch" ***!
+  \******************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("cross-fetch");
+
+/***/ }),
+/* 170 */
 /*!***********************************************************!*\
   !*** ./src/app/components/PapperBlock/papperStyle-jss.js ***!
   \***********************************************************/
@@ -8348,7 +8426,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 169 */
+/* 171 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Counter/CounterWidget.js ***!
   \*****************************************************/
@@ -8373,7 +8451,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactCountup = __webpack_require__(/*! react-countup */ 170);
+var _reactCountup = __webpack_require__(/*! react-countup */ 172);
 
 var _reactCountup2 = _interopRequireDefault(_reactCountup);
 
@@ -8514,7 +8592,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 170 */
+/* 172 */
 /*!********************************!*\
   !*** external "react-countup" ***!
   \********************************/
@@ -8525,7 +8603,7 @@ var _temp = function () {
 module.exports = require("react-countup");
 
 /***/ }),
-/* 171 */
+/* 173 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Widget/CounterIconsWidget.js ***!
   \*********************************************************/
@@ -8552,29 +8630,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 45);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 46);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 172);
+var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 174);
 
 var _AccountBox2 = _interopRequireDefault(_AccountBox);
 
-var _ImportContacts = __webpack_require__(/*! @material-ui/icons/ImportContacts */ 173);
+var _ImportContacts = __webpack_require__(/*! @material-ui/icons/ImportContacts */ 175);
 
 var _ImportContacts2 = _interopRequireDefault(_ImportContacts);
 
-var _Pets = __webpack_require__(/*! @material-ui/icons/Pets */ 174);
+var _Pets = __webpack_require__(/*! @material-ui/icons/Pets */ 176);
 
 var _Pets2 = _interopRequireDefault(_Pets);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 46);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 47);
 
 var _Star2 = _interopRequireDefault(_Star);
 
 var _components = __webpack_require__(/*! ./../../components */ 8);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 47);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 48);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -8696,7 +8774,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 172 */
+/* 174 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/AccountBox" ***!
   \************************************************/
@@ -8707,7 +8785,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/AccountBox");
 
 /***/ }),
-/* 173 */
+/* 175 */
 /*!****************************************************!*\
   !*** external "@material-ui/icons/ImportContacts" ***!
   \****************************************************/
@@ -8718,7 +8796,7 @@ module.exports = require("@material-ui/icons/AccountBox");
 module.exports = require("@material-ui/icons/ImportContacts");
 
 /***/ }),
-/* 174 */
+/* 176 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Pets" ***!
   \******************************************/
@@ -8729,7 +8807,7 @@ module.exports = require("@material-ui/icons/ImportContacts");
 module.exports = require("@material-ui/icons/Pets");
 
 /***/ }),
-/* 175 */
+/* 177 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/deepOrange" ***!
   \******************************************************/
@@ -8740,7 +8818,7 @@ module.exports = require("@material-ui/icons/Pets");
 module.exports = require("@material-ui/core/colors/deepOrange");
 
 /***/ }),
-/* 176 */
+/* 178 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/colors/purple" ***!
   \**************************************************/
@@ -8751,7 +8829,7 @@ module.exports = require("@material-ui/core/colors/deepOrange");
 module.exports = require("@material-ui/core/colors/purple");
 
 /***/ }),
-/* 177 */
+/* 179 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/lime" ***!
   \************************************************/
@@ -8762,7 +8840,7 @@ module.exports = require("@material-ui/core/colors/purple");
 module.exports = require("@material-ui/core/colors/lime");
 
 /***/ }),
-/* 178 */
+/* 180 */
 /*!******************************************************!*\
   !*** ./src/app/components/Widget/AreaChartWidget.js ***!
   \******************************************************/
@@ -8789,7 +8867,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 45);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 46);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
@@ -8797,19 +8875,19 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 49);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _CardGiftcard = __webpack_require__(/*! @material-ui/icons/CardGiftcard */ 179);
+var _CardGiftcard = __webpack_require__(/*! @material-ui/icons/CardGiftcard */ 181);
 
 var _CardGiftcard2 = _interopRequireDefault(_CardGiftcard);
 
-var _FilterVintage = __webpack_require__(/*! @material-ui/icons/FilterVintage */ 180);
+var _FilterVintage = __webpack_require__(/*! @material-ui/icons/FilterVintage */ 182);
 
 var _FilterVintage2 = _interopRequireDefault(_FilterVintage);
 
-var _LocalCafe = __webpack_require__(/*! @material-ui/icons/LocalCafe */ 181);
+var _LocalCafe = __webpack_require__(/*! @material-ui/icons/LocalCafe */ 183);
 
 var _LocalCafe2 = _interopRequireDefault(_LocalCafe);
 
@@ -8817,15 +8895,15 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 20);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 182);
+var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 184);
 
 var _CircularProgress2 = _interopRequireDefault(_CircularProgress);
 
-var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 183);
+var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 185);
 
 var _Style2 = _interopRequireDefault(_Style);
 
@@ -8841,19 +8919,19 @@ var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 91);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _recharts = __webpack_require__(/*! recharts */ 184);
+var _recharts = __webpack_require__(/*! recharts */ 186);
 
-var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 44);
+var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 45);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 185);
+var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 187);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 50);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 51);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 47);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 48);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -9112,7 +9190,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 179 */
+/* 181 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/CardGiftcard" ***!
   \**************************************************/
@@ -9123,7 +9201,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/CardGiftcard");
 
 /***/ }),
-/* 180 */
+/* 182 */
 /*!***************************************************!*\
   !*** external "@material-ui/icons/FilterVintage" ***!
   \***************************************************/
@@ -9134,7 +9212,7 @@ module.exports = require("@material-ui/icons/CardGiftcard");
 module.exports = require("@material-ui/icons/FilterVintage");
 
 /***/ }),
-/* 181 */
+/* 183 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/LocalCafe" ***!
   \***********************************************/
@@ -9145,7 +9223,7 @@ module.exports = require("@material-ui/icons/FilterVintage");
 module.exports = require("@material-ui/icons/LocalCafe");
 
 /***/ }),
-/* 182 */
+/* 184 */
 /*!*****************************************************!*\
   !*** external "@material-ui/core/CircularProgress" ***!
   \*****************************************************/
@@ -9156,7 +9234,7 @@ module.exports = require("@material-ui/icons/LocalCafe");
 module.exports = require("@material-ui/core/CircularProgress");
 
 /***/ }),
-/* 183 */
+/* 185 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Style" ***!
   \*******************************************/
@@ -9167,7 +9245,7 @@ module.exports = require("@material-ui/core/CircularProgress");
 module.exports = require("@material-ui/icons/Style");
 
 /***/ }),
-/* 184 */
+/* 186 */
 /*!***************************!*\
   !*** external "recharts" ***!
   \***************************/
@@ -9178,7 +9256,7 @@ module.exports = require("@material-ui/icons/Style");
 module.exports = require("recharts");
 
 /***/ }),
-/* 185 */
+/* 187 */
 /*!****************************************!*\
   !*** ./src/app/constants/chartData.js ***!
   \****************************************/
@@ -9454,7 +9532,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 186 */
+/* 188 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Widget/CarouselWidget.js ***!
   \*****************************************************/
@@ -9475,7 +9553,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactSlick = __webpack_require__(/*! react-slick */ 187);
+var _reactSlick = __webpack_require__(/*! react-slick */ 189);
 
 var _reactSlick2 = _interopRequireDefault(_reactSlick);
 
@@ -9505,17 +9583,17 @@ var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 64);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 188);
+var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 190);
 
 var _carouselData2 = _interopRequireDefault(_carouselData);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 189);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 191);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 190);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 192);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 191);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 193);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 47);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 48);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -9684,7 +9762,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 187 */
+/* 189 */
 /*!******************************!*\
   !*** external "react-slick" ***!
   \******************************/
@@ -9695,7 +9773,7 @@ var _temp = function () {
 module.exports = require("react-slick");
 
 /***/ }),
-/* 188 */
+/* 190 */
 /*!*******************************************!*\
   !*** ./src/app/constants/carouselData.js ***!
   \*******************************************/
@@ -9773,7 +9851,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 189 */
+/* 191 */
 /*!*****************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-carousel.css ***!
   \*****************************************************************************/
@@ -9784,7 +9862,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 190 */
+/* 192 */
 /*!********************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick.css ***!
   \********************************************************************/
@@ -9795,7 +9873,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 191 */
+/* 193 */
 /*!**************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-theme.css ***!
   \**************************************************************************/
@@ -9806,7 +9884,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 192 */
+/* 194 */
 /*!**************************************************!*\
   !*** ./src/app/components/Widget/AlbumWidget.js ***!
   \**************************************************/
@@ -9833,15 +9911,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 193);
+var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 195);
 
 var _GridList2 = _interopRequireDefault(_GridList);
 
-var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 194);
+var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 196);
 
 var _GridListTile2 = _interopRequireDefault(_GridListTile);
 
-var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 195);
+var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 197);
 
 var _GridListTileBar2 = _interopRequireDefault(_GridListTileBar);
 
@@ -9853,7 +9931,7 @@ var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 82);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 196);
+var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 198);
 
 var _imgData2 = _interopRequireDefault(_imgData);
 
@@ -9861,7 +9939,7 @@ var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 35);
 
 var _PapperBlock2 = _interopRequireDefault(_PapperBlock);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 47);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 48);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -9951,7 +10029,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 193 */
+/* 195 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/GridList" ***!
   \*********************************************/
@@ -9962,7 +10040,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/GridList");
 
 /***/ }),
-/* 194 */
+/* 196 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/GridListTile" ***!
   \*************************************************/
@@ -9973,7 +10051,7 @@ module.exports = require("@material-ui/core/GridList");
 module.exports = require("@material-ui/core/GridListTile");
 
 /***/ }),
-/* 195 */
+/* 197 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/GridListTileBar" ***!
   \****************************************************/
@@ -9984,7 +10062,7 @@ module.exports = require("@material-ui/core/GridListTile");
 module.exports = require("@material-ui/core/GridListTileBar");
 
 /***/ }),
-/* 196 */
+/* 198 */
 /*!**************************************!*\
   !*** ./src/app/constants/imgData.js ***!
   \**************************************/
@@ -10089,7 +10167,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 197 */
+/* 199 */
 /*!************************************************!*\
   !*** ./src/app/components/Tables/TreeTable.js ***!
   \************************************************/
@@ -10116,7 +10194,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -10128,7 +10206,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -10136,7 +10214,7 @@ var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 14);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
-var _KeyboardArrowRight = __webpack_require__(/*! @material-ui/icons/KeyboardArrowRight */ 198);
+var _KeyboardArrowRight = __webpack_require__(/*! @material-ui/icons/KeyboardArrowRight */ 200);
 
 var _KeyboardArrowRight2 = _interopRequireDefault(_KeyboardArrowRight);
 
@@ -10144,11 +10222,11 @@ var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 87);
 
 var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
-var _AddCircle = __webpack_require__(/*! @material-ui/icons/AddCircle */ 199);
+var _AddCircle = __webpack_require__(/*! @material-ui/icons/AddCircle */ 201);
 
 var _AddCircle2 = _interopRequireDefault(_AddCircle);
 
-var _RemoveCircleOutline = __webpack_require__(/*! @material-ui/icons/RemoveCircleOutline */ 200);
+var _RemoveCircleOutline = __webpack_require__(/*! @material-ui/icons/RemoveCircleOutline */ 202);
 
 var _RemoveCircleOutline2 = _interopRequireDefault(_RemoveCircleOutline);
 
@@ -10393,7 +10471,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 198 */
+/* 200 */
 /*!********************************************************!*\
   !*** external "@material-ui/icons/KeyboardArrowRight" ***!
   \********************************************************/
@@ -10404,7 +10482,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/KeyboardArrowRight");
 
 /***/ }),
-/* 199 */
+/* 201 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/AddCircle" ***!
   \***********************************************/
@@ -10415,7 +10493,7 @@ module.exports = require("@material-ui/icons/KeyboardArrowRight");
 module.exports = require("@material-ui/icons/AddCircle");
 
 /***/ }),
-/* 200 */
+/* 202 */
 /*!*********************************************************!*\
   !*** external "@material-ui/icons/RemoveCircleOutline" ***!
   \*********************************************************/
@@ -10426,7 +10504,7 @@ module.exports = require("@material-ui/icons/AddCircle");
 module.exports = require("@material-ui/icons/RemoveCircleOutline");
 
 /***/ }),
-/* 201 */
+/* 203 */
 /*!************************************************!*\
   !*** ./src/app/components/Tables/CrudTable.js ***!
   \************************************************/
@@ -10451,7 +10529,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 202);
+var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 204);
 
 var _MainTable2 = _interopRequireDefault(_MainTable);
 
@@ -10539,7 +10617,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 202 */
+/* 204 */
 /*!***********************************************************!*\
   !*** ./src/app/components/Tables/tableParts/MainTable.js ***!
   \***********************************************************/
@@ -10566,7 +10644,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -10578,7 +10656,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -10586,7 +10664,7 @@ var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 14);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -10606,15 +10684,15 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 51);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 52);
 
 var _Add2 = _interopRequireDefault(_Add);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
-var _Row = __webpack_require__(/*! ./Row */ 203);
+var _Row = __webpack_require__(/*! ./Row */ 205);
 
 var _Row2 = _interopRequireDefault(_Row);
 
@@ -10783,7 +10861,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 203 */
+/* 205 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Tables/tableParts/Row.js ***!
   \*****************************************************/
@@ -10826,35 +10904,35 @@ var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 70);
 
 var _Delete2 = _interopRequireDefault(_Delete);
 
-var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 204);
+var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 206);
 
 var _BorderColor2 = _interopRequireDefault(_BorderColor);
 
-var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 205);
+var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 207);
 
 var _Done2 = _interopRequireDefault(_Done);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _EditableCell = __webpack_require__(/*! ./EditableCell */ 206);
+var _EditableCell = __webpack_require__(/*! ./EditableCell */ 208);
 
 var _EditableCell2 = _interopRequireDefault(_EditableCell);
 
-var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 208);
+var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 210);
 
 var _SelectableCell2 = _interopRequireDefault(_SelectableCell);
 
-var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 210);
+var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 212);
 
 var _ToggleCell2 = _interopRequireDefault(_ToggleCell);
 
-var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 212);
+var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 214);
 
 var _DatePickerCell2 = _interopRequireDefault(_DatePickerCell);
 
-var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 214);
+var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 216);
 
 var _TimePickerCell2 = _interopRequireDefault(_TimePickerCell);
 
@@ -11069,7 +11147,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 204 */
+/* 206 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/BorderColor" ***!
   \*************************************************/
@@ -11080,7 +11158,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/BorderColor");
 
 /***/ }),
-/* 205 */
+/* 207 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Done" ***!
   \******************************************/
@@ -11091,7 +11169,7 @@ module.exports = require("@material-ui/icons/BorderColor");
 module.exports = require("@material-ui/icons/Done");
 
 /***/ }),
-/* 206 */
+/* 208 */
 /*!**************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/EditableCell.js ***!
   \**************************************************************/
@@ -11124,11 +11202,11 @@ var _Input = __webpack_require__(/*! @material-ui/core/Input */ 96);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 207);
+var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 209);
 
 var _TextField2 = _interopRequireDefault(_TextField);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11258,7 +11336,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 207 */
+/* 209 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TextField" ***!
   \**********************************************/
@@ -11269,7 +11347,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/TextField");
 
 /***/ }),
-/* 208 */
+/* 210 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/SelectableCell.js ***!
   \****************************************************************/
@@ -11294,7 +11372,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Select = __webpack_require__(/*! @material-ui/core/Select */ 209);
+var _Select = __webpack_require__(/*! @material-ui/core/Select */ 211);
 
 var _Select2 = _interopRequireDefault(_Select);
 
@@ -11306,7 +11384,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11415,7 +11493,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 209 */
+/* 211 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Select" ***!
   \*******************************************/
@@ -11426,7 +11504,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Select");
 
 /***/ }),
-/* 210 */
+/* 212 */
 /*!************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/ToggleCell.js ***!
   \************************************************************/
@@ -11463,11 +11541,11 @@ var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLab
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 211);
+var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 213);
 
 var _Switch2 = _interopRequireDefault(_Switch);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11565,7 +11643,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 211 */
+/* 213 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Switch" ***!
   \*******************************************/
@@ -11576,7 +11654,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Switch");
 
 /***/ }),
-/* 212 */
+/* 214 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/DatePickerCell.js ***!
   \****************************************************************/
@@ -11613,11 +11691,11 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 213);
+var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 215);
 
 var _DatePicker2 = _interopRequireDefault(_DatePicker);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11727,7 +11805,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 213 */
+/* 215 */
 /*!*************************************************!*\
   !*** external "material-ui-pickers/DatePicker" ***!
   \*************************************************/
@@ -11738,7 +11816,7 @@ var _temp2 = function () {
 module.exports = require("material-ui-pickers/DatePicker");
 
 /***/ }),
-/* 214 */
+/* 216 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/TimePickerCell.js ***!
   \****************************************************************/
@@ -11777,7 +11855,7 @@ var _TableCell2 = _interopRequireDefault(_TableCell);
 
 var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 97);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 52);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 53);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
@@ -11789,7 +11867,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11910,7 +11988,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 215 */
+/* 217 */
 /*!***********************************************!*\
   !*** ./src/app/components/Tables/AdvTable.js ***!
   \***********************************************/
@@ -11941,7 +12019,7 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -11957,7 +12035,7 @@ var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 14);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 216);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 218);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
@@ -11969,15 +12047,15 @@ var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 99);
 
 var _Checkbox2 = _interopRequireDefault(_Checkbox);
 
-var _Table3 = __webpack_require__(/*! ../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
-var _TableHeader = __webpack_require__(/*! ./tableParts/TableHeader */ 217);
+var _TableHeader = __webpack_require__(/*! ./tableParts/TableHeader */ 219);
 
 var _TableHeader2 = _interopRequireDefault(_TableHeader);
 
-var _TableToolbar = __webpack_require__(/*! ./tableParts/TableToolbar */ 219);
+var _TableToolbar = __webpack_require__(/*! ./tableParts/TableToolbar */ 221);
 
 var _TableToolbar2 = _interopRequireDefault(_TableToolbar);
 
@@ -12302,7 +12380,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 216 */
+/* 218 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/TablePagination" ***!
   \****************************************************/
@@ -12313,7 +12391,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/TablePagination");
 
 /***/ }),
-/* 217 */
+/* 219 */
 /*!*************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/TableHeader.js ***!
   \*************************************************************/
@@ -12342,7 +12420,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -12350,7 +12428,7 @@ var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 14);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
-var _TableSortLabel = __webpack_require__(/*! @material-ui/core/TableSortLabel */ 218);
+var _TableSortLabel = __webpack_require__(/*! @material-ui/core/TableSortLabel */ 220);
 
 var _TableSortLabel2 = _interopRequireDefault(_TableSortLabel);
 
@@ -12499,7 +12577,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 218 */
+/* 220 */
 /*!***************************************************!*\
   !*** external "@material-ui/core/TableSortLabel" ***!
   \***************************************************/
@@ -12510,7 +12588,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/TableSortLabel");
 
 /***/ }),
-/* 219 */
+/* 221 */
 /*!**************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/TableToolbar.js ***!
   \**************************************************************/
@@ -12541,7 +12619,7 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -12561,7 +12639,7 @@ var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 70);
 
 var _Delete2 = _interopRequireDefault(_Delete);
 
-var _Archive = __webpack_require__(/*! @material-ui/icons/Archive */ 220);
+var _Archive = __webpack_require__(/*! @material-ui/icons/Archive */ 222);
 
 var _Archive2 = _interopRequireDefault(_Archive);
 
@@ -12569,11 +12647,11 @@ var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 100);
 
 var _Bookmark2 = _interopRequireDefault(_Bookmark);
 
-var _FilterList = __webpack_require__(/*! @material-ui/icons/FilterList */ 221);
+var _FilterList = __webpack_require__(/*! @material-ui/icons/FilterList */ 223);
 
 var _FilterList2 = _interopRequireDefault(_FilterList);
 
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 43);
+var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 44);
 
 var _Search2 = _interopRequireDefault(_Search);
 
@@ -12585,7 +12663,7 @@ var _Input = __webpack_require__(/*! @material-ui/core/Input */ 96);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 52);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 53);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
@@ -12772,7 +12850,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 220 */
+/* 222 */
 /*!*********************************************!*\
   !*** external "@material-ui/icons/Archive" ***!
   \*********************************************/
@@ -12783,7 +12861,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Archive");
 
 /***/ }),
-/* 221 */
+/* 223 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/FilterList" ***!
   \************************************************/
@@ -12794,7 +12872,7 @@ module.exports = require("@material-ui/icons/Archive");
 module.exports = require("@material-ui/icons/FilterList");
 
 /***/ }),
-/* 222 */
+/* 224 */
 /*!************************************************!*\
   !*** ./src/app/components/Tables/EmptyData.js ***!
   \************************************************/
@@ -12813,11 +12891,11 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Table = __webpack_require__(/*! ../../styles/components/Table.scss */ 10);
+var _Table = __webpack_require__(/*! ../../styles/components/Table.scss */ 11);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _Apps = __webpack_require__(/*! @material-ui/icons/Apps */ 223);
+var _Apps = __webpack_require__(/*! @material-ui/icons/Apps */ 225);
 
 var _Apps2 = _interopRequireDefault(_Apps);
 
@@ -12849,7 +12927,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 223 */
+/* 225 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Apps" ***!
   \******************************************/
@@ -12860,7 +12938,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/Apps");
 
 /***/ }),
-/* 224 */
+/* 226 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Notification/Notification.js ***!
   \*********************************************************/
@@ -12887,7 +12965,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 225);
+var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 227);
 
 var _Snackbar2 = _interopRequireDefault(_Snackbar);
 
@@ -13019,7 +13097,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 225 */
+/* 227 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Snackbar" ***!
   \*********************************************/
@@ -13030,7 +13108,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Snackbar");
 
 /***/ }),
-/* 226 */
+/* 228 */
 /*!***********************************************!*\
   !*** ./src/app/components/Forms/LoginForm.js ***!
   \***********************************************/
@@ -13063,27 +13141,27 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 53);
+var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 54);
 
 var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Visibility = __webpack_require__(/*! @material-ui/icons/Visibility */ 227);
+var _Visibility = __webpack_require__(/*! @material-ui/icons/Visibility */ 229);
 
 var _Visibility2 = _interopRequireDefault(_Visibility);
 
-var _VisibilityOff = __webpack_require__(/*! @material-ui/icons/VisibilityOff */ 228);
+var _VisibilityOff = __webpack_require__(/*! @material-ui/icons/VisibilityOff */ 230);
 
 var _VisibilityOff2 = _interopRequireDefault(_VisibilityOff);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 52);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 53);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
@@ -13356,7 +13434,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 227 */
+/* 229 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/Visibility" ***!
   \************************************************/
@@ -13367,7 +13445,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Visibility");
 
 /***/ }),
-/* 228 */
+/* 230 */
 /*!***************************************************!*\
   !*** external "@material-ui/icons/VisibilityOff" ***!
   \***************************************************/
@@ -13378,7 +13456,7 @@ module.exports = require("@material-ui/icons/Visibility");
 module.exports = require("@material-ui/icons/VisibilityOff");
 
 /***/ }),
-/* 229 */
+/* 231 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/cyan" ***!
   \************************************************/
@@ -13389,7 +13467,7 @@ module.exports = require("@material-ui/icons/VisibilityOff");
 module.exports = require("@material-ui/core/colors/cyan");
 
 /***/ }),
-/* 230 */
+/* 232 */
 /*!**************************************************!*\
   !*** ./src/app/components/Forms/RegisterForm.js ***!
   \**************************************************/
@@ -13422,7 +13500,7 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 53);
+var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 54);
 
 var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
@@ -13436,11 +13514,11 @@ var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLab
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _Tabs = __webpack_require__(/*! @material-ui/core/Tabs */ 231);
+var _Tabs = __webpack_require__(/*! @material-ui/core/Tabs */ 233);
 
 var _Tabs2 = _interopRequireDefault(_Tabs);
 
-var _Tab = __webpack_require__(/*! @material-ui/core/Tab */ 232);
+var _Tab = __webpack_require__(/*! @material-ui/core/Tab */ 234);
 
 var _Tab2 = _interopRequireDefault(_Tab);
 
@@ -13741,7 +13819,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 231 */
+/* 233 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Tabs" ***!
   \*****************************************/
@@ -13752,7 +13830,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Tabs");
 
 /***/ }),
-/* 232 */
+/* 234 */
 /*!****************************************!*\
   !*** external "@material-ui/core/Tab" ***!
   \****************************************/
@@ -13763,7 +13841,7 @@ module.exports = require("@material-ui/core/Tabs");
 module.exports = require("@material-ui/core/Tab");
 
 /***/ }),
-/* 233 */
+/* 235 */
 /*!****************************************************!*\
   !*** ./src/app/components/Badges/LimitedBadges.js ***!
   \****************************************************/
@@ -13856,7 +13934,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 234 */
+/* 236 */
 /*!*******************************************!*\
   !*** ./src/app/components/Quote/Quote.js ***!
   \*******************************************/
@@ -14007,7 +14085,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 235 */
+/* 237 */
 /*!*****************************************************!*\
   !*** ./src/app/components/CardPaper/ProfileCard.js ***!
   \*****************************************************/
@@ -14038,7 +14116,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 50);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 51);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
@@ -14066,7 +14144,7 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 20);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _VerifiedUser = __webpack_require__(/*! @material-ui/icons/VerifiedUser */ 236);
+var _VerifiedUser = __webpack_require__(/*! @material-ui/icons/VerifiedUser */ 238);
 
 var _VerifiedUser2 = _interopRequireDefault(_VerifiedUser);
 
@@ -14078,7 +14156,7 @@ var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNa
 
 var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
 
-var _SupervisorAccount = __webpack_require__(/*! @material-ui/icons/SupervisorAccount */ 237);
+var _SupervisorAccount = __webpack_require__(/*! @material-ui/icons/SupervisorAccount */ 239);
 
 var _SupervisorAccount2 = _interopRequireDefault(_SupervisorAccount);
 
@@ -14086,11 +14164,11 @@ var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 74);
 
 var _Favorite2 = _interopRequireDefault(_Favorite);
 
-var _PhotoLibrary = __webpack_require__(/*! @material-ui/icons/PhotoLibrary */ 238);
+var _PhotoLibrary = __webpack_require__(/*! @material-ui/icons/PhotoLibrary */ 240);
 
 var _PhotoLibrary2 = _interopRequireDefault(_PhotoLibrary);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -14245,7 +14323,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 236 */
+/* 238 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/VerifiedUser" ***!
   \**************************************************/
@@ -14256,7 +14334,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/VerifiedUser");
 
 /***/ }),
-/* 237 */
+/* 239 */
 /*!*******************************************************!*\
   !*** external "@material-ui/icons/SupervisorAccount" ***!
   \*******************************************************/
@@ -14267,7 +14345,7 @@ module.exports = require("@material-ui/icons/VerifiedUser");
 module.exports = require("@material-ui/icons/SupervisorAccount");
 
 /***/ }),
-/* 238 */
+/* 240 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/PhotoLibrary" ***!
   \**************************************************/
@@ -14278,7 +14356,7 @@ module.exports = require("@material-ui/icons/SupervisorAccount");
 module.exports = require("@material-ui/icons/PhotoLibrary");
 
 /***/ }),
-/* 239 */
+/* 241 */
 /*!*****************************************************!*\
   !*** ./src/app/components/CardPaper/GeneralCard.js ***!
   \*****************************************************/
@@ -14439,7 +14517,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 240 */
+/* 242 */
 /*!**************************************************!*\
   !*** ./src/app/components/CardPaper/NewsCard.js ***!
   \**************************************************/
@@ -14575,7 +14653,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 241 */
+/* 243 */
 /*!****************************************************!*\
   !*** ./src/app/components/CardPaper/PlayerCard.js ***!
   \****************************************************/
@@ -14622,7 +14700,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _SkipPrevious = __webpack_require__(/*! @material-ui/icons/SkipPrevious */ 242);
+var _SkipPrevious = __webpack_require__(/*! @material-ui/icons/SkipPrevious */ 244);
 
 var _SkipPrevious2 = _interopRequireDefault(_SkipPrevious);
 
@@ -14630,7 +14708,7 @@ var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 112);
 
 var _PlayArrow2 = _interopRequireDefault(_PlayArrow);
 
-var _SkipNext = __webpack_require__(/*! @material-ui/icons/SkipNext */ 243);
+var _SkipNext = __webpack_require__(/*! @material-ui/icons/SkipNext */ 245);
 
 var _SkipNext2 = _interopRequireDefault(_SkipNext);
 
@@ -14766,7 +14844,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 242 */
+/* 244 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/SkipPrevious" ***!
   \**************************************************/
@@ -14777,7 +14855,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/SkipPrevious");
 
 /***/ }),
-/* 243 */
+/* 245 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/SkipNext" ***!
   \**********************************************/
@@ -14788,7 +14866,7 @@ module.exports = require("@material-ui/icons/SkipPrevious");
 module.exports = require("@material-ui/icons/SkipNext");
 
 /***/ }),
-/* 244 */
+/* 246 */
 /*!**************************************************!*\
   !*** ./src/app/components/CardPaper/PostCard.js ***!
   \**************************************************/
@@ -14867,7 +14945,7 @@ var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 111);
 
 var _Comment2 = _interopRequireDefault(_Comment);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 54);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 55);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
@@ -15083,7 +15161,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 245 */
+/* 247 */
 /*!*****************************************************!*\
   !*** ./src/app/components/CardPaper/ProductCard.js ***!
   \*****************************************************/
@@ -15146,15 +15224,15 @@ var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 28);
 
 var _CardContent2 = _interopRequireDefault(_CardContent);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 49);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _AddShoppingCart = __webpack_require__(/*! @material-ui/icons/AddShoppingCart */ 246);
+var _AddShoppingCart = __webpack_require__(/*! @material-ui/icons/AddShoppingCart */ 248);
 
 var _AddShoppingCart2 = _interopRequireDefault(_AddShoppingCart);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 46);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 47);
 
 var _Star2 = _interopRequireDefault(_Star);
 
@@ -15162,7 +15240,7 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 50);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 51);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
@@ -15349,7 +15427,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 246 */
+/* 248 */
 /*!*****************************************************!*\
   !*** external "@material-ui/icons/AddShoppingCart" ***!
   \*****************************************************/
@@ -15360,7 +15438,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/AddShoppingCart");
 
 /***/ }),
-/* 247 */
+/* 249 */
 /*!***************************************************!*\
   !*** ./src/app/components/CardPaper/VideoCard.js ***!
   \***************************************************/
@@ -15411,11 +15489,11 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 20);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 48);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 49);
 
 var _red2 = _interopRequireDefault(_red);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 54);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 55);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
@@ -15564,7 +15642,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 248 */
+/* 250 */
 /*!******************************************************!*\
   !*** ./src/app/components/CardPaper/IdentityCard.js ***!
   \******************************************************/
@@ -15615,7 +15693,7 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 20);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -15736,7 +15814,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 249 */
+/* 251 */
 /*!****************************************************!*\
   !*** ./src/app/components/Search/SearchProduct.js ***!
   \****************************************************/
@@ -15767,7 +15845,7 @@ var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 60);
 
 var _AppBar2 = _interopRequireDefault(_AppBar);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -15783,7 +15861,7 @@ var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 1
 
 var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
 
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 43);
+var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 44);
 
 var _Search2 = _interopRequireDefault(_Search);
 
@@ -15791,7 +15869,7 @@ var _Cart = __webpack_require__(/*! ./../Cart/Cart */ 116);
 
 var _Cart2 = _interopRequireDefault(_Cart);
 
-var _searchJss = __webpack_require__(/*! ./search-jss */ 253);
+var _searchJss = __webpack_require__(/*! ./search-jss */ 255);
 
 var _searchJss2 = _interopRequireDefault(_searchJss);
 
@@ -15951,7 +16029,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 250 */
+/* 252 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/ListSubheader" ***!
   \**************************************************/
@@ -15962,7 +16040,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/ListSubheader");
 
 /***/ }),
-/* 251 */
+/* 253 */
 /*!************************************************************!*\
   !*** external "@material-ui/core/ListItemSecondaryAction" ***!
   \************************************************************/
@@ -15973,7 +16051,7 @@ module.exports = require("@material-ui/core/ListSubheader");
 module.exports = require("@material-ui/core/ListItemSecondaryAction");
 
 /***/ }),
-/* 252 */
+/* 254 */
 /*!*********************************************!*\
   !*** ./src/app/components/Cart/cart-jss.js ***!
   \*********************************************/
@@ -16045,7 +16123,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 253 */
+/* 255 */
 /*!*************************************************!*\
   !*** ./src/app/components/Search/search-jss.js ***!
   \*************************************************/
@@ -16125,7 +16203,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 254 */
+/* 256 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/CallMade" ***!
   \**********************************************/
@@ -16136,7 +16214,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/CallMade");
 
 /***/ }),
-/* 255 */
+/* 257 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/CallReceived" ***!
   \**************************************************/
@@ -16147,7 +16225,7 @@ module.exports = require("@material-ui/icons/CallMade");
 module.exports = require("@material-ui/icons/CallReceived");
 
 /***/ }),
-/* 256 */
+/* 258 */
 /*!***********************************************!*\
   !*** ./src/app/components/Panel/panel-jss.js ***!
   \***********************************************/
@@ -16277,7 +16355,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 257 */
+/* 259 */
 /*!**************************************************!*\
   !*** ./src/app/components/Contact/AddContact.js ***!
   \**************************************************/
@@ -16312,11 +16390,11 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 51);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 52);
 
 var _Add2 = _interopRequireDefault(_Add);
 
-var _AddContactForm = __webpack_require__(/*! ./AddContactForm */ 258);
+var _AddContactForm = __webpack_require__(/*! ./AddContactForm */ 260);
 
 var _AddContactForm2 = _interopRequireDefault(_AddContactForm);
 
@@ -16452,7 +16530,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 258 */
+/* 260 */
 /*!******************************************************!*\
   !*** ./src/app/components/Contact/AddContactForm.js ***!
   \******************************************************/
@@ -16483,13 +16561,13 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 53);
+var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 54);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 52);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 53);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
@@ -16827,7 +16905,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 259 */
+/* 261 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/colors/amber" ***!
   \*************************************************/
@@ -16838,7 +16916,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/colors/amber");
 
 /***/ }),
-/* 260 */
+/* 262 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/teal" ***!
   \************************************************/
@@ -16849,7 +16927,7 @@ module.exports = require("@material-ui/core/colors/amber");
 module.exports = require("@material-ui/core/colors/teal");
 
 /***/ }),
-/* 261 */
+/* 263 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/colors/brown" ***!
   \*************************************************/
@@ -16860,7 +16938,7 @@ module.exports = require("@material-ui/core/colors/teal");
 module.exports = require("@material-ui/core/colors/brown");
 
 /***/ }),
-/* 262 */
+/* 264 */
 /*!***************************************************!*\
   !*** ./src/app/components/Contact/ContactList.js ***!
   \***************************************************/
@@ -16895,7 +16973,7 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -16923,7 +17001,7 @@ var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNa
 
 var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
 
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 43);
+var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 44);
 
 var _Search2 = _interopRequireDefault(_Search);
 
@@ -16931,7 +17009,7 @@ var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContac
 
 var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 46);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 47);
 
 var _Star2 = _interopRequireDefault(_Star);
 
@@ -17105,7 +17183,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 263 */
+/* 265 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Contact/ContactHeader.js ***!
   \*****************************************************/
@@ -17136,7 +17214,7 @@ var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 60);
 
 var _AppBar2 = _interopRequireDefault(_AppBar);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -17160,7 +17238,7 @@ var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContac
 
 var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 51);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 52);
 
 var _Add2 = _interopRequireDefault(_Add);
 
@@ -17266,7 +17344,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 264 */
+/* 266 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Contact/ContactDetail.js ***!
   \*****************************************************/
@@ -17329,19 +17407,19 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Edit = __webpack_require__(/*! @material-ui/icons/Edit */ 265);
+var _Edit = __webpack_require__(/*! @material-ui/icons/Edit */ 267);
 
 var _Edit2 = _interopRequireDefault(_Edit);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 46);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 47);
 
 var _Star2 = _interopRequireDefault(_Star);
 
-var _StarBorder = __webpack_require__(/*! @material-ui/icons/StarBorder */ 266);
+var _StarBorder = __webpack_require__(/*! @material-ui/icons/StarBorder */ 268);
 
 var _StarBorder2 = _interopRequireDefault(_StarBorder);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 54);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 55);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
@@ -17369,7 +17447,7 @@ var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 120);
 
 var _Language2 = _interopRequireDefault(_Language);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -17655,7 +17733,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 265 */
+/* 267 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Edit" ***!
   \******************************************/
@@ -17666,7 +17744,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Edit");
 
 /***/ }),
-/* 266 */
+/* 268 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/StarBorder" ***!
   \************************************************/
@@ -17677,7 +17755,7 @@ module.exports = require("@material-ui/icons/Edit");
 module.exports = require("@material-ui/icons/StarBorder");
 
 /***/ }),
-/* 267 */
+/* 269 */
 /*!******************************************************!*\
   !*** ./src/app/components/Calendar/EventCalendar.js ***!
   \******************************************************/
@@ -17708,15 +17786,15 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _reactBigCalendar = __webpack_require__(/*! react-big-calendar */ 268);
+var _reactBigCalendar = __webpack_require__(/*! react-big-calendar */ 270);
 
 var _reactBigCalendar2 = _interopRequireDefault(_reactBigCalendar);
 
-var _moment = __webpack_require__(/*! moment */ 269);
+var _moment = __webpack_require__(/*! moment */ 271);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 55);
+var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 56);
 
 var _calendarJss2 = _interopRequireDefault(_calendarJss);
 
@@ -17843,7 +17921,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 268 */
+/* 270 */
 /*!*************************************!*\
   !*** external "react-big-calendar" ***!
   \*************************************/
@@ -17854,7 +17932,7 @@ var _temp2 = function () {
 module.exports = require("react-big-calendar");
 
 /***/ }),
-/* 269 */
+/* 271 */
 /*!*************************!*\
   !*** external "moment" ***!
   \*************************/
@@ -17865,7 +17943,7 @@ module.exports = require("react-big-calendar");
 module.exports = require("moment");
 
 /***/ }),
-/* 270 */
+/* 272 */
 /*!*****************************************************!*\
   !*** external "@material-ui/core/colors/lightBlue" ***!
   \*****************************************************/
@@ -17876,7 +17954,7 @@ module.exports = require("moment");
 module.exports = require("@material-ui/core/colors/lightBlue");
 
 /***/ }),
-/* 271 */
+/* 273 */
 /*!****************************************************!*\
   !*** ./src/app/components/Calendar/DetailEvent.js ***!
   \****************************************************/
@@ -17919,23 +17997,23 @@ var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 33);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _Popover = __webpack_require__(/*! @material-ui/core/Popover */ 272);
+var _Popover = __webpack_require__(/*! @material-ui/core/Popover */ 274);
 
 var _Popover2 = _interopRequireDefault(_Popover);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 54);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 55);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
-var _Today = __webpack_require__(/*! @material-ui/icons/Today */ 273);
+var _Today = __webpack_require__(/*! @material-ui/icons/Today */ 275);
 
 var _Today2 = _interopRequireDefault(_Today);
 
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 55);
+var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 56);
 
 var _calendarJss2 = _interopRequireDefault(_calendarJss);
 
@@ -18182,7 +18260,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 272 */
+/* 274 */
 /*!********************************************!*\
   !*** external "@material-ui/core/Popover" ***!
   \********************************************/
@@ -18193,7 +18271,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Popover");
 
 /***/ }),
-/* 273 */
+/* 275 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Today" ***!
   \*******************************************/
@@ -18204,7 +18282,7 @@ module.exports = require("@material-ui/core/Popover");
 module.exports = require("@material-ui/icons/Today");
 
 /***/ }),
-/* 274 */
+/* 276 */
 /*!*************************************************!*\
   !*** ./src/app/components/Calendar/AddEvent.js ***!
   \*************************************************/
@@ -18235,7 +18313,7 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 51);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 52);
 
 var _Add2 = _interopRequireDefault(_Add);
 
@@ -18251,7 +18329,7 @@ var _AddEventForm = __webpack_require__(/*! ./AddEventForm */ 122);
 
 var _AddEventForm2 = _interopRequireDefault(_AddEventForm);
 
-var _calendarJss = __webpack_require__(/*! ./calendar-jss.js */ 55);
+var _calendarJss = __webpack_require__(/*! ./calendar-jss.js */ 56);
 
 var _calendarJss2 = _interopRequireDefault(_calendarJss);
 
@@ -18349,7 +18427,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 275 */
+/* 277 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/FormLabel" ***!
   \**********************************************/
@@ -18360,7 +18438,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/FormLabel");
 
 /***/ }),
-/* 276 */
+/* 278 */
 /*!***********************************************!*\
   !*** ./src/app/components/Error/ErrorWrap.js ***!
   \***********************************************/
@@ -18497,7 +18575,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 277 */
+/* 279 */
 /*!***************************************************!*\
   !*** ./src/app/containers/Dashboard/Dashboard.js ***!
   \***************************************************/
@@ -18530,11 +18608,11 @@ var _reactHelmet = __webpack_require__(/*! react-helmet */ 24);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 45);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 46);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 15);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -18546,7 +18624,7 @@ var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 62);
 
 var _avatars2 = _interopRequireDefault(_avatars);
 
-var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 278);
+var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 280);
 
 var _dashboardJss2 = _interopRequireDefault(_dashboardJss);
 
@@ -18663,7 +18741,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 278 */
+/* 280 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Dashboard/dashboard-jss.js ***!
   \*******************************************************/
@@ -18726,7 +18804,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 279 */
+/* 281 */
 /*!************************************************!*\
   !*** ./src/app/containers/Routes/RoutePage.js ***!
   \************************************************/
@@ -18767,7 +18845,7 @@ var _route = __webpack_require__(/*! ../../constants/route.js */ 65);
 
 var _route2 = _interopRequireDefault(_route);
 
-var _helmet = __webpack_require__(/*! ../../constants/helmet.js */ 280);
+var _helmet = __webpack_require__(/*! ../../constants/helmet.js */ 282);
 
 var _helmet2 = _interopRequireDefault(_helmet);
 
@@ -18864,7 +18942,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 280 */
+/* 282 */
 /*!*************************************!*\
   !*** ./src/app/constants/helmet.js ***!
   \*************************************/
@@ -18893,7 +18971,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 281 */
+/* 283 */
 /*!********************************************!*\
   !*** ./src/app/containers/Themes/index.js ***!
   \********************************************/
@@ -18924,7 +19002,7 @@ var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 124);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 45);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 46);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
@@ -18934,7 +19012,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
@@ -18950,7 +19028,7 @@ var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 125);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
-var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 282);
+var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 284);
 
 var _ThemeThumb2 = _interopRequireDefault(_ThemeThumb);
 
@@ -19099,7 +19177,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 282 */
+/* 284 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Themes/ThemeThumb.js ***!
   \*************************************************/
@@ -19134,7 +19212,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
@@ -19278,7 +19356,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 283 */
+/* 285 */
 /*!************************************************!*\
   !*** ./src/app/containers/Tables/CrudTable.js ***!
   \************************************************/
@@ -19321,7 +19399,7 @@ var _route2 = _interopRequireDefault(_route);
 
 var _components = __webpack_require__(/*! ./../../components */ 8);
 
-var _demos = __webpack_require__(/*! ./demos */ 284);
+var _demos = __webpack_require__(/*! ./demos */ 286);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19414,7 +19492,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 284 */
+/* 286 */
 /*!**************************************************!*\
   !*** ./src/app/containers/Tables/demos/index.js ***!
   \**************************************************/
@@ -19430,47 +19508,47 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TrackingTable = exports.EmptyTable = exports.StatusColorRow = exports.StatusLabel = exports.AdvTableDemo = exports.CrudTableDemo = exports.TreeTableDemo = exports.BorderedTable = exports.HoverTable = exports.StrippedTable = exports.SimpleTable = undefined;
 
-var _SimpleTable2 = __webpack_require__(/*! ./SimpleTable */ 285);
+var _SimpleTable2 = __webpack_require__(/*! ./SimpleTable */ 287);
 
 var _SimpleTable3 = _interopRequireDefault(_SimpleTable2);
 
-var _StrippedTable2 = __webpack_require__(/*! ./StrippedTable */ 286);
+var _StrippedTable2 = __webpack_require__(/*! ./StrippedTable */ 288);
 
 var _StrippedTable3 = _interopRequireDefault(_StrippedTable2);
 
-var _HoverTable2 = __webpack_require__(/*! ./HoverTable */ 287);
+var _HoverTable2 = __webpack_require__(/*! ./HoverTable */ 289);
 
 var _HoverTable3 = _interopRequireDefault(_HoverTable2);
 
-var _BorderedTable2 = __webpack_require__(/*! ./BorderedTable */ 288);
+var _BorderedTable2 = __webpack_require__(/*! ./BorderedTable */ 290);
 
 var _BorderedTable3 = _interopRequireDefault(_BorderedTable2);
 
-var _TreeTableDemo2 = __webpack_require__(/*! ./TreeTableDemo */ 289);
+var _TreeTableDemo2 = __webpack_require__(/*! ./TreeTableDemo */ 291);
 
 var _TreeTableDemo3 = _interopRequireDefault(_TreeTableDemo2);
 
-var _CrudTableDemo2 = __webpack_require__(/*! ./CrudTableDemo */ 292);
+var _CrudTableDemo2 = __webpack_require__(/*! ./CrudTableDemo */ 294);
 
 var _CrudTableDemo3 = _interopRequireDefault(_CrudTableDemo2);
 
-var _AdvTableDemo2 = __webpack_require__(/*! ./AdvTableDemo */ 293);
+var _AdvTableDemo2 = __webpack_require__(/*! ./AdvTableDemo */ 295);
 
 var _AdvTableDemo3 = _interopRequireDefault(_AdvTableDemo2);
 
-var _StatusLabel2 = __webpack_require__(/*! ./StatusLabel */ 294);
+var _StatusLabel2 = __webpack_require__(/*! ./StatusLabel */ 296);
 
 var _StatusLabel3 = _interopRequireDefault(_StatusLabel2);
 
-var _StatusColorRow2 = __webpack_require__(/*! ./StatusColorRow */ 295);
+var _StatusColorRow2 = __webpack_require__(/*! ./StatusColorRow */ 297);
 
 var _StatusColorRow3 = _interopRequireDefault(_StatusColorRow2);
 
-var _EmptyTable2 = __webpack_require__(/*! ./EmptyTable */ 296);
+var _EmptyTable2 = __webpack_require__(/*! ./EmptyTable */ 298);
 
 var _EmptyTable3 = _interopRequireDefault(_EmptyTable2);
 
-var _TrackingTable2 = __webpack_require__(/*! ./TrackingTable */ 297);
+var _TrackingTable2 = __webpack_require__(/*! ./TrackingTable */ 299);
 
 var _TrackingTable3 = _interopRequireDefault(_TrackingTable2);
 
@@ -19498,7 +19576,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 285 */
+/* 287 */
 /*!********************************************************!*\
   !*** ./src/app/containers/Tables/demos/SimpleTable.js ***!
   \********************************************************/
@@ -19523,7 +19601,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -19531,7 +19609,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -19543,7 +19621,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -19709,7 +19787,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 286 */
+/* 288 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/StrippedTable.js ***!
   \**********************************************************/
@@ -19734,7 +19812,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -19746,7 +19824,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -19758,7 +19836,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -19770,7 +19848,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
@@ -19929,7 +20007,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 287 */
+/* 289 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Tables/demos/HoverTable.js ***!
   \*******************************************************/
@@ -19954,7 +20032,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -19966,7 +20044,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -19978,7 +20056,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -19990,7 +20068,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
@@ -20149,7 +20227,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 288 */
+/* 290 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/BorderedTable.js ***!
   \**********************************************************/
@@ -20174,7 +20252,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -20186,7 +20264,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -20198,7 +20276,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -20210,7 +20288,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
@@ -20369,7 +20447,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 289 */
+/* 291 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/TreeTableDemo.js ***!
   \**********************************************************/
@@ -20402,15 +20480,15 @@ var _Paper2 = _interopRequireDefault(_Paper);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
-var _TreeTableActions = __webpack_require__(/*! ../../../actions/TreeTableActions */ 290);
+var _TreeTableActions = __webpack_require__(/*! ../../../actions/TreeTableActions */ 292);
 
 var _TreeTableActions2 = _interopRequireDefault(_TreeTableActions);
 
 var _components = __webpack_require__(/*! ./../../../components */ 8);
 
-var _dataTreeTable = __webpack_require__(/*! ./dataTreeTable.js */ 291);
+var _dataTreeTable = __webpack_require__(/*! ./dataTreeTable.js */ 293);
 
 var _dataTreeTable2 = _interopRequireDefault(_dataTreeTable);
 
@@ -20525,7 +20603,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 290 */
+/* 292 */
 /*!*********************************************!*\
   !*** ./src/app/actions/TreeTableActions.js ***!
   \*********************************************/
@@ -20540,7 +20618,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
 
 var types = _interopRequireWildcard(_actionTypes);
 
@@ -20572,7 +20650,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 291 */
+/* 293 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/dataTreeTable.js ***!
   \**********************************************************/
@@ -20693,7 +20771,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 292 */
+/* 294 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/CrudTableDemo.js ***!
   \**********************************************************/
@@ -20726,7 +20804,7 @@ var _Paper2 = _interopRequireDefault(_Paper);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 11);
+var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _CrudTbActions = __webpack_require__(/*! ../../../actions/CrudTbActions */ 90);
 
@@ -20988,7 +21066,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 293 */
+/* 295 */
 /*!*********************************************************!*\
   !*** ./src/app/containers/Tables/demos/AdvTableDemo.js ***!
   \*********************************************************/
@@ -21139,7 +21217,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 294 */
+/* 296 */
 /*!********************************************************!*\
   !*** ./src/app/containers/Tables/demos/StatusLabel.js ***!
   \********************************************************/
@@ -21164,7 +21242,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -21176,7 +21254,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -21188,7 +21266,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -21200,7 +21278,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 49);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
@@ -21208,11 +21286,11 @@ var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress *
 
 var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 10);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 11);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
-var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 44);
+var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 45);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
@@ -21382,7 +21460,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 295 */
+/* 297 */
 /*!***********************************************************!*\
   !*** ./src/app/containers/Tables/demos/StatusColorRow.js ***!
   \***********************************************************/
@@ -21407,7 +21485,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -21419,7 +21497,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -21431,7 +21509,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -21443,7 +21521,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 49);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
@@ -21451,7 +21529,7 @@ var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress *
 
 var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
 
-var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 44);
+var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 45);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
@@ -21622,7 +21700,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 296 */
+/* 298 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Tables/demos/EmptyTable.js ***!
   \*******************************************************/
@@ -21647,7 +21725,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 12);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 13);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
@@ -21655,7 +21733,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 4);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 16);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 17);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -21663,7 +21741,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 17);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 18);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
@@ -21776,7 +21854,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 297 */
+/* 299 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/TrackingTable.js ***!
   \**********************************************************/
@@ -21803,7 +21881,7 @@ var _brand = __webpack_require__(/*! ../../../constants/brand.js */ 19);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _screenshoot = __webpack_require__(/*! ../../../constants/screenshoot.js */ 298);
+var _screenshoot = __webpack_require__(/*! ../../../constants/screenshoot.js */ 300);
 
 var _screenshoot2 = _interopRequireDefault(_screenshoot);
 
@@ -21873,7 +21951,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 298 */
+/* 300 */
 /*!******************************************!*\
   !*** ./src/app/constants/screenshoot.js ***!
   \******************************************/
@@ -21932,7 +22010,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 299 */
+/* 301 */
 /*!*************************************************!*\
   !*** ./src/app/containers/NotFound/NotFound.js ***!
   \*************************************************/
@@ -22018,7 +22096,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 300 */
+/* 302 */
 /*!******************************************************************!*\
   !*** ./src/app/containers/Pages/Standalone/NotFoundDedicated.js ***!
   \******************************************************************/
@@ -22043,11 +22121,11 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-jss */ 42);
+var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-jss */ 43);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
-var _Error = __webpack_require__(/*! ./../Error */ 301);
+var _Error = __webpack_require__(/*! ./../Error */ 303);
 
 var _Error2 = _interopRequireDefault(_Error);
 
@@ -22110,7 +22188,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 301 */
+/* 303 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Pages/Error/index.js ***!
   \*************************************************/
@@ -22196,7 +22274,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 302 */
+/* 304 */
 /*!*******************************************!*\
   !*** ./src/app/containers/withTracker.js ***!
   \*******************************************/
@@ -22223,7 +22301,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactGa = __webpack_require__(/*! react-ga */ 303);
+var _reactGa = __webpack_require__(/*! react-ga */ 305);
 
 var _reactGa2 = _interopRequireDefault(_reactGa);
 
@@ -22313,7 +22391,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 303 */
+/* 305 */
 /*!***************************!*\
   !*** external "react-ga" ***!
   \***************************/
@@ -22324,7 +22402,7 @@ var _temp2 = function () {
 module.exports = require("react-ga");
 
 /***/ }),
-/* 304 */
+/* 306 */
 /*!***********************************!*\
   !*** ./src/app/config/default.js ***!
   \***********************************/
@@ -22339,7 +22417,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 305);
+var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 307);
 
 var _isUndefined2 = _interopRequireDefault(_isUndefined);
 
@@ -22424,7 +22502,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 305 */
+/* 307 */
 /*!*************************************!*\
   !*** external "lodash/isUndefined" ***!
   \*************************************/
@@ -22435,7 +22513,7 @@ var _temp = function () {
 module.exports = require("lodash/isUndefined");
 
 /***/ }),
-/* 306 */
+/* 308 */
 /*!***************************************!*\
   !*** ./src/app/config/environment.js ***!
   \***************************************/
@@ -22471,7 +22549,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 307 */
+/* 309 */
 /*!********************************!*\
   !*** ./src/server/SSR/html.js ***!
   \********************************/
@@ -22610,7 +22688,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 308 */
+/* 310 */
 /*!**********************************!*\
   !*** ./src/helpers/ApiClient.js ***!
   \**********************************/
@@ -22629,7 +22707,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _axios = __webpack_require__(/*! axios */ 309);
+var _axios = __webpack_require__(/*! axios */ 311);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -22729,7 +22807,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 309 */
+/* 311 */
 /*!************************!*\
   !*** external "axios" ***!
   \************************/
@@ -22740,7 +22818,7 @@ var _temp = function () {
 module.exports = require("axios");
 
 /***/ }),
-/* 310 */
+/* 312 */
 /*!********************************!*\
   !*** ./src/app/redux/store.js ***!
   \********************************/
@@ -22756,17 +22834,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = configureStore;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
 var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 128);
 
-var _reducer = __webpack_require__(/*! ./reducer */ 311);
+var _reducer = __webpack_require__(/*! ./reducer */ 313);
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
-var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 321);
+var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 324);
 
 var _clientMiddleware2 = _interopRequireDefault(_clientMiddleware);
 
@@ -22811,7 +22889,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 311 */
+/* 313 */
 /*!**********************************!*\
   !*** ./src/app/redux/reducer.js ***!
   \**********************************/
@@ -22829,41 +22907,45 @@ exports.default = createReducer;
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 312);
+var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 314);
 
 var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 128);
 
-var _ui = __webpack_require__(/*! ./modules/ui */ 313);
+var _ui = __webpack_require__(/*! ./modules/ui */ 315);
 
 var _ui2 = _interopRequireDefault(_ui);
 
-var _treeTable = __webpack_require__(/*! ./modules/treeTable */ 314);
+var _treeTable = __webpack_require__(/*! ./modules/treeTable */ 316);
 
 var _treeTable2 = _interopRequireDefault(_treeTable);
 
-var _crudTable = __webpack_require__(/*! ./modules/crudTable */ 315);
+var _crudTable = __webpack_require__(/*! ./modules/crudTable */ 317);
 
 var _crudTable2 = _interopRequireDefault(_crudTable);
 
-var _initForm = __webpack_require__(/*! ./modules/initForm */ 316);
+var _initForm = __webpack_require__(/*! ./modules/initForm */ 318);
 
 var _initForm2 = _interopRequireDefault(_initForm);
 
-var _login = __webpack_require__(/*! ./modules/login */ 317);
+var _login = __webpack_require__(/*! ./modules/login */ 319);
 
 var _login2 = _interopRequireDefault(_login);
 
-var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 318);
+var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 320);
 
 var _ecommerce2 = _interopRequireDefault(_ecommerce);
 
-var _contact = __webpack_require__(/*! ./modules/contact */ 319);
+var _contact = __webpack_require__(/*! ./modules/contact */ 321);
 
 var _contact2 = _interopRequireDefault(_contact);
 
-var _calendar = __webpack_require__(/*! ./modules/calendar */ 320);
+var _calendar = __webpack_require__(/*! ./modules/calendar */ 322);
 
 var _calendar2 = _interopRequireDefault(_calendar);
+
+var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 323);
+
+var _routeTable2 = _interopRequireDefault(_routeTable);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22889,6 +22971,7 @@ function createReducer() {
     calendar: _calendar2.default,
     ecommerce: _ecommerce2.default,
     contact: _contact2.default,
+    routeTable: branchReducer(_routeTable2.default, 'routeTable'),
     treeTableArrow: branchReducer(_treeTable2.default, 'treeTableArrow'),
     treeTablePM: branchReducer(_treeTable2.default, 'treeTablePM'),
     crudTableDemo: branchReducer(_crudTable2.default, 'crudTableDemo')
@@ -22909,7 +22992,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 312 */
+/* 314 */
 /*!************************************!*\
   !*** external "redux-immutablejs" ***!
   \************************************/
@@ -22920,7 +23003,7 @@ var _temp = function () {
 module.exports = require("redux-immutablejs");
 
 /***/ }),
-/* 313 */
+/* 315 */
 /*!*************************************!*\
   !*** ./src/app/redux/modules/ui.js ***!
   \*************************************/
@@ -22936,13 +23019,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
 var _menu = __webpack_require__(/*! ../../constants/menu.js */ 88);
 
 var _menu2 = _interopRequireDefault(_menu);
 
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23048,7 +23131,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 314 */
+/* 316 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/treeTable.js ***!
   \********************************************/
@@ -23064,9 +23147,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 var initialState = {
   treeOpen: (0, _immutable.List)([]),
@@ -23150,7 +23233,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 315 */
+/* 317 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/crudTable.js ***!
   \********************************************/
@@ -23166,13 +23249,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 56);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 41);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23285,7 +23368,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 316 */
+/* 318 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/initForm.js ***!
   \*******************************************/
@@ -23301,9 +23384,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 var initialState = {
   formValues: (0, _immutable.Map)()
@@ -23344,7 +23427,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 317 */
+/* 319 */
 /*!****************************************!*\
   !*** ./src/app/redux/modules/login.js ***!
   \****************************************/
@@ -23360,9 +23443,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 var initialState = {
   usersLogin: (0, _immutable.Map)({
@@ -23400,7 +23483,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 318 */
+/* 320 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/ecommerce.js ***!
   \********************************************/
@@ -23416,13 +23499,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 56);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 41);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
-var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23524,7 +23607,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 319 */
+/* 321 */
 /*!******************************************!*\
   !*** ./src/app/redux/modules/contact.js ***!
   \******************************************/
@@ -23540,13 +23623,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 56);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 41);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
-var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23676,7 +23759,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 320 */
+/* 322 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/calendar.js ***!
   \*******************************************/
@@ -23692,13 +23775,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 56);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 41);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
-var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 13);
+var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23785,7 +23868,94 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 321 */
+/* 323 */
+/*!*********************************************!*\
+  !*** ./src/app/redux/modules/routeTable.js ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = reducer;
+
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
+
+var _immutable = __webpack_require__(/*! immutable */ 15);
+
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 41);
+
+var _notifMessage2 = _interopRequireDefault(_notifMessage);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var initialState = {
+    table: {
+        content: [{
+            id: 'a654',
+            departure: 'Giap Bap',
+            destination: 'Cam Pha',
+            stations: 5,
+            active: true
+        }, {
+            id: 's654',
+            departure: 'My Dinh',
+            destination: 'Hai Phong',
+            stations: 3,
+            active: true
+        }],
+        pageable: {},
+        total_elements: 0,
+        total_pages: 0,
+        number: 0,
+        size: 0,
+        number_of_elements: 0,
+        first: true,
+        last: true,
+        sort: {}
+    },
+    notifMsg: ''
+};
+
+var initalImmutableState = (0, _immutable.fromJS)(initialState);
+
+function reducer() {
+    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initalImmutableState;
+    var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+    switch (action.type) {
+        case _actionTypes.FETCH_ROUTES:
+            return state.withMutations(function (mutableState) {
+                var data = (0, _immutable.fromJS)(action.payload);
+                mutableState.set('table', data);
+            });
+        default:
+            return state;
+    }
+}
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+
+    __REACT_HOT_LOADER__.register(initalImmutableState, 'initalImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+
+    __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+}();
+
+;
+
+/***/ }),
+/* 324 */
 /*!******************************************************!*\
   !*** ./src/app/redux/middleware/clientMiddleware.js ***!
   \******************************************************/
@@ -23806,7 +23976,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 exports.default = clientMiddleware;
 
-var _immutable = __webpack_require__(/*! immutable */ 18);
+var _immutable = __webpack_require__(/*! immutable */ 15);
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
