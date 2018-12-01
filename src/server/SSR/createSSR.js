@@ -5,7 +5,7 @@ import { matchRoutes, renderRoutes } from 'react-router-config';
 import { Provider } from 'react-redux';
 import { createMemoryHistory } from 'history';
 
-import getRoutes from './../../app/routes';
+import getRoutes from './../../app/containers';
 import Html from './html';
 import ApiClient from './../../helpers/ApiClient';
 import configureStore from './../../app/redux/store';

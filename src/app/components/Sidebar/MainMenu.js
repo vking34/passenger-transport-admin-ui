@@ -18,12 +18,6 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import MenuContent from 'ba-utils/menu';
 import styles from './sidebar-jss';
 
-function sortByKey(array, key) {
-  return array.sort((a, b) => {
-    const x = a[key]; const y = b[key];
-    return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-  });
-}
 
 class MainMenu extends React.Component {
   state = {
