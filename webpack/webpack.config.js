@@ -106,7 +106,7 @@ const config = {
       'ba-helpers': path.join(__dirname, '../src/app/styles/helpers/'),
       'ba-utils': path.join(__dirname, '../src/app/constants/'),
       'ba-images': path.join(__dirname, '../static/images/'),
-      'ba-vendor': path.join(__dirname, '../node_modules/'),
+      'ba-vendor': path.join(__dirname, '../node_modules/')
     }
   }
 };

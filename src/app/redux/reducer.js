@@ -10,7 +10,7 @@ import login from './modules/login';
 import ecommerce from './modules/ecommerce';
 import contact from './modules/contact';
 import calendar from './modules/calendar';
-import routeTableReducer from './modules/routeTable';
+import routeTable from './modules/routeTable';
 
 function branchReducer(reducerFunction, reducerName) {
   return (state, action) => {
@@ -33,9 +33,9 @@ export default function createReducer() {
     calendar,
     ecommerce,
     contact,
-    routeTable: branchReducer(routeTableReducer, 'routeTable'),
+    routeTable: branchReducer(routeTable, 'routeTable'),
     treeTableArrow: branchReducer(treeTable, 'treeTableArrow'),
     treeTablePM: branchReducer(treeTable, 'treeTablePM'),
-    crudTableDemo: branchReducer(crudTable, 'crudTableDemo'),
+    // crudTableDemo: branchReducer(crudTable, 'crudTableDemo'),
   });
 }

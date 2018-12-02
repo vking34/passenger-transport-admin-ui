@@ -12,18 +12,17 @@ import {
   editAction,
   saveAction,
   closeNotifAction,
-} from '../../actions/CrudTbActions';
-
-import {
-  fetchRoutes
-} from '../../actions/routeActions';
+} from '../../actions/RouteActions';
+// import {
+//   fetchRoutes
+// } from '../../actions/routeActions';
 
 import { CrudTable, Notification } from '../';
 
 import routeConst from '../../constants/route';
 
 // Reducer Branch
-const branch = 'crudTableDemo';
+const branch = 'routeTable';
 
 const styles = ({
   root: {
@@ -51,7 +50,7 @@ const dataApi = [
 class RouteTable extends Component {
 
   componentWillMount(){
-    
+    // console.log(this.props.paging.get('total_elements'));
   }
   
   render() {
@@ -59,7 +58,7 @@ class RouteTable extends Component {
       classes,
       fetchData,
       addEmptyRow,
-      dataTable,
+      content,
       removeRow,
       updateRow,
       editRow,
@@ -72,10 +71,10 @@ class RouteTable extends Component {
         <Notification close={() => closeNotif(branch)} message={messageNotif} />
         <Paper className={classes.root}>
           <CrudTable
-            dataInit={dataApi}
+            dataInit={content}
             anchor={routeConst.table.columns}
             title={routeConst.table.title}
-            dataTable={dataTable}
+            dataTable={content}
             fetchData={fetchData}
             addEmptyRow={addEmptyRow}
             removeRow={removeRow}
@@ -93,7 +92,8 @@ class RouteTable extends Component {
 RouteTable.propTypes = {
   classes: PropTypes.object.isRequired,
   fetchData: PropTypes.func.isRequired,
-  dataTable: PropTypes.object.isRequired,
+  content: PropTypes.object.isRequired,
+  paging: PropTypes.object.isRequired,
   addEmptyRow: PropTypes.func.isRequired,
   removeRow: PropTypes.func.isRequired,
   updateRow: PropTypes.func.isRequired,
@@ -105,8 +105,9 @@ RouteTable.propTypes = {
 
 const mapStateToProps = state => ({
   force: state, // force state from reducer
-  dataTable: state.getIn([branch, 'dataTable']),
-  messageNotif: state.getIn([branch, 'notifMsg'])
+  content: state.getIn([branch, 'content']),
+  messageNotif: state.getIn([branch, 'notifMsg']),
+  paging: state.getIn([branch, 'paging'])
 });
 
 const mapDispatchToProps = dispatch => ({

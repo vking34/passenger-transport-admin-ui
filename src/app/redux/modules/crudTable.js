@@ -11,7 +11,19 @@ import {
 } from '../../actions/actionTypes';
 
 const initialState = {
-  dataTable: List([]),
+  dataTable: List([{
+    id: 'a654',
+    departure: 'Giap Bap',
+    destination: 'Cam Pha',
+    stations: 5,
+    active: true
+  }, {
+    id: 's234',
+    departure: 'My Dinh',
+    destination: 'Hai Phong',
+    stations: 3,
+    active: true
+  }]),
   notifMsg: '',
 };
 

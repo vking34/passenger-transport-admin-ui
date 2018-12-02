@@ -61,7 +61,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "http://localhost:3001/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 129);
+/******/ 	return __webpack_require__(__webpack_require__.s = 128);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -169,35 +169,35 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ErrorWrap = exports.AddEventForm = exports.AddEvent = exports.DetailEvent = exports.EventCalendar = exports.ContactDetail = exports.ContactHeader = exports.ContactList = exports.AddContact = exports.Cart = exports.FloatingPanel = exports.SearchProduct = exports.IdentityCard = exports.VideoCard = exports.ProductCard = exports.PostCard = exports.PlayerCard = exports.NewsCard = exports.GeneralCard = exports.ProfileCard = exports.Quote = exports.LimitedBadges = exports.RegisterForm = exports.LoginForm = exports.Notification = exports.EmptyData = exports.AdvTable = exports.CrudTable = exports.TreeTable = exports.AlbumWidget = exports.CarouselWidget = exports.AreaChartWidget = exports.CounterIconsWidget = exports.CounterWidget = exports.PapperBlock = exports.RouteTable = exports.BreadCrumb = exports.Footer = exports.Sidebar = exports.Header = exports.Dashboard = exports.Outer = exports.App = undefined;
 
-var _App2 = __webpack_require__(/*! ./App/App */ 141);
+var _App2 = __webpack_require__(/*! ./App/App */ 140);
 
 var _App3 = _interopRequireDefault(_App2);
 
-var _Outer2 = __webpack_require__(/*! ./App/Outer */ 145);
+var _Outer2 = __webpack_require__(/*! ./App/Outer */ 144);
 
 var _Outer3 = _interopRequireDefault(_Outer2);
 
-var _Dashboard2 = __webpack_require__(/*! ./App/Dashboard */ 146);
+var _Dashboard2 = __webpack_require__(/*! ./App/Dashboard */ 145);
 
 var _Dashboard3 = _interopRequireDefault(_Dashboard2);
 
-var _Header2 = __webpack_require__(/*! ./Header/Header */ 148);
+var _Header2 = __webpack_require__(/*! ./Header/Header */ 147);
 
 var _Header3 = _interopRequireDefault(_Header2);
 
-var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 156);
+var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 155);
 
 var _Sidebar3 = _interopRequireDefault(_Sidebar2);
 
-var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 163);
+var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 162);
 
 var _Footer3 = _interopRequireDefault(_Footer2);
 
-var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 165);
+var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 164);
 
 var _BreadCrumb3 = _interopRequireDefault(_BreadCrumb2);
 
-var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 167);
+var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 166);
 
 var _RouteTable3 = _interopRequireDefault(_RouteTable2);
 
@@ -301,7 +301,7 @@ var _FloatingPanel2 = __webpack_require__(/*! ./Panel/FloatingPanel */ 77);
 
 var _FloatingPanel3 = _interopRequireDefault(_FloatingPanel2);
 
-var _Cart2 = __webpack_require__(/*! ./Cart/Cart */ 116);
+var _Cart2 = __webpack_require__(/*! ./Cart/Cart */ 115);
 
 var _Cart3 = _interopRequireDefault(_Cart2);
 
@@ -333,7 +333,7 @@ var _AddEvent2 = __webpack_require__(/*! ./Calendar/AddEvent */ 276);
 
 var _AddEvent3 = _interopRequireDefault(_AddEvent2);
 
-var _AddEventForm2 = __webpack_require__(/*! ./Calendar/AddEventForm */ 122);
+var _AddEventForm2 = __webpack_require__(/*! ./Calendar/AddEventForm */ 121);
 
 var _AddEventForm3 = _interopRequireDefault(_AddEventForm2);
 
@@ -842,11 +842,11 @@ var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 67);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 109);
+var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 108);
 
 var _lightGreen2 = _interopRequireDefault(_lightGreen);
 
-var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 106);
+var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 105);
 
 var _blueGrey2 = _interopRequireDefault(_blueGrey);
 
@@ -1279,7 +1279,7 @@ var _amber = __webpack_require__(/*! @material-ui/core/colors/amber */ 261);
 
 var _amber2 = _interopRequireDefault(_amber);
 
-var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 92);
+var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 91);
 
 var _blue2 = _interopRequireDefault(_blue);
 
@@ -1603,11 +1603,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _default2 = __webpack_require__(/*! ./default */ 306);
+var _default2 = __webpack_require__(/*! ./default */ 307);
 
 var _default3 = _interopRequireDefault(_default2);
 
-var _environment = __webpack_require__(/*! ./environment */ 308);
+var _environment = __webpack_require__(/*! ./environment */ 309);
 
 var _environment2 = _interopRequireDefault(_environment);
 
@@ -1691,7 +1691,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _material_bg = __webpack_require__(/*! ../../../../static/images/material_bg.svg */ 144);
+var _material_bg = __webpack_require__(/*! ../../../../static/images/material_bg.svg */ 143);
 
 var _material_bg2 = _interopRequireDefault(_material_bg);
 
@@ -1902,11 +1902,11 @@ var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 66);
 
 var _pink2 = _interopRequireDefault(_pink);
 
-var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 91);
+var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 90);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 92);
+var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 91);
 
 var _blue2 = _interopRequireDefault(_blue);
 
@@ -1934,7 +1934,7 @@ var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 179);
 
 var _lime2 = _interopRequireDefault(_lime);
 
-var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 93);
+var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 92);
 
 var _indigo2 = _interopRequireDefault(_indigo);
 
@@ -2367,7 +2367,7 @@ var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 66);
 
 var _pink2 = _interopRequireDefault(_pink);
 
-var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 109);
+var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 108);
 
 var _lightGreen2 = _interopRequireDefault(_lightGreen);
 
@@ -2953,7 +2953,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 114);
+var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 113);
 
 var _withWidth2 = _interopRequireDefault(_withWidth);
 
@@ -2969,7 +2969,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 101);
+var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 100);
 
 var _Close2 = _interopRequireDefault(_Close);
 
@@ -3733,102 +3733,6 @@ var _temp = function () {
 
 /***/ }),
 /* 90 */
-/*!******************************************!*\
-  !*** ./src/app/actions/CrudTbActions.js ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
-
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
-
-var types = _interopRequireWildcard(_actionTypes);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-var fetchAction = exports.fetchAction = function fetchAction(items, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.FETCH_DATA,
-    items: items
-  };
-};
-var addAction = exports.addAction = function addAction(anchor, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.ADD_EMPTY_ROW,
-    anchor: anchor
-  };
-};
-var removeAction = exports.removeAction = function removeAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.REMOVE_ROW,
-    item: item
-  };
-};
-var updateAction = exports.updateAction = function updateAction(event, item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.UPDATE_ROW,
-    event: event,
-    item: item
-  };
-};
-var editAction = exports.editAction = function editAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.EDIT_ROW,
-    item: item
-  };
-};
-var saveAction = exports.saveAction = function saveAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.SAVE_ROW,
-    item: item
-  };
-};
-var closeNotifAction = exports.closeNotifAction = function closeNotifAction(branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.CLOSE_NOTIF
-  };
-};
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-}();
-
-;
-
-/***/ }),
-/* 91 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/colors/green" ***!
   \*************************************************/
@@ -3839,7 +3743,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/colors/green");
 
 /***/ }),
-/* 92 */
+/* 91 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/blue" ***!
   \************************************************/
@@ -3850,7 +3754,7 @@ module.exports = require("@material-ui/core/colors/green");
 module.exports = require("@material-ui/core/colors/blue");
 
 /***/ }),
-/* 93 */
+/* 92 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/colors/indigo" ***!
   \**************************************************/
@@ -3861,7 +3765,7 @@ module.exports = require("@material-ui/core/colors/blue");
 module.exports = require("@material-ui/core/colors/indigo");
 
 /***/ }),
-/* 94 */
+/* 93 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/ArrowBack" ***!
   \***********************************************/
@@ -3872,7 +3776,7 @@ module.exports = require("@material-ui/core/colors/indigo");
 module.exports = require("@material-ui/icons/ArrowBack");
 
 /***/ }),
-/* 95 */
+/* 94 */
 /*!*************************************!*\
   !*** ./src/app/constants/images.js ***!
   \*************************************/
@@ -3915,7 +3819,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 96 */
+/* 95 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Input" ***!
   \******************************************/
@@ -3926,7 +3830,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Input");
 
 /***/ }),
-/* 97 */
+/* 96 */
 /*!**************************************!*\
   !*** external "material-ui-pickers" ***!
   \**************************************/
@@ -3937,7 +3841,7 @@ module.exports = require("@material-ui/core/Input");
 module.exports = require("material-ui-pickers");
 
 /***/ }),
-/* 98 */
+/* 97 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/tableStyle-jss.js ***!
   \****************************************************************/
@@ -4033,7 +3937,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 99 */
+/* 98 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Checkbox" ***!
   \*********************************************/
@@ -4044,7 +3948,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Checkbox");
 
 /***/ }),
-/* 100 */
+/* 99 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/Bookmark" ***!
   \**********************************************/
@@ -4055,7 +3959,7 @@ module.exports = require("@material-ui/core/Checkbox");
 module.exports = require("@material-ui/icons/Bookmark");
 
 /***/ }),
-/* 101 */
+/* 100 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Close" ***!
   \*******************************************/
@@ -4066,7 +3970,7 @@ module.exports = require("@material-ui/icons/Bookmark");
 module.exports = require("@material-ui/icons/Close");
 
 /***/ }),
-/* 102 */
+/* 101 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/AllInclusive" ***!
   \**************************************************/
@@ -4077,7 +3981,7 @@ module.exports = require("@material-ui/icons/Close");
 module.exports = require("@material-ui/icons/AllInclusive");
 
 /***/ }),
-/* 103 */
+/* 102 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/Brightness5" ***!
   \*************************************************/
@@ -4088,7 +3992,7 @@ module.exports = require("@material-ui/icons/AllInclusive");
 module.exports = require("@material-ui/icons/Brightness5");
 
 /***/ }),
-/* 104 */
+/* 103 */
 /*!********************************************!*\
   !*** external "@material-ui/icons/People" ***!
   \********************************************/
@@ -4099,7 +4003,7 @@ module.exports = require("@material-ui/icons/Brightness5");
 module.exports = require("@material-ui/icons/People");
 
 /***/ }),
-/* 105 */
+/* 104 */
 /*!**********************************************!*\
   !*** ./src/app/components/Forms/user-jss.js ***!
   \**********************************************/
@@ -4118,7 +4022,7 @@ var _cyan = __webpack_require__(/*! @material-ui/core/colors/cyan */ 231);
 
 var _cyan2 = _interopRequireDefault(_cyan);
 
-var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 93);
+var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 92);
 
 var _indigo2 = _interopRequireDefault(_indigo);
 
@@ -4317,7 +4221,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 106 */
+/* 105 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/colors/blueGrey" ***!
   \****************************************************/
@@ -4328,7 +4232,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/colors/blueGrey");
 
 /***/ }),
-/* 107 */
+/* 106 */
 /*!*****************************************************!*\
   !*** external "@material-ui/core/BottomNavigation" ***!
   \*****************************************************/
@@ -4339,7 +4243,7 @@ module.exports = require("@material-ui/core/colors/blueGrey");
 module.exports = require("@material-ui/core/BottomNavigation");
 
 /***/ }),
-/* 108 */
+/* 107 */
 /*!***********************************************************!*\
   !*** external "@material-ui/core/BottomNavigationAction" ***!
   \***********************************************************/
@@ -4350,7 +4254,7 @@ module.exports = require("@material-ui/core/BottomNavigation");
 module.exports = require("@material-ui/core/BottomNavigationAction");
 
 /***/ }),
-/* 109 */
+/* 108 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/lightGreen" ***!
   \******************************************************/
@@ -4361,7 +4265,7 @@ module.exports = require("@material-ui/core/BottomNavigationAction");
 module.exports = require("@material-ui/core/colors/lightGreen");
 
 /***/ }),
-/* 110 */
+/* 109 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Share" ***!
   \*******************************************/
@@ -4372,7 +4276,7 @@ module.exports = require("@material-ui/core/colors/lightGreen");
 module.exports = require("@material-ui/icons/Share");
 
 /***/ }),
-/* 111 */
+/* 110 */
 /*!*********************************************!*\
   !*** external "@material-ui/icons/Comment" ***!
   \*********************************************/
@@ -4383,7 +4287,7 @@ module.exports = require("@material-ui/icons/Share");
 module.exports = require("@material-ui/icons/Comment");
 
 /***/ }),
-/* 112 */
+/* 111 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/PlayArrow" ***!
   \***********************************************/
@@ -4394,7 +4298,7 @@ module.exports = require("@material-ui/icons/Comment");
 module.exports = require("@material-ui/icons/PlayArrow");
 
 /***/ }),
-/* 113 */
+/* 112 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/CardHeader" ***!
   \***********************************************/
@@ -4405,7 +4309,7 @@ module.exports = require("@material-ui/icons/PlayArrow");
 module.exports = require("@material-ui/core/CardHeader");
 
 /***/ }),
-/* 114 */
+/* 113 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/withWidth" ***!
   \**********************************************/
@@ -4416,7 +4320,7 @@ module.exports = require("@material-ui/core/CardHeader");
 module.exports = require("@material-ui/core/withWidth");
 
 /***/ }),
-/* 115 */
+/* 114 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/ShoppingCart" ***!
   \**************************************************/
@@ -4427,7 +4331,7 @@ module.exports = require("@material-ui/core/withWidth");
 module.exports = require("@material-ui/icons/ShoppingCart");
 
 /***/ }),
-/* 116 */
+/* 115 */
 /*!*****************************************!*\
   !*** ./src/app/components/Cart/Cart.js ***!
   \*****************************************/
@@ -4498,7 +4402,7 @@ var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 115);
+var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 114);
 
 var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
 
@@ -4698,7 +4602,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 117 */
+/* 116 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Email" ***!
   \*******************************************/
@@ -4709,7 +4613,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/Email");
 
 /***/ }),
-/* 118 */
+/* 117 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/Smartphone" ***!
   \************************************************/
@@ -4720,7 +4624,7 @@ module.exports = require("@material-ui/icons/Email");
 module.exports = require("@material-ui/icons/Smartphone");
 
 /***/ }),
-/* 119 */
+/* 118 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Work" ***!
   \******************************************/
@@ -4731,7 +4635,7 @@ module.exports = require("@material-ui/icons/Smartphone");
 module.exports = require("@material-ui/icons/Work");
 
 /***/ }),
-/* 120 */
+/* 119 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/Language" ***!
   \**********************************************/
@@ -4742,7 +4646,7 @@ module.exports = require("@material-ui/icons/Work");
 module.exports = require("@material-ui/icons/Language");
 
 /***/ }),
-/* 121 */
+/* 120 */
 /*!*********************************************!*\
   !*** ./src/app/styles/components/Form.scss ***!
   \*********************************************/
@@ -4756,7 +4660,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 121 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Calendar/AddEventForm.js ***!
   \*****************************************************/
@@ -4789,11 +4693,11 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 123);
+var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 122);
 
 var _Radio2 = _interopRequireDefault(_Radio);
 
-var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 124);
+var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 123);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
@@ -4805,7 +4709,7 @@ var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLab
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 97);
+var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 96);
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
@@ -4821,7 +4725,7 @@ var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils
 
 var _MuiPickersUtilsProvider2 = _interopRequireDefault(_MuiPickersUtilsProvider);
 
-var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 121);
+var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 120);
 
 var _Form2 = _interopRequireDefault(_Form);
 
@@ -5089,7 +4993,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 123 */
+/* 122 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Radio" ***!
   \******************************************/
@@ -5100,7 +5004,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Radio");
 
 /***/ }),
-/* 124 */
+/* 123 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/RadioGroup" ***!
   \***********************************************/
@@ -5111,7 +5015,7 @@ module.exports = require("@material-ui/core/Radio");
 module.exports = require("@material-ui/core/RadioGroup");
 
 /***/ }),
-/* 125 */
+/* 124 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Themes/themeStyles-jss.js ***!
   \******************************************************/
@@ -5252,7 +5156,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 126 */
+/* 125 */
 /*!***************************************************!*\
   !*** external "@material-ui/core/LinearProgress" ***!
   \***************************************************/
@@ -5263,7 +5167,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/LinearProgress");
 
 /***/ }),
-/* 127 */
+/* 126 */
 /*!*************************************************!*\
   !*** ./src/app/styles/components/Progress.scss ***!
   \*************************************************/
@@ -5280,7 +5184,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 127 */
 /*!*************************************!*\
   !*** external "react-router-redux" ***!
   \*************************************/
@@ -5291,7 +5195,7 @@ module.exports = {
 module.exports = require("react-router-redux");
 
 /***/ }),
-/* 129 */
+/* 128 */
 /*!******************************!*\
   !*** ./src/server/server.js ***!
   \******************************/
@@ -5306,33 +5210,33 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path = __webpack_require__(/*! path */ 130);
+var _path = __webpack_require__(/*! path */ 129);
 
 var _path2 = _interopRequireDefault(_path);
 
-var _compression = __webpack_require__(/*! compression */ 131);
+var _compression = __webpack_require__(/*! compression */ 130);
 
 var _compression2 = _interopRequireDefault(_compression);
 
-var _express = __webpack_require__(/*! express */ 132);
+var _express = __webpack_require__(/*! express */ 131);
 
 var _express2 = _interopRequireDefault(_express);
 
-var _serveFavicon = __webpack_require__(/*! serve-favicon */ 133);
+var _serveFavicon = __webpack_require__(/*! serve-favicon */ 132);
 
 var _serveFavicon2 = _interopRequireDefault(_serveFavicon);
 
-__webpack_require__(/*! ./env */ 134);
+__webpack_require__(/*! ./env */ 133);
 
-var _rawdocs = __webpack_require__(/*! ./rawdocs */ 136);
+var _rawdocs = __webpack_require__(/*! ./rawdocs */ 135);
 
 var _rawdocs2 = _interopRequireDefault(_rawdocs);
 
-var _rawicons = __webpack_require__(/*! ./rawicons */ 137);
+var _rawicons = __webpack_require__(/*! ./rawicons */ 136);
 
 var _rawicons2 = _interopRequireDefault(_rawicons);
 
-var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 138);
+var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 137);
 
 var _createSSR2 = _interopRequireDefault(_createSSR);
 
@@ -5423,7 +5327,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 130 */
+/* 129 */
 /*!***********************!*\
   !*** external "path" ***!
   \***********************/
@@ -5434,7 +5338,7 @@ var _temp = function () {
 module.exports = require("path");
 
 /***/ }),
-/* 131 */
+/* 130 */
 /*!******************************!*\
   !*** external "compression" ***!
   \******************************/
@@ -5445,7 +5349,7 @@ module.exports = require("path");
 module.exports = require("compression");
 
 /***/ }),
-/* 132 */
+/* 131 */
 /*!**************************!*\
   !*** external "express" ***!
   \**************************/
@@ -5456,7 +5360,7 @@ module.exports = require("compression");
 module.exports = require("express");
 
 /***/ }),
-/* 133 */
+/* 132 */
 /*!********************************!*\
   !*** external "serve-favicon" ***!
   \********************************/
@@ -5467,7 +5371,7 @@ module.exports = require("express");
 module.exports = require("serve-favicon");
 
 /***/ }),
-/* 134 */
+/* 133 */
 /*!***************************!*\
   !*** ./src/server/env.js ***!
   \***************************/
@@ -5482,7 +5386,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _dotenv = __webpack_require__(/*! dotenv */ 135);
+var _dotenv = __webpack_require__(/*! dotenv */ 134);
 
 var _dotenv2 = _interopRequireDefault(_dotenv);
 
@@ -5504,7 +5408,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 135 */
+/* 134 */
 /*!*************************!*\
   !*** external "dotenv" ***!
   \*************************/
@@ -5515,7 +5419,7 @@ var _temp = function () {
 module.exports = require("dotenv");
 
 /***/ }),
-/* 136 */
+/* 135 */
 /*!*******************************!*\
   !*** ./src/server/rawdocs.js ***!
   \*******************************/
@@ -5555,7 +5459,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 137 */
+/* 136 */
 /*!********************************!*\
   !*** ./src/server/rawicons.js ***!
   \********************************/
@@ -5595,7 +5499,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 138 */
+/* 137 */
 /*!*************************************!*\
   !*** ./src/server/SSR/createSSR.js ***!
   \*************************************/
@@ -5623,21 +5527,21 @@ var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
-var _history = __webpack_require__(/*! history */ 139);
+var _history = __webpack_require__(/*! history */ 138);
 
-var _containers = __webpack_require__(/*! ./../../app/containers */ 140);
+var _containers = __webpack_require__(/*! ./../../app/containers */ 139);
 
 var _containers2 = _interopRequireDefault(_containers);
 
-var _html = __webpack_require__(/*! ./html */ 309);
+var _html = __webpack_require__(/*! ./html */ 310);
 
 var _html2 = _interopRequireDefault(_html);
 
-var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 310);
+var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 311);
 
 var _ApiClient2 = _interopRequireDefault(_ApiClient);
 
-var _store = __webpack_require__(/*! ./../../app/redux/store */ 312);
+var _store = __webpack_require__(/*! ./../../app/redux/store */ 313);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -5727,7 +5631,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 139 */
+/* 138 */
 /*!**************************!*\
   !*** external "history" ***!
   \**************************/
@@ -5738,7 +5642,7 @@ var _temp = function () {
 module.exports = require("history");
 
 /***/ }),
-/* 140 */
+/* 139 */
 /*!*************************************!*\
   !*** ./src/app/containers/index.js ***!
   \*************************************/
@@ -5771,15 +5675,15 @@ var _CrudTable = __webpack_require__(/*! ./Tables/CrudTable */ 285);
 
 var _CrudTable2 = _interopRequireDefault(_CrudTable);
 
-var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 301);
+var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 302);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 302);
+var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 303);
 
 var _NotFoundDedicated2 = _interopRequireDefault(_NotFoundDedicated);
 
-var _withTracker = __webpack_require__(/*! ./withTracker */ 304);
+var _withTracker = __webpack_require__(/*! ./withTracker */ 305);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
@@ -5861,7 +5765,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 141 */
+/* 140 */
 /*!***************************************!*\
   !*** ./src/app/components/App/App.js ***!
   \***************************************/
@@ -5888,7 +5792,7 @@ var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 42);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
-var _reactLoadingBar = __webpack_require__(/*! react-loading-bar */ 142);
+var _reactLoadingBar = __webpack_require__(/*! react-loading-bar */ 141);
 
 var _reactLoadingBar2 = _interopRequireDefault(_reactLoadingBar);
 
@@ -5900,7 +5804,7 @@ var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 5
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-__webpack_require__(/*! ../../styles/components/vendors/react-loading-bar/index.css */ 143);
+__webpack_require__(/*! ../../styles/components/vendors/react-loading-bar/index.css */ 142);
 
 var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 58);
 
@@ -6108,7 +6012,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 142 */
+/* 141 */
 /*!************************************!*\
   !*** external "react-loading-bar" ***!
   \************************************/
@@ -6119,7 +6023,7 @@ var _temp2 = function () {
 module.exports = require("react-loading-bar");
 
 /***/ }),
-/* 143 */
+/* 142 */
 /*!***********************************************************************!*\
   !*** ./src/app/styles/components/vendors/react-loading-bar/index.css ***!
   \***********************************************************************/
@@ -6130,7 +6034,7 @@ module.exports = require("react-loading-bar");
 
 
 /***/ }),
-/* 144 */
+/* 143 */
 /*!***************************************!*\
   !*** ./static/images/material_bg.svg ***!
   \***************************************/
@@ -6141,7 +6045,7 @@ module.exports = require("react-loading-bar");
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMTIwMCA3MDAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcwMCI+PGRlZnM+PHBhdGggZD0iTTEwNDYuNjcgMzU4LjI4QzEwNDYuNjcgNTEyLjQ4IDkyMS40OCA2MzcuNjcgNzY3LjI4IDYzNy42N0M2MTMuMDcgNjM3LjY3IDQ4Ny44OCA1MTIuNDggNDg3Ljg4IDM1OC4yOEM0ODcuODggMjA0LjA3IDYxMy4wNyA3OC44OCA3NjcuMjggNzguODhDOTIxLjQ4IDc4Ljg4IDEwNDYuNjcgMjA0LjA3IDEwNDYuNjcgMzU4LjI4WiIgaWQ9ImJ1b1Qwd0ZBQiI+PC9wYXRoPjxwYXRoIGQ9Ik05MzAuMDUgMzU4LjI4QzkzMC4wNSA0NDguMTEgODU3LjExIDUyMS4wNSA3NjcuMjggNTIxLjA1QzY3Ny40NCA1MjEuMDUgNjA0LjUgNDQ4LjExIDYwNC41IDM1OC4yOEM2MDQuNSAyNjguNDQgNjc3LjQ0IDE5NS41IDc2Ny4yOCAxOTUuNUM4NTcuMTEgMTk1LjUgOTMwLjA1IDI2OC40NCA5MzAuMDUgMzU4LjI4WiIgaWQ9ImJMTEJQbW9jZyI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjAwIDEyNi4zMUwxMjAwIDcwMEwwIDcwMEwxMjAwIDEyNi4zMVoiIGlkPSJjMllrSGQwaVhjIj48L3BhdGg+PHBhdGggZD0iTTYxMy4yMiA3MDQuMzdMMCA3MDQuMzdMMCAxNjMuNjNMNjEzLjIyIDcwNC4zN1oiIGlkPSJhY1lWQWVpQ3kiPjwvcGF0aD48L2RlZnM+PGc+PGc+PGc+PGc+PHVzZSB4bGluazpocmVmPSIjYnVvVDB3RkFCIiBvcGFjaXR5PSIwLjE5IiBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjEiPjwvdXNlPjwvZz48Zz48dXNlIHhsaW5rOmhyZWY9IiNiTExCUG1vY2ciIG9wYWNpdHk9IjAuMiIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2MyWWtIZDBpWGMiIG9wYWNpdHk9IjAuMDkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMSI+PC91c2U+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2FjWVZBZWlDeSIgb3BhY2l0eT0iMC4xNSIgZmlsbD0iIzAwMDAwMCIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjwvZz48L3N2Zz4="
 
 /***/ }),
-/* 145 */
+/* 144 */
 /*!*****************************************!*\
   !*** ./src/app/components/App/Outer.js ***!
   \*****************************************/
@@ -6264,7 +6168,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 146 */
+/* 145 */
 /*!*********************************************!*\
   !*** ./src/app/components/App/Dashboard.js ***!
   \*********************************************/
@@ -6301,7 +6205,7 @@ var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Fade = __webpack_require__(/*! @material-ui/core/Fade */ 147);
+var _Fade = __webpack_require__(/*! @material-ui/core/Fade */ 146);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -6510,7 +6414,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 147 */
+/* 146 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Fade" ***!
   \*****************************************/
@@ -6521,7 +6425,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Fade");
 
 /***/ }),
-/* 148 */
+/* 147 */
 /*!*********************************************!*\
   !*** ./src/app/components/Header/Header.js ***!
   \*********************************************/
@@ -6568,7 +6472,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Menu = __webpack_require__(/*! @material-ui/icons/Menu */ 149);
+var _Menu = __webpack_require__(/*! @material-ui/icons/Menu */ 148);
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
@@ -6576,7 +6480,7 @@ var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 59);
 
 var _Hidden2 = _interopRequireDefault(_Hidden);
 
-var _UserMenu = __webpack_require__(/*! ./UserMenu */ 150);
+var _UserMenu = __webpack_require__(/*! ./UserMenu */ 149);
 
 var _UserMenu2 = _interopRequireDefault(_UserMenu);
 
@@ -6692,7 +6596,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 149 */
+/* 148 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Menu" ***!
   \******************************************/
@@ -6703,7 +6607,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Menu");
 
 /***/ }),
-/* 150 */
+/* 149 */
 /*!***********************************************!*\
   !*** ./src/app/components/Header/UserMenu.js ***!
   \***********************************************/
@@ -6746,7 +6650,7 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Notifications = __webpack_require__(/*! @material-ui/icons/Notifications */ 151);
+var _Notifications = __webpack_require__(/*! @material-ui/icons/Notifications */ 150);
 
 var _Notifications2 = _interopRequireDefault(_Notifications);
 
@@ -6754,19 +6658,19 @@ var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 82);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _Warning = __webpack_require__(/*! @material-ui/icons/Warning */ 152);
+var _Warning = __webpack_require__(/*! @material-ui/icons/Warning */ 151);
 
 var _Warning2 = _interopRequireDefault(_Warning);
 
-var _CheckCircle = __webpack_require__(/*! @material-ui/icons/CheckCircle */ 153);
+var _CheckCircle = __webpack_require__(/*! @material-ui/icons/CheckCircle */ 152);
 
 var _CheckCircle2 = _interopRequireDefault(_CheckCircle);
 
-var _DoNotDisturbOn = __webpack_require__(/*! @material-ui/icons/DoNotDisturbOn */ 154);
+var _DoNotDisturbOn = __webpack_require__(/*! @material-ui/icons/DoNotDisturbOn */ 153);
 
 var _DoNotDisturbOn2 = _interopRequireDefault(_DoNotDisturbOn);
 
-var _ExitToApp = __webpack_require__(/*! @material-ui/icons/ExitToApp */ 155);
+var _ExitToApp = __webpack_require__(/*! @material-ui/icons/ExitToApp */ 154);
 
 var _ExitToApp2 = _interopRequireDefault(_ExitToApp);
 
@@ -7075,7 +6979,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 151 */
+/* 150 */
 /*!***************************************************!*\
   !*** external "@material-ui/icons/Notifications" ***!
   \***************************************************/
@@ -7086,7 +6990,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Notifications");
 
 /***/ }),
-/* 152 */
+/* 151 */
 /*!*********************************************!*\
   !*** external "@material-ui/icons/Warning" ***!
   \*********************************************/
@@ -7097,7 +7001,7 @@ module.exports = require("@material-ui/icons/Notifications");
 module.exports = require("@material-ui/icons/Warning");
 
 /***/ }),
-/* 153 */
+/* 152 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/CheckCircle" ***!
   \*************************************************/
@@ -7108,7 +7012,7 @@ module.exports = require("@material-ui/icons/Warning");
 module.exports = require("@material-ui/icons/CheckCircle");
 
 /***/ }),
-/* 154 */
+/* 153 */
 /*!****************************************************!*\
   !*** external "@material-ui/icons/DoNotDisturbOn" ***!
   \****************************************************/
@@ -7119,7 +7023,7 @@ module.exports = require("@material-ui/icons/CheckCircle");
 module.exports = require("@material-ui/icons/DoNotDisturbOn");
 
 /***/ }),
-/* 155 */
+/* 154 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/ExitToApp" ***!
   \***********************************************/
@@ -7130,7 +7034,7 @@ module.exports = require("@material-ui/icons/DoNotDisturbOn");
 module.exports = require("@material-ui/icons/ExitToApp");
 
 /***/ }),
-/* 156 */
+/* 155 */
 /*!***********************************************!*\
   !*** ./src/app/components/Sidebar/Sidebar.js ***!
   \***********************************************/
@@ -7169,7 +7073,7 @@ var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 86);
 
 var _Drawer2 = _interopRequireDefault(_Drawer);
 
-var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 157);
+var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 156);
 
 var _SwipeableDrawer2 = _interopRequireDefault(_SwipeableDrawer);
 
@@ -7197,11 +7101,11 @@ var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 81);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _MainMenu = __webpack_require__(/*! ./MainMenu */ 158);
+var _MainMenu = __webpack_require__(/*! ./MainMenu */ 157);
 
 var _MainMenu2 = _interopRequireDefault(_MainMenu);
 
-var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 161);
+var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 160);
 
 var _OtherMenu2 = _interopRequireDefault(_OtherMenu);
 
@@ -7398,7 +7302,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 157 */
+/* 156 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/SwipeableDrawer" ***!
   \****************************************************/
@@ -7409,7 +7313,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/SwipeableDrawer");
 
 /***/ }),
-/* 158 */
+/* 157 */
 /*!************************************************!*\
   !*** ./src/app/components/Sidebar/MainMenu.js ***!
   \************************************************/
@@ -7462,7 +7366,7 @@ var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 26
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 159);
+var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 158);
 
 var _Collapse2 = _interopRequireDefault(_Collapse);
 
@@ -7470,7 +7374,7 @@ var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 64);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 160);
+var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 159);
 
 var _ExpandLess2 = _interopRequireDefault(_ExpandLess);
 
@@ -7672,7 +7576,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 159 */
+/* 158 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Collapse" ***!
   \*********************************************/
@@ -7683,7 +7587,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Collapse");
 
 /***/ }),
-/* 160 */
+/* 159 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/ExpandLess" ***!
   \************************************************/
@@ -7694,7 +7598,7 @@ module.exports = require("@material-ui/core/Collapse");
 module.exports = require("@material-ui/icons/ExpandLess");
 
 /***/ }),
-/* 161 */
+/* 160 */
 /*!*************************************************!*\
   !*** ./src/app/components/Sidebar/OtherMenu.js ***!
   \*************************************************/
@@ -7729,7 +7633,7 @@ var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 26
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 162);
+var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 161);
 
 var _otherMenu2 = _interopRequireDefault(_otherMenu);
 
@@ -7807,7 +7711,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 162 */
+/* 161 */
 /*!****************************************!*\
   !*** ./src/app/constants/otherMenu.js ***!
   \****************************************/
@@ -7838,7 +7742,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 163 */
+/* 162 */
 /*!*********************************************!*\
   !*** ./src/app/components/Footer/Footer.js ***!
   \*********************************************/
@@ -7857,7 +7761,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = __webpack_require__(/*! ./Footer.scss */ 164);
+var _Footer = __webpack_require__(/*! ./Footer.scss */ 163);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -7888,7 +7792,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 164 */
+/* 163 */
 /*!***********************************************!*\
   !*** ./src/app/components/Footer/Footer.scss ***!
   \***********************************************/
@@ -7901,7 +7805,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 164 */
 /*!*****************************************************!*\
   !*** ./src/app/components/BreadCrumb/BreadCrumb.js ***!
   \*****************************************************/
@@ -7932,7 +7836,7 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 25);
 
-var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 166);
+var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 165);
 
 var _breadCrumbJss2 = _interopRequireDefault(_breadCrumbJss);
 
@@ -8009,7 +7913,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /*!*********************************************************!*\
   !*** ./src/app/components/BreadCrumb/breadCrumb-jss.js ***!
   \*********************************************************/
@@ -8070,7 +7974,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 167 */
+/* 166 */
 /*!************************************************!*\
   !*** ./src/app/components/Route/RouteTable.js ***!
   \************************************************/
@@ -8105,9 +8009,7 @@ var _redux = __webpack_require__(/*! redux */ 22);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
-var _CrudTbActions = __webpack_require__(/*! ../../actions/CrudTbActions */ 90);
-
-var _routeActions = __webpack_require__(/*! ../../actions/routeActions */ 168);
+var _RouteActions = __webpack_require__(/*! ../../actions/RouteActions */ 167);
 
 var _ = __webpack_require__(/*! ../ */ 8);
 
@@ -8122,9 +8024,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+// import {
+//   fetchRoutes
+// } from '../../actions/routeActions';
 
 // Reducer Branch
-var branch = 'crudTableDemo';
+var branch = 'routeTable';
 
 var styles = {
   root: {
@@ -8157,7 +8062,9 @@ var RouteTable = function (_Component) {
 
   _createClass(RouteTable, [{
     key: 'componentWillMount',
-    value: function componentWillMount() {}
+    value: function componentWillMount() {
+      // console.log(this.props.paging.get('total_elements'));
+    }
   }, {
     key: 'render',
     value: function render() {
@@ -8165,7 +8072,7 @@ var RouteTable = function (_Component) {
           classes = _props.classes,
           fetchData = _props.fetchData,
           addEmptyRow = _props.addEmptyRow,
-          dataTable = _props.dataTable,
+          content = _props.content,
           removeRow = _props.removeRow,
           updateRow = _props.updateRow,
           editRow = _props.editRow,
@@ -8183,10 +8090,10 @@ var RouteTable = function (_Component) {
           _Paper2.default,
           { className: classes.root },
           _react2.default.createElement(_.CrudTable, {
-            dataInit: dataApi,
+            dataInit: content,
             anchor: _route2.default.table.columns,
             title: _route2.default.table.title,
-            dataTable: dataTable,
+            dataTable: content,
             fetchData: fetchData,
             addEmptyRow: addEmptyRow,
             removeRow: removeRow,
@@ -8206,7 +8113,8 @@ var RouteTable = function (_Component) {
 RouteTable.propTypes = {
   classes: _propTypes2.default.object.isRequired,
   fetchData: _propTypes2.default.func.isRequired,
-  dataTable: _propTypes2.default.object.isRequired,
+  content: _propTypes2.default.object.isRequired,
+  paging: _propTypes2.default.object.isRequired,
   addEmptyRow: _propTypes2.default.func.isRequired,
   removeRow: _propTypes2.default.func.isRequired,
   updateRow: _propTypes2.default.func.isRequired,
@@ -8219,20 +8127,21 @@ RouteTable.propTypes = {
 var mapStateToProps = function mapStateToProps(state) {
   return {
     force: state, // force state from reducer
-    dataTable: state.getIn([branch, 'dataTable']),
-    messageNotif: state.getIn([branch, 'notifMsg'])
+    content: state.getIn([branch, 'content']),
+    messageNotif: state.getIn([branch, 'notifMsg']),
+    paging: state.getIn([branch, 'paging'])
   };
 };
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    fetchData: (0, _redux.bindActionCreators)(_CrudTbActions.fetchAction, dispatch),
-    addEmptyRow: (0, _redux.bindActionCreators)(_CrudTbActions.addAction, dispatch),
-    removeRow: (0, _redux.bindActionCreators)(_CrudTbActions.removeAction, dispatch),
-    updateRow: (0, _redux.bindActionCreators)(_CrudTbActions.updateAction, dispatch),
-    editRow: (0, _redux.bindActionCreators)(_CrudTbActions.editAction, dispatch),
-    finishEditRow: (0, _redux.bindActionCreators)(_CrudTbActions.saveAction, dispatch),
-    closeNotif: (0, _redux.bindActionCreators)(_CrudTbActions.closeNotifAction, dispatch)
+    fetchData: (0, _redux.bindActionCreators)(_RouteActions.fetchAction, dispatch),
+    addEmptyRow: (0, _redux.bindActionCreators)(_RouteActions.addAction, dispatch),
+    removeRow: (0, _redux.bindActionCreators)(_RouteActions.removeAction, dispatch),
+    updateRow: (0, _redux.bindActionCreators)(_RouteActions.updateAction, dispatch),
+    editRow: (0, _redux.bindActionCreators)(_RouteActions.editAction, dispatch),
+    finishEditRow: (0, _redux.bindActionCreators)(_RouteActions.saveAction, dispatch),
+    closeNotif: (0, _redux.bindActionCreators)(_RouteActions.closeNotifAction, dispatch)
   };
 };
 
@@ -8268,9 +8177,9 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 168 */
+/* 167 */
 /*!*****************************************!*\
-  !*** ./src/app/actions/routeActions.js ***!
+  !*** ./src/app/actions/RouteActions.js ***!
   \*****************************************/
 /*! dynamic exports provided */
 /*! all exports used */
@@ -8280,51 +8189,120 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-exports.fetchRoutes = undefined;
+exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
+
+var _show = __webpack_require__(/*! ../constants/show.js */ 326);
+
+var _show2 = _interopRequireDefault(_show);
 
 var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
+
+var types = _interopRequireWildcard(_actionTypes);
 
 var _crossFetch = __webpack_require__(/*! cross-fetch */ 169);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var fetchRoutes = exports.fetchRoutes = function fetchRoutes() {
-    return function (dispatch) {
-        (0, _crossFetch2.default)('https://passenger-transport.herokuapp.com/api/route', {
-            method: 'GET',
-            headers: {
-                'Accept': 'application/json, */*',
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*'
-            }
-        }).then(function (resp) {
-            return resp.json();
-        }).then(function (data) {
-            console.log(data);
-            dispatch({
-                type: _actionTypes.FETCH_ROUTES,
-                payload: data
-            });
-        });
-    };
+var fetchAction = exports.fetchAction = function fetchAction(items, branch) {
+  (0, _show2.default)(branch);
+  return function (dispatch) {
+    (0, _crossFetch2.default)('https://passenger-transport.herokuapp.com/api/route', {
+      method: 'GET'
+    }).then(function (resp) {
+      return resp.json();
+    }).then(function (data) {
+      (0, _show2.default)(data);
+      dispatch({
+        branch: branch,
+        type: branch + '/' + types.FETCH_DATA,
+        content: {}
+        // paging : {
+        //   total_pages: data.total_pages,
+        //   total_elements: data.total_elements,
+        //   last: data.last,
+        //   first: data.first,
+        //   number_of_elements: data.number_of_elements,
+        //   size: data.size,
+        //   number: data.number,
+        // }
+      });
+    });
+  };
+};
+var addAction = exports.addAction = function addAction(anchor, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.ADD_EMPTY_ROW,
+    anchor: anchor
+  };
+};
+var removeAction = exports.removeAction = function removeAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.REMOVE_ROW,
+    item: item
+  };
+};
+var updateAction = exports.updateAction = function updateAction(event, item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.UPDATE_ROW,
+    event: event,
+    item: item
+  };
+};
+var editAction = exports.editAction = function editAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.EDIT_ROW,
+    item: item
+  };
+};
+var saveAction = exports.saveAction = function saveAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.SAVE_ROW,
+    item: item
+  };
+};
+var closeNotifAction = exports.closeNotifAction = function closeNotifAction(branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.CLOSE_NOTIF
+  };
 };
 ;
 
 var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(fetchRoutes, 'fetchRoutes', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/routeActions.js');
+  __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
+
+  __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
 }();
 
 ;
 
 /***/ }),
+/* 168 */,
 /* 169 */
 /*!******************************!*\
   !*** external "cross-fetch" ***!
@@ -8915,7 +8893,7 @@ var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 5
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 91);
+var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 90);
 
 var _green2 = _interopRequireDefault(_green);
 
@@ -9575,7 +9553,7 @@ var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 6
 
 var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
 
-var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 94);
+var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 93);
 
 var _ArrowBack2 = _interopRequireDefault(_ArrowBack);
 
@@ -10077,7 +10055,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _images = __webpack_require__(/*! ./images */ 95);
+var _images = __webpack_require__(/*! ./images */ 94);
 
 var _images2 = _interopRequireDefault(_images);
 
@@ -10696,7 +10674,7 @@ var _Row = __webpack_require__(/*! ./Row */ 205);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 98);
+var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 97);
 
 var _tableStyleJss2 = _interopRequireDefault(_tableStyleJss);
 
@@ -11198,7 +11176,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _Input = __webpack_require__(/*! @material-ui/core/Input */ 96);
+var _Input = __webpack_require__(/*! @material-ui/core/Input */ 95);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -11853,7 +11831,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 7);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 97);
+var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 96);
 
 var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 53);
 
@@ -12043,7 +12021,7 @@ var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 99);
+var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 98);
 
 var _Checkbox2 = _interopRequireDefault(_Checkbox);
 
@@ -12432,7 +12410,7 @@ var _TableSortLabel = __webpack_require__(/*! @material-ui/core/TableSortLabel *
 
 var _TableSortLabel2 = _interopRequireDefault(_TableSortLabel);
 
-var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 99);
+var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 98);
 
 var _Checkbox2 = _interopRequireDefault(_Checkbox);
 
@@ -12643,7 +12621,7 @@ var _Archive = __webpack_require__(/*! @material-ui/icons/Archive */ 222);
 
 var _Archive2 = _interopRequireDefault(_Archive);
 
-var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 100);
+var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 99);
 
 var _Bookmark2 = _interopRequireDefault(_Bookmark);
 
@@ -12659,7 +12637,7 @@ var _FormControl = __webpack_require__(/*! @material-ui/core/FormControl */ 73);
 
 var _FormControl2 = _interopRequireDefault(_FormControl);
 
-var _Input = __webpack_require__(/*! @material-ui/core/Input */ 96);
+var _Input = __webpack_require__(/*! @material-ui/core/Input */ 95);
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -12667,7 +12645,7 @@ var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment *
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
-var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 98);
+var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 97);
 
 var _tableStyleJss2 = _interopRequireDefault(_tableStyleJss);
 
@@ -12973,7 +12951,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 101);
+var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 100);
 
 var _Close2 = _interopRequireDefault(_Close);
 
@@ -13173,15 +13151,15 @@ var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLab
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 102);
+var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 101);
 
 var _AllInclusive2 = _interopRequireDefault(_AllInclusive);
 
-var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 103);
+var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 102);
 
 var _Brightness2 = _interopRequireDefault(_Brightness);
 
-var _People = __webpack_require__(/*! @material-ui/icons/People */ 104);
+var _People = __webpack_require__(/*! @material-ui/icons/People */ 103);
 
 var _People2 = _interopRequireDefault(_People);
 
@@ -13189,7 +13167,7 @@ var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 6
 
 var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
 
-var _userJss = __webpack_require__(/*! ./user-jss */ 105);
+var _userJss = __webpack_require__(/*! ./user-jss */ 104);
 
 var _userJss2 = _interopRequireDefault(_userJss);
 
@@ -13526,19 +13504,19 @@ var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 6
 
 var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
 
-var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 102);
+var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 101);
 
 var _AllInclusive2 = _interopRequireDefault(_AllInclusive);
 
-var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 103);
+var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 102);
 
 var _Brightness2 = _interopRequireDefault(_Brightness);
 
-var _People = __webpack_require__(/*! @material-ui/icons/People */ 104);
+var _People = __webpack_require__(/*! @material-ui/icons/People */ 103);
 
 var _People2 = _interopRequireDefault(_People);
 
-var _userJss = __webpack_require__(/*! ./user-jss */ 105);
+var _userJss = __webpack_require__(/*! ./user-jss */ 104);
 
 var _userJss2 = _interopRequireDefault(_userJss);
 
@@ -13969,7 +13947,7 @@ var _classnames = __webpack_require__(/*! classnames */ 3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 106);
+var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 105);
 
 var _blueGrey2 = _interopRequireDefault(_blueGrey);
 
@@ -14148,11 +14126,11 @@ var _VerifiedUser = __webpack_require__(/*! @material-ui/icons/VerifiedUser */ 2
 
 var _VerifiedUser2 = _interopRequireDefault(_VerifiedUser);
 
-var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 107);
+var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 106);
 
 var _BottomNavigation2 = _interopRequireDefault(_BottomNavigation);
 
-var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 108);
+var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 107);
 
 var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
 
@@ -14403,11 +14381,11 @@ var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 74);
 
 var _Favorite2 = _interopRequireDefault(_Favorite);
 
-var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 110);
+var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 109);
 
 var _Share2 = _interopRequireDefault(_Share);
 
-var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 111);
+var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 110);
 
 var _Comment2 = _interopRequireDefault(_Comment);
 
@@ -14704,7 +14682,7 @@ var _SkipPrevious = __webpack_require__(/*! @material-ui/icons/SkipPrevious */ 2
 
 var _SkipPrevious2 = _interopRequireDefault(_SkipPrevious);
 
-var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 112);
+var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 111);
 
 var _PlayArrow2 = _interopRequireDefault(_PlayArrow);
 
@@ -14909,7 +14887,7 @@ var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 33);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 113);
+var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 112);
 
 var _CardHeader2 = _interopRequireDefault(_CardHeader);
 
@@ -14937,11 +14915,11 @@ var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 74);
 
 var _Favorite2 = _interopRequireDefault(_Favorite);
 
-var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 110);
+var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 109);
 
 var _Share2 = _interopRequireDefault(_Share);
 
-var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 111);
+var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 110);
 
 var _Comment2 = _interopRequireDefault(_Comment);
 
@@ -15192,7 +15170,7 @@ var _Typography2 = _interopRequireDefault(_Typography);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 114);
+var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 113);
 
 var _withWidth2 = _interopRequireDefault(_withWidth);
 
@@ -15469,7 +15447,7 @@ var _Card = __webpack_require__(/*! @material-ui/core/Card */ 23);
 
 var _Card2 = _interopRequireDefault(_Card);
 
-var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 113);
+var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 112);
 
 var _CardHeader2 = _interopRequireDefault(_CardHeader);
 
@@ -15481,7 +15459,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 5);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 112);
+var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 111);
 
 var _PlayArrow2 = _interopRequireDefault(_PlayArrow);
 
@@ -15857,7 +15835,7 @@ var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 61);
 
 var _Badge2 = _interopRequireDefault(_Badge);
 
-var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 115);
+var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 114);
 
 var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
 
@@ -15865,7 +15843,7 @@ var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 44);
 
 var _Search2 = _interopRequireDefault(_Search);
 
-var _Cart = __webpack_require__(/*! ./../Cart/Cart */ 116);
+var _Cart = __webpack_require__(/*! ./../Cart/Cart */ 115);
 
 var _Cart2 = _interopRequireDefault(_Cart);
 
@@ -16575,7 +16553,7 @@ var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContac
 
 var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
 
-var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 100);
+var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 99);
 
 var _Bookmark2 = _interopRequireDefault(_Bookmark);
 
@@ -16583,11 +16561,11 @@ var _LocalPhone = __webpack_require__(/*! @material-ui/icons/LocalPhone */ 75);
 
 var _LocalPhone2 = _interopRequireDefault(_LocalPhone);
 
-var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 117);
+var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 116);
 
 var _Email2 = _interopRequireDefault(_Email);
 
-var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 118);
+var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 117);
 
 var _Smartphone2 = _interopRequireDefault(_Smartphone);
 
@@ -16595,15 +16573,15 @@ var _LocationOn = __webpack_require__(/*! @material-ui/icons/LocationOn */ 76);
 
 var _LocationOn2 = _interopRequireDefault(_LocationOn);
 
-var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 119);
+var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 118);
 
 var _Work2 = _interopRequireDefault(_Work);
 
-var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 120);
+var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 119);
 
 var _Language2 = _interopRequireDefault(_Language);
 
-var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 121);
+var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 120);
 
 var _Form2 = _interopRequireDefault(_Form);
 
@@ -16993,11 +16971,11 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 20);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 107);
+var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 106);
 
 var _BottomNavigation2 = _interopRequireDefault(_BottomNavigation);
 
-var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 108);
+var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 107);
 
 var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
 
@@ -17226,7 +17204,7 @@ var _Button = __webpack_require__(/*! @material-ui/core/Button */ 9);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 94);
+var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 93);
 
 var _ArrowBack2 = _interopRequireDefault(_ArrowBack);
 
@@ -17427,11 +17405,11 @@ var _LocalPhone = __webpack_require__(/*! @material-ui/icons/LocalPhone */ 75);
 
 var _LocalPhone2 = _interopRequireDefault(_LocalPhone);
 
-var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 117);
+var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 116);
 
 var _Email2 = _interopRequireDefault(_Email);
 
-var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 118);
+var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 117);
 
 var _Smartphone2 = _interopRequireDefault(_Smartphone);
 
@@ -17439,11 +17417,11 @@ var _LocationOn = __webpack_require__(/*! @material-ui/icons/LocationOn */ 76);
 
 var _LocationOn2 = _interopRequireDefault(_LocationOn);
 
-var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 119);
+var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 118);
 
 var _Work2 = _interopRequireDefault(_Work);
 
-var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 120);
+var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 119);
 
 var _Language2 = _interopRequireDefault(_Language);
 
@@ -18325,7 +18303,7 @@ var _FloatingPanel = __webpack_require__(/*! ./../Panel/FloatingPanel */ 77);
 
 var _FloatingPanel2 = _interopRequireDefault(_FloatingPanel);
 
-var _AddEventForm = __webpack_require__(/*! ./AddEventForm */ 122);
+var _AddEventForm = __webpack_require__(/*! ./AddEventForm */ 121);
 
 var _AddEventForm2 = _interopRequireDefault(_AddEventForm);
 
@@ -18616,7 +18594,7 @@ var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 16);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _images = __webpack_require__(/*! ../../constants/images.js */ 95);
+var _images = __webpack_require__(/*! ../../constants/images.js */ 94);
 
 var _images2 = _interopRequireDefault(_images);
 
@@ -18998,7 +18976,7 @@ var _brand = __webpack_require__(/*! ../../constants/brand.js */ 19);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 124);
+var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 123);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
@@ -19024,7 +19002,7 @@ var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 58);
 
 var _components = __webpack_require__(/*! ./../../components */ 8);
 
-var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 125);
+var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 124);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
@@ -19196,7 +19174,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 123);
+var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 122);
 
 var _Radio2 = _interopRequireDefault(_Radio);
 
@@ -19220,7 +19198,7 @@ var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 5
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 125);
+var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 124);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
@@ -19532,23 +19510,23 @@ var _CrudTableDemo2 = __webpack_require__(/*! ./CrudTableDemo */ 294);
 
 var _CrudTableDemo3 = _interopRequireDefault(_CrudTableDemo2);
 
-var _AdvTableDemo2 = __webpack_require__(/*! ./AdvTableDemo */ 295);
+var _AdvTableDemo2 = __webpack_require__(/*! ./AdvTableDemo */ 296);
 
 var _AdvTableDemo3 = _interopRequireDefault(_AdvTableDemo2);
 
-var _StatusLabel2 = __webpack_require__(/*! ./StatusLabel */ 296);
+var _StatusLabel2 = __webpack_require__(/*! ./StatusLabel */ 297);
 
 var _StatusLabel3 = _interopRequireDefault(_StatusLabel2);
 
-var _StatusColorRow2 = __webpack_require__(/*! ./StatusColorRow */ 297);
+var _StatusColorRow2 = __webpack_require__(/*! ./StatusColorRow */ 298);
 
 var _StatusColorRow3 = _interopRequireDefault(_StatusColorRow2);
 
-var _EmptyTable2 = __webpack_require__(/*! ./EmptyTable */ 298);
+var _EmptyTable2 = __webpack_require__(/*! ./EmptyTable */ 299);
 
 var _EmptyTable3 = _interopRequireDefault(_EmptyTable2);
 
-var _TrackingTable2 = __webpack_require__(/*! ./TrackingTable */ 299);
+var _TrackingTable2 = __webpack_require__(/*! ./TrackingTable */ 300);
 
 var _TrackingTable3 = _interopRequireDefault(_TrackingTable2);
 
@@ -20806,7 +20784,7 @@ var _redux = __webpack_require__(/*! redux */ 22);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 12);
 
-var _CrudTbActions = __webpack_require__(/*! ../../../actions/CrudTbActions */ 90);
+var _CrudTbActions = __webpack_require__(/*! ../../../actions/CrudTbActions */ 295);
 
 var _components = __webpack_require__(/*! ./../../../components */ 8);
 
@@ -21067,6 +21045,102 @@ var _temp = function () {
 
 /***/ }),
 /* 295 */
+/*!******************************************!*\
+  !*** ./src/app/actions/CrudTbActions.js ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
+
+var _actionTypes = __webpack_require__(/*! ./actionTypes */ 10);
+
+var types = _interopRequireWildcard(_actionTypes);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+var fetchAction = exports.fetchAction = function fetchAction(items, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.FETCH_DATA,
+    items: items
+  };
+};
+var addAction = exports.addAction = function addAction(anchor, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.ADD_EMPTY_ROW,
+    anchor: anchor
+  };
+};
+var removeAction = exports.removeAction = function removeAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.REMOVE_ROW,
+    item: item
+  };
+};
+var updateAction = exports.updateAction = function updateAction(event, item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.UPDATE_ROW,
+    event: event,
+    item: item
+  };
+};
+var editAction = exports.editAction = function editAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.EDIT_ROW,
+    item: item
+  };
+};
+var saveAction = exports.saveAction = function saveAction(item, branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.SAVE_ROW,
+    item: item
+  };
+};
+var closeNotifAction = exports.closeNotifAction = function closeNotifAction(branch) {
+  return {
+    branch: branch,
+    type: branch + '/' + types.CLOSE_NOTIF
+  };
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+
+  __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
+}();
+
+;
+
+/***/ }),
+/* 296 */
 /*!*********************************************************!*\
   !*** ./src/app/containers/Tables/demos/AdvTableDemo.js ***!
   \*********************************************************/
@@ -21217,7 +21291,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 296 */
+/* 297 */
 /*!********************************************************!*\
   !*** ./src/app/containers/Tables/demos/StatusLabel.js ***!
   \********************************************************/
@@ -21282,7 +21356,7 @@ var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 126);
+var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 125);
 
 var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
 
@@ -21294,7 +21368,7 @@ var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 127);
+var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 126);
 
 var _Progress2 = _interopRequireDefault(_Progress);
 
@@ -21460,7 +21534,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 297 */
+/* 298 */
 /*!***********************************************************!*\
   !*** ./src/app/containers/Tables/demos/StatusColorRow.js ***!
   \***********************************************************/
@@ -21525,7 +21599,7 @@ var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 50);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 126);
+var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 125);
 
 var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
 
@@ -21533,7 +21607,7 @@ var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 127);
+var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 126);
 
 var _Progress2 = _interopRequireDefault(_Progress);
 
@@ -21700,7 +21774,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 298 */
+/* 299 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Tables/demos/EmptyTable.js ***!
   \*******************************************************/
@@ -21854,7 +21928,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 299 */
+/* 300 */
 /*!**********************************************************!*\
   !*** ./src/app/containers/Tables/demos/TrackingTable.js ***!
   \**********************************************************/
@@ -21881,7 +21955,7 @@ var _brand = __webpack_require__(/*! ../../../constants/brand.js */ 19);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _screenshoot = __webpack_require__(/*! ../../../constants/screenshoot.js */ 300);
+var _screenshoot = __webpack_require__(/*! ../../../constants/screenshoot.js */ 301);
 
 var _screenshoot2 = _interopRequireDefault(_screenshoot);
 
@@ -21951,7 +22025,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 300 */
+/* 301 */
 /*!******************************************!*\
   !*** ./src/app/constants/screenshoot.js ***!
   \******************************************/
@@ -22010,7 +22084,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 301 */
+/* 302 */
 /*!*************************************************!*\
   !*** ./src/app/containers/NotFound/NotFound.js ***!
   \*************************************************/
@@ -22096,7 +22170,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 302 */
+/* 303 */
 /*!******************************************************************!*\
   !*** ./src/app/containers/Pages/Standalone/NotFoundDedicated.js ***!
   \******************************************************************/
@@ -22125,7 +22199,7 @@ var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
-var _Error = __webpack_require__(/*! ./../Error */ 303);
+var _Error = __webpack_require__(/*! ./../Error */ 304);
 
 var _Error2 = _interopRequireDefault(_Error);
 
@@ -22188,7 +22262,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 303 */
+/* 304 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Pages/Error/index.js ***!
   \*************************************************/
@@ -22274,7 +22348,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 304 */
+/* 305 */
 /*!*******************************************!*\
   !*** ./src/app/containers/withTracker.js ***!
   \*******************************************/
@@ -22301,7 +22375,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactGa = __webpack_require__(/*! react-ga */ 305);
+var _reactGa = __webpack_require__(/*! react-ga */ 306);
 
 var _reactGa2 = _interopRequireDefault(_reactGa);
 
@@ -22391,7 +22465,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 305 */
+/* 306 */
 /*!***************************!*\
   !*** external "react-ga" ***!
   \***************************/
@@ -22402,7 +22476,7 @@ var _temp2 = function () {
 module.exports = require("react-ga");
 
 /***/ }),
-/* 306 */
+/* 307 */
 /*!***********************************!*\
   !*** ./src/app/config/default.js ***!
   \***********************************/
@@ -22417,7 +22491,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 307);
+var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 308);
 
 var _isUndefined2 = _interopRequireDefault(_isUndefined);
 
@@ -22502,7 +22576,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 307 */
+/* 308 */
 /*!*************************************!*\
   !*** external "lodash/isUndefined" ***!
   \*************************************/
@@ -22513,7 +22587,7 @@ var _temp = function () {
 module.exports = require("lodash/isUndefined");
 
 /***/ }),
-/* 308 */
+/* 309 */
 /*!***************************************!*\
   !*** ./src/app/config/environment.js ***!
   \***************************************/
@@ -22549,7 +22623,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 309 */
+/* 310 */
 /*!********************************!*\
   !*** ./src/server/SSR/html.js ***!
   \********************************/
@@ -22688,7 +22762,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 310 */
+/* 311 */
 /*!**********************************!*\
   !*** ./src/helpers/ApiClient.js ***!
   \**********************************/
@@ -22707,7 +22781,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _axios = __webpack_require__(/*! axios */ 311);
+var _axios = __webpack_require__(/*! axios */ 312);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -22807,7 +22881,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 311 */
+/* 312 */
 /*!************************!*\
   !*** external "axios" ***!
   \************************/
@@ -22818,7 +22892,7 @@ var _temp = function () {
 module.exports = require("axios");
 
 /***/ }),
-/* 312 */
+/* 313 */
 /*!********************************!*\
   !*** ./src/app/redux/store.js ***!
   \********************************/
@@ -22838,13 +22912,13 @@ var _immutable = __webpack_require__(/*! immutable */ 15);
 
 var _redux = __webpack_require__(/*! redux */ 22);
 
-var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 128);
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 127);
 
-var _reducer = __webpack_require__(/*! ./reducer */ 313);
+var _reducer = __webpack_require__(/*! ./reducer */ 314);
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
-var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 324);
+var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 325);
 
 var _clientMiddleware2 = _interopRequireDefault(_clientMiddleware);
 
@@ -22889,7 +22963,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 313 */
+/* 314 */
 /*!**********************************!*\
   !*** ./src/app/redux/reducer.js ***!
   \**********************************/
@@ -22907,43 +22981,43 @@ exports.default = createReducer;
 
 var _immutable = __webpack_require__(/*! redux-form/immutable */ 37);
 
-var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 314);
+var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 315);
 
-var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 128);
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 127);
 
-var _ui = __webpack_require__(/*! ./modules/ui */ 315);
+var _ui = __webpack_require__(/*! ./modules/ui */ 316);
 
 var _ui2 = _interopRequireDefault(_ui);
 
-var _treeTable = __webpack_require__(/*! ./modules/treeTable */ 316);
+var _treeTable = __webpack_require__(/*! ./modules/treeTable */ 317);
 
 var _treeTable2 = _interopRequireDefault(_treeTable);
 
-var _crudTable = __webpack_require__(/*! ./modules/crudTable */ 317);
+var _crudTable = __webpack_require__(/*! ./modules/crudTable */ 318);
 
 var _crudTable2 = _interopRequireDefault(_crudTable);
 
-var _initForm = __webpack_require__(/*! ./modules/initForm */ 318);
+var _initForm = __webpack_require__(/*! ./modules/initForm */ 319);
 
 var _initForm2 = _interopRequireDefault(_initForm);
 
-var _login = __webpack_require__(/*! ./modules/login */ 319);
+var _login = __webpack_require__(/*! ./modules/login */ 320);
 
 var _login2 = _interopRequireDefault(_login);
 
-var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 320);
+var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 321);
 
 var _ecommerce2 = _interopRequireDefault(_ecommerce);
 
-var _contact = __webpack_require__(/*! ./modules/contact */ 321);
+var _contact = __webpack_require__(/*! ./modules/contact */ 322);
 
 var _contact2 = _interopRequireDefault(_contact);
 
-var _calendar = __webpack_require__(/*! ./modules/calendar */ 322);
+var _calendar = __webpack_require__(/*! ./modules/calendar */ 323);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
-var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 323);
+var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 324);
 
 var _routeTable2 = _interopRequireDefault(_routeTable);
 
@@ -22973,8 +23047,8 @@ function createReducer() {
     contact: _contact2.default,
     routeTable: branchReducer(_routeTable2.default, 'routeTable'),
     treeTableArrow: branchReducer(_treeTable2.default, 'treeTableArrow'),
-    treeTablePM: branchReducer(_treeTable2.default, 'treeTablePM'),
-    crudTableDemo: branchReducer(_crudTable2.default, 'crudTableDemo')
+    treeTablePM: branchReducer(_treeTable2.default, 'treeTablePM')
+    // crudTableDemo: branchReducer(crudTable, 'crudTableDemo'),
   });
 }
 ;
@@ -22992,7 +23066,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 314 */
+/* 315 */
 /*!************************************!*\
   !*** external "redux-immutablejs" ***!
   \************************************/
@@ -23003,7 +23077,7 @@ var _temp = function () {
 module.exports = require("redux-immutablejs");
 
 /***/ }),
-/* 315 */
+/* 316 */
 /*!*************************************!*\
   !*** ./src/app/redux/modules/ui.js ***!
   \*************************************/
@@ -23131,7 +23205,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 316 */
+/* 317 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/treeTable.js ***!
   \********************************************/
@@ -23233,7 +23307,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 317 */
+/* 318 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/crudTable.js ***!
   \********************************************/
@@ -23262,7 +23336,19 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
 
 var initialState = {
-  dataTable: (0, _immutable.List)([]),
+  dataTable: (0, _immutable.List)([{
+    id: 'a654',
+    departure: 'Giap Bap',
+    destination: 'Cam Pha',
+    stations: 5,
+    active: true
+  }, {
+    id: 's234',
+    departure: 'My Dinh',
+    destination: 'Hai Phong',
+    stations: 3,
+    active: true
+  }]),
   notifMsg: ''
 };
 
@@ -23368,7 +23454,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 318 */
+/* 319 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/initForm.js ***!
   \*******************************************/
@@ -23427,7 +23513,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 319 */
+/* 320 */
 /*!****************************************!*\
   !*** ./src/app/redux/modules/login.js ***!
   \****************************************/
@@ -23483,7 +23569,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 320 */
+/* 321 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/ecommerce.js ***!
   \********************************************/
@@ -23607,7 +23693,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 321 */
+/* 322 */
 /*!******************************************!*\
   !*** ./src/app/redux/modules/contact.js ***!
   \******************************************/
@@ -23759,7 +23845,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 322 */
+/* 323 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/calendar.js ***!
   \*******************************************/
@@ -23868,7 +23954,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 323 */
+/* 324 */
 /*!*********************************************!*\
   !*** ./src/app/redux/modules/routeTable.js ***!
   \*********************************************/
@@ -23880,11 +23966,9 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.default = reducer;
-
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
 
 var _immutable = __webpack_require__(/*! immutable */ 15);
 
@@ -23892,70 +23976,141 @@ var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 4
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
+var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 10);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
+
 var initialState = {
-    table: {
-        content: [{
-            id: 'a654',
-            departure: 'Giap Bap',
-            destination: 'Cam Pha',
-            stations: 5,
-            active: true
-        }, {
-            id: 's654',
-            departure: 'My Dinh',
-            destination: 'Hai Phong',
-            stations: 3,
-            active: true
-        }],
-        pageable: {},
-        total_elements: 0,
-        total_pages: 0,
-        number: 0,
-        size: 0,
-        number_of_elements: 0,
-        first: true,
-        last: true,
-        sort: {}
-    },
-    notifMsg: ''
+  content: (0, _immutable.List)([{
+    id: 'a654',
+    departure: 'Giap Bap',
+    destination: 'Cam Pha',
+    stations: 5,
+    active: true
+  }, {
+    id: 's234',
+    departure: 'My Dinh',
+    destination: 'Hai Phong',
+    stations: 3,
+    active: true
+  }]),
+  paging: {
+    total_pages: 1,
+    total_elements: 2,
+    last: true,
+    first: false,
+    number_of_elements: 2,
+    size: 4,
+    number: 1
+  },
+  notifMsg: ''
 };
 
-var initalImmutableState = (0, _immutable.fromJS)(initialState);
+var initialItem = function initialItem(keyTemplate, anchor) {
+  var _keyTemplate$keys = keyTemplate.keys(),
+      _keyTemplate$keys2 = _toArray(_keyTemplate$keys),
+      rawKey = _keyTemplate$keys2.slice(0);
+
+  var staticKey = {
+    id: (+new Date() + Math.floor(Math.random() * 999999)).toString(36)
+  };
+  for (var i = 0; i < rawKey.length; i += 1) {
+    if (rawKey[i] !== 'id' && rawKey[i] !== 'edited') {
+      staticKey[rawKey[i]] = anchor[i].initialValue;
+    }
+  }
+  // Push another static key
+  staticKey.edited = true;
+
+  return (0, _immutable.Map)(staticKey);
+};
+
+var initialImmutableState = (0, _immutable.fromJS)(initialState);
 
 function reducer() {
-    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initalImmutableState;
-    var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialImmutableState;
+  var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var branch = action.branch;
 
-    switch (action.type) {
-        case _actionTypes.FETCH_ROUTES:
-            return state.withMutations(function (mutableState) {
-                var data = (0, _immutable.fromJS)(action.payload);
-                mutableState.set('table', data);
-            });
-        default:
-            return state;
-    }
+  switch (action.type) {
+    case branch + '/' + _actionTypes.FETCH_DATA:
+      return state.withMutations(function (mutableState) {
+        var content = (0, _immutable.fromJS)(action.content);
+        mutableState.set('content', content);
+      });
+    case branch + '/' + _actionTypes.ADD_EMPTY_ROW:
+      return state.withMutations(function (mutableState) {
+        var raw = state.get('content').last();
+        var initial = initialItem(raw, action.anchor);
+        mutableState.update('content', function (content) {
+          return content.unshift(initial);
+        });
+      });
+    case branch + '/' + _actionTypes.REMOVE_ROW:
+      return state.withMutations(function (mutableState) {
+        var index = state.get('content').indexOf(action.item);
+        mutableState.update('content', function (content) {
+          return content.splice(index, 1);
+        }).set('notifMsg', _notifMessage2.default.removed);
+      });
+    case branch + '/' + _actionTypes.UPDATE_ROW:
+      return state.withMutations(function (mutableState) {
+        var index = state.get('content').indexOf(action.item);
+        var cellTarget = action.event.target.name;
+        var newVal = function newVal(type) {
+          if (type === 'checkbox') {
+            return action.event.target.checked;
+          }
+          return action.event.target.value;
+        };
+        mutableState.update('content', function (content) {
+          return content.setIn([index, cellTarget], newVal(action.event.target.type));
+        });
+      });
+    case branch + '/' + _actionTypes.EDIT_ROW:
+      return state.withMutations(function (mutableState) {
+        var index = state.get('content').indexOf(action.item);
+        mutableState.update('content', function (content) {
+          return content.setIn([index, 'edited'], true);
+        });
+      });
+    case branch + '/' + _actionTypes.SAVE_ROW:
+      return state.withMutations(function (mutableState) {
+        var index = state.get('content').indexOf(action.item);
+        mutableState.update('content', function (content) {
+          return content.setIn([index, 'edited'], false);
+        }).set('notifMsg', _notifMessage2.default.saved);
+      });
+    case branch + '/' + _actionTypes.CLOSE_NOTIF:
+      return state.withMutations(function (mutableState) {
+        mutableState.set('notifMsg', '');
+      });
+    default:
+      return state;
+  }
 }
 ;
 
 var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
 
-    __REACT_HOT_LOADER__.register(initalImmutableState, 'initalImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+  __REACT_HOT_LOADER__.register(initialItem, 'initialItem', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
 
-    __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
+
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
 }();
 
 ;
 
 /***/ }),
-/* 324 */
+/* 325 */
 /*!******************************************************!*\
   !*** ./src/app/redux/middleware/clientMiddleware.js ***!
   \******************************************************/
@@ -24033,6 +24188,35 @@ var _temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(clientMiddleware, 'clientMiddleware', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/middleware/clientMiddleware.js');
+}();
+
+;
+
+/***/ }),
+/* 326 */
+/*!***********************************!*\
+  !*** ./src/app/constants/show.js ***!
+  \***********************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var show = function show(data) {
+    console.log(data);
+};
+
+module.exports = show;
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(show, "show", "/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/show.js");
 }();
 
 ;
