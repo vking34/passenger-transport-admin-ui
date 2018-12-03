@@ -9,21 +9,10 @@ import {
   SAVE_ROW,
   CLOSE_NOTIF
 } from '../../actions/actionTypes';
+import show from 'ba-utils/show';
 
 const initialState = {
-  content: List([{
-    id: 'a654',
-    departure: 'Giap Bap',
-    destination: 'Cam Pha',
-    stations: 5,
-    active: true
-  }, {
-    id: 's234',
-    departure: 'My Dinh',
-    destination: 'Hai Phong',
-    stations: 3,
-    active: true
-  }]),
+  content: List([]),
   paging: {
     total_pages: 1,
     total_elements: 2,
@@ -48,7 +37,6 @@ const initialItem = (keyTemplate, anchor) => {
   }
   // Push another static key
   staticKey.edited = true;
-
   return Map(staticKey);
 };
 
@@ -59,7 +47,7 @@ export default function reducer(state = initialImmutableState, action = {}) {
   switch (action.type) {
     case `${branch}/${FETCH_DATA}`:
       return state.withMutations((mutableState) => {
-        const content = fromJS(action.content);
+        const content = List(fromJS(action.content));
         mutableState.set('content', content);
       });
     case `${branch}/${ADD_EMPTY_ROW}`:

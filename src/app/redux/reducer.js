@@ -11,6 +11,7 @@ import ecommerce from './modules/ecommerce';
 import contact from './modules/contact';
 import calendar from './modules/calendar';
 import routeTable from './modules/routeTable';
+import transporterTable from './modules/transporterTable';
 
 function branchReducer(reducerFunction, reducerName) {
   return (state, action) => {
@@ -34,6 +35,7 @@ export default function createReducer() {
     ecommerce,
     contact,
     routeTable: branchReducer(routeTable, 'routeTable'),
+    transporterTable: branchReducer(transporterTable, 'transporterTable'),
     treeTableArrow: branchReducer(treeTable, 'treeTableArrow'),
     treeTablePM: branchReducer(treeTable, 'treeTablePM'),
     // crudTableDemo: branchReducer(crudTable, 'crudTableDemo'),

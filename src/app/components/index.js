@@ -1,5 +1,3 @@
-// Marketing Ads
-// export MarketingAds from './MarketingAds/MarketingAds';
 // Main UI
 export App from './App/App';
 export Outer from './App/Outer';
@@ -8,12 +6,14 @@ export Header from './Header/Header';
 export Sidebar from './Sidebar/Sidebar';
 export Footer from './Footer/Footer';
 export BreadCrumb from './BreadCrumb/BreadCrumb';
-// export SourceReader from './SourceReader/SourceReader';
 
 // Route
 export RouteTable from './Route/RouteTable';
 
+// Transporter
+export TransporterTable from './Transporter/TransporterTable';
 
+// Papper
 export PapperBlock from './PapperBlock/PapperBlock';
 // Dashboard and Widget
 export CounterWidget from './Counter/CounterWidget';

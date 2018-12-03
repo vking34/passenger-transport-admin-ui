@@ -13,11 +13,18 @@ export const fetchAction = (items ,branch) => {
           )
             .then(resp => resp.json())
             .then(data => {
-                show(data);
+                show(data.content[0].stations.length);
+  
+                let content = data.content.map(item => {
+                  return {...item, stations: item.stations ? item.stations.length : 2, active: true};
+                });
+
+                // show(content);
+
                 dispatch({
                   branch,
                   type: `${branch}/${types.FETCH_DATA}`,
-                  content: {}
+                  content: content
                   // paging : {
                   //   total_pages: data.total_pages,
                   //   total_elements: data.total_elements,

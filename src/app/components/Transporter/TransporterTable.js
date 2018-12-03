@@ -12,17 +12,17 @@ import {
   editAction,
   saveAction,
   closeNotifAction,
-} from '../../actions/RouteActions';
+} from '../../actions/TransporterActions';
 import { styles } from 'ba-utils/styles';
 
 import { CrudTable, Notification } from '../';
 
-import routeConst from '../../constants/route';
+import transporterConst from '../../constants/transporter';
 
 // Reducer Branch
-const branch = 'routeTable';
+const branch = 'transporterTable';
 
-class RouteTable extends Component {
+class TransporterTable extends Component {
   
   render() {
     const {
@@ -43,8 +43,8 @@ class RouteTable extends Component {
         <Paper className={classes.root}>
           <CrudTable
             dataInit={content}
-            anchor={routeConst.table.columns}
-            title={routeConst.table.title}
+            anchor={transporterConst.table.columns}
+            title={transporterConst.table.title}
             dataTable={content}
             fetchData={fetchData}
             addEmptyRow={addEmptyRow}
@@ -60,7 +60,7 @@ class RouteTable extends Component {
   }
 }
 
-RouteTable.propTypes = {
+TransporterTable.propTypes = {
   classes: PropTypes.object.isRequired,
   fetchData: PropTypes.func.isRequired,
   content: PropTypes.object.isRequired,
@@ -91,9 +91,9 @@ const mapDispatchToProps = dispatch => ({
   closeNotif: bindActionCreators(closeNotifAction, dispatch)
 });
 
-const RouteTableMapped = connect(
+const TransporterTableMapped = connect(
   mapStateToProps,
   mapDispatchToProps
-)(RouteTable);
+)(TransporterTable);
 
-export default withStyles(styles)(RouteTableMapped);
+export default withStyles(styles)(TransporterTableMapped);

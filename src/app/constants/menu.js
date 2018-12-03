@@ -8,54 +8,56 @@ module.exports = [
   {
     key: 'route',
     name: 'Route',
-    icon: 'view_column',
+    icon: 'directions',
     link: '/admin/route'
   },
   {
     key: 'transporter',
     name: 'Transporter',
-    icon: 'palette',
+    icon: 'directions_bus',
     link: '/admin/transporter'
   },
   {
     key: 'employee',
     name: 'Employee',
-    icon: 'grid_on',
+    icon: 'perm_contact_cal',
     child: [
       {
         key: 'driver',
         name: 'Driver',
-        link: '/admin/employee/driver'
+        link: '/admin/employee/driver',
+        icon: 'directions_car'
       },
       {
         key: 'assistant',
         name: 'Assistant',
-        link: '/admin/employee/assistant'
+        link: '/admin/employee/assistant',
+        icon: 'person_add'
       }
     ]
   },
   {
     key: 'client',
     name: 'Client',
-    icon: 'border_color',
+    icon: 'people',
     link: '/admin/client'
   },
   {
     key: 'ticket',
     name: 'Ticket',
-    icon: 'border_color',
+    icon: 'assignment',
     link: '/admin/ticket'
   },
   {
     key: 'tschedule',
     name: 'Transport Schedule',
-    icon: 'flag',
+    icon: 'date_range',
     link: '/admin/transport-schedule'
   },
   {
     key: 'wschedule',
     name: 'Work Schedule',
-    icon: 'insert_chart',
+    icon: 'event',
     link: '/admin/work-schedule'
   },
   {

@@ -1,23 +1,16 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
 import brand from 'ba-utils/brand';
-import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import routeConst from 'ba-utils/route';
 import helmetConst from 'ba-utils/helmet';
-import { styles } from 'ba-utils/styles';
 import { PapperBlock } from '../../components';
-import { RouteTable } from '../../components';
+import Paper from '@material-ui/core/Paper';
+import { Helmet } from 'react-helmet';
+// import show from 'ba-utils/show';
 
-
-class RoutePage extends Component {
-  render() {
+const pageTemplate = (Table, pageConst, classes ) => {
     const title = brand.name + ' - Table';
     const description = brand.desc;
-    const { classes } = this.props;
-    return (
-      <div>
+    return(
+        <div>
         <Helmet>
           <title>{title}</title>
           <meta name={helmetConst.name} content={description} />
@@ -26,21 +19,15 @@ class RoutePage extends Component {
           <meta property={helmetConst.tw_title} content={title} />
           <meta property={helmetConst.tw_desc} content={description} />
         </Helmet>
-        <PapperBlock title={routeConst.title} desc={routeConst.description}>
+        <PapperBlock title={pageConst.title} desc={pageConst.description}>
           <div>
             <Paper className={classes.root}>
-              <RouteTable />
+              <Table />
             </Paper>
-          
           </div>
         </PapperBlock>
-      </div>
+        </div>
     );
-  }
 }
 
-RoutePage.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(RoutePage);
+export default pageTemplate;

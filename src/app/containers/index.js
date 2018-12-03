@@ -2,7 +2,12 @@ import { App, Dashboard, Outer } from './../components';
 // Dashboard
 import DashboardV1 from './Dashboard/Dashboard';
 
+// Route
 import RoutePage from './Routes/RoutePage';
+
+
+// Transporter
+import TransporterPage from './Transporter/TransporterPage';
 
 // Themes
 import Themes from './Themes';
@@ -39,7 +44,7 @@ export default (store) => { // eslint-disable-line
           },
           {
             path: '/admin/transporter',
-            component: withTracker(CrudTable),
+            component: withTracker(TransporterPage),
           },
           {
             path: '/admin/employee',
