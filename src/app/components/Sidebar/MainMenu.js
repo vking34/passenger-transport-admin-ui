@@ -63,9 +63,11 @@ class MainMenu extends React.Component {
               timeout="auto"
               unmountOnExit
             >
+            <div style={{marginLeft: '25px'} }>
               <List className={classes.dense} dense={dense}>
                 { getMenus(item.child) }
               </List>
+            </div> 
             </Collapse>
           </div>
         );

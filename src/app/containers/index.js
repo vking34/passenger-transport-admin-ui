@@ -5,9 +5,26 @@ import DashboardV1 from './Dashboard/Dashboard';
 // Route
 import RoutePage from './Routes/RoutePage';
 
-
 // Transporter
 import TransporterPage from './Transporter/TransporterPage';
+
+// Driver
+import DriverPage from './Driver/DriverPage';
+
+// Assistant
+import AssistantPage from './Assistant/AssistantPage'
+
+// Client
+import ClientPage from './Client/ClientPage';
+
+// Schedule
+  // Transport
+import TSchedulePage from './Schedule/TSchedulePage';
+  // Work
+import WSchedulePage from './Schedule/WSchedulePage';
+
+// Ticket
+import TicketPage from './Ticket/TicketPage';
 
 // Themes
 import Themes from './Themes';
@@ -46,29 +63,30 @@ export default (store) => { // eslint-disable-line
             path: '/admin/transporter',
             component: withTracker(TransporterPage),
           },
-          {
-            path: '/admin/employee',
-            component: withTracker(CrudTable),
-          },
+
           {
             path: '/admin/employee/driver',
-            component: withTracker(CrudTable),
+            component: withTracker(DriverPage),
           },
           {
             path: '/admin/employee/assistant',
-            component: withTracker(CrudTable),
+            component: withTracker(AssistantPage),
           },
           {
             path: '/admin/client',
-            component: withTracker(CrudTable),
+            component: withTracker(ClientPage),
+          },
+          {
+            path: '/admin/ticket',
+            component: withTracker(TicketPage),
           },
           {
             path: '/admin/transport-schedule',
-            component: withTracker(CrudTable),
+            component: withTracker(TSchedulePage),
           },
           {
             path: '/admin/work-schedule',
-            component: withTracker(CrudTable),
+            component: withTracker(WSchedulePage),
           },
           {
             path: '/admin/settings/themes',

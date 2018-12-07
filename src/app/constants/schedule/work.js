@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'TRANSPORTER',
-    description: 'This table is used to manage transporter. (CRUD)',
+    title: 'WORK SCHEDULE',
+    description: 'This table is used to manage work schedule. (CRUD)',
     table:{
-        title : 'Transporters',
+        title : 'WORK Schedules',
         columns : [
             {
                 name: 'id',
@@ -11,42 +11,29 @@ module.exports = {
                 initialValue: '',
                 width: 'auto',
                 hidden: false
-            }, {
-                name: 'license_plate',
-                label: 'License Plate',
+            },
+            {
+                name: 'starting_time',
+                label: 'Starting Time',
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
                 hidden: false
             },
             {
-                name: 'seaters',
-                label: 'Seaters',
-                type: 'number',
-                initialValue: 0,
-                width: '100',
+                name: 'ending_time',
+                label: 'Ending Time',
+                type: 'text',
+                initialValue: '',
+                width: 'auto',
                 hidden: false
             },
             {
-                name: 'model',
-                label: 'Model',
+                name: 'transporter_ref',
+                label: 'Transporter ID',
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
-                hidden: false
-            }, {
-                name: 'branch',
-                label: 'Branch',
-                type: 'text',
-                initialValue: '',
-                width: 'auto',
-                hidden: false
-            }, {
-                name: 'status',
-                label: 'Status',
-                type: 'number',
-                initialValue: 1,
-                width: '100',
                 hidden: false
             },
             {

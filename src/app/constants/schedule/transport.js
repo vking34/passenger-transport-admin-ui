@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'TRANSPORTER',
-    description: 'This table is used to manage transporter. (CRUD)',
+    title: 'TRANSPORT SCHEDULE',
+    description: 'This table is used to manage transporter schedule. (CRUD)',
     table:{
-        title : 'Transporters',
+        title : 'Transport Schedules',
         columns : [
             {
                 name: 'id',
@@ -11,42 +11,36 @@ module.exports = {
                 initialValue: '',
                 width: 'auto',
                 hidden: false
-            }, {
-                name: 'license_plate',
-                label: 'License Plate',
+            },
+            {
+                name: 'starting_time',
+                label: 'Starting Time',
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
                 hidden: false
             },
             {
-                name: 'seaters',
-                label: 'Seaters',
+                name: 'ending_time',
+                label: 'Ending Time',
+                type: 'text',
+                initialValue: '',
+                width: 'auto',
+                hidden: false
+            },
+            {
+                name: 'price',
+                label: 'Price',
+                type: 'number',
+                initialValue: 100000,
+                width: 'auto',
+                hidden: false
+            }, {
+                name: 'transporter_refs',
+                label: 'Transporter Quantity',
                 type: 'number',
                 initialValue: 0,
-                width: '100',
-                hidden: false
-            },
-            {
-                name: 'model',
-                label: 'Model',
-                type: 'text',
-                initialValue: '',
                 width: 'auto',
-                hidden: false
-            }, {
-                name: 'branch',
-                label: 'Branch',
-                type: 'text',
-                initialValue: '',
-                width: 'auto',
-                hidden: false
-            }, {
-                name: 'status',
-                label: 'Status',
-                type: 'number',
-                initialValue: 1,
-                width: '100',
                 hidden: false
             },
             {

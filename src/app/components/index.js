@@ -13,6 +13,22 @@ export RouteTable from './Route/RouteTable';
 // Transporter
 export TransporterTable from './Transporter/TransporterTable';
 
+// Driver
+export DriverTable from './Driver/DriverTable';
+
+// Assistant
+export AssistantTable from './Assistant/AssistantTable';
+
+// Client
+export ClientTable from './Client/ClientTable';
+
+// Schedule
+export TScheduleTable from './Schedule/TScheduleTable';
+export WScheduleTable from './Schedule/WScheduleTable';
+
+// Ticket
+export TicketTable from './Ticket/TicketTable';
+
 // Papper
 export PapperBlock from './PapperBlock/PapperBlock';
 // Dashboard and Widget

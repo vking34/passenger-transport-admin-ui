@@ -2,14 +2,15 @@ import show from 'ba-utils/show';
 
 import * as types from './actionTypes';
 import fetch from 'cross-fetch';
-import { GET_TRANSPORTERS } from 'ba-utils/urls/api';
+import { CLIENT_URL } from 'ba-utils/urls/api';
+import { Method } from 'ba-utils/request/header';
 
 export const fetchAction = (items ,branch) => {
     show(branch);
     return (dispatch) => {
-      fetch(GET_TRANSPORTERS,
+      fetch(CLIENT_URL,
         {
-            method: 'GET'
+            method: Method.GET
         })
               .then(resp => resp.json())
               .then(data => {

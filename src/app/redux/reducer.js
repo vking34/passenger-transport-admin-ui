@@ -3,8 +3,6 @@ import { combineReducers } from 'redux-immutablejs';
 import { routerReducer as router } from 'react-router-redux';
 
 import ui from './modules/ui';
-import treeTable from './modules/treeTable';
-import crudTable from './modules/crudTable';
 import initval from './modules/initForm';
 import login from './modules/login';
 import ecommerce from './modules/ecommerce';
@@ -12,6 +10,14 @@ import contact from './modules/contact';
 import calendar from './modules/calendar';
 import routeTable from './modules/routeTable';
 import transporterTable from './modules/transporterTable';
+import driverTable from './modules/driverTable';
+import assistantTable from './modules/assistantTable';
+import clientTable from './modules/clientTable';
+import tscheduleTable from './modules/tscheduleTable';
+import wscheduleTable from './modules/wscheduleTable';
+import ticketTable from './modules/ticketTable';
+
+import * as branchName from 'ba-utils/reducer/branch';
 
 function branchReducer(reducerFunction, reducerName) {
   return (state, action) => {
@@ -34,10 +40,13 @@ export default function createReducer() {
     calendar,
     ecommerce,
     contact,
-    routeTable: branchReducer(routeTable, 'routeTable'),
-    transporterTable: branchReducer(transporterTable, 'transporterTable'),
-    treeTableArrow: branchReducer(treeTable, 'treeTableArrow'),
-    treeTablePM: branchReducer(treeTable, 'treeTablePM'),
-    // crudTableDemo: branchReducer(crudTable, 'crudTableDemo'),
+    routeTable: branchReducer(routeTable, branchName.ROUTE),
+    transporterTable: branchReducer(transporterTable, branchName.TRANSPORTER),
+    driverTable: branchReducer(driverTable, branchName.DRIVER),
+    assistantTable: branchReducer(assistantTable, branchName.ASSISTANT),
+    clientTable: branchReducer(clientTable, branchName.CLIENT),
+    tscheduleTable: branchReducer(tscheduleTable, branchName.T_SCHEDULE),
+    wscheduleTable: branchReducer(wscheduleTable, branchName.W_SCHEDULE),
+    ticketTable: branchReducer(ticketTable, branchName.TICKET)
   });
-}
+};

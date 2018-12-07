@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'TRANSPORTER',
-    description: 'This table is used to manage transporter. (CRUD)',
+    title: 'ASSISTANT',
+    description: 'This table is used to manage assistants. (CRUD)',
     table:{
-        title : 'Transporters',
+        title : 'Assistants',
         columns : [
             {
                 name: 'id',
@@ -10,42 +10,35 @@ module.exports = {
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
+                hidden: true
+            },
+            {
+                name: 'citizen_id',
+                label: 'Citizen ID',
+                type: 'text',
+                initialValue: '',
+                width: 'auto',
                 hidden: false
             }, {
-                name: 'license_plate',
-                label: 'License Plate',
+                name: 'full_name',
+                label: 'Full name',
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
                 hidden: false
             },
             {
-                name: 'seaters',
-                label: 'Seaters',
-                type: 'number',
-                initialValue: 0,
-                width: '100',
-                hidden: false
-            },
-            {
-                name: 'model',
-                label: 'Model',
+                name: 'address',
+                label: 'Address',
                 type: 'text',
                 initialValue: '',
                 width: 'auto',
                 hidden: false
             }, {
-                name: 'branch',
-                label: 'Branch',
-                type: 'text',
-                initialValue: '',
-                width: 'auto',
-                hidden: false
-            }, {
-                name: 'status',
-                label: 'Status',
-                type: 'number',
-                initialValue: 1,
+                name: 'active',
+                label: 'Active?',
+                type: 'toggle',
+                initialValue: true,
                 width: '100',
                 hidden: false
             },

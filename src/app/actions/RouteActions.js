@@ -2,11 +2,12 @@ import show from 'ba-utils/show';
 
 import * as types from './actionTypes';
 import fetch from 'cross-fetch';
+import { GET_ROUTES } from 'ba-utils/urls/api';
 
 export const fetchAction = (items ,branch) => {
   show(branch);
   return (dispatch) => {
-    fetch('https://passenger-transport.herokuapp.com/api/route',
+    fetch(GET_ROUTES,
             {
                 method: 'GET'
             }
