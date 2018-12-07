@@ -1,7 +1,7 @@
 const API = 'https://passenger-transport.herokuapp.com/api';
 
 // route
-export const GET_ROUTES =  API + '/route';
+export const ROUTE_URL =  API + '/route';
 
 // transporter
 export const GET_TRANSPORTERS = API + '/transporter';

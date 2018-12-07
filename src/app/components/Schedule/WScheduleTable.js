@@ -14,7 +14,7 @@ import {
   closeNotifAction,
 } from '../../actions/schedule/WScheduleActions';
 import { styles } from 'ba-utils/styles';
-
+import TablePagination from '@material-ui/core/TablePagination';
 import { CrudTable, Notification } from '..';
 import wscheduleConst from 'ba-utils/schedule/work';
 import show from 'ba-utils/show';
@@ -22,7 +22,14 @@ import show from 'ba-utils/show';
 const branch = 'wscheduleTable';
 
 class WScheduleTable extends Component {
-  
+  handleChangePage = (event, page) => {
+    
+  };
+
+  handleChangeRowsPerPage = event => {
+  //  show(event);
+  };
+
     render() {
       const {
         classes,
@@ -35,6 +42,7 @@ class WScheduleTable extends Component {
         finishEditRow,
         closeNotif,
         messageNotif,
+        paging
       } = this.props;
       show(content);
       return (
@@ -54,6 +62,20 @@ class WScheduleTable extends Component {
               finishEditRow={finishEditRow}
               branch={branch}
             />
+          <TablePagination
+          component="div"
+          count={paging.get('total_elements')}
+          rowsPerPage={paging.get('size') > paging.get('total_elements') ? paging.get('total_elements') : paging.get('size')}
+          page={paging.get('number')}
+          backIconButtonProps={{
+            'aria-label': 'Previous Page',
+          }}
+          nextIconButtonProps={{
+            'aria-label': 'Next Page',
+          }}
+          onChangePage={this.handleChangePage}
+          onChangeRowsPerPage={this.handleChangeRowsPerPage}
+          />
           </Paper>
         </div>
       );

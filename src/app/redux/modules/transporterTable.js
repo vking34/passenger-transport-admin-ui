@@ -21,6 +21,8 @@ export default function reducer(state = initialImmutableState, action = {}) {
             // List to map elements inside
             const content = List(fromJS(action.content));
             mutableState.set('content', content);
+            const paging = fromJS(action.paging);
+            mutableState.set('paging', paging);
         });
       case `${branch}/${ADD_EMPTY_ROW}`:
         return state.withMutations((mutableState) => {

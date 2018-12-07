@@ -14,6 +14,7 @@ import logo from 'ba-images/logo.svg';
 import MainMenu from './MainMenu';
 import OtherMenu from './OtherMenu';
 import styles from './sidebar-jss';
+import { connect } from 'react-redux';
 
 const MenuContent = props => {
   const {
@@ -21,7 +22,8 @@ const MenuContent = props => {
     turnDarker,
     drawerPaper,
     toggleDrawerOpen,
-    loadTransition
+    loadTransition,
+    user
   } = props;
   return (
     <div className={classNames(classes.drawerInner, !drawerPaper ? classes.drawerPaperClose : '')}>
@@ -32,12 +34,12 @@ const MenuContent = props => {
         </div>
         <div className={classNames(classes.profile, classes.user)}>
           <Avatar
-            alt={dummy.user.name}
-            src={dummy.user.avatar}
+            alt={user.get('full_name')}
+            src={user.get('picture')}
             className={classNames(classes.avatar, classes.bigAvatar)}
           />
           <div>
-            <h4>{dummy.user.name}</h4>
+            <h4>{user.get('full_name')}</h4>
             <span>{dummy.user.title}</span>
           </div>
         </div>
@@ -59,6 +61,7 @@ MenuContent.propTypes = {
   turnDarker: PropTypes.bool,
   toggleDrawerOpen: PropTypes.func,
   loadTransition: PropTypes.func,
+  user: PropTypes.object.isRequired
 };
 
 MenuContent.defaultProps = {
@@ -84,7 +87,8 @@ class Sidebar extends React.Component {
       open,
       toggleDrawerOpen,
       loadTransition,
-      turnDarker
+      turnDarker,
+      user
     } = this.props;
     return (
       <Fragment>
@@ -95,7 +99,7 @@ class Sidebar extends React.Component {
             open={!open}
             anchor={anchor}
           >
-            <MenuContentStyle drawerPaper toggleDrawerOpen={toggleDrawerOpen} loadTransition={loadTransition} />
+            <MenuContentStyle user={user} drawerPaper toggleDrawerOpen={toggleDrawerOpen} loadTransition={loadTransition} />
           </SwipeableDrawer>
         </Hidden>
         <Hidden mdDown>
@@ -108,7 +112,7 @@ class Sidebar extends React.Component {
             open={open}
             anchor={anchor}
           >
-            <MenuContentStyle drawerPaper={open} turnDarker={turnDarker} loadTransition={loadTransition} />
+            <MenuContentStyle user={user} drawerPaper={open} turnDarker={turnDarker} loadTransition={loadTransition} />
           </Drawer>
         </Hidden>
       </Fragment>
@@ -122,6 +126,19 @@ Sidebar.propTypes = {
   loadTransition: PropTypes.func.isRequired,
   turnDarker: PropTypes.bool.isRequired,
   open: PropTypes.bool.isRequired,
+  user: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Sidebar);
+const mapStateToProps = state => ({
+  force: state,
+  user: state.getIn(['userInfo', 'user'])
+});
+
+const mapDispatchToProps = dispatch => ({});
+
+const SidebarMapped = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Sidebar);
+
+export default withStyles(styles)(SidebarMapped);

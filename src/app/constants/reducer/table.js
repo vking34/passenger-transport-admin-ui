@@ -4,12 +4,12 @@ const initialState = {
     content: List([]),
     paging: {
       total_pages: 1,
-      total_elements: 2,
+      total_elements: 4,
       last: true,
       first: false,
-      number_of_elements: 2,
+      number_of_elements: 4,
       size: 4,
-      number: 1,
+      number: 0,
     },
     notifMsg: '',
 };

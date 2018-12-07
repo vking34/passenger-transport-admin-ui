@@ -14,7 +14,7 @@ import {
   closeNotifAction,
 } from '../../actions/TransporterActions';
 import { styles } from 'ba-utils/styles';
-
+import TablePagination from '@material-ui/core/TablePagination';
 import { CrudTable, Notification } from '../';
 
 import transporterConst from '../../constants/transporter';
@@ -23,7 +23,14 @@ import transporterConst from '../../constants/transporter';
 const branch = 'transporterTable';
 
 class TransporterTable extends Component {
-  
+  handleChangePage = (event, page) => {
+    
+  };
+
+  handleChangeRowsPerPage = event => {
+  //  show(event);
+  };
+
   render() {
     const {
       classes,
@@ -36,6 +43,7 @@ class TransporterTable extends Component {
       finishEditRow,
       closeNotif,
       messageNotif,
+      paging
     } = this.props;
     return (
       <div>
@@ -53,6 +61,20 @@ class TransporterTable extends Component {
             editRow={editRow}
             finishEditRow={finishEditRow}
             branch={branch}
+          />
+          <TablePagination
+          component="div"
+          count={paging.get('total_elements')}
+          rowsPerPage={paging.get('size') > paging.get('total_elements') ? paging.get('total_elements') : paging.get('size')}
+          page={paging.get('number')}
+          backIconButtonProps={{
+            'aria-label': 'Previous Page',
+          }}
+          nextIconButtonProps={{
+            'aria-label': 'Next Page',
+          }}
+          onChangePage={this.handleChangePage}
+          onChangeRowsPerPage={this.handleChangeRowsPerPage}
           />
         </Paper>
       </div>

@@ -2,19 +2,20 @@ import show from 'ba-utils/show';
 
 import * as types from './actionTypes';
 import fetch from 'cross-fetch';
-import { GET_ROUTES } from 'ba-utils/urls/api';
+import { ROUTE_URL } from 'ba-utils/urls/api';
+import { Method } from 'ba-utils/request/header';
 
 export const fetchAction = (items ,branch) => {
   show(branch);
   return (dispatch) => {
-    fetch(GET_ROUTES,
+    fetch(ROUTE_URL,
             {
-                method: 'GET'
+                method: Method.GET
             }
           )
             .then(resp => resp.json())
             .then(data => {
-                show(data.content[0].stations.length);
+                // show(data.content[0].stations.length);
   
                 let content = data.content.map(item => {
                   return {...item, stations: item.stations ? item.stations.length : 2, active: true};
@@ -25,16 +26,16 @@ export const fetchAction = (items ,branch) => {
                 dispatch({
                   branch,
                   type: `${branch}/${types.FETCH_DATA}`,
-                  content: content
-                  // paging : {
-                  //   total_pages: data.total_pages,
-                  //   total_elements: data.total_elements,
-                  //   last: data.last,
-                  //   first: data.first,
-                  //   number_of_elements: data.number_of_elements,
-                  //   size: data.size,
-                  //   number: data.number,
-                  // }
+                  content: content,
+                  paging : {
+                    total_pages: data.total_pages,
+                    total_elements: data.total_elements,
+                    last: data.last,
+                    first: data.first,
+                    number_of_elements: data.number_of_elements,
+                    size: data.size,
+                    number: data.number,
+                  }
                 })
                 })
     }   

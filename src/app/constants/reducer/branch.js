@@ -6,3 +6,4 @@ export const CLIENT = 'clientTable';
 export const TICKET = 'ticketTable';
 export const T_SCHEDULE = 'tscheduleTable';
 export const W_SCHEDULE = 'wscheduleTable';
+export const USER_INFO = 'userInfo';

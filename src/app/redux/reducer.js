@@ -16,6 +16,7 @@ import clientTable from './modules/clientTable';
 import tscheduleTable from './modules/tscheduleTable';
 import wscheduleTable from './modules/wscheduleTable';
 import ticketTable from './modules/ticketTable';
+import userInfo from './modules/userInfo';
 
 import * as branchName from 'ba-utils/reducer/branch';
 
@@ -47,6 +48,7 @@ export default function createReducer() {
     clientTable: branchReducer(clientTable, branchName.CLIENT),
     tscheduleTable: branchReducer(tscheduleTable, branchName.T_SCHEDULE),
     wscheduleTable: branchReducer(wscheduleTable, branchName.W_SCHEDULE),
-    ticketTable: branchReducer(ticketTable, branchName.TICKET)
+    ticketTable: branchReducer(ticketTable, branchName.TICKET),
+    userInfo: branchReducer(userInfo, branchName.USER_INFO)
   });
 };

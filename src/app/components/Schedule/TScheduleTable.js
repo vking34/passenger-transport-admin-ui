@@ -14,7 +14,7 @@ import {
   closeNotifAction,
 } from '../../actions/schedule/TScheduleActions';
 import { styles } from 'ba-utils/styles';
-
+import TablePagination from '@material-ui/core/TablePagination';
 import { CrudTable, Notification } from '..';
 import tscheduleConst from 'ba-utils/schedule/transport';
 import show from 'ba-utils/show';
@@ -22,6 +22,14 @@ import show from 'ba-utils/show';
 const branch = 'tscheduleTable';
 
 class TScheduleTable extends Component {
+
+  handleChangePage = (event, page) => {
+    
+  };
+
+  handleChangeRowsPerPage = event => {
+  //  show(event);
+  };  
   
     render() {
       const {
@@ -35,6 +43,7 @@ class TScheduleTable extends Component {
         finishEditRow,
         closeNotif,
         messageNotif,
+        paging
       } = this.props;
       show(content);
       return (
@@ -53,6 +62,20 @@ class TScheduleTable extends Component {
               editRow={editRow}
               finishEditRow={finishEditRow}
               branch={branch}
+            />
+            <TablePagination
+            component="div"
+            count={paging.get('total_elements')}
+            rowsPerPage={paging.get('size') > paging.get('total_elements') ? paging.get('total_elements') : paging.get('size')}
+            page={paging.get('number')}
+            backIconButtonProps={{
+              'aria-label': 'Previous Page',
+            }}
+            nextIconButtonProps={{
+              'aria-label': 'Next Page',
+            }}
+            onChangePage={this.handleChangePage}
+            onChangeRowsPerPage={this.handleChangeRowsPerPage}
             />
           </Paper>
         </div>

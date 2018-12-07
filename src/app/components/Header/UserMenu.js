@@ -21,6 +21,8 @@ import dummy from 'ba-utils/dummyContents';
 import messageStyles from 'ba-components/Messages.scss';
 import avatarApi from 'ba-utils/avatars';
 import styles from './header-jss';
+import { connect } from 'react-redux';
+import show from 'ba-utils/show';
 
 class UserMenu extends React.Component {
   state = {
@@ -42,6 +44,7 @@ class UserMenu extends React.Component {
   render() {
     const { classes } = this.props;
     const { anchorEl, openMenu } = this.state;
+    show(this.props.user);
     return (
       <div className="userMenu">
         <IconButton
@@ -118,8 +121,8 @@ class UserMenu extends React.Component {
         </Menu>
         <Button onClick={this.handleMenu('user-setting')}>
           <Avatar
-            alt={dummy.user.name}
-            src={dummy.user.avatar}
+            alt={this.props.user.get('full_name')}
+            src={this.props.user.get('picture')}
           />
         </Button>
         <Menu
@@ -159,6 +162,20 @@ class UserMenu extends React.Component {
 
 UserMenu.propTypes = {
   classes: PropTypes.object.isRequired,
+  user: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(UserMenu);
+const mapStateToProps = state => ({
+  force: state,
+  user: state.getIn(['userInfo', 'user'])
+});
+
+const mapDispatchToProps = dispatch => ({});
+
+const UserMenuMapped = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(UserMenu);
+
+
+export default withStyles(styles)(UserMenuMapped);
