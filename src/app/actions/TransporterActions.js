@@ -2,12 +2,12 @@ import show from 'ba-utils/show';
 
 import * as types from './actionTypes';
 import fetch from 'cross-fetch';
-import { GET_TRANSPORTERS } from 'ba-utils/urls/api';
+import { TRANPSPORTER_URL } from 'ba-utils/urls/api';
 
 export const fetchAction = (items ,branch) => {
     show(branch);
     return (dispatch) => {
-      fetch(GET_TRANSPORTERS,
+      fetch(TRANPSPORTER_URL,
         {
             method: 'GET'
         })

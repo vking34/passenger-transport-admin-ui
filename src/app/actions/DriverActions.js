@@ -2,13 +2,12 @@ import show from 'ba-utils/show';
 
 import * as types from './actionTypes';
 import fetch from 'cross-fetch';
-import { GET_DRIVERS } from 'ba-utils/urls/api';
+import { DRIVER_URL } from 'ba-utils/urls/api';
 
 export const fetchAction = (items ,branch) => {
     show(branch);
     return (dispatch) => {
-        show(GET_DRIVERS);
-      fetch(GET_DRIVERS,
+      fetch(DRIVER_URL,
         {
             method: 'GET'
         })

@@ -1,13 +1,14 @@
-const API = 'https://passenger-transport.herokuapp.com/api';
+// const API = 'https://passenger-transport.herokuapp.com/api';
+const API = '';
 
 // route
 export const ROUTE_URL =  API + '/route';
 
 // transporter
-export const GET_TRANSPORTERS = API + '/transporter';
+export const TRANPSPORTER_URL = API + '/transporter';
 
 // driver
-export const GET_DRIVERS = API + '/employee/driver';
+export const DRIVER_URL = API + '/employee/driver';
 
 // assistant
 export const ASSISTANT_URL = API + '/employee/assistant';

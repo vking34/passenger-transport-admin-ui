@@ -1,5 +1,5 @@
 const show = (data) => {
-    console.log(data);
+    // console.log(data);
 }
 
 module.exports = show;
