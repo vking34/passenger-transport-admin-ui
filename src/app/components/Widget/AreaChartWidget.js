@@ -4,9 +4,10 @@ import { withStyles, createMuiTheme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import classNames from 'classnames';
 import Chip from '@material-ui/core/Chip';
-import CardGiftcard from '@material-ui/icons/CardGiftcard';
-import FilterVintage from '@material-ui/icons/FilterVintage';
-import LocalCafe from '@material-ui/icons/LocalCafe';
+import People from '@material-ui/icons/People';
+import PermPhoneMsg from '@material-ui/icons/PermPhoneMsg';
+import DateRange from '@material-ui/icons/DateRange';
+import Assignment from '@material-ui/icons/Assignment';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -45,44 +46,44 @@ class AreaChartWidget extends PureComponent {
       classes,
     } = this.props;
     return (
-      <PapperBlock whiteBg noMargin title="Top Product Sales" desc="">
+      <PapperBlock whiteBg noMargin title="Notifications" desc="">
         <Grid container spacing={16}>
           <Grid item md={8} xs={12}>
             <ul className={classes.bigResume}>
               <li>
                 <Avatar className={classNames(classes.avatar, classes.greenAvatar)}>
-                  <CardGiftcard />
+                  <People />
                 </Avatar>
                 <Typography variant="title">
-                  4321
-                  <Typography>Gift Card</Typography>
+                  460
+                  <Typography>New Employees</Typography>
                 </Typography>
               </li>
               <li>
                 <Avatar className={classNames(classes.avatar, classes.pinkAvatar)}>
-                  <FilterVintage />
+                  <Assignment />
                 </Avatar>
                 <Typography variant="title">
-                  9876
-                  <Typography>Flowers</Typography>
+                  1320
+                  <Typography>Tickets</Typography>
                 </Typography>
               </li>
               <li>
                 <Avatar className={classNames(classes.avatar, classes.purpleAvatar)}>
-                  <LocalCafe />
+                  <PermPhoneMsg />
                 </Avatar>
                 <Typography variant="title">
                   345
-                  <Typography>Cups</Typography>
+                  <Typography>Calls/Messages</Typography>
                 </Typography>
               </li>
               <li>
                 <Avatar className={classNames(classes.avatar, classes.orangeAvatar)}>
-                  <Style />
+                  <DateRange />
                 </Avatar>
                 <Typography variant="title">
-                  996
-                  <Typography>Name Cards</Typography>
+                  23
+                  <Typography>Schedules</Typography>
                 </Typography>
               </li>
             </ul>
@@ -113,28 +114,28 @@ class AreaChartWidget extends PureComponent {
             </div>
           </Grid>
           <Grid item md={4} xs={12}>
-            <Typography variant="button"><span className={Type.bold}>Performance Listing</span></Typography>
+            <Typography variant="button"><span className={Type.bold}>Performance Evaluation</span></Typography>
             <Divider className={classes.divider} />
             <Grid container className={classes.secondaryWrap}>
               <Grid item className={classes.centerItem} md={6}>
-                <Typography gutterBottom>Giftcard Quality</Typography>
+                <Typography gutterBottom>Engine</Typography>
                 <Chip label="Super" className={classNames(classes.chip, messageStyles.bgError)} />
                 <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.pinkProgress)} size={100} value={70} />
               </Grid>
               <Grid className={classes.centerItem} item md={6}>
-                <Typography gutterBottom>Monitoring Quality</Typography>
+                <Typography gutterBottom>Service Attitude</Typography>
                 <Chip label="Good" className={classNames(classes.chip, messageStyles.bgSuccess)} />
                 <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.greenProgress)} size={100} value={57} />
               </Grid>
               <Grid className={classes.centerItem} item md={6}>
-                <Typography gutterBottom>Project Complete</Typography>
-                <Chip label="Poor" className={classNames(classes.chip, messageStyles.bgWarning)} />
-                <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.orangeProgress)} size={100} value={28} />
+                <Typography gutterBottom>Safety</Typography>
+                <Chip label="Good" className={classNames(classes.chip, messageStyles.bgSuccess)} />
+                <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.greenProgress)} size={100} value={55} />
               </Grid>
               <Grid className={classes.centerItem} item md={6}>
-                <Typography gutterBottom>Deploy Progress</Typography>
+                <Typography gutterBottom>Facilities</Typography>
                 <Chip label="Medium" className={classNames(classes.chip, messageStyles.bgInfo)} />
-                <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.blueProgress)} size={100} value={70} />
+                <CircularProgress variant="determinate" className={classNames(classes.progressCircle, classes.blueProgress)} size={100} value={40} />
               </Grid>
             </Grid>
           </Grid>

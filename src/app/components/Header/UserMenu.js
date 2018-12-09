@@ -44,7 +44,7 @@ class UserMenu extends React.Component {
   render() {
     const { classes } = this.props;
     const { anchorEl, openMenu } = this.state;
-    show(this.props.user);
+    // show(this.props.user);
     return (
       <div className="userMenu">
         <IconButton

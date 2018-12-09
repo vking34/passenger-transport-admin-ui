@@ -29,9 +29,6 @@ import TicketPage from './Ticket/TicketPage';
 // Themes
 import Themes from './Themes';
 
-// Tables
-import CrudTable from './Tables/CrudTable';
-
 // Other
 import NotFound from './NotFound/NotFound';
 import NotFoundDedicated from './Pages/Standalone/NotFoundDedicated';

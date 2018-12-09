@@ -49,11 +49,11 @@ class DashboardV2 extends PureComponent {
               liked={1}
               shared={20}
               commented={15}
-              date="Sept, 25 2018"
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed urna in justo euismod condimentum."
+              date="Dec, 13 2018"
+              content="Fake data"
               image={imgApi[16]}
               avatar={avatarApi[6]}
-              name="John Doe"
+              name="Vương"
             />
           </Grid>
           <Grid item sm={6} xs={12}>

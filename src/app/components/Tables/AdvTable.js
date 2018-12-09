@@ -88,6 +88,7 @@ class AdvTable extends React.Component {
   };
 
   handleChangePage = (event, page) => {
+    console.log(page);
     this.setState({ page });
   };
 
@@ -107,6 +108,18 @@ class AdvTable extends React.Component {
 
     // Show result base on keyword
     this.setState({ filterText: value.toLowerCase() });
+  }
+
+  componentWillMount(){
+    const {
+    
+      rowsPerPage,
+      page
+    
+    } = this.state;
+
+      
+    console.log(rowsPerPage);
   }
 
   render() {

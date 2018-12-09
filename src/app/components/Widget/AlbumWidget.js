@@ -14,7 +14,7 @@ class AlbumWidget extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <PapperBlock noMargin title="My Albums (4)" whiteBg desc="">
+      <PapperBlock noMargin title="Albums (4)" whiteBg desc="">
         <div className={classes.albumRoot}>
           <GridList cellHeight={180} className={classes.gridList}>
             {

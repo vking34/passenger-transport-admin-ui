@@ -61,7 +61,7 @@ class CarouselWidget extends React.Component {
       infinite: true,
       centerMode: false,
       speed: 500,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 5500,
       pauseOnHover: true,
       autoplay: true,
       slidesToShow: 3,

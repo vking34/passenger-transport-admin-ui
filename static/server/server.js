@@ -61,7 +61,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "http://localhost:3001/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 144);
+/******/ 	return __webpack_require__(__webpack_require__.s = 75);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -112,205 +112,105 @@ module.exports = require("@material-ui/core/styles");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ErrorWrap = exports.AddEventForm = exports.AddEvent = exports.DetailEvent = exports.EventCalendar = exports.ContactDetail = exports.ContactHeader = exports.ContactList = exports.AddContact = exports.Cart = exports.FloatingPanel = exports.SearchProduct = exports.IdentityCard = exports.VideoCard = exports.ProductCard = exports.PostCard = exports.PlayerCard = exports.NewsCard = exports.GeneralCard = exports.ProfileCard = exports.Quote = exports.LimitedBadges = exports.RegisterForm = exports.LoginForm = exports.Notification = exports.EmptyData = exports.AdvTable = exports.CrudTable = exports.TreeTable = exports.AlbumWidget = exports.CarouselWidget = exports.AreaChartWidget = exports.CounterIconsWidget = exports.CounterWidget = exports.PapperBlock = exports.TicketTable = exports.WScheduleTable = exports.TScheduleTable = exports.ClientTable = exports.AssistantTable = exports.DriverTable = exports.TransporterTable = exports.RouteTable = exports.BreadCrumb = exports.Footer = exports.Sidebar = exports.Header = exports.Dashboard = exports.Outer = exports.App = undefined;
+exports.ErrorWrap = exports.PostCard = exports.Notification = exports.CrudTable = exports.AlbumWidget = exports.CarouselWidget = exports.AreaChartWidget = exports.CounterIconsWidget = exports.CounterWidget = exports.PapperBlock = exports.TicketTable = exports.WScheduleTable = exports.TScheduleTable = exports.ClientTable = exports.AssistantTable = exports.DriverTable = exports.TransporterTable = exports.RouteTable = exports.BreadCrumb = exports.Footer = exports.Sidebar = exports.Header = exports.Dashboard = exports.Outer = exports.App = undefined;
 
-var _App2 = __webpack_require__(/*! ./App/App */ 156);
+var _App2 = __webpack_require__(/*! ./App/App */ 87);
 
 var _App3 = _interopRequireDefault(_App2);
 
-var _Outer2 = __webpack_require__(/*! ./App/Outer */ 160);
+var _Outer2 = __webpack_require__(/*! ./App/Outer */ 91);
 
 var _Outer3 = _interopRequireDefault(_Outer2);
 
-var _Dashboard2 = __webpack_require__(/*! ./App/Dashboard */ 161);
+var _Dashboard2 = __webpack_require__(/*! ./App/Dashboard */ 92);
 
 var _Dashboard3 = _interopRequireDefault(_Dashboard2);
 
-var _Header2 = __webpack_require__(/*! ./Header/Header */ 163);
+var _Header2 = __webpack_require__(/*! ./Header/Header */ 94);
 
 var _Header3 = _interopRequireDefault(_Header2);
 
-var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 171);
+var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 105);
 
 var _Sidebar3 = _interopRequireDefault(_Sidebar2);
 
-var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 178);
+var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 114);
 
 var _Footer3 = _interopRequireDefault(_Footer2);
 
-var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 180);
+var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 116);
 
 var _BreadCrumb3 = _interopRequireDefault(_BreadCrumb2);
 
-var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 182);
+var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 118);
 
 var _RouteTable3 = _interopRequireDefault(_RouteTable2);
 
-var _TransporterTable2 = __webpack_require__(/*! ./Transporter/TransporterTable */ 184);
+var _TransporterTable2 = __webpack_require__(/*! ./Transporter/TransporterTable */ 120);
 
 var _TransporterTable3 = _interopRequireDefault(_TransporterTable2);
 
-var _DriverTable2 = __webpack_require__(/*! ./Driver/DriverTable */ 186);
+var _DriverTable2 = __webpack_require__(/*! ./Driver/DriverTable */ 122);
 
 var _DriverTable3 = _interopRequireDefault(_DriverTable2);
 
-var _AssistantTable2 = __webpack_require__(/*! ./Assistant/AssistantTable */ 188);
+var _AssistantTable2 = __webpack_require__(/*! ./Assistant/AssistantTable */ 124);
 
 var _AssistantTable3 = _interopRequireDefault(_AssistantTable2);
 
-var _ClientTable2 = __webpack_require__(/*! ./Client/ClientTable */ 190);
+var _ClientTable2 = __webpack_require__(/*! ./Client/ClientTable */ 126);
 
 var _ClientTable3 = _interopRequireDefault(_ClientTable2);
 
-var _TScheduleTable2 = __webpack_require__(/*! ./Schedule/TScheduleTable */ 192);
+var _TScheduleTable2 = __webpack_require__(/*! ./Schedule/TScheduleTable */ 128);
 
 var _TScheduleTable3 = _interopRequireDefault(_TScheduleTable2);
 
-var _WScheduleTable2 = __webpack_require__(/*! ./Schedule/WScheduleTable */ 194);
+var _WScheduleTable2 = __webpack_require__(/*! ./Schedule/WScheduleTable */ 130);
 
 var _WScheduleTable3 = _interopRequireDefault(_WScheduleTable2);
 
-var _TicketTable2 = __webpack_require__(/*! ./Ticket/TicketTable */ 196);
+var _TicketTable2 = __webpack_require__(/*! ./Ticket/TicketTable */ 132);
 
 var _TicketTable3 = _interopRequireDefault(_TicketTable2);
 
-var _PapperBlock2 = __webpack_require__(/*! ./PapperBlock/PapperBlock */ 43);
+var _PapperBlock2 = __webpack_require__(/*! ./PapperBlock/PapperBlock */ 67);
 
 var _PapperBlock3 = _interopRequireDefault(_PapperBlock2);
 
-var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 199);
+var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 134);
 
 var _CounterWidget3 = _interopRequireDefault(_CounterWidget2);
 
-var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 201);
+var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 136);
 
 var _CounterIconsWidget3 = _interopRequireDefault(_CounterIconsWidget2);
 
-var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 208);
+var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 148);
 
 var _AreaChartWidget3 = _interopRequireDefault(_AreaChartWidget2);
 
-var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 216);
+var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 160);
 
 var _CarouselWidget3 = _interopRequireDefault(_CarouselWidget2);
 
-var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 222);
+var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 168);
 
 var _AlbumWidget3 = _interopRequireDefault(_AlbumWidget2);
 
-var _TreeTable2 = __webpack_require__(/*! ./Tables/TreeTable */ 227);
-
-var _TreeTable3 = _interopRequireDefault(_TreeTable2);
-
-var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 231);
+var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 173);
 
 var _CrudTable3 = _interopRequireDefault(_CrudTable2);
 
-var _AdvTable2 = __webpack_require__(/*! ./Tables/AdvTable */ 245);
-
-var _AdvTable3 = _interopRequireDefault(_AdvTable2);
-
-var _EmptyData2 = __webpack_require__(/*! ./Tables/EmptyData */ 251);
-
-var _EmptyData3 = _interopRequireDefault(_EmptyData2);
-
-var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 253);
+var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 198);
 
 var _Notification3 = _interopRequireDefault(_Notification2);
 
-var _LoginForm2 = __webpack_require__(/*! ./Forms/LoginForm */ 255);
-
-var _LoginForm3 = _interopRequireDefault(_LoginForm2);
-
-var _RegisterForm2 = __webpack_require__(/*! ./Forms/RegisterForm */ 259);
-
-var _RegisterForm3 = _interopRequireDefault(_RegisterForm2);
-
-var _LimitedBadges2 = __webpack_require__(/*! ./Badges/LimitedBadges */ 262);
-
-var _LimitedBadges3 = _interopRequireDefault(_LimitedBadges2);
-
-var _Quote2 = __webpack_require__(/*! ./Quote/Quote */ 263);
-
-var _Quote3 = _interopRequireDefault(_Quote2);
-
-var _ProfileCard2 = __webpack_require__(/*! ./CardPaper/ProfileCard */ 264);
-
-var _ProfileCard3 = _interopRequireDefault(_ProfileCard2);
-
-var _GeneralCard2 = __webpack_require__(/*! ./CardPaper/GeneralCard */ 268);
-
-var _GeneralCard3 = _interopRequireDefault(_GeneralCard2);
-
-var _NewsCard2 = __webpack_require__(/*! ./CardPaper/NewsCard */ 269);
-
-var _NewsCard3 = _interopRequireDefault(_NewsCard2);
-
-var _PlayerCard2 = __webpack_require__(/*! ./CardPaper/PlayerCard */ 270);
-
-var _PlayerCard3 = _interopRequireDefault(_PlayerCard2);
-
-var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 273);
+var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 201);
 
 var _PostCard3 = _interopRequireDefault(_PostCard2);
 
-var _ProductCard2 = __webpack_require__(/*! ./CardPaper/ProductCard */ 274);
-
-var _ProductCard3 = _interopRequireDefault(_ProductCard2);
-
-var _VideoCard2 = __webpack_require__(/*! ./CardPaper/VideoCard */ 276);
-
-var _VideoCard3 = _interopRequireDefault(_VideoCard2);
-
-var _IdentityCard2 = __webpack_require__(/*! ./CardPaper/IdentityCard */ 277);
-
-var _IdentityCard3 = _interopRequireDefault(_IdentityCard2);
-
-var _SearchProduct2 = __webpack_require__(/*! ./Search/SearchProduct */ 278);
-
-var _SearchProduct3 = _interopRequireDefault(_SearchProduct2);
-
-var _FloatingPanel2 = __webpack_require__(/*! ./Panel/FloatingPanel */ 84);
-
-var _FloatingPanel3 = _interopRequireDefault(_FloatingPanel2);
-
-var _Cart2 = __webpack_require__(/*! ./Cart/Cart */ 130);
-
-var _Cart3 = _interopRequireDefault(_Cart2);
-
-var _AddContact2 = __webpack_require__(/*! ./Contact/AddContact */ 286);
-
-var _AddContact3 = _interopRequireDefault(_AddContact2);
-
-var _ContactList2 = __webpack_require__(/*! ./Contact/ContactList */ 291);
-
-var _ContactList3 = _interopRequireDefault(_ContactList2);
-
-var _ContactHeader2 = __webpack_require__(/*! ./Contact/ContactHeader */ 292);
-
-var _ContactHeader3 = _interopRequireDefault(_ContactHeader2);
-
-var _ContactDetail2 = __webpack_require__(/*! ./Contact/ContactDetail */ 293);
-
-var _ContactDetail3 = _interopRequireDefault(_ContactDetail2);
-
-var _EventCalendar2 = __webpack_require__(/*! ./Calendar/EventCalendar */ 296);
-
-var _EventCalendar3 = _interopRequireDefault(_EventCalendar2);
-
-var _DetailEvent2 = __webpack_require__(/*! ./Calendar/DetailEvent */ 300);
-
-var _DetailEvent3 = _interopRequireDefault(_DetailEvent2);
-
-var _AddEvent2 = __webpack_require__(/*! ./Calendar/AddEvent */ 303);
-
-var _AddEvent3 = _interopRequireDefault(_AddEvent2);
-
-var _AddEventForm2 = __webpack_require__(/*! ./Calendar/AddEventForm */ 136);
-
-var _AddEventForm3 = _interopRequireDefault(_AddEventForm2);
-
-var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 305);
+var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 214);
 
 var _ErrorWrap3 = _interopRequireDefault(_ErrorWrap2);
 
@@ -365,50 +265,45 @@ exports.AreaChartWidget = _AreaChartWidget3.default;
 exports.CarouselWidget = _CarouselWidget3.default;
 exports.AlbumWidget = _AlbumWidget3.default;
 // Table Components
+// export TreeTable from './Tables/TreeTable';
 
-exports.TreeTable = _TreeTable3.default;
 exports.CrudTable = _CrudTable3.default;
-exports.AdvTable = _AdvTable3.default;
-exports.EmptyData = _EmptyData3.default;
+// export AdvTable from './Tables/AdvTable';
+// export EmptyData from './Tables/EmptyData';
 // Form
 
 exports.Notification = _Notification3.default;
-exports.LoginForm = _LoginForm3.default;
-exports.RegisterForm = _RegisterForm3.default;
+// export LoginForm from './Forms/LoginForm';
+// export RegisterForm from './Forms/RegisterForm';
 // UI
-
-exports.LimitedBadges = _LimitedBadges3.default;
-exports.Quote = _Quote3.default;
+// export LimitedBadges from './Badges/LimitedBadges';
+// export Quote from './Quote/Quote';
 // Card
+// export ProfileCard from './CardPaper/ProfileCard';
+// export GeneralCard from './CardPaper/GeneralCard';
+// export NewsCard from './CardPaper/NewsCard';
+// export PlayerCard from './CardPaper/PlayerCard';
 
-exports.ProfileCard = _ProfileCard3.default;
-exports.GeneralCard = _GeneralCard3.default;
-exports.NewsCard = _NewsCard3.default;
-exports.PlayerCard = _PlayerCard3.default;
 exports.PostCard = _PostCard3.default;
-exports.ProductCard = _ProductCard3.default;
-exports.VideoCard = _VideoCard3.default;
-exports.IdentityCard = _IdentityCard3.default;
+// export ProductCard from './CardPaper/ProductCard';
+// export VideoCard from './CardPaper/VideoCard';
+// export IdentityCard from './CardPaper/IdentityCard';
 // Search
-
-exports.SearchProduct = _SearchProduct3.default;
+// export SearchProduct from './Search/SearchProduct';
 // export ProductGallery from './Gallery/ProductGallery';
 // Panel
-
-exports.FloatingPanel = _FloatingPanel3.default;
-exports.Cart = _Cart3.default;
+// export FloatingPanel from './Panel/FloatingPanel';
+// export Cart from './Cart/Cart';
 // Contact
-
-exports.AddContact = _AddContact3.default;
-exports.ContactList = _ContactList3.default;
-exports.ContactHeader = _ContactHeader3.default;
-exports.ContactDetail = _ContactDetail3.default;
+// export AddContact from './Contact/AddContact';
+// export ContactList from './Contact/ContactList';
+// export ContactHeader from './Contact/ContactHeader';
+// export ContactDetail from './Contact/ContactDetail';
 // Calendar
-
-exports.EventCalendar = _EventCalendar3.default;
-exports.DetailEvent = _DetailEvent3.default;
-exports.AddEvent = _AddEvent3.default;
-exports.AddEventForm = _AddEventForm3.default;
+// export EventCalendar from './Calendar/EventCalendar';
+// export DetailEvent from './Calendar/DetailEvent';
+// export AddEvent from './Calendar/AddEvent';
+// export AddEventForm from './Calendar/AddEventForm';
 // Error
 
 exports.ErrorWrap = _ErrorWrap3.default;
@@ -424,14 +319,32 @@ var _temp = function () {
 
 /***/ }),
 /* 4 */
-/*!*****************************!*\
-  !*** external "classnames" ***!
-  \*****************************/
+/*!***********************************!*\
+  !*** ./src/app/constants/show.js ***!
+  \***********************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("classnames");
+"use strict";
+
+
+var show = function show(data) {
+    console.log(data);
+};
+
+module.exports = show;
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(show, "show", "/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/show.js");
+}();
+
+;
 
 /***/ }),
 /* 5 */
@@ -585,79 +498,6 @@ var _temp = function () {
 
 /***/ }),
 /* 6 */
-/*!******************************************!*\
-  !*** external "@material-ui/core/Paper" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Paper");
-
-/***/ }),
-/* 7 */
-/*!***********************************!*\
-  !*** ./src/app/constants/show.js ***!
-  \***********************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var show = function show(data) {
-    console.log(data);
-};
-
-module.exports = show;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(show, "show", "/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/show.js");
-}();
-
-;
-
-/***/ }),
-/* 8 */
-/*!***********************************************!*\
-  !*** external "@material-ui/core/Typography" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Typography");
-
-/***/ }),
-/* 9 */
-/*!******************************!*\
-  !*** external "react-redux" ***!
-  \******************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("react-redux");
-
-/***/ }),
-/* 10 */
-/*!***********************************************!*\
-  !*** external "@material-ui/core/IconButton" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/IconButton");
-
-/***/ }),
-/* 11 */
 /*!****************************!*\
   !*** external "immutable" ***!
   \****************************/
@@ -668,18 +508,18 @@ module.exports = require("@material-ui/core/IconButton");
 module.exports = require("immutable");
 
 /***/ }),
-/* 12 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/TableCell" ***!
-  \**********************************************/
+/* 7 */
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/TableCell");
+module.exports = require("react-redux");
 
 /***/ }),
-/* 13 */
+/* 8 */
 /*!*************************************!*\
   !*** ./src/app/constants/styles.js ***!
   \*************************************/
@@ -711,7 +551,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 14 */
+/* 9 */
 /*!************************!*\
   !*** external "redux" ***!
   \************************/
@@ -722,67 +562,29 @@ var _temp = function () {
 module.exports = require("redux");
 
 /***/ }),
-/* 15 */
-/*!*******************************************!*\
-  !*** external "@material-ui/core/Button" ***!
-  \*******************************************/
+/* 10 */
+/*!******************************************!*\
+  !*** external "@material-ui/core/Paper" ***!
+  \******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Button");
+module.exports = require("@material-ui/core/Paper");
 
 /***/ }),
-/* 16 */
-/*!**********************************************!*\
-  !*** ./src/app/styles/components/Table.scss ***!
-  \**********************************************/
+/* 11 */
+/*!*****************************!*\
+  !*** external "classnames" ***!
+  \*****************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = {
-	"stripped": "stripped__2fOpn",
-	"hover": "hover__1FySl",
-	"bordered": "bordered__I1sSQ",
-	"small": "small__1e1Mc",
-	"medium": "medium__39KeO",
-	"big": "big__1PheA",
-	"nodata": "nodata___RV9Q",
-	"hideAction": "hideAction__2or4r",
-	"tableCrud": "tableCrud__2kmsS",
-	"hiddenField": "hiddenField__2nKRO",
-	"editing": "editing__XO4xW",
-	"crudInput": "crudInput__2BpzG",
-	"toggleCell": "toggleCell__DxhlB",
-	"coverReadonly": "coverReadonly__16T7D",
-	"show": "show__3rVz1"
-};
+module.exports = require("classnames");
 
 /***/ }),
-/* 17 */
-/*!********************************************!*\
-  !*** external "@material-ui/core/Toolbar" ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Toolbar");
-
-/***/ }),
-/* 18 */
-/*!*********************************************!*\
-  !*** external "@material-ui/core/TableRow" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/TableRow");
-
-/***/ }),
-/* 19 */
+/* 12 */
 /*!*******************************************!*\
   !*** ./src/app/constants/notifMessage.js ***!
   \*******************************************/
@@ -816,7 +618,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 20 */
+/* 13 */
 /*!************************************!*\
   !*** ./src/app/constants/brand.js ***!
   \************************************/
@@ -846,73 +648,29 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 21 */
-/*!********************************************!*\
-  !*** external "@material-ui/core/Divider" ***!
-  \********************************************/
+/* 14 */
+/*!***********************************************!*\
+  !*** external "@material-ui/core/IconButton" ***!
+  \***********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Divider");
+module.exports = require("@material-ui/core/IconButton");
 
 /***/ }),
-/* 22 */
-/*!******************************************!*\
-  !*** external "@material-ui/core/Table" ***!
-  \******************************************/
+/* 15 */
+/*!****************************************************!*\
+  !*** external "@material-ui/core/TablePagination" ***!
+  \****************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Table");
+module.exports = require("@material-ui/core/TablePagination");
 
 /***/ }),
-/* 23 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/TableHead" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/TableHead");
-
-/***/ }),
-/* 24 */
-/*!*******************************************!*\
-  !*** external "@material-ui/core/Avatar" ***!
-  \*******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Avatar");
-
-/***/ }),
-/* 25 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/TableBody" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/TableBody");
-
-/***/ }),
-/* 26 */
-/*!*******************************!*\
-  !*** external "react-helmet" ***!
-  \*******************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("react-helmet");
-
-/***/ }),
-/* 27 */
+/* 16 */
 /*!******************************!*\
   !*** external "cross-fetch" ***!
   \******************************/
@@ -923,7 +681,7 @@ module.exports = require("react-helmet");
 module.exports = require("cross-fetch");
 
 /***/ }),
-/* 28 */
+/* 17 */
 /*!***************************************!*\
   !*** ./src/app/constants/urls/api.js ***!
   \***************************************/
@@ -989,18 +747,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 29 */
-/*!*****************************************!*\
-  !*** external "@material-ui/core/Card" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Card");
-
-/***/ }),
-/* 30 */
+/* 18 */
 /*!***********************************!*\
   !*** external "react-router-dom" ***!
   \***********************************/
@@ -1011,279 +758,67 @@ module.exports = require("@material-ui/core/Card");
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 31 */
-/*!*************************************************!*\
-  !*** external "@material-ui/core/ListItemText" ***!
-  \*************************************************/
+/* 19 */
+/*!***********************************************!*\
+  !*** external "@material-ui/core/Typography" ***!
+  \***********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/ListItemText");
+module.exports = require("@material-ui/core/Typography");
 
 /***/ }),
-/* 32 */
-/*!********************************************!*\
-  !*** external "@material-ui/core/Tooltip" ***!
-  \********************************************/
+/* 20 */
+/*!**********************************************!*\
+  !*** external "@material-ui/core/TableCell" ***!
+  \**********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Tooltip");
+module.exports = require("@material-ui/core/TableCell");
 
 /***/ }),
-/* 33 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/CardContent" ***!
-  \************************************************/
+/* 21 */
+/*!**********************************************!*\
+  !*** ./src/app/styles/components/Table.scss ***!
+  \**********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/CardContent");
-
-/***/ }),
-/* 34 */
-/*!*******************************************************!*\
-  !*** ./src/app/components/CardPaper/cardStyle-jss.js ***!
-  \*******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 73);
-
-var _pink2 = _interopRequireDefault(_pink);
-
-var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 74);
-
-var _orange2 = _interopRequireDefault(_orange);
-
-var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 123);
-
-var _lightGreen2 = _interopRequireDefault(_lightGreen);
-
-var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 120);
-
-var _blueGrey2 = _interopRequireDefault(_blueGrey);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    divider: {
-      margin: theme.spacing.unit * 3 + 'px 0'
-    },
-    card: {
-      minWidth: 275
-    },
-    liked: {
-      color: _pink2.default[500]
-    },
-    shared: {
-      color: _lightGreen2.default[500]
-    },
-    num: {
-      fontSize: 14,
-      marginLeft: 5
-    },
-    rightIcon: {
-      marginLeft: 'auto',
-      display: 'flex',
-      alignItems: 'center'
-    },
-    button: {
-      marginRight: theme.spacing.unit
-    },
-    media: {
-      height: 0,
-      paddingTop: '56.25%' // 16:9
-    },
-    cardPlayer: {
-      display: 'flex',
-      justifyContent: 'space-between'
-    },
-    details: {
-      display: 'flex',
-      flexDirection: 'column'
-    },
-    content: {
-      flex: '1 0 auto'
-    },
-    cover: {
-      width: 150,
-      height: 150
-    },
-    controls: {
-      display: 'flex',
-      alignItems: 'center',
-      paddingLeft: theme.spacing.unit,
-      paddingBottom: theme.spacing.unit
-    },
-    playIcon: {
-      height: 38,
-      width: 38
-    },
-    cardSocmed: {
-      minWidth: 275
-    },
-    cardProduct: {
-      position: 'relative'
-    },
-    mediaProduct: {
-      height: 0,
-      paddingTop: '60.25%' // 16:9
-    },
-    rightAction: {
-      marginLeft: 'auto',
-      display: 'flex',
-      alignItems: 'center'
-    },
-    floatingButtonWrap: {
-      position: 'relative',
-      paddingTop: 50
-    },
-    buttonAdd: {
-      position: 'absolute',
-      right: 20,
-      top: -20
-    },
-    buttonAddList: {
-      display: 'none',
-      marginLeft: 10
-    },
-    title: {
-      fontSize: 20,
-      height: 30
-    },
-    ratting: {
-      margin: '10px 0',
-      '& button': {
-        width: 24,
-        height: 24
-      }
-    },
-    status: {
-      position: 'absolute',
-      right: 0,
-      top: 0,
-      padding: 10,
-      '& > *': {
-        margin: 5
-      }
-    },
-    desc: {
-      height: 45,
-      overflow: 'hidden'
-    },
-    chipDiscount: {
-      background: theme.palette.primary.light,
-      color: theme.palette.primary.dark
-    },
-    chipSold: {
-      background: _blueGrey2.default[500],
-      color: theme.palette.getContrastText(_blueGrey2.default[500])
-    },
-    contentProfle: {
-      flex: '1 0 auto',
-      textAlign: 'center'
-    },
-    mediaProfile: {
-      height: 0,
-      paddingTop: '36.25%' // 16:9
-    },
-    actions: {
-      display: 'flex'
-    },
-    avatarBig: {
-      width: 80,
-      height: 80,
-      margin: '-56px auto 10px',
-      background: theme.palette.secondary.dark
-    },
-    name: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    },
-    buttonProfile: {
-      margin: 20
-    },
-    bottomLink: {
-      width: '100%'
-    },
-    price: {
-      paddingBottom: 20
-    },
-    contentProfile: {
-      textAlign: 'center'
-    },
-    verified: {
-      fontSize: 16,
-      color: theme.palette.primary.main
-    },
-    cardList: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      '& $buttonAddList': {
-        display: 'inline-block'
-      },
-      '& $floatingButtonWrap': {
-        flex: 1
-      },
-      '& $buttonAdd': {
-        display: 'none'
-      },
-      '& $status': {
-        right: 'auto',
-        left: 0
-      },
-      '& $mediaProduct': {
-        width: 300,
-        paddingTop: '21.25%'
-      },
-      '& $price': {
-        flexDirection: 'column',
-        justifyContent: 'center',
-        '& button': {
-          marginTop: 20
-        }
-      }
-    },
-    star: {
-      top: 5,
-      position: 'relative',
-      color: _orange2.default[500]
-    }
-  };
+module.exports = {
+	"stripped": "stripped__2fOpn",
+	"hover": "hover__1FySl",
+	"bordered": "bordered__I1sSQ",
+	"small": "small__1e1Mc",
+	"medium": "medium__39KeO",
+	"big": "big__1PheA",
+	"nodata": "nodata___RV9Q",
+	"hideAction": "hideAction__2or4r",
+	"tableCrud": "tableCrud__2kmsS",
+	"hiddenField": "hiddenField__2nKRO",
+	"editing": "editing__XO4xW",
+	"crudInput": "crudInput__2BpzG",
+	"toggleCell": "toggleCell__DxhlB",
+	"coverReadonly": "coverReadonly__16T7D",
+	"show": "show__3rVz1"
 };
 
-var _default = styles;
-exports.default = _default;
-;
+/***/ }),
+/* 22 */
+/*!*******************************!*\
+  !*** external "react-helmet" ***!
+  \*******************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
-}();
-
-;
+module.exports = require("react-helmet");
 
 /***/ }),
-/* 35 */
+/* 23 */
 /*!****************************************************!*\
   !*** ./src/app/constants/template/pageTemplate.js ***!
   \****************************************************/
@@ -1302,21 +837,21 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _brand = __webpack_require__(/*! ../brand.js */ 20);
+var _brand = __webpack_require__(/*! ../brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _helmet = __webpack_require__(/*! ../helmet.js */ 139);
+var _helmet = __webpack_require__(/*! ../helmet.js */ 72);
 
 var _helmet2 = _interopRequireDefault(_helmet);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1375,7 +910,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 36 */
+/* 24 */
 /*!********************************************!*\
   !*** ./src/app/constants/reducer/table.js ***!
   \********************************************/
@@ -1391,7 +926,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.initialItem = exports.initialImmutableState = undefined;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
 function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
 
@@ -1445,18 +980,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 37 */
-/*!*********************************************!*\
-  !*** external "@material-ui/core/ListItem" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/ListItem");
-
-/***/ }),
-/* 38 */
+/* 25 */
 /*!*********************************************!*\
   !*** ./src/app/constants/request/header.js ***!
   \*********************************************/
@@ -1488,524 +1012,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 39 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/CardMedia" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/CardMedia");
-
-/***/ }),
-/* 40 */
-/*!*****************************************!*\
-  !*** external "@material-ui/core/Menu" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Menu");
-
-/***/ }),
-/* 41 */
-/*!*********************************************!*\
-  !*** external "@material-ui/core/MenuItem" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/MenuItem");
-
-/***/ }),
-/* 42 */
-/*!*****************************************!*\
-  !*** external "@material-ui/core/List" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/List");
-
-/***/ }),
-/* 43 */
-/*!*******************************************************!*\
-  !*** ./src/app/components/PapperBlock/PapperBlock.js ***!
-  \*******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 198);
-
-var _papperStyleJss2 = _interopRequireDefault(_papperStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function PaperSheet(props) {
-  var classes = props.classes,
-      title = props.title,
-      desc = props.desc,
-      children = props.children,
-      whiteBg = props.whiteBg,
-      noMargin = props.noMargin,
-      colorMode = props.colorMode,
-      overflowX = props.overflowX;
-
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(
-      _Paper2.default,
-      { className: (0, _classnames2.default)(classes.root, noMargin && classes.noMargin, colorMode && classes.colorMode), elevation: 4 },
-      _react2.default.createElement(
-        _Typography2.default,
-        { variant: 'title', component: 'h2', className: classes.title },
-        title
-      ),
-      _react2.default.createElement(
-        _Typography2.default,
-        { component: 'p', className: classes.description },
-        desc
-      ),
-      _react2.default.createElement(
-        'section',
-        { className: (0, _classnames2.default)(classes.content, whiteBg && classes.whiteBg, overflowX && classes.overflowX) },
-        children
-      )
-    )
-  );
-}
-
-PaperSheet.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  desc: _propTypes2.default.string.isRequired,
-  children: _propTypes2.default.node.isRequired,
-  whiteBg: _propTypes2.default.bool,
-  colorMode: _propTypes2.default.bool,
-  noMargin: _propTypes2.default.bool,
-  overflowX: _propTypes2.default.bool
-};
-
-PaperSheet.defaultProps = {
-  whiteBg: false,
-  noMargin: false,
-  colorMode: false,
-  overflowX: false
-};
-
-var _default = (0, _styles.withStyles)(_papperStyleJss2.default)(PaperSheet);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(PaperSheet, 'PaperSheet', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
-}();
-
-;
-
-/***/ }),
-/* 44 */
-/*!*****************************************************!*\
-  !*** external "@material-ui/core/FormControlLabel" ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/FormControlLabel");
-
-/***/ }),
-/* 45 */
-/*!***************************************!*\
-  !*** external "redux-form/immutable" ***!
-  \***************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("redux-form/immutable");
-
-/***/ }),
-/* 46 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/CardActions" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/CardActions");
-
-/***/ }),
-/* 47 */
-/*!***************************************************!*\
-  !*** ./src/app/components/Contact/contact-jss.js ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _amber = __webpack_require__(/*! @material-ui/core/colors/amber */ 288);
-
-var _amber2 = _interopRequireDefault(_amber);
-
-var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 106);
-
-var _blue2 = _interopRequireDefault(_blue);
-
-var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 75);
-
-var _deepPurple2 = _interopRequireDefault(_deepPurple);
-
-var _teal = __webpack_require__(/*! @material-ui/core/colors/teal */ 289);
-
-var _teal2 = _interopRequireDefault(_teal);
-
-var _brown = __webpack_require__(/*! @material-ui/core/colors/brown */ 290);
-
-var _brown2 = _interopRequireDefault(_brown);
-
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 56);
-
-var _red2 = _interopRequireDefault(_red);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var drawerWidth = 240;
-var drawerHeight = 630;
-
-var styles = function styles(theme) {
-  var _root, _drawerPaper, _bottomFilter;
-
-  return {
-    root: (_root = {
-      flexGrow: 1,
-      height: drawerHeight,
-      zIndex: 1,
-      overflow: 'hidden',
-      position: 'relative'
-    }, _defineProperty(_root, theme.breakpoints.up('sm'), {
-      display: 'flex'
-    }), _defineProperty(_root, 'borderRadius', 2), _defineProperty(_root, 'boxShadow', theme.shadows[2]), _root),
-    addBtn: {
-      position: 'fixed',
-      bottom: 30,
-      right: 30,
-      zIndex: 100
-    },
-    appBar: {
-      zIndex: theme.zIndex.drawer + 1,
-      background: theme.palette.secondary.main,
-      height: 64,
-      display: 'flex',
-      justifyContent: 'center',
-      '& $avatar': {
-        marginRight: 10
-      },
-      '& h2': {
-        flex: 1
-      },
-      '& $button': {
-        color: theme.palette.common.white
-      }
-    },
-    button: _defineProperty({}, theme.breakpoints.down('sm'), {
-      display: 'none'
-    }),
-    online: {
-      background: '#CDDC39'
-    },
-    bussy: {
-      background: '#EF5350'
-    },
-    idle: {
-      background: '#FFC107'
-    },
-    offline: {
-      background: '#9E9E9E'
-    },
-    status: {
-      padding: '2px 6px',
-      '& span': {
-        borderRadius: '50%',
-        display: 'inline-block',
-        marginRight: 2,
-        width: 10,
-        height: 10,
-        border: '1px solid ' + theme.palette.common.white
-      }
-    },
-    appBarShift: _defineProperty({
-      marginLeft: 0,
-      width: '100%',
-      transition: theme.transitions.create(['width', 'margin'], {
-        easing: theme.transitions.easing.sharp,
-        duration: theme.transitions.duration.enteringScreen
-      })
-    }, theme.breakpoints.up('md'), {
-      marginLeft: drawerWidth,
-      width: 'calc(100% - ' + drawerWidth + 'px)'
-    }),
-    drawerPaper: (_drawerPaper = {}, _defineProperty(_drawerPaper, theme.breakpoints.up('sm'), {
-      width: drawerWidth
-    }), _defineProperty(_drawerPaper, 'position', 'relative'), _defineProperty(_drawerPaper, 'paddingBottom', 65), _defineProperty(_drawerPaper, 'height', drawerHeight), _drawerPaper),
-    clippedRight: {},
-    toolbar: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 8,
-      position: 'relative',
-      '&$clippedRight': {
-        marginTop: 66
-      }
-    },
-    content: {
-      flexGrow: 1,
-      paddingTop: 64,
-      backgroundColor: theme.palette.background.paper
-    },
-    detailPopup: _defineProperty({}, theme.breakpoints.down('xs'), {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      zIndex: 1200,
-      width: '100%',
-      overflow: 'auto',
-      height: 'calc(100% - 50px)'
-    }),
-    title: {
-      display: 'flex',
-      flex: 1,
-      '& svg': {
-        marginRight: 5
-      }
-    },
-    flex: {
-      flex: 1
-    },
-    searchWrapper: {
-      fontFamily: theme.typography.fontFamily,
-      position: 'relative',
-      borderRadius: 2,
-      display: 'block',
-      background: theme.palette.grey[100]
-    },
-    search: {
-      width: 'auto',
-      height: '100%',
-      top: 0,
-      left: 20,
-      position: 'absolute',
-      pointerEvents: 'none',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center'
-    },
-    input: {
-      font: 'inherit',
-      padding: theme.spacing.unit + 'px ' + theme.spacing.unit + 'px ' + theme.spacing.unit + 'px ' + theme.spacing.unit * 6 + 'px',
-      border: 0,
-      display: 'block',
-      verticalAlign: 'middle',
-      whiteSpace: 'normal',
-      background: 'none',
-      margin: 0, // Reset for Safari
-      color: 'inherit',
-      width: '100%',
-      '&:focus': {
-        outline: 0
-      }
-    },
-    bottomFilter: (_bottomFilter = {
-      position: 'absolute',
-      width: '100%'
-    }, _defineProperty(_bottomFilter, theme.breakpoints.up('sm'), {
-      width: 240
-    }), _defineProperty(_bottomFilter, 'zIndex', 2000), _defineProperty(_bottomFilter, 'bottom', 0), _defineProperty(_bottomFilter, 'left', 0), _defineProperty(_bottomFilter, 'background', theme.palette.grey[100]), _defineProperty(_bottomFilter, 'borderTop', '1px solid ' + theme.palette.grey[300]), _defineProperty(_bottomFilter, 'borderRight', '1px solid ' + theme.palette.grey[300]), _bottomFilter),
-    avatar: {},
-    userName: {
-      textAlign: 'left'
-    },
-    cover: {
-      padding: 20,
-      height: 130,
-      position: 'relative',
-      background: theme.palette.primary.light,
-      width: '100%',
-      display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'flex-start',
-      '& $avatar': {
-        boxShadow: theme.shadows[4],
-        width: 100,
-        height: 100,
-        marginRight: 20
-      }
-    },
-    opt: {
-      position: 'absolute',
-      top: 10,
-      right: 10
-    },
-    favorite: {
-      color: _amber2.default[500]
-    },
-    redIcon: {
-      background: _red2.default[50],
-      '& svg': {
-        color: _red2.default[500]
-      }
-    },
-    brownIcon: {
-      background: _brown2.default[50],
-      '& svg': {
-        color: _brown2.default[500]
-      }
-    },
-    tealIcon: {
-      background: _teal2.default[50],
-      '& svg': {
-        color: _teal2.default[500]
-      }
-    },
-    blueIcon: {
-      background: _blue2.default[50],
-      '& svg': {
-        color: _blue2.default[500]
-      }
-    },
-    amberIcon: {
-      background: _amber2.default[50],
-      '& svg': {
-        color: _amber2.default[500]
-      }
-    },
-    purpleIcon: {
-      background: _deepPurple2.default[50],
-      '& svg': {
-        color: _deepPurple2.default[500]
-      }
-    },
-    field: {
-      width: '100%',
-      marginBottom: 20,
-      '& svg': {
-        color: theme.palette.grey[400],
-        fontSize: 18
-      }
-    },
-    uploadAvatar: {
-      width: '100%',
-      height: '100%',
-      background: theme.palette.grey[200],
-      boxShadow: theme.shadows[4]
-    },
-    selected: {
-      background: theme.palette.secondary.light,
-      borderLeft: '2px solid ' + theme.palette.secondary.main,
-      paddingLeft: 22,
-      '& h3': {
-        color: theme.palette.secondary.dark
-      }
-    },
-    hiddenDropzone: {
-      display: 'none'
-    },
-    avatarWrap: {
-      width: 100,
-      height: 100,
-      margin: '10px auto 30px',
-      position: 'relative'
-    },
-    buttonUpload: {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      transform: 'translate(-50%, -50%)'
-    },
-    navIconHide: _defineProperty({
-      marginRight: theme.spacing.unit
-    }, theme.breakpoints.up('sm'), {
-      display: 'none'
-    })
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(drawerWidth, 'drawerWidth', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/contact-jss.js');
-
-  __REACT_HOT_LOADER__.register(drawerHeight, 'drawerHeight', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/contact-jss.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/contact-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/contact-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 48 */
+/* 26 */
 /*!*********************************!*\
   !*** ./src/app/config/index.js ***!
   \*********************************/
@@ -2022,11 +1029,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _default2 = __webpack_require__(/*! ./default */ 340);
+var _default2 = __webpack_require__(/*! ./default */ 234);
 
 var _default3 = _interopRequireDefault(_default2);
 
-var _environment = __webpack_require__(/*! ./environment */ 342);
+var _environment = __webpack_require__(/*! ./environment */ 236);
 
 var _environment2 = _interopRequireDefault(_environment);
 
@@ -2048,7 +1055,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 49 */
+/* 27 */
 /*!**************************************!*\
   !*** external "react-router-config" ***!
   \**************************************/
@@ -2059,7 +1066,7 @@ var _temp = function () {
 module.exports = require("react-router-config");
 
 /***/ }),
-/* 50 */
+/* 28 */
 /*!*************************************************!*\
   !*** ./src/app/components/App/appStyles-jss.js ***!
   \*************************************************/
@@ -2076,7 +1083,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _material_bg = __webpack_require__(/*! ../../../../static/images/material_bg.svg */ 159);
+var _material_bg = __webpack_require__(/*! ../../../../static/images/material_bg.svg */ 90);
 
 var _material_bg2 = _interopRequireDefault(_material_bg);
 
@@ -2212,41 +1219,29 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 51 */
+/* 29 */
+/*!*******************************************!*\
+  !*** external "@material-ui/core/Avatar" ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Avatar");
+
+/***/ }),
+/* 30 */
 /*!********************************************!*\
-  !*** external "@material-ui/icons/Search" ***!
+  !*** external "@material-ui/core/Divider" ***!
   \********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/Search");
+module.exports = require("@material-ui/core/Divider");
 
 /***/ }),
-/* 52 */
-/*!*************************************************!*\
-  !*** ./src/app/styles/components/Messages.scss ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = {
-	"bgInfo": "bgInfo__GEi4l",
-	"bgSuccess": "bgSuccess__12Zyz",
-	"bgWarning": "bgWarning__3DB0c",
-	"bgError": "bgError__fOfha",
-	"bgDefault": "bgDefault__kwhtD",
-	"messageInfo": "messageInfo__37ma9",
-	"icon": "icon__1M3tn",
-	"messageSuccess": "messageSuccess__3mn4j",
-	"messageWarning": "messageWarning__3UpID",
-	"messageError": "messageError__3rc4M",
-	"messageDefault": "messageDefault__3IO3L"
-};
-
-/***/ }),
-/* 53 */
+/* 31 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Grid" ***!
   \*****************************************/
@@ -2257,18 +1252,7 @@ module.exports = {
 module.exports = require("@material-ui/core/Grid");
 
 /***/ }),
-/* 54 */
-/*!******************************************!*\
-  !*** external "@material-ui/icons/Star" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Star");
-
-/***/ }),
-/* 55 */
+/* 32 */
 /*!*************************************************!*\
   !*** ./src/app/components/Widget/widget-jss.js ***!
   \*************************************************/
@@ -2283,43 +1267,43 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 73);
+var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 64);
 
 var _pink2 = _interopRequireDefault(_pink);
 
-var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 105);
+var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 65);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 106);
+var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 141);
 
 var _blue2 = _interopRequireDefault(_blue);
 
-var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 205);
+var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 142);
 
 var _deepOrange2 = _interopRequireDefault(_deepOrange);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 56);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 143);
 
 var _red2 = _interopRequireDefault(_red);
 
-var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 74);
+var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 66);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 206);
+var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 144);
 
 var _purple2 = _interopRequireDefault(_purple);
 
-var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 75);
+var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 145);
 
 var _deepPurple2 = _interopRequireDefault(_deepPurple);
 
-var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 207);
+var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 146);
 
 var _lime2 = _interopRequireDefault(_lime);
 
-var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 107);
+var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 147);
 
 var _indigo2 = _interopRequireDefault(_indigo);
 
@@ -2630,276 +1614,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 56 */
-/*!***********************************************!*\
-  !*** external "@material-ui/core/colors/red" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/red");
-
-/***/ }),
-/* 57 */
-/*!*****************************************!*\
-  !*** external "@material-ui/core/Chip" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Chip");
-
-/***/ }),
-/* 58 */
-/*!***************************************************!*\
-  !*** ./src/app/styles/components/Typography.scss ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = {
-	"lighter": "lighter__zrhRS",
-	"light": "light__2SYx4",
-	"regular": "regular__ZtPgf",
-	"medium": "medium__zjmls",
-	"bold": "bold__2Dj4Q",
-	"bolder": "bolder__XLYRV",
-	"italic": "italic__3gO-e",
-	"underline": "underline__3pdva",
-	"lineThrought": "lineThrought__1lI1u",
-	"textInfo": "textInfo__b5z-4",
-	"textSuccess": "textSuccess__1sx0i",
-	"textWarning": "textWarning__2mU_X",
-	"textError": "textError__XBAEd",
-	"textGreyDark": "textGreyDark__2tRjQ",
-	"textGrey": "textGrey__2tjDQ",
-	"textGreyLight": "textGreyLight__hmLc4",
-	"capitalyze": "capitalyze__1p14n",
-	"uppercase": "uppercase__2QID0",
-	"lowercase": "lowercase__2diBi",
-	"textLeft": "textLeft__3CzCe",
-	"textRight": "textRight__3upZd",
-	"textCenter": "textCenter__3NRog",
-	"textJustify": "textJustify__D7ONk",
-	"list": "list__3CltL",
-	"orderedlist": "orderedlist__2sLq-"
-};
-
-/***/ }),
-/* 59 */
-/*!*****************************************!*\
-  !*** external "@material-ui/icons/Add" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Add");
-
-/***/ }),
-/* 60 */
-/*!***************************************************!*\
-  !*** external "@material-ui/core/InputAdornment" ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/InputAdornment");
-
-/***/ }),
-/* 61 */
-/*!*****************************************!*\
-  !*** external "redux-form-material-ui" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("redux-form-material-ui");
-
-/***/ }),
-/* 62 */
-/*!**********************************************!*\
-  !*** external "@material-ui/icons/MoreVert" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/MoreVert");
-
-/***/ }),
-/* 63 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/Calendar/calendar-jss.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 73);
-
-var _pink2 = _interopRequireDefault(_pink);
-
-var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 123);
-
-var _lightGreen2 = _interopRequireDefault(_lightGreen);
-
-var _lightBlue = __webpack_require__(/*! @material-ui/core/colors/lightBlue */ 299);
-
-var _lightBlue2 = _interopRequireDefault(_lightBlue);
-
-var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 75);
-
-var _deepPurple2 = _interopRequireDefault(_deepPurple);
-
-var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 74);
-
-var _orange2 = _interopRequireDefault(_orange);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var styles = function styles(theme) {
-  return {
-    root: _defineProperty({
-      padding: 20
-    }, theme.breakpoints.down('sm'), {
-      padding: '20px 8px'
-    }),
-    calendarWrap: {
-      minHeight: 600
-    },
-    addBtn: {
-      position: 'fixed',
-      bottom: 30,
-      right: 30,
-      zIndex: 100
-    },
-    typography: {
-      margin: theme.spacing.unit * 2
-    },
-    divider: {
-      margin: '5px 0',
-      textAlign: 'center'
-    },
-    button: {
-      margin: theme.spacing.unit
-    },
-    eventName: {
-      padding: '50px 20px 10px 30px',
-      minWidth: 400,
-      color: 'rgba(0, 0, 0, 0.7)',
-      '& svg': {
-        top: 4,
-        position: 'relative'
-      }
-    },
-    time: {
-      padding: 20
-    },
-    moreOpt: {
-      position: 'absolute',
-      top: 10,
-      right: 10
-    },
-    field: {
-      width: '100%',
-      marginBottom: 20
-    },
-    fieldBasic: {
-      width: '100%',
-      marginBottom: 20,
-      marginTop: 10
-    },
-    inlineWrap: {
-      display: 'flex',
-      flexDirection: 'row'
-    },
-    redRadio: {
-      color: _pink2.default[600],
-      '& svg': {
-        borderRadius: '50%',
-        background: _pink2.default[100]
-      },
-      '&$checked': {
-        color: _pink2.default[500]
-      }
-    },
-    greenRadio: {
-      color: _lightGreen2.default[600],
-      '& svg': {
-        borderRadius: '50%',
-        background: _lightGreen2.default[100]
-      },
-      '&$checked': {
-        color: _lightGreen2.default[500]
-      }
-    },
-    blueRadio: {
-      color: _lightBlue2.default[600],
-      '& svg': {
-        borderRadius: '50%',
-        background: _lightBlue2.default[100]
-      },
-      '&$checked': {
-        color: _lightBlue2.default[500]
-      }
-    },
-    violetRadio: {
-      color: _deepPurple2.default[600],
-      '& svg': {
-        borderRadius: '50%',
-        background: _deepPurple2.default[100]
-      },
-      '&$checked': {
-        color: _deepPurple2.default[500]
-      }
-    },
-    orangeRadio: {
-      color: _orange2.default[600],
-      '& svg': {
-        borderRadius: '50%',
-        background: _orange2.default[100]
-      },
-      '&$checked': {
-        color: _orange2.default[500]
-      }
-    },
-    checked: {}
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/calendar-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/calendar-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 64 */
+/* 33 */
 /*!*******************************************!*\
   !*** ./src/app/constants/themePalette.js ***!
   \*******************************************/
@@ -2971,7 +1686,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 65 */
+/* 34 */
 /*!**************************************!*\
   !*** ./src/app/actions/UiActions.js ***!
   \**************************************/
@@ -3031,7 +1746,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 66 */
+/* 35 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Hidden" ***!
   \*******************************************/
@@ -3042,29 +1757,40 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Hidden");
 
 /***/ }),
-/* 67 */
+/* 36 */
 /*!*******************************************!*\
-  !*** external "@material-ui/core/AppBar" ***!
+  !*** external "@material-ui/core/Button" ***!
   \*******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/AppBar");
+module.exports = require("@material-ui/core/Button");
 
 /***/ }),
-/* 68 */
-/*!******************************************!*\
-  !*** external "@material-ui/core/Badge" ***!
-  \******************************************/
+/* 37 */
+/*!*********************************************!*\
+  !*** external "@material-ui/core/MenuItem" ***!
+  \*********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Badge");
+module.exports = require("@material-ui/core/MenuItem");
 
 /***/ }),
-/* 69 */
+/* 38 */
+/*!*************************************************!*\
+  !*** external "@material-ui/core/ListItemText" ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItemText");
+
+/***/ }),
+/* 39 */
 /*!**************************************!*\
   !*** ./src/app/constants/avatars.js ***!
   \**************************************/
@@ -3097,18 +1823,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 70 */
-/*!************************************************************!*\
-  !*** external "@material-ui/core/styles/colorManipulator" ***!
-  \************************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/styles/colorManipulator");
-
-/***/ }),
-/* 71 */
+/* 40 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Icon" ***!
   \*****************************************/
@@ -3119,403 +1834,7 @@ module.exports = require("@material-ui/core/styles/colorManipulator");
 module.exports = require("@material-ui/core/Icon");
 
 /***/ }),
-/* 72 */
-/*!************************************!*\
-  !*** ./src/app/constants/route.js ***!
-  \************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = {
-    title: 'ROUTE',
-    description: 'This table is used to manage routes. (CRUD)',
-    table: {
-        title: 'Routes',
-        columns: [{
-            name: 'id',
-            label: 'ID',
-            type: 'text',
-            initialValue: '',
-            hidden: false
-        }, {
-            name: 'departure',
-            label: 'Departure',
-            type: 'text',
-            initialValue: '',
-            width: 'auto',
-            hidden: false
-        }, {
-            name: 'destination',
-            label: 'Destination',
-            type: 'text',
-            initialValue: '',
-            width: 'auto',
-            hidden: false
-        }, {
-            name: 'stations',
-            label: 'Stations',
-            type: 'number',
-            initialValue: 2,
-            width: 'auto',
-            hidden: false
-        }, {
-            name: 'active',
-            label: 'Active?',
-            type: 'toggle',
-            initialValue: true,
-            width: '100',
-            hidden: false
-        }, {
-            name: 'action',
-            label: 'Action',
-            type: 'static',
-            initialValue: '',
-            hidden: false
-        }]
-    }
-};
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
-
-/***/ }),
-/* 73 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/colors/pink" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/pink");
-
-/***/ }),
-/* 74 */
-/*!**************************************************!*\
-  !*** external "@material-ui/core/colors/orange" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/orange");
-
-/***/ }),
-/* 75 */
-/*!******************************************************!*\
-  !*** external "@material-ui/core/colors/deepPurple" ***!
-  \******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/deepPurple");
-
-/***/ }),
-/* 76 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/ArrowForward" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/ArrowForward");
-
-/***/ }),
-/* 77 */
-/*!********************************************!*\
-  !*** external "@material-ui/icons/Delete" ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Delete");
-
-/***/ }),
-/* 78 */
-/*!*********************************************************!*\
-  !*** external "material-ui-pickers/utils/moment-utils" ***!
-  \*********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("material-ui-pickers/utils/moment-utils");
-
-/***/ }),
-/* 79 */
-/*!********************************************************************!*\
-  !*** external "material-ui-pickers/utils/MuiPickersUtilsProvider" ***!
-  \********************************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("material-ui-pickers/utils/MuiPickersUtilsProvider");
-
-/***/ }),
-/* 80 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/FormControl" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/FormControl");
-
-/***/ }),
-/* 81 */
-/*!**********************************************!*\
-  !*** external "@material-ui/icons/Favorite" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Favorite");
-
-/***/ }),
-/* 82 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/LocalPhone" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/LocalPhone");
-
-/***/ }),
-/* 83 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/LocationOn" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/LocationOn");
-
-/***/ }),
-/* 84 */
-/*!***************************************************!*\
-  !*** ./src/app/components/Panel/FloatingPanel.js ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 128);
-
-var _withWidth2 = _interopRequireDefault(_withWidth);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 115);
-
-var _Close2 = _interopRequireDefault(_Close);
-
-var _CallMade = __webpack_require__(/*! @material-ui/icons/CallMade */ 283);
-
-var _CallMade2 = _interopRequireDefault(_CallMade);
-
-var _CallReceived = __webpack_require__(/*! @material-ui/icons/CallReceived */ 284);
-
-var _CallReceived2 = _interopRequireDefault(_CallReceived);
-
-var _panelJss = __webpack_require__(/*! ./panel-jss */ 285);
-
-var _panelJss2 = _interopRequireDefault(_panelJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var FloatingPanel = function (_React$Component) {
-  _inherits(FloatingPanel, _React$Component);
-
-  function FloatingPanel() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, FloatingPanel);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = FloatingPanel.__proto__ || Object.getPrototypeOf(FloatingPanel)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      expanded: false
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(FloatingPanel, [{
-    key: 'toggleExpand',
-    value: function toggleExpand() {
-      this.setState({ expanded: !this.state.expanded });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      var _props = this.props,
-          classes = _props.classes,
-          openForm = _props.openForm,
-          closeForm = _props.closeForm,
-          children = _props.children,
-          branch = _props.branch,
-          title = _props.title,
-          extraSize = _props.extraSize,
-          width = _props.width;
-      var expanded = this.state.expanded;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement('div', { className: (0, _classnames2.default)(classes.formOverlay, openForm && ((0, _withWidth.isWidthDown)('sm', width) || expanded) ? classes.showForm : classes.hideForm)
-        }),
-        _react2.default.createElement(
-          'section',
-          { className: (0, _classnames2.default)(!openForm ? classes.hideForm : classes.showForm, expanded ? classes.expanded : '', classes.floatingForm, classes.formTheme, extraSize && classes.large)
-          },
-          _react2.default.createElement(
-            'header',
-            null,
-            title,
-            _react2.default.createElement(
-              'div',
-              { className: classes.btnOpt },
-              _react2.default.createElement(
-                _Tooltip2.default,
-                { title: expanded ? 'Exit Full Screen' : 'Full Screen' },
-                _react2.default.createElement(
-                  _IconButton2.default,
-                  { className: classes.expandButton, onClick: function onClick() {
-                      return _this2.toggleExpand();
-                    }, 'aria-label': 'Expand' },
-                  expanded ? _react2.default.createElement(_CallReceived2.default, null) : _react2.default.createElement(_CallMade2.default, null)
-                )
-              ),
-              _react2.default.createElement(
-                _Tooltip2.default,
-                { title: 'Close' },
-                _react2.default.createElement(
-                  _IconButton2.default,
-                  { className: classes.closeButton, onClick: function onClick() {
-                      return closeForm(branch);
-                    }, 'aria-label': 'Close' },
-                  _react2.default.createElement(_Close2.default, null)
-                )
-              )
-            )
-          ),
-          children
-        )
-      );
-    }
-  }]);
-
-  return FloatingPanel;
-}(_react2.default.Component);
-
-FloatingPanel.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  openForm: _propTypes2.default.bool.isRequired,
-  closeForm: _propTypes2.default.func.isRequired,
-  children: _propTypes2.default.node.isRequired,
-  branch: _propTypes2.default.string.isRequired,
-  width: _propTypes2.default.string.isRequired,
-  title: _propTypes2.default.string,
-  extraSize: _propTypes2.default.bool
-};
-
-FloatingPanel.defaultProps = {
-  title: 'Add New Item',
-  extraSize: false
-};
-
-var FloatingPanelResponsive = (0, _withWidth2.default)()(FloatingPanel);
-
-var _default = (0, _styles.withStyles)(_panelJss2.default)(FloatingPanelResponsive);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(FloatingPanel, 'FloatingPanel', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/FloatingPanel.js');
-
-  __REACT_HOT_LOADER__.register(FloatingPanelResponsive, 'FloatingPanelResponsive', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/FloatingPanel.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/FloatingPanel.js');
-}();
-
-;
-
-/***/ }),
-/* 85 */
-/*!*********************************************************!*\
-  !*** external "@material-ui/icons/PermContactCalendar" ***!
-  \*********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/PermContactCalendar");
-
-/***/ }),
-/* 86 */
+/* 41 */
 /*!*********************!*\
   !*** external "fs" ***!
   \*********************/
@@ -3526,7 +1845,7 @@ module.exports = require("@material-ui/icons/PermContactCalendar");
 module.exports = require("fs");
 
 /***/ }),
-/* 87 */
+/* 42 */
 /*!***********************************!*\
   !*** external "react-dom/server" ***!
   \***********************************/
@@ -3537,7 +1856,7 @@ module.exports = require("fs");
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 88 */
+/* 43 */
 /*!********************************!*\
   !*** ./static/images/logo.svg ***!
   \********************************/
@@ -3545,10 +1864,21 @@ module.exports = require("react-dom/server");
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMDAgMTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cgkuc3Qxe2NsaXAtcGF0aDp1cmwoI1NWR0lEXzJfKTtmaWxsOiNFQkU5RkY7fQoJLnN0MntmaWxsOiNEODFCNjA7fQoJLnN0M3tmaWxsOiNFQzQwN0E7fQoJLnN0NHtmaWxsOiM0NTI3OUY7fQo8L3N0eWxlPgo8Zz4KCTxnPgoJCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUwIiBjeT0iNTAiIHI9IjQ5Ii8+CgkJPGc+CgkJCTxnPgoJCQkJPGc+CgkJCQkJPGc+CgkJCQkJCTxnPgoJCQkJCQkJPGRlZnM+CgkJCQkJCQkJPGNpcmNsZSBpZD0iU1ZHSURfMV8iIGN4PSI1MCIgY3k9IjUwIiByPSI0OC42Ii8+CgkJCQkJCQk8L2RlZnM+CgkJCQkJCQk8Y2xpcFBhdGggaWQ9IlNWR0lEXzJfIj4KCQkJCQkJCQk8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8xXyIgIHN0eWxlPSJvdmVyZmxvdzp2aXNpYmxlOyIvPgoJCQkJCQkJPC9jbGlwUGF0aD4KCQkJCQkJCTxwb2x5bGluZSBjbGFzcz0ic3QxIiBwb2ludHM9IjM5LjgsNzggNTYuNiwyMi43IDY1LjksMTYuNSAxMDcuMSw0MiAxMTMuOCw1MS42IDEwNi44LDExNy42IDUwLDg3LjkgCQkJCQkJCSIvPgoJCQkJCQk8L2c+CgkJCQkJPC9nPgoJCQkJPC9nPgoJCQk8L2c+CgkJCTxwb2x5Z29uIGNsYXNzPSJzdDIiIHBvaW50cz0iNTAsMjguMiA0MC42LDM1LjcgNDYuMSw0NS4zIDUzLjksNDUuMyA1OS40LDM1LjcgCQkJIi8+CgkJCTxwb2x5Z29uIGNsYXNzPSJzdDMiIHBvaW50cz0iNTMuOSw0NS4zIDQ2LjEsNDUuMyAzOS44LDc4IDUwLDg3LjkgNjAuMiw3OCAJCQkiLz4KCQkJPGc+CgkJCQk8cG9seWdvbiBjbGFzcz0ic3Q0IiBwb2ludHM9IjM0LjEsMTYuNSAyNS43LDI1LjkgMzguMSw0My42IDUwLDI4LjIgCQkJCSIvPgoJCQkJPHBvbHlnb24gY2xhc3M9InN0NCIgcG9pbnRzPSI2NS45LDE2LjUgNzQuMywyNS45IDYxLjksNDMuNiA1MCwyOC4yIAkJCQkiLz4KCQkJPC9nPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgaGVpZ2h0PSIxMTBweCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEwIDExMDsiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDExMCAxMTAiIHdpZHRoPSIxMTBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGcgaWQ9IkFydGJvYXJkIi8+PGcgaWQ9Ik11bHRpY29sb3IiPjxjaXJjbGUgY3g9IjU1IiBjeT0iNTUiIHI9IjU1IiBzdHlsZT0iZmlsbDojRkFCQzNEOyIvPjxnPjxnPjxwYXRoIGQ9Ik03OSwzMWMwLTQuNDE4LTMuNTgyLTgtOC04SDM5Yy00LjQxOCwwLTgsMy41ODItOCw4djUwYzAsMS4xMDUsMC44OTUsMiwyLDJoNDQgICAgIGMxLjEwNSwwLDItMC44OTUsMi0yVjMxeiIgc3R5bGU9ImZpbGw6I0RGMkMyQzsiLz48L2c+PGc+PHBhdGggZD0iTTc2LjE5OCwyNC45MjZDNzQuNzk5LDIzLjcyOCw3Mi45ODYsMjMsNzEsMjNIMzljLTQuNDE4LDAtOCwzLjU4Mi04LDh2MzkuMTI0TDc2LjE5OCwyNC45MjZ6IiBzdHlsZT0iZmlsbDojRkE1NjU1OyIvPjwvZz48Zz48cGF0aCBkPSJNMzEsODN2MmMwLDEuMTA0LDAuODk2LDIsMiwyaDhjMS4xMDQsMCwyLTAuODk2LDItMnYtMkgzMXoiIHN0eWxlPSJmaWxsOiMzRTNFM0Y7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik02Nyw4NWMwLDEuMTA0LDAuODk2LDIsMiwyaDhjMS4xMDQsMCwyLTAuODk2LDItMnYtMkg2N1Y4NXoiIHN0eWxlPSJmaWxsOiMzRTNFM0Y7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik04MSw3NGMwLTIuMjA5LTEuNzkxLTQtNC00aC05bC0yLjQ0Ny0yLjg5NEM2NS4yMTQsNjYuNDI4LDY0LjUyMSw2Niw2My43NjQsNjZINDYuMjM2ICAgICBjLTAuNzU4LDAtMS40NSwwLjQyOC0xLjc4OSwxLjEwNkw0Miw3MGgtOWMtMi4yMDksMC00LDEuNzkxLTQsNHY3YzAsMS4xMDUsMC44OTUsMiwyLDJoNDhjMS4xMDUsMCwyLTAuODk1LDItMlY3NHoiIHN0eWxlPSJmaWxsOiNGQTU2NTU7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik01NCw2OWgtN2MtMS4xMDQsMC0yLDAuODk2LTIsMnY3YzAsMS4xMDQsMC44OTYsMiwyLDJoN1Y2OXoiIHN0eWxlPSJmaWxsOiNCRjAzMDI7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik01Niw2OWg3YzEuMTA0LDAsMiwwLjg5NiwyLDJ2N2MwLDEuMTA0LTAuODk2LDItMiwyaC03VjY5eiIgc3R5bGU9ImZpbGw6I0JGMDMwMjsiLz48L2c+PGc+PGNpcmNsZSBjeD0iMzciIGN5PSI3NyIgcj0iMyIgc3R5bGU9ImZpbGw6I0ZCRTE1ODsiLz48L2c+PGc+PGNpcmNsZSBjeD0iNzIiIGN5PSI3NyIgcj0iMyIgc3R5bGU9ImZpbGw6I0ZCRTE1ODsiLz48L2c+PGc+PHJlY3QgaGVpZ2h0PSIyIiBzdHlsZT0iZmlsbDojRTJFNEU1OyIgd2lkdGg9IjQ4IiB4PSIzMSIgeT0iNDciLz48L2c+PGc+PHBvbHlnb24gcG9pbnRzPSI1NC4xMjQsNDcgMzEsNDcgMzEsNDkgNTIuMTI0LDQ5ICAgICIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiLz48L2c+PGc+PHBhdGggZD0iTTc1LDQ5SDU3djEyYzAsMS4xMDUsMC44OTUsMiwyLDJoMTRjMS4xMDUsMCwyLTAuODk1LDItMlY0OXoiIHN0eWxlPSJmaWxsOiM0MEM5RTc7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik0zNSwzN2MwLDEuMTA1LDAuODk1LDIsMiwyaDE0YzEuMTA1LDAsMi0wLjg5NSwyLTJ2LThjMC0xLjEwNS0wLjg5NS0yLTItMkgzNyAgICAgYy0xLjEwNSwwLTIsMC44OTUtMiwyVjM3eiIgc3R5bGU9ImZpbGw6IzZGREFGMTsiLz48L2c+PGc+PHBhdGggZD0iTTU3LDM3YzAsMS4xMDUsMC44OTUsMiwyLDJoMTRjMS4xMDUsMCwyLTAuODk1LDItMnYtOGMwLTEuMTA1LTAuODk1LTItMi0ySDU5ICAgICBjLTEuMTA1LDAtMiwwLjg5NS0yLDJWMzd6IiBzdHlsZT0iZmlsbDojNDBDOUU3OyIvPjwvZz48Zz48cGF0aCBkPSJNNzMsMjdINTljLTEuMTA0LDAtMiwwLjg5Ni0yLDJ2OGMwLDEuMTA0LDAuODk2LDIsMiwyaDMuMTI0TDczLjksMjcuMjIzICAgICBDNzMuNjI4LDI3LjA4NSw3My4zMjYsMjcsNzMsMjd6IiBzdHlsZT0iZmlsbDojNkZEQUYxOyIvPjwvZz48Zz48cGF0aCBkPSJNNzIsNzQuMDQ0Yy0xLjY1NywwLTMsMS4zNDMtMywzYzAsMC43NTEsMC4yODYsMS40MywwLjc0MiwxLjk1Nmw0LjIxNC00LjIxNCAgICAgQzczLjQzLDc0LjMzLDcyLjc1MSw3NC4wNDQsNzIsNzQuMDQ0eiIgc3R5bGU9ImZpbGw6I0ZCRUM5QTsiLz48L2c+PGc+PHBhdGggZD0iTTM3LDc0Yy0xLjY1NywwLTMsMS4zNDMtMywzYzAsMC43NTEsMC4yODYsMS40MywwLjc0MiwxLjk1Nmw0LjIxNC00LjIxNCAgICAgQzM4LjQzLDc0LjI4NiwzNy43NTEsNzQsMzcsNzR6IiBzdHlsZT0iZmlsbDojRkJFQzlBOyIvPjwvZz48cmVjdCBoZWlnaHQ9IjgiIHN0eWxlPSJmaWxsOiM0MEM5RTc7IiB3aWR0aD0iMTgiIHg9IjM1IiB5PSI0OSIvPjxwYXRoIGQ9Ik0zNSw2MWMwLDEuMTA0LDAuODk2LDIsMiwyaDE0YzEuMTA0LDAsMi0wLjg5NiwyLTJ2LTJIMzVWNjF6IiBzdHlsZT0iZmlsbDojNDBDOUU3OyIvPjxwb2x5Z29uIHBvaW50cz0iNDQuMTI0LDU3IDUyLjEyNCw0OSAzNSw0OSAzNSw1NyAgICIgc3R5bGU9ImZpbGw6IzZGREFGMTsiLz48cGF0aCBkPSJNMzUsNTl2MmMwLDEuMTA0LDAuODk2LDIsMiwyaDEuMTI0bDQtNEgzNXoiIHN0eWxlPSJmaWxsOiM2RkRBRjE7Ii8+PC9nPjwvZz48L3N2Zz4="
 
 /***/ }),
-/* 89 */
+/* 44 */
+/*!********************************************!*\
+  !*** external "@material-ui/core/Toolbar" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Toolbar");
+
+/***/ }),
+/* 45 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Info" ***!
   \******************************************/
@@ -3559,7 +1889,18 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 module.exports = require("@material-ui/icons/Info");
 
 /***/ }),
-/* 90 */
+/* 46 */
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Menu" ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Menu");
+
+/***/ }),
+/* 47 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/ListItemIcon" ***!
   \*************************************************/
@@ -3570,7 +1911,7 @@ module.exports = require("@material-ui/icons/Info");
 module.exports = require("@material-ui/core/ListItemIcon");
 
 /***/ }),
-/* 91 */
+/* 48 */
 /*!********************************************!*\
   !*** ./src/app/constants/dummyContents.js ***!
   \********************************************/
@@ -3581,7 +1922,7 @@ module.exports = require("@material-ui/core/ListItemIcon");
 "use strict";
 
 
-var _avatars = __webpack_require__(/*! ./avatars */ 69);
+var _avatars = __webpack_require__(/*! ./avatars */ 39);
 
 var _avatars2 = _interopRequireDefault(_avatars);
 
@@ -3612,7 +1953,30 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 92 */
+/* 49 */
+/*!*************************************************!*\
+  !*** ./src/app/styles/components/Messages.scss ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"bgInfo": "bgInfo__GEi4l",
+	"bgSuccess": "bgSuccess__12Zyz",
+	"bgWarning": "bgWarning__3DB0c",
+	"bgError": "bgError__fOfha",
+	"bgDefault": "bgDefault__kwhtD",
+	"messageInfo": "messageInfo__37ma9",
+	"icon": "icon__1M3tn",
+	"messageSuccess": "messageSuccess__3mn4j",
+	"messageWarning": "messageWarning__3UpID",
+	"messageError": "messageError__3rc4M",
+	"messageDefault": "messageDefault__3IO3L"
+};
+
+/***/ }),
+/* 50 */
 /*!*************************************************!*\
   !*** ./src/app/components/Header/header-jss.js ***!
   \*************************************************/
@@ -3627,7 +1991,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _colorManipulator = __webpack_require__(/*! @material-ui/core/styles/colorManipulator */ 70);
+var _colorManipulator = __webpack_require__(/*! @material-ui/core/styles/colorManipulator */ 51);
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -3802,29 +2166,40 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 93 */
-/*!*******************************************!*\
-  !*** external "@material-ui/core/Drawer" ***!
-  \*******************************************/
+/* 51 */
+/*!************************************************************!*\
+  !*** external "@material-ui/core/styles/colorManipulator" ***!
+  \************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Drawer");
+module.exports = require("@material-ui/core/styles/colorManipulator");
 
 /***/ }),
-/* 94 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/ExpandMore" ***!
-  \************************************************/
+/* 52 */
+/*!*****************************************!*\
+  !*** external "@material-ui/core/List" ***!
+  \*****************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/ExpandMore");
+module.exports = require("@material-ui/core/List");
 
 /***/ }),
-/* 95 */
+/* 53 */
+/*!*********************************************!*\
+  !*** external "@material-ui/core/ListItem" ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItem");
+
+/***/ }),
+/* 54 */
 /*!***********************************!*\
   !*** ./src/app/constants/menu.js ***!
   \***********************************/
@@ -3902,7 +2277,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 96 */
+/* 55 */
 /*!***************************************************!*\
   !*** ./src/app/components/Sidebar/sidebar-jss.js ***!
   \***************************************************/
@@ -4118,18 +2493,77 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 97 */
-/*!****************************************************!*\
-  !*** external "@material-ui/core/TablePagination" ***!
-  \****************************************************/
+/* 56 */
+/*!************************************!*\
+  !*** ./src/app/constants/route.js ***!
+  \************************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("@material-ui/core/TablePagination");
+"use strict";
+
+
+module.exports = {
+    title: 'ROUTE',
+    description: 'This table is used to manage routes. (CRUD)',
+    table: {
+        title: 'Routes',
+        columns: [{
+            name: 'id',
+            label: 'ID',
+            type: 'text',
+            initialValue: '',
+            hidden: false
+        }, {
+            name: 'departure',
+            label: 'Departure',
+            type: 'text',
+            initialValue: '',
+            width: 'auto',
+            hidden: false
+        }, {
+            name: 'destination',
+            label: 'Destination',
+            type: 'text',
+            initialValue: '',
+            width: 'auto',
+            hidden: false
+        }, {
+            name: 'stations',
+            label: 'Stations',
+            type: 'number',
+            initialValue: 2,
+            width: 'auto',
+            hidden: false
+        }, {
+            name: 'active',
+            label: 'Active?',
+            type: 'toggle',
+            initialValue: true,
+            width: '100',
+            hidden: false
+        }, {
+            name: 'action',
+            label: 'Action',
+            type: 'static',
+            initialValue: '',
+            hidden: false
+        }]
+    }
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+}();
+
+;
 
 /***/ }),
-/* 98 */
+/* 57 */
 /*!******************************************!*\
   !*** ./src/app/constants/transporter.js ***!
   \******************************************/
@@ -4207,7 +2641,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 99 */
+/* 58 */
 /*!**********************************************!*\
   !*** ./src/app/constants/employee/driver.js ***!
   \**********************************************/
@@ -4285,7 +2719,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 100 */
+/* 59 */
 /*!*************************************************!*\
   !*** ./src/app/constants/employee/assistant.js ***!
   \*************************************************/
@@ -4356,7 +2790,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 101 */
+/* 60 */
 /*!********************************************!*\
   !*** ./src/app/constants/client/client.js ***!
   \********************************************/
@@ -4420,7 +2854,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 102 */
+/* 61 */
 /*!*************************************************!*\
   !*** ./src/app/constants/schedule/transport.js ***!
   \*************************************************/
@@ -4491,7 +2925,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 103 */
+/* 62 */
 /*!********************************************!*\
   !*** ./src/app/constants/schedule/work.js ***!
   \********************************************/
@@ -4555,7 +2989,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 104 */
+/* 63 */
 /*!********************************************!*\
   !*** ./src/app/constants/ticket/ticket.js ***!
   \********************************************/
@@ -4668,7 +3102,18 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 105 */
+/* 64 */
+/*!************************************************!*\
+  !*** external "@material-ui/core/colors/pink" ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/pink");
+
+/***/ }),
+/* 65 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/colors/green" ***!
   \*************************************************/
@@ -4679,40 +3124,132 @@ var _temp = function () {
 module.exports = require("@material-ui/core/colors/green");
 
 /***/ }),
-/* 106 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/colors/blue" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/blue");
-
-/***/ }),
-/* 107 */
+/* 66 */
 /*!**************************************************!*\
-  !*** external "@material-ui/core/colors/indigo" ***!
+  !*** external "@material-ui/core/colors/orange" ***!
   \**************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/colors/indigo");
+module.exports = require("@material-ui/core/colors/orange");
 
 /***/ }),
-/* 108 */
-/*!***********************************************!*\
-  !*** external "@material-ui/icons/ArrowBack" ***!
-  \***********************************************/
+/* 67 */
+/*!*******************************************************!*\
+  !*** ./src/app/components/PapperBlock/PapperBlock.js ***!
+  \*******************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("@material-ui/icons/ArrowBack");
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ 0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ 1);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _classnames = __webpack_require__(/*! classnames */ 11);
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
+
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
+
+var _Paper2 = _interopRequireDefault(_Paper);
+
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
+
+var _Typography2 = _interopRequireDefault(_Typography);
+
+var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 159);
+
+var _papperStyleJss2 = _interopRequireDefault(_papperStyleJss);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function PaperSheet(props) {
+  var classes = props.classes,
+      title = props.title,
+      desc = props.desc,
+      children = props.children,
+      whiteBg = props.whiteBg,
+      noMargin = props.noMargin,
+      colorMode = props.colorMode,
+      overflowX = props.overflowX;
+
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      _Paper2.default,
+      { className: (0, _classnames2.default)(classes.root, noMargin && classes.noMargin, colorMode && classes.colorMode), elevation: 4 },
+      _react2.default.createElement(
+        _Typography2.default,
+        { variant: 'title', component: 'h2', className: classes.title },
+        title
+      ),
+      _react2.default.createElement(
+        _Typography2.default,
+        { component: 'p', className: classes.description },
+        desc
+      ),
+      _react2.default.createElement(
+        'section',
+        { className: (0, _classnames2.default)(classes.content, whiteBg && classes.whiteBg, overflowX && classes.overflowX) },
+        children
+      )
+    )
+  );
+}
+
+PaperSheet.propTypes = {
+  classes: _propTypes2.default.object.isRequired,
+  title: _propTypes2.default.string.isRequired,
+  desc: _propTypes2.default.string.isRequired,
+  children: _propTypes2.default.node.isRequired,
+  whiteBg: _propTypes2.default.bool,
+  colorMode: _propTypes2.default.bool,
+  noMargin: _propTypes2.default.bool,
+  overflowX: _propTypes2.default.bool
+};
+
+PaperSheet.defaultProps = {
+  whiteBg: false,
+  noMargin: false,
+  colorMode: false,
+  overflowX: false
+};
+
+var _default = (0, _styles.withStyles)(_papperStyleJss2.default)(PaperSheet);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(PaperSheet, 'PaperSheet', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
+}();
+
+;
 
 /***/ }),
-/* 109 */
+/* 68 */
 /*!*************************************!*\
   !*** ./src/app/constants/images.js ***!
   \*************************************/
@@ -4755,1203 +3292,40 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 110 */
-/*!******************************************!*\
-  !*** external "@material-ui/core/Input" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Input");
-
-/***/ }),
-/* 111 */
-/*!**************************************!*\
-  !*** external "material-ui-pickers" ***!
-  \**************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("material-ui-pickers");
-
-/***/ }),
-/* 112 */
-/*!****************************************************************!*\
-  !*** ./src/app/components/Tables/tableParts/tableStyle-jss.js ***!
-  \****************************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _colorManipulator = __webpack_require__(/*! @material-ui/core/styles/colorManipulator */ 70);
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      paddingRight: theme.spacing.unit
-    },
-    rootTable: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    highlight: theme.palette.type === 'light' ? {
-      color: theme.palette.secondary.main,
-      backgroundColor: (0, _colorManipulator.lighten)(theme.palette.secondary.light, 0.85)
-    } : {
-      color: theme.palette.text.primary,
-      backgroundColor: theme.palette.secondary.dark
-    },
-    spacer: {
-      flex: '1 1 100%'
-    },
-    actionsToolbar: {
-      color: theme.palette.text.secondary,
-      flex: '1 0 auto'
-    },
-    titleToolbar: {
-      flex: '0 0 auto'
-    },
-    filterBtn: {
-      top: -5
-    },
-    textField: {
-      flexBasis: 200,
-      width: 300
-    },
-    table: {
-      minWidth: 900
-    },
-    actions: {
-      color: theme.palette.text.secondary,
-      margin: 10
-    },
-    toolbar: {
-      backgroundColor: theme.palette.grey[800]
-    },
-    title: {
-      flex: '0 0 auto',
-      '& h2': {
-        color: theme.palette.common.white
-      }
-    },
-    button: {
-      margin: theme.spacing.unit
-    },
-    iconSmall: {
-      fontSize: 20
-    },
-    leftIcon: {
-      marginRight: theme.spacing.unit
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 113 */
-/*!*********************************************!*\
-  !*** external "@material-ui/core/Checkbox" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Checkbox");
-
-/***/ }),
-/* 114 */
-/*!**********************************************!*\
-  !*** external "@material-ui/icons/Bookmark" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Bookmark");
-
-/***/ }),
-/* 115 */
-/*!*******************************************!*\
-  !*** external "@material-ui/icons/Close" ***!
-  \*******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Close");
-
-/***/ }),
-/* 116 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/AllInclusive" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/AllInclusive");
-
-/***/ }),
-/* 117 */
-/*!*************************************************!*\
-  !*** external "@material-ui/icons/Brightness5" ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Brightness5");
-
-/***/ }),
-/* 118 */
-/*!********************************************!*\
-  !*** external "@material-ui/icons/People" ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/People");
-
-/***/ }),
-/* 119 */
-/*!**********************************************!*\
-  !*** ./src/app/components/Forms/user-jss.js ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _cyan = __webpack_require__(/*! @material-ui/core/colors/cyan */ 258);
-
-var _cyan2 = _interopRequireDefault(_cyan);
-
-var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 107);
-
-var _indigo2 = _interopRequireDefault(_indigo);
-
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 56);
-
-var _red2 = _interopRequireDefault(_red);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var styles = function styles(theme) {
-  var _avatar;
-
-  return {
-    root: {
-      display: 'flex',
-      width: '100%',
-      zIndex: 1,
-      position: 'relative'
-    },
-    container: _defineProperty({
-      display: 'flex',
-      alignItems: 'center',
-      width: '100%'
-    }, theme.breakpoints.down('md'), {
-      overflow: 'hidden'
-    }),
-    formControl: {
-      width: '100%',
-      marginBottom: theme.spacing.unit * 3
-    },
-    loginWrap: _defineProperty({}, theme.breakpoints.up('md'), {
-      width: 860
-    }),
-    formWrap: _defineProperty({}, theme.breakpoints.up('md'), {
-      marginTop: -24
-    }),
-    btnArea: _defineProperty({
-      justifyContent: 'space-between',
-      display: 'flex',
-      alignItems: 'center',
-      marginBottom: theme.spacing.unit * 3
-    }, theme.breakpoints.down('sm'), {
-      flexDirection: 'column',
-      '& button': {
-        width: '100%',
-        margin: 5
-      }
-    }),
-    noMargin: {
-      margin: 0
-    },
-    optArea: _defineProperty({
-      justifyContent: 'space-between',
-      display: 'flex',
-      alignItems: 'center',
-      width: '100%'
-    }, theme.breakpoints.up('sm'), {
-      width: '60%'
-    }),
-    redBtn: {
-      color: theme.palette.getContrastText(_red2.default[500]),
-      backgroundColor: _red2.default[500],
-      '&:hover': {
-        backgroundColor: _red2.default[700]
-      }
-    },
-    blueBtn: {
-      color: theme.palette.getContrastText(_indigo2.default[500]),
-      backgroundColor: _indigo2.default[500],
-      '&:hover': {
-        backgroundColor: _indigo2.default[700]
-      }
-    },
-    cyanBtn: {
-      color: theme.palette.getContrastText(_cyan2.default[700]),
-      backgroundColor: _cyan2.default[500],
-      '&:hover': {
-        backgroundColor: _cyan2.default[700]
-      }
-    },
-    leftIcon: {
-      marginRight: theme.spacing.unit
-    },
-    rightIcon: {
-      marginLeft: theme.spacing.unit
-    },
-    iconSmall: {
-      fontSize: 20
-    },
-    footer: {
-      textAlign: 'center',
-      padding: 5,
-      background: theme.palette.grey[100],
-      fontSize: 14,
-      position: 'relative'
-    },
-    welcomeWrap: {
-      position: 'relative'
-    },
-    welcome: {
-      background: theme.palette.secondary.light,
-      position: 'absolute',
-      width: '100%',
-      height: 'calc(100% + 30px)',
-      padding: '20px 50px',
-      top: -15,
-      left: 2,
-      boxShadow: theme.shadows[5],
-      borderRadius: 2,
-      display: 'flex',
-      alignItems: 'center',
-      overflow: 'hidden'
-    },
-    brand: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'flex-start',
-      position: 'relative',
-      marginBottom: 20,
-      '& img': {
-        width: 32
-      },
-      '& h3': {
-        fontSize: 18,
-        margin: 0,
-        paddingLeft: 10,
-        fontWeight: 500,
-        color: theme.palette.grey[700]
-      }
-    },
-    brandText: {
-      marginTop: 10,
-      color: 'rgba(0, 0, 0, 0.54)'
-    },
-    decoBottom: {
-      fontSize: 480,
-      position: 'absolute',
-      left: 10,
-      bottom: -190,
-      opacity: 0.1,
-      color: theme.palette.secondary.dark
-    },
-    tab: _defineProperty({
-      marginBottom: 20
-    }, theme.breakpoints.up('md'), {
-      marginTop: theme.spacing.unit * -3
-    }),
-    link: {
-      fontSize: 12,
-      marginLeft: -30,
-      color: theme.palette.secondary.main,
-      textDecoration: 'none',
-      '&:hover': {
-        textDecoration: 'underline'
-      }
-    },
-    socMedFull: {
-      marginBottom: theme.spacing.unit * 2
-    },
-    lockWrap: {
-      textAlign: 'center',
-      padding: theme.spacing.unit * 3
-    },
-    avatar: (_avatar = {
-      width: 150,
-      height: 150,
-      margin: '5px auto 30px'
-    }, _defineProperty(_avatar, theme.breakpoints.up('md'), {
-      margin: '-75px auto 30px'
-    }), _defineProperty(_avatar, 'boxShadow', theme.shadows[8]), _avatar),
-    userName: {
-      marginBottom: theme.spacing.unit * 3
-    },
-    hint: {
-      padding: theme.spacing.unit
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/user-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/user-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 120 */
-/*!****************************************************!*\
-  !*** external "@material-ui/core/colors/blueGrey" ***!
-  \****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/blueGrey");
-
-/***/ }),
-/* 121 */
+/* 69 */
 /*!*****************************************************!*\
-  !*** external "@material-ui/core/BottomNavigation" ***!
+  !*** external "@material-ui/core/FormControlLabel" ***!
   \*****************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/BottomNavigation");
+module.exports = require("@material-ui/core/FormControlLabel");
 
 /***/ }),
-/* 122 */
-/*!***********************************************************!*\
-  !*** external "@material-ui/core/BottomNavigationAction" ***!
-  \***********************************************************/
+/* 70 */
+/*!*********************************************************!*\
+  !*** external "material-ui-pickers/utils/moment-utils" ***!
+  \*********************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/BottomNavigationAction");
+module.exports = require("material-ui-pickers/utils/moment-utils");
 
 /***/ }),
-/* 123 */
-/*!******************************************************!*\
-  !*** external "@material-ui/core/colors/lightGreen" ***!
-  \******************************************************/
+/* 71 */
+/*!********************************************************************!*\
+  !*** external "material-ui-pickers/utils/MuiPickersUtilsProvider" ***!
+  \********************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/colors/lightGreen");
+module.exports = require("material-ui-pickers/utils/MuiPickersUtilsProvider");
 
 /***/ }),
-/* 124 */
-/*!*******************************************!*\
-  !*** external "@material-ui/icons/Share" ***!
-  \*******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Share");
-
-/***/ }),
-/* 125 */
-/*!*********************************************!*\
-  !*** external "@material-ui/icons/Comment" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Comment");
-
-/***/ }),
-/* 126 */
-/*!***********************************************!*\
-  !*** external "@material-ui/icons/PlayArrow" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/PlayArrow");
-
-/***/ }),
-/* 127 */
-/*!***********************************************!*\
-  !*** external "@material-ui/core/CardHeader" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/CardHeader");
-
-/***/ }),
-/* 128 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/withWidth" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/withWidth");
-
-/***/ }),
-/* 129 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/ShoppingCart" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/ShoppingCart");
-
-/***/ }),
-/* 130 */
-/*!*****************************************!*\
-  !*** ./src/app/components/Cart/Cart.js ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 40);
-
-var _Menu2 = _interopRequireDefault(_Menu);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _ListSubheader = __webpack_require__(/*! @material-ui/core/ListSubheader */ 279);
-
-var _ListSubheader2 = _interopRequireDefault(_ListSubheader);
-
-var _List = __webpack_require__(/*! @material-ui/core/List */ 42);
-
-var _List2 = _interopRequireDefault(_List);
-
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
-
-var _ListItem2 = _interopRequireDefault(_ListItem);
-
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
-
-var _ListItemText2 = _interopRequireDefault(_ListItemText);
-
-var _ListItemSecondaryAction = __webpack_require__(/*! @material-ui/core/ListItemSecondaryAction */ 280);
-
-var _ListItemSecondaryAction2 = _interopRequireDefault(_ListItemSecondaryAction);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 77);
-
-var _Delete2 = _interopRequireDefault(_Delete);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 129);
-
-var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
-
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 58);
-
-var _Typography4 = _interopRequireDefault(_Typography3);
-
-var _cartJss = __webpack_require__(/*! ./cart-jss */ 281);
-
-var _cartJss2 = _interopRequireDefault(_cartJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Cart = function (_React$Component) {
-  _inherits(Cart, _React$Component);
-
-  function Cart() {
-    _classCallCheck(this, Cart);
-
-    return _possibleConstructorReturn(this, (Cart.__proto__ || Object.getPrototypeOf(Cart)).apply(this, arguments));
-  }
-
-  _createClass(Cart, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          anchorEl = _props.anchorEl,
-          close = _props.close,
-          dataCart = _props.dataCart,
-          removeItem = _props.removeItem,
-          totalPrice = _props.totalPrice,
-          checkout = _props.checkout;
-
-
-      var getCartItem = function getCartItem(dataArray) {
-        return dataArray.map(function (item, index) {
-          return _react2.default.createElement(
-            _react.Fragment,
-            { key: index.toString() },
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                'figure',
-                null,
-                _react2.default.createElement('img', { src: item.get('thumbnail'), alt: 'thumb' })
-              ),
-              _react2.default.createElement(_ListItemText2.default, {
-                primary: item.get('name'),
-                secondary: 'Quantity: ' + item.get('quantity') + ' Item - USD ' + item.get('price') * item.get('quantity'),
-                className: classes.itemText
-              }),
-              _react2.default.createElement(
-                _ListItemSecondaryAction2.default,
-                null,
-                _react2.default.createElement(
-                  _IconButton2.default,
-                  { 'aria-label': 'Comments', onClick: function onClick() {
-                      return removeItem(item);
-                    } },
-                  _react2.default.createElement(_Delete2.default, null)
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(_Divider2.default, null)
-            )
-          );
-        });
-      };
-      return _react2.default.createElement(
-        _Menu2.default,
-        {
-          id: 'cart-menu',
-          anchorEl: anchorEl,
-          anchorOrigin: {
-            vertical: 'top',
-            horizontal: 'right'
-          },
-          transformOrigin: {
-            vertical: 'top',
-            horizontal: 'right'
-          },
-          open: Boolean(anchorEl),
-          onClose: close,
-          className: classes.cartPanel
-        },
-        _react2.default.createElement(
-          _List2.default,
-          {
-            component: 'ul',
-            subheader: _react2.default.createElement(
-              _ListSubheader2.default,
-              { component: 'div' },
-              _react2.default.createElement(_ShoppingCart2.default, null),
-              ' Total: ',
-              dataCart.size,
-              ' Unique items in Cart'
-            ),
-            className: classes.cartWrap
-          },
-          dataCart.size < 1 ? _react2.default.createElement(
-            'div',
-            { className: classes.empty },
-            _react2.default.createElement(
-              _Typography2.default,
-              { variant: 'subheading' },
-              'Empty Cart'
-            ),
-            _react2.default.createElement(
-              _Typography2.default,
-              { variant: 'caption' },
-              'Your shopping items will be listed here'
-            )
-          ) : _react2.default.createElement(
-            _react.Fragment,
-            null,
-            getCartItem(dataCart),
-            _react2.default.createElement(
-              _ListItem2.default,
-              { className: classes.totalPrice },
-              _react2.default.createElement(
-                _Typography2.default,
-                { variant: 'subheading' },
-                'Total : ',
-                _react2.default.createElement(
-                  'span',
-                  { className: _Typography4.default.bold },
-                  '$',
-                  totalPrice
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(_Divider2.default, null)
-            ),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Button2.default,
-                { fullWidth: true, className: classes.button, variant: 'raised', onClick: function onClick() {
-                    return checkout();
-                  }, color: 'secondary' },
-                'Checkout'
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Cart;
-}(_react2.default.Component);
-
-Cart.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  dataCart: _propTypes2.default.object.isRequired,
-  anchorEl: _propTypes2.default.object,
-  close: _propTypes2.default.func.isRequired,
-  removeItem: _propTypes2.default.func.isRequired,
-  checkout: _propTypes2.default.func.isRequired,
-  totalPrice: _propTypes2.default.number.isRequired
-};
-
-Cart.defaultProps = {
-  anchorEl: null
-};
-
-var _default = (0, _styles.withStyles)(_cartJss2.default)(Cart);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Cart, 'Cart', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Cart/Cart.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Cart/Cart.js');
-}();
-
-;
-
-/***/ }),
-/* 131 */
-/*!*******************************************!*\
-  !*** external "@material-ui/icons/Email" ***!
-  \*******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Email");
-
-/***/ }),
-/* 132 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/Smartphone" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Smartphone");
-
-/***/ }),
-/* 133 */
-/*!******************************************!*\
-  !*** external "@material-ui/icons/Work" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Work");
-
-/***/ }),
-/* 134 */
-/*!**********************************************!*\
-  !*** external "@material-ui/icons/Language" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Language");
-
-/***/ }),
-/* 135 */
-/*!*********************************************!*\
-  !*** ./src/app/styles/components/Form.scss ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = {
-	"bodyForm": "bodyForm__1bRIl",
-	"buttonArea": "buttonArea__3uTSL"
-};
-
-/***/ }),
-/* 136 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/Calendar/AddEventForm.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 137);
-
-var _Radio2 = _interopRequireDefault(_Radio);
-
-var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 138);
-
-var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
-
-var _FormLabel = __webpack_require__(/*! @material-ui/core/FormLabel */ 304);
-
-var _FormLabel2 = _interopRequireDefault(_FormLabel);
-
-var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 44);
-
-var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
-
-var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 111);
-
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 45);
-
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 61);
-
-var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 78);
-
-var _momentUtils2 = _interopRequireDefault(_momentUtils);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
-
-var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 79);
-
-var _MuiPickersUtilsProvider2 = _interopRequireDefault(_MuiPickersUtilsProvider);
-
-var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 135);
-
-var _Form2 = _interopRequireDefault(_Form);
-
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 63);
-
-var _calendarJss2 = _interopRequireDefault(_calendarJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-// validation functions
-var required = function required(value) {
-  return value == null ? 'Required' : undefined;
-};
-
-var DateTimePickerRow = function DateTimePickerRow(props) {
-  var showErrorsInline = props.showErrorsInline,
-      dispatch = props.dispatch,
-      _props$input = props.input,
-      onChange = _props$input.onChange,
-      value = _props$input.value,
-      _props$meta = props.meta,
-      touched = _props$meta.touched,
-      error = _props$meta.error,
-      other = _objectWithoutProperties(props, ['showErrorsInline', 'dispatch', 'input', 'meta']);
-
-  var showError = showErrorsInline || touched;
-
-  return _react2.default.createElement(
-    _MuiPickersUtilsProvider2.default,
-    { utils: _momentUtils2.default },
-    _react2.default.createElement(_materialUiPickers.DateTimePicker, _extends({
-      keyboard: true,
-      error: !!(showError && error),
-      helperText: showError && error,
-      value: value || new Date(),
-      onChange: onChange,
-      disablePast: true,
-      label: 'DateTimePicker'
-    }, other))
-  );
-};
-
-DateTimePickerRow.propTypes = {
-  showErrorsInline: _propTypes2.default.bool,
-  dispatch: _propTypes2.default.func,
-  input: _propTypes2.default.object.isRequired,
-  meta: _propTypes2.default.object.isRequired
-};
-
-var renderRadioGroup = function renderRadioGroup(_ref) {
-  var input = _ref.input,
-      rest = _objectWithoutProperties(_ref, ['input']);
-
-  return _react2.default.createElement(_RadioGroup2.default, _extends({}, input, rest, {
-    valueselected: input.value,
-    onChange: function onChange(event, value) {
-      return input.onChange(value);
-    }
-  }));
-};
-
-renderRadioGroup.propTypes = {
-  input: _propTypes2.default.object.isRequired
-};
-
-DateTimePickerRow.defaultProps = {
-  showErrorsInline: false,
-  dispatch: function dispatch() {}
-};
-
-var AddEventForm = function (_React$Component) {
-  _inherits(AddEventForm, _React$Component);
-
-  function AddEventForm() {
-    var _ref2;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, AddEventForm);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref2 = AddEventForm.__proto__ || Object.getPrototypeOf(AddEventForm)).call.apply(_ref2, [this].concat(args))), _this), _this.state = {
-      selectedDate: new Date()
-    }, _this.saveRef = function () {
-      var _this2;
-
-      return (_this2 = _this).__saveRef__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(AddEventForm, [{
-    key: '__saveRef__REACT_HOT_LOADER__',
-    value: function __saveRef__REACT_HOT_LOADER__() {
-      return this.__saveRef__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__saveRef__REACT_HOT_LOADER__',
-    value: function __saveRef__REACT_HOT_LOADER__(ref) {
-      this.ref = ref;
-      return this.ref;
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          reset = _props.reset,
-          pristine = _props.pristine,
-          submitting = _props.submitting,
-          handleSubmit = _props.handleSubmit;
-      var selectedDate = this.state.selectedDate;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'form',
-          { onSubmit: handleSubmit },
-          _react2.default.createElement(
-            'section',
-            { className: _Form2.default.bodyForm },
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'title',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Event Name',
-                label: 'Event Name',
-                validate: required,
-                required: true,
-                ref: this.saveRef,
-                withRef: true,
-                className: classes.field
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'start',
-                component: DateTimePickerRow,
-                placeholder: 'Start Date',
-                value: selectedDate,
-                label: 'Start Date',
-                className: classes.field
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'end',
-                component: DateTimePickerRow,
-                placeholder: 'End Date',
-                value: selectedDate,
-                label: 'End Date',
-                className: classes.field
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: classes.fieldBasic },
-              _react2.default.createElement(
-                _FormLabel2.default,
-                { component: 'label' },
-                'Label Color'
-              ),
-              _react2.default.createElement(
-                _immutable.Field,
-                { name: 'hexColor', className: classes.inlineWrap, component: renderRadioGroup },
-                _react2.default.createElement(_FormControlLabel2.default, { value: 'F8BBD0', control: _react2.default.createElement(_Radio2.default, { className: classes.redRadio, classes: { root: classes.redRadio, checked: classes.checked } }), label: 'Red' }),
-                _react2.default.createElement(_FormControlLabel2.default, { value: 'C8E6C9', control: _react2.default.createElement(_Radio2.default, { className: classes.greenRadio, classes: { root: classes.greenRadio, checked: classes.checked } }), label: 'Green' }),
-                _react2.default.createElement(_FormControlLabel2.default, { value: 'B3E5FC', control: _react2.default.createElement(_Radio2.default, { className: classes.blueRadio, classes: { root: classes.blueRadio, checked: classes.checked } }), label: 'Blue' }),
-                _react2.default.createElement(_FormControlLabel2.default, { value: 'D1C4E9', control: _react2.default.createElement(_Radio2.default, { className: classes.violetRadio, classes: { root: classes.violetRadio, checked: classes.checked } }), label: 'Violet' }),
-                _react2.default.createElement(_FormControlLabel2.default, { value: 'FFECB3', control: _react2.default.createElement(_Radio2.default, { className: classes.orangeRadio, classes: { root: classes.orangeRadio, checked: classes.checked } }), label: 'Orange' })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: _Form2.default.buttonArea },
-            _react2.default.createElement(
-              _Button2.default,
-              { variant: 'raised', color: 'secondary', type: 'submit', disabled: submitting },
-              'Submit'
-            ),
-            _react2.default.createElement(
-              _Button2.default,
-              {
-                type: 'button',
-                disabled: pristine || submitting,
-                onClick: reset
-              },
-              'Reset'
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return AddEventForm;
-}(_react2.default.Component);
-
-AddEventForm.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  handleSubmit: _propTypes2.default.func.isRequired,
-  reset: _propTypes2.default.func.isRequired,
-  pristine: _propTypes2.default.bool.isRequired,
-  submitting: _propTypes2.default.bool.isRequired
-};
-
-var AddEventFormRedux = (0, _immutable.reduxForm)({
-  form: 'immutableAddCalendar',
-  enableReinitialize: true
-})(AddEventForm);
-
-var reducer = 'calendar';
-var AddEventInit = (0, _reactRedux.connect)(function (state) {
-  return {
-    force: state,
-    initialValues: state.getIn([reducer, 'formValues'])
-  };
-})(AddEventFormRedux);
-
-var _default = (0, _styles.withStyles)(_calendarJss2.default)(AddEventInit);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(required, 'required', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(DateTimePickerRow, 'DateTimePickerRow', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(renderRadioGroup, 'renderRadioGroup', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(AddEventForm, 'AddEventForm', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(AddEventFormRedux, 'AddEventFormRedux', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(AddEventInit, 'AddEventInit', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEventForm.js');
-}();
-
-;
-
-/***/ }),
-/* 137 */
-/*!******************************************!*\
-  !*** external "@material-ui/core/Radio" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Radio");
-
-/***/ }),
-/* 138 */
-/*!***********************************************!*\
-  !*** external "@material-ui/core/RadioGroup" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/RadioGroup");
-
-/***/ }),
-/* 139 */
+/* 72 */
 /*!*************************************!*\
   !*** ./src/app/constants/helmet.js ***!
   \*************************************/
@@ -5980,7 +3354,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 140 */
+/* 73 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Themes/themeStyles-jss.js ***!
   \******************************************************/
@@ -6121,35 +3495,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 141 */
-/*!***************************************************!*\
-  !*** external "@material-ui/core/LinearProgress" ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/LinearProgress");
-
-/***/ }),
-/* 142 */
-/*!*************************************************!*\
-  !*** ./src/app/styles/components/Progress.scss ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = {
-	"bgInfo": "bgInfo__1rIDg",
-	"bgSuccess": "bgSuccess__1aJ9a",
-	"bgWarning": "bgWarning__1NtmD",
-	"bgError": "bgError__3CYo8",
-	"bgDefault": "bgDefault__kFCyp"
-};
-
-/***/ }),
-/* 143 */
+/* 74 */
 /*!*************************************!*\
   !*** external "react-router-redux" ***!
   \*************************************/
@@ -6160,7 +3506,7 @@ module.exports = {
 module.exports = require("react-router-redux");
 
 /***/ }),
-/* 144 */
+/* 75 */
 /*!******************************!*\
   !*** ./src/server/server.js ***!
   \******************************/
@@ -6175,37 +3521,37 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path = __webpack_require__(/*! path */ 145);
+var _path = __webpack_require__(/*! path */ 76);
 
 var _path2 = _interopRequireDefault(_path);
 
-var _compression = __webpack_require__(/*! compression */ 146);
+var _compression = __webpack_require__(/*! compression */ 77);
 
 var _compression2 = _interopRequireDefault(_compression);
 
-var _express = __webpack_require__(/*! express */ 147);
+var _express = __webpack_require__(/*! express */ 78);
 
 var _express2 = _interopRequireDefault(_express);
 
-var _serveFavicon = __webpack_require__(/*! serve-favicon */ 148);
+var _serveFavicon = __webpack_require__(/*! serve-favicon */ 79);
 
 var _serveFavicon2 = _interopRequireDefault(_serveFavicon);
 
-__webpack_require__(/*! ./env */ 149);
+__webpack_require__(/*! ./env */ 80);
 
-var _rawdocs = __webpack_require__(/*! ./rawdocs */ 151);
+var _rawdocs = __webpack_require__(/*! ./rawdocs */ 82);
 
 var _rawdocs2 = _interopRequireDefault(_rawdocs);
 
-var _rawicons = __webpack_require__(/*! ./rawicons */ 152);
+var _rawicons = __webpack_require__(/*! ./rawicons */ 83);
 
 var _rawicons2 = _interopRequireDefault(_rawicons);
 
-var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 153);
+var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 84);
 
 var _createSSR2 = _interopRequireDefault(_createSSR);
 
-var _config = __webpack_require__(/*! ./../app/config */ 48);
+var _config = __webpack_require__(/*! ./../app/config */ 26);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -6292,7 +3638,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 145 */
+/* 76 */
 /*!***********************!*\
   !*** external "path" ***!
   \***********************/
@@ -6303,7 +3649,7 @@ var _temp = function () {
 module.exports = require("path");
 
 /***/ }),
-/* 146 */
+/* 77 */
 /*!******************************!*\
   !*** external "compression" ***!
   \******************************/
@@ -6314,7 +3660,7 @@ module.exports = require("path");
 module.exports = require("compression");
 
 /***/ }),
-/* 147 */
+/* 78 */
 /*!**************************!*\
   !*** external "express" ***!
   \**************************/
@@ -6325,7 +3671,7 @@ module.exports = require("compression");
 module.exports = require("express");
 
 /***/ }),
-/* 148 */
+/* 79 */
 /*!********************************!*\
   !*** external "serve-favicon" ***!
   \********************************/
@@ -6336,7 +3682,7 @@ module.exports = require("express");
 module.exports = require("serve-favicon");
 
 /***/ }),
-/* 149 */
+/* 80 */
 /*!***************************!*\
   !*** ./src/server/env.js ***!
   \***************************/
@@ -6351,7 +3697,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _dotenv = __webpack_require__(/*! dotenv */ 150);
+var _dotenv = __webpack_require__(/*! dotenv */ 81);
 
 var _dotenv2 = _interopRequireDefault(_dotenv);
 
@@ -6373,7 +3719,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 150 */
+/* 81 */
 /*!*************************!*\
   !*** external "dotenv" ***!
   \*************************/
@@ -6384,7 +3730,7 @@ var _temp = function () {
 module.exports = require("dotenv");
 
 /***/ }),
-/* 151 */
+/* 82 */
 /*!*******************************!*\
   !*** ./src/server/rawdocs.js ***!
   \*******************************/
@@ -6400,7 +3746,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = rawdoc;
 
-var _fs = __webpack_require__(/*! fs */ 86);
+var _fs = __webpack_require__(/*! fs */ 41);
 
 var _fs2 = _interopRequireDefault(_fs);
 
@@ -6424,7 +3770,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 152 */
+/* 83 */
 /*!********************************!*\
   !*** ./src/server/rawicons.js ***!
   \********************************/
@@ -6440,7 +3786,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = rawdoc;
 
-var _fs = __webpack_require__(/*! fs */ 86);
+var _fs = __webpack_require__(/*! fs */ 41);
 
 var _fs2 = _interopRequireDefault(_fs);
 
@@ -6464,7 +3810,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 153 */
+/* 84 */
 /*!*************************************!*\
   !*** ./src/server/SSR/createSSR.js ***!
   \*************************************/
@@ -6484,33 +3830,33 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _server = __webpack_require__(/*! react-dom/server */ 87);
+var _server = __webpack_require__(/*! react-dom/server */ 42);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 49);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 27);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _history = __webpack_require__(/*! history */ 154);
+var _history = __webpack_require__(/*! history */ 85);
 
-var _containers = __webpack_require__(/*! ./../../app/containers */ 155);
+var _containers = __webpack_require__(/*! ./../../app/containers */ 86);
 
 var _containers2 = _interopRequireDefault(_containers);
 
-var _html = __webpack_require__(/*! ./html */ 343);
+var _html = __webpack_require__(/*! ./html */ 237);
 
 var _html2 = _interopRequireDefault(_html);
 
-var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 344);
+var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 238);
 
 var _ApiClient2 = _interopRequireDefault(_ApiClient);
 
-var _store = __webpack_require__(/*! ./../../app/redux/store */ 346);
+var _store = __webpack_require__(/*! ./../../app/redux/store */ 240);
 
 var _store2 = _interopRequireDefault(_store);
 
-var _config = __webpack_require__(/*! ./../../app/config */ 48);
+var _config = __webpack_require__(/*! ./../../app/config */ 26);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -6596,7 +3942,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 154 */
+/* 85 */
 /*!**************************!*\
   !*** external "history" ***!
   \**************************/
@@ -6607,7 +3953,7 @@ var _temp = function () {
 module.exports = require("history");
 
 /***/ }),
-/* 155 */
+/* 86 */
 /*!*************************************!*\
   !*** ./src/app/containers/index.js ***!
   \*************************************/
@@ -6624,80 +3970,72 @@ Object.defineProperty(exports, "__esModule", {
 
 var _components = __webpack_require__(/*! ./../components */ 3);
 
-var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 306);
+var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 215);
 
 var _Dashboard2 = _interopRequireDefault(_Dashboard);
 
-var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 308);
+var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 217);
 
 var _RoutePage2 = _interopRequireDefault(_RoutePage);
 
-var _TransporterPage = __webpack_require__(/*! ./Transporter/TransporterPage */ 309);
+var _TransporterPage = __webpack_require__(/*! ./Transporter/TransporterPage */ 218);
 
 var _TransporterPage2 = _interopRequireDefault(_TransporterPage);
 
-var _DriverPage = __webpack_require__(/*! ./Driver/DriverPage */ 310);
+var _DriverPage = __webpack_require__(/*! ./Driver/DriverPage */ 219);
 
 var _DriverPage2 = _interopRequireDefault(_DriverPage);
 
-var _AssistantPage = __webpack_require__(/*! ./Assistant/AssistantPage */ 311);
+var _AssistantPage = __webpack_require__(/*! ./Assistant/AssistantPage */ 220);
 
 var _AssistantPage2 = _interopRequireDefault(_AssistantPage);
 
-var _ClientPage = __webpack_require__(/*! ./Client/ClientPage */ 312);
+var _ClientPage = __webpack_require__(/*! ./Client/ClientPage */ 221);
 
 var _ClientPage2 = _interopRequireDefault(_ClientPage);
 
-var _TSchedulePage = __webpack_require__(/*! ./Schedule/TSchedulePage */ 313);
+var _TSchedulePage = __webpack_require__(/*! ./Schedule/TSchedulePage */ 222);
 
 var _TSchedulePage2 = _interopRequireDefault(_TSchedulePage);
 
-var _WSchedulePage = __webpack_require__(/*! ./Schedule/WSchedulePage */ 314);
+var _WSchedulePage = __webpack_require__(/*! ./Schedule/WSchedulePage */ 223);
 
 var _WSchedulePage2 = _interopRequireDefault(_WSchedulePage);
 
-var _TicketPage = __webpack_require__(/*! ./Ticket/TicketPage */ 315);
+var _TicketPage = __webpack_require__(/*! ./Ticket/TicketPage */ 224);
 
 var _TicketPage2 = _interopRequireDefault(_TicketPage);
 
-var _Themes = __webpack_require__(/*! ./Themes */ 316);
+var _Themes = __webpack_require__(/*! ./Themes */ 225);
 
 var _Themes2 = _interopRequireDefault(_Themes);
 
-var _CrudTable = __webpack_require__(/*! ./Tables/CrudTable */ 318);
-
-var _CrudTable2 = _interopRequireDefault(_CrudTable);
-
-var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 335);
+var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 229);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 336);
+var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 230);
 
 var _NotFoundDedicated2 = _interopRequireDefault(_NotFoundDedicated);
 
-var _withTracker = __webpack_require__(/*! ./withTracker */ 338);
+var _withTracker = __webpack_require__(/*! ./withTracker */ 232);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// Tables
+// Themes
+
+// Work
 
 
-// Ticket
+// Client
 
 
-// Schedule
-// Transport
+// Driver
 
 
-// Assistant
-
-
-// Transporter
-
-// Dashboard
+// Route
 var _default = function _default(store) {
   // eslint-disable-line
   // we can get an access to store
@@ -6754,18 +4092,19 @@ var _default = function _default(store) {
 // Other
 
 
-// Themes
-
-// Work
+// Ticket
 
 
-// Client
+// Schedule
+// Transport
 
 
-// Driver
+// Assistant
 
 
-// Route
+// Transporter
+
+// Dashboard
 
 
 exports.default = _default;
@@ -6782,7 +4121,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 156 */
+/* 87 */
 /*!***************************************!*\
   !*** ./src/app/components/App/App.js ***!
   \***************************************/
@@ -6805,27 +4144,27 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 49);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 27);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _reactLoadingBar = __webpack_require__(/*! react-loading-bar */ 157);
+var _reactLoadingBar = __webpack_require__(/*! react-loading-bar */ 88);
 
 var _reactLoadingBar2 = _interopRequireDefault(_reactLoadingBar);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 64);
+var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 33);
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-__webpack_require__(/*! ../../styles/components/vendors/react-loading-bar/index.css */ 158);
+__webpack_require__(/*! ../../styles/components/vendors/react-loading-bar/index.css */ 89);
 
-var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 65);
+var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 34);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 50);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 28);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -7029,7 +4368,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 157 */
+/* 88 */
 /*!************************************!*\
   !*** external "react-loading-bar" ***!
   \************************************/
@@ -7040,7 +4379,7 @@ var _temp2 = function () {
 module.exports = require("react-loading-bar");
 
 /***/ }),
-/* 158 */
+/* 89 */
 /*!***********************************************************************!*\
   !*** ./src/app/styles/components/vendors/react-loading-bar/index.css ***!
   \***********************************************************************/
@@ -7051,7 +4390,7 @@ module.exports = require("react-loading-bar");
 
 
 /***/ }),
-/* 159 */
+/* 90 */
 /*!***************************************!*\
   !*** ./static/images/material_bg.svg ***!
   \***************************************/
@@ -7062,7 +4401,7 @@ module.exports = require("react-loading-bar");
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMTIwMCA3MDAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcwMCI+PGRlZnM+PHBhdGggZD0iTTEwNDYuNjcgMzU4LjI4QzEwNDYuNjcgNTEyLjQ4IDkyMS40OCA2MzcuNjcgNzY3LjI4IDYzNy42N0M2MTMuMDcgNjM3LjY3IDQ4Ny44OCA1MTIuNDggNDg3Ljg4IDM1OC4yOEM0ODcuODggMjA0LjA3IDYxMy4wNyA3OC44OCA3NjcuMjggNzguODhDOTIxLjQ4IDc4Ljg4IDEwNDYuNjcgMjA0LjA3IDEwNDYuNjcgMzU4LjI4WiIgaWQ9ImJ1b1Qwd0ZBQiI+PC9wYXRoPjxwYXRoIGQ9Ik05MzAuMDUgMzU4LjI4QzkzMC4wNSA0NDguMTEgODU3LjExIDUyMS4wNSA3NjcuMjggNTIxLjA1QzY3Ny40NCA1MjEuMDUgNjA0LjUgNDQ4LjExIDYwNC41IDM1OC4yOEM2MDQuNSAyNjguNDQgNjc3LjQ0IDE5NS41IDc2Ny4yOCAxOTUuNUM4NTcuMTEgMTk1LjUgOTMwLjA1IDI2OC40NCA5MzAuMDUgMzU4LjI4WiIgaWQ9ImJMTEJQbW9jZyI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjAwIDEyNi4zMUwxMjAwIDcwMEwwIDcwMEwxMjAwIDEyNi4zMVoiIGlkPSJjMllrSGQwaVhjIj48L3BhdGg+PHBhdGggZD0iTTYxMy4yMiA3MDQuMzdMMCA3MDQuMzdMMCAxNjMuNjNMNjEzLjIyIDcwNC4zN1oiIGlkPSJhY1lWQWVpQ3kiPjwvcGF0aD48L2RlZnM+PGc+PGc+PGc+PGc+PHVzZSB4bGluazpocmVmPSIjYnVvVDB3RkFCIiBvcGFjaXR5PSIwLjE5IiBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjEiPjwvdXNlPjwvZz48Zz48dXNlIHhsaW5rOmhyZWY9IiNiTExCUG1vY2ciIG9wYWNpdHk9IjAuMiIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2MyWWtIZDBpWGMiIG9wYWNpdHk9IjAuMDkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMSI+PC91c2U+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2FjWVZBZWlDeSIgb3BhY2l0eT0iMC4xNSIgZmlsbD0iIzAwMDAwMCIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjwvZz48L3N2Zz4="
 
 /***/ }),
-/* 160 */
+/* 91 */
 /*!*****************************************!*\
   !*** ./src/app/components/App/Outer.js ***!
   \*****************************************/
@@ -7085,23 +4424,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 49);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 27);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 66);
+var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 35);
 
 var _Hidden2 = _interopRequireDefault(_Hidden);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 88);
+var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 43);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 50);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 28);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -7185,7 +4524,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 161 */
+/* 92 */
 /*!*********************************************!*\
   !*** ./src/app/components/App/Dashboard.js ***!
   \*********************************************/
@@ -7210,27 +4549,27 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 49);
+var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 27);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Fade = __webpack_require__(/*! @material-ui/core/Fade */ 162);
+var _Fade = __webpack_require__(/*! @material-ui/core/Fade */ 93);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
 var _components = __webpack_require__(/*! ./../../components */ 3);
 
-var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 65);
+var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 34);
 
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 50);
+var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 28);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
@@ -7431,7 +4770,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 162 */
+/* 93 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Fade" ***!
   \*****************************************/
@@ -7442,7 +4781,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Fade");
 
 /***/ }),
-/* 163 */
+/* 94 */
 /*!*********************************************!*\
   !*** ./src/app/components/Header/Header.js ***!
   \*********************************************/
@@ -7469,39 +4808,39 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 67);
+var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 95);
 
 var _AppBar2 = _interopRequireDefault(_AppBar);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 44);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 51);
+var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 96);
 
 var _Search2 = _interopRequireDefault(_Search);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Menu = __webpack_require__(/*! @material-ui/icons/Menu */ 164);
+var _Menu = __webpack_require__(/*! @material-ui/icons/Menu */ 97);
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
-var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 66);
+var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 35);
 
 var _Hidden2 = _interopRequireDefault(_Hidden);
 
-var _UserMenu = __webpack_require__(/*! ./UserMenu */ 165);
+var _UserMenu = __webpack_require__(/*! ./UserMenu */ 98);
 
 var _UserMenu2 = _interopRequireDefault(_UserMenu);
 
-var _headerJss = __webpack_require__(/*! ./header-jss */ 92);
+var _headerJss = __webpack_require__(/*! ./header-jss */ 50);
 
 var _headerJss2 = _interopRequireDefault(_headerJss);
 
@@ -7613,7 +4952,29 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 164 */
+/* 95 */
+/*!*******************************************!*\
+  !*** external "@material-ui/core/AppBar" ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/AppBar");
+
+/***/ }),
+/* 96 */
+/*!********************************************!*\
+  !*** external "@material-ui/icons/Search" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Search");
+
+/***/ }),
+/* 97 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Menu" ***!
   \******************************************/
@@ -7624,7 +4985,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Menu");
 
 /***/ }),
-/* 165 */
+/* 98 */
 /*!***********************************************!*\
   !*** ./src/app/components/Header/UserMenu.js ***!
   \***********************************************/
@@ -7651,89 +5012,89 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
+var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 29);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
+var _Button = __webpack_require__(/*! @material-ui/core/Button */ 36);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Notifications = __webpack_require__(/*! @material-ui/icons/Notifications */ 166);
+var _Notifications = __webpack_require__(/*! @material-ui/icons/Notifications */ 99);
 
 var _Notifications2 = _interopRequireDefault(_Notifications);
 
-var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 89);
+var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 45);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _Warning = __webpack_require__(/*! @material-ui/icons/Warning */ 167);
+var _Warning = __webpack_require__(/*! @material-ui/icons/Warning */ 100);
 
 var _Warning2 = _interopRequireDefault(_Warning);
 
-var _CheckCircle = __webpack_require__(/*! @material-ui/icons/CheckCircle */ 168);
+var _CheckCircle = __webpack_require__(/*! @material-ui/icons/CheckCircle */ 101);
 
 var _CheckCircle2 = _interopRequireDefault(_CheckCircle);
 
-var _DoNotDisturbOn = __webpack_require__(/*! @material-ui/icons/DoNotDisturbOn */ 169);
+var _DoNotDisturbOn = __webpack_require__(/*! @material-ui/icons/DoNotDisturbOn */ 102);
 
 var _DoNotDisturbOn2 = _interopRequireDefault(_DoNotDisturbOn);
 
-var _ExitToApp = __webpack_require__(/*! @material-ui/icons/ExitToApp */ 170);
+var _ExitToApp = __webpack_require__(/*! @material-ui/icons/ExitToApp */ 103);
 
 var _ExitToApp2 = _interopRequireDefault(_ExitToApp);
 
-var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 68);
+var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 104);
 
 var _Badge2 = _interopRequireDefault(_Badge);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 30);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 40);
+var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 46);
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
-var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 41);
+var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 37);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _ListItemIcon = __webpack_require__(/*! @material-ui/core/ListItemIcon */ 90);
+var _ListItemIcon = __webpack_require__(/*! @material-ui/core/ListItemIcon */ 47);
 
 var _ListItemIcon2 = _interopRequireDefault(_ListItemIcon);
 
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
+var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 38);
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */ 91);
+var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */ 48);
 
 var _dummyContents2 = _interopRequireDefault(_dummyContents);
 
-var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 52);
+var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 49);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 69);
+var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 39);
 
 var _avatars2 = _interopRequireDefault(_avatars);
 
-var _headerJss = __webpack_require__(/*! ./header-jss */ 92);
+var _headerJss = __webpack_require__(/*! ./header-jss */ 50);
 
 var _headerJss2 = _interopRequireDefault(_headerJss);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -7807,8 +5168,8 @@ var UserMenu = function (_React$Component) {
       var _state = this.state,
           anchorEl = _state.anchorEl,
           openMenu = _state.openMenu;
+      // show(this.props.user);
 
-      (0, _show2.default)(this.props.user);
       return _react2.default.createElement(
         'div',
         { className: 'userMenu' },
@@ -8023,7 +5384,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 166 */
+/* 99 */
 /*!***************************************************!*\
   !*** external "@material-ui/icons/Notifications" ***!
   \***************************************************/
@@ -8034,7 +5395,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/icons/Notifications");
 
 /***/ }),
-/* 167 */
+/* 100 */
 /*!*********************************************!*\
   !*** external "@material-ui/icons/Warning" ***!
   \*********************************************/
@@ -8045,7 +5406,7 @@ module.exports = require("@material-ui/icons/Notifications");
 module.exports = require("@material-ui/icons/Warning");
 
 /***/ }),
-/* 168 */
+/* 101 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/CheckCircle" ***!
   \*************************************************/
@@ -8056,7 +5417,7 @@ module.exports = require("@material-ui/icons/Warning");
 module.exports = require("@material-ui/icons/CheckCircle");
 
 /***/ }),
-/* 169 */
+/* 102 */
 /*!****************************************************!*\
   !*** external "@material-ui/icons/DoNotDisturbOn" ***!
   \****************************************************/
@@ -8067,7 +5428,7 @@ module.exports = require("@material-ui/icons/CheckCircle");
 module.exports = require("@material-ui/icons/DoNotDisturbOn");
 
 /***/ }),
-/* 170 */
+/* 103 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/ExitToApp" ***!
   \***********************************************/
@@ -8078,7 +5439,18 @@ module.exports = require("@material-ui/icons/DoNotDisturbOn");
 module.exports = require("@material-ui/icons/ExitToApp");
 
 /***/ }),
-/* 171 */
+/* 104 */
+/*!******************************************!*\
+  !*** external "@material-ui/core/Badge" ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Badge");
+
+/***/ }),
+/* 105 */
 /*!***********************************************!*\
   !*** ./src/app/components/Sidebar/Sidebar.js ***!
   \***********************************************/
@@ -8105,59 +5477,59 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 66);
+var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 35);
 
 var _Hidden2 = _interopRequireDefault(_Hidden);
 
-var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 93);
+var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 106);
 
 var _Drawer2 = _interopRequireDefault(_Drawer);
 
-var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 172);
+var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 107);
 
 var _SwipeableDrawer2 = _interopRequireDefault(_SwipeableDrawer);
 
-var _List = __webpack_require__(/*! @material-ui/core/List */ 42);
+var _List = __webpack_require__(/*! @material-ui/core/List */ 52);
 
 var _List2 = _interopRequireDefault(_List);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 30);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
+var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 29);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */ 91);
+var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */ 48);
 
 var _dummyContents2 = _interopRequireDefault(_dummyContents);
 
-var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 88);
+var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 43);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _MainMenu = __webpack_require__(/*! ./MainMenu */ 173);
+var _MainMenu = __webpack_require__(/*! ./MainMenu */ 108);
 
 var _MainMenu2 = _interopRequireDefault(_MainMenu);
 
-var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 176);
+var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 112);
 
 var _OtherMenu2 = _interopRequireDefault(_OtherMenu);
 
-var _sidebarJss = __webpack_require__(/*! ./sidebar-jss */ 96);
+var _sidebarJss = __webpack_require__(/*! ./sidebar-jss */ 55);
 
 var _sidebarJss2 = _interopRequireDefault(_sidebarJss);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8371,7 +5743,18 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 172 */
+/* 106 */
+/*!*******************************************!*\
+  !*** external "@material-ui/core/Drawer" ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Drawer");
+
+/***/ }),
+/* 107 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/SwipeableDrawer" ***!
   \****************************************************/
@@ -8382,7 +5765,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/SwipeableDrawer");
 
 /***/ }),
-/* 173 */
+/* 108 */
 /*!************************************************!*\
   !*** ./src/app/components/Sidebar/MainMenu.js ***!
   \************************************************/
@@ -8409,53 +5792,53 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
-var _List = __webpack_require__(/*! @material-ui/core/List */ 42);
+var _List = __webpack_require__(/*! @material-ui/core/List */ 52);
 
 var _List2 = _interopRequireDefault(_List);
 
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
+var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 53);
 
 var _ListItem2 = _interopRequireDefault(_ListItem);
 
-var _ListItemIcon = __webpack_require__(/*! @material-ui/core/ListItemIcon */ 90);
+var _ListItemIcon = __webpack_require__(/*! @material-ui/core/ListItemIcon */ 47);
 
 var _ListItemIcon2 = _interopRequireDefault(_ListItemIcon);
 
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
+var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 38);
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 174);
+var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 109);
 
 var _Collapse2 = _interopRequireDefault(_Collapse);
 
-var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 71);
+var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 40);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 175);
+var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 110);
 
 var _ExpandLess2 = _interopRequireDefault(_ExpandLess);
 
-var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 94);
+var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 111);
 
 var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
-var _menu = __webpack_require__(/*! ../../constants/menu.js */ 95);
+var _menu = __webpack_require__(/*! ../../constants/menu.js */ 54);
 
 var _menu2 = _interopRequireDefault(_menu);
 
-var _sidebarJss = __webpack_require__(/*! ./sidebar-jss */ 96);
+var _sidebarJss = __webpack_require__(/*! ./sidebar-jss */ 55);
 
 var _sidebarJss2 = _interopRequireDefault(_sidebarJss);
 
@@ -8649,7 +6032,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 174 */
+/* 109 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Collapse" ***!
   \*********************************************/
@@ -8660,7 +6043,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Collapse");
 
 /***/ }),
-/* 175 */
+/* 110 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/ExpandLess" ***!
   \************************************************/
@@ -8671,7 +6054,18 @@ module.exports = require("@material-ui/core/Collapse");
 module.exports = require("@material-ui/icons/ExpandLess");
 
 /***/ }),
-/* 176 */
+/* 111 */
+/*!************************************************!*\
+  !*** external "@material-ui/icons/ExpandMore" ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/ExpandMore");
+
+/***/ }),
+/* 112 */
 /*!*************************************************!*\
   !*** ./src/app/components/Sidebar/OtherMenu.js ***!
   \*************************************************/
@@ -8696,17 +6090,17 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
+var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 53);
 
 var _ListItem2 = _interopRequireDefault(_ListItem);
 
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
+var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 38);
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 177);
+var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 113);
 
 var _otherMenu2 = _interopRequireDefault(_otherMenu);
 
@@ -8784,7 +6178,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 177 */
+/* 113 */
 /*!****************************************!*\
   !*** ./src/app/constants/otherMenu.js ***!
   \****************************************/
@@ -8815,7 +6209,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 178 */
+/* 114 */
 /*!*********************************************!*\
   !*** ./src/app/components/Footer/Footer.js ***!
   \*********************************************/
@@ -8834,7 +6228,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = __webpack_require__(/*! ./Footer.scss */ 179);
+var _Footer = __webpack_require__(/*! ./Footer.scss */ 115);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -8865,7 +6259,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 179 */
+/* 115 */
 /*!***********************************************!*\
   !*** ./src/app/components/Footer/Footer.scss ***!
   \***********************************************/
@@ -8878,7 +6272,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 180 */
+/* 116 */
 /*!*****************************************************!*\
   !*** ./src/app/components/BreadCrumb/BreadCrumb.js ***!
   \*****************************************************/
@@ -8903,13 +6297,13 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
-var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 181);
+var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 117);
 
 var _breadCrumbJss2 = _interopRequireDefault(_breadCrumbJss);
 
@@ -8986,7 +6380,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 181 */
+/* 117 */
 /*!*********************************************************!*\
   !*** ./src/app/components/BreadCrumb/breadCrumb-jss.js ***!
   \*********************************************************/
@@ -9047,7 +6441,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 182 */
+/* 118 */
 /*!************************************************!*\
   !*** ./src/app/components/Route/RouteTable.js ***!
   \************************************************/
@@ -9074,29 +6468,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _RouteActions = __webpack_require__(/*! ../../actions/RouteActions */ 183);
+var _RouteActions = __webpack_require__(/*! ../../actions/RouteActions */ 119);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
 var _ = __webpack_require__(/*! ../ */ 3);
 
-var _route = __webpack_require__(/*! ../../constants/route */ 72);
+var _route = __webpack_require__(/*! ../../constants/route */ 56);
 
 var _route2 = _interopRequireDefault(_route);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -9277,7 +6671,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 183 */
+/* 119 */
 /*!*****************************************!*\
   !*** ./src/app/actions/RouteActions.js ***!
   \*****************************************/
@@ -9295,7 +6689,7 @@ exports.closeNotifAction = exports.saveAction = exports.editAction = exports.upd
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _show = __webpack_require__(/*! ../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -9303,13 +6697,13 @@ var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -9415,7 +6809,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 184 */
+/* 120 */
 /*!************************************************************!*\
   !*** ./src/app/components/Transporter/TransporterTable.js ***!
   \************************************************************/
@@ -9442,25 +6836,25 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _TransporterActions = __webpack_require__(/*! ../../actions/TransporterActions */ 185);
+var _TransporterActions = __webpack_require__(/*! ../../actions/TransporterActions */ 121);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! ../ */ 3);
 
-var _transporter = __webpack_require__(/*! ../../constants/transporter */ 98);
+var _transporter = __webpack_require__(/*! ../../constants/transporter */ 57);
 
 var _transporter2 = _interopRequireDefault(_transporter);
 
@@ -9641,7 +7035,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 185 */
+/* 121 */
 /*!***********************************************!*\
   !*** ./src/app/actions/TransporterActions.js ***!
   \***********************************************/
@@ -9657,7 +7051,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -9665,11 +7059,11 @@ var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../constants/urls/api */ 17);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -9768,7 +7162,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 186 */
+/* 122 */
 /*!**************************************************!*\
   !*** ./src/app/components/Driver/DriverTable.js ***!
   \**************************************************/
@@ -9795,29 +7189,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _DriverActions = __webpack_require__(/*! ../../actions/DriverActions */ 187);
+var _DriverActions = __webpack_require__(/*! ../../actions/DriverActions */ 123);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! ../ */ 3);
 
-var _driver = __webpack_require__(/*! ../../constants/employee/driver */ 99);
+var _driver = __webpack_require__(/*! ../../constants/employee/driver */ 58);
 
 var _driver2 = _interopRequireDefault(_driver);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -9999,7 +7393,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 187 */
+/* 123 */
 /*!******************************************!*\
   !*** ./src/app/actions/DriverActions.js ***!
   \******************************************/
@@ -10015,7 +7409,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -10023,11 +7417,11 @@ var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../constants/urls/api */ 17);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -10127,7 +7521,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 188 */
+/* 124 */
 /*!********************************************************!*\
   !*** ./src/app/components/Assistant/AssistantTable.js ***!
   \********************************************************/
@@ -10154,29 +7548,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _AssistantActions = __webpack_require__(/*! ../../actions/AssistantActions */ 189);
+var _AssistantActions = __webpack_require__(/*! ../../actions/AssistantActions */ 125);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! .. */ 3);
 
-var _assistant = __webpack_require__(/*! ../../constants/employee/assistant */ 100);
+var _assistant = __webpack_require__(/*! ../../constants/employee/assistant */ 59);
 
 var _assistant2 = _interopRequireDefault(_assistant);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -10358,7 +7752,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 189 */
+/* 125 */
 /*!*********************************************!*\
   !*** ./src/app/actions/AssistantActions.js ***!
   \*********************************************/
@@ -10374,7 +7768,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -10382,13 +7776,13 @@ var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -10488,7 +7882,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 190 */
+/* 126 */
 /*!**************************************************!*\
   !*** ./src/app/components/Client/ClientTable.js ***!
   \**************************************************/
@@ -10515,29 +7909,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _ClientActions = __webpack_require__(/*! ../../actions/ClientActions */ 191);
+var _ClientActions = __webpack_require__(/*! ../../actions/ClientActions */ 127);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! .. */ 3);
 
-var _client = __webpack_require__(/*! ../../constants/client/client */ 101);
+var _client = __webpack_require__(/*! ../../constants/client/client */ 60);
 
 var _client2 = _interopRequireDefault(_client);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -10719,7 +8113,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 191 */
+/* 127 */
 /*!******************************************!*\
   !*** ./src/app/actions/ClientActions.js ***!
   \******************************************/
@@ -10735,7 +8129,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -10743,13 +8137,13 @@ var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -10848,7 +8242,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 192 */
+/* 128 */
 /*!*******************************************************!*\
   !*** ./src/app/components/Schedule/TScheduleTable.js ***!
   \*******************************************************/
@@ -10875,29 +8269,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _TScheduleActions = __webpack_require__(/*! ../../actions/schedule/TScheduleActions */ 193);
+var _TScheduleActions = __webpack_require__(/*! ../../actions/schedule/TScheduleActions */ 129);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! .. */ 3);
 
-var _transport = __webpack_require__(/*! ../../constants/schedule/transport */ 102);
+var _transport = __webpack_require__(/*! ../../constants/schedule/transport */ 61);
 
 var _transport2 = _interopRequireDefault(_transport);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11079,7 +8473,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 193 */
+/* 129 */
 /*!******************************************************!*\
   !*** ./src/app/actions/schedule/TScheduleActions.js ***!
   \******************************************************/
@@ -11095,7 +8489,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11103,13 +8497,13 @@ var _actionTypes = __webpack_require__(/*! ../actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -11208,7 +8602,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 194 */
+/* 130 */
 /*!*******************************************************!*\
   !*** ./src/app/components/Schedule/WScheduleTable.js ***!
   \*******************************************************/
@@ -11235,29 +8629,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _WScheduleActions = __webpack_require__(/*! ../../actions/schedule/WScheduleActions */ 195);
+var _WScheduleActions = __webpack_require__(/*! ../../actions/schedule/WScheduleActions */ 131);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! .. */ 3);
 
-var _work = __webpack_require__(/*! ../../constants/schedule/work */ 103);
+var _work = __webpack_require__(/*! ../../constants/schedule/work */ 62);
 
 var _work2 = _interopRequireDefault(_work);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11439,7 +8833,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 195 */
+/* 131 */
 /*!******************************************************!*\
   !*** ./src/app/actions/schedule/WScheduleActions.js ***!
   \******************************************************/
@@ -11455,7 +8849,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11463,13 +8857,13 @@ var _actionTypes = __webpack_require__(/*! ../actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -11568,7 +8962,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 196 */
+/* 132 */
 /*!**************************************************!*\
   !*** ./src/app/components/Ticket/TicketTable.js ***!
   \**************************************************/
@@ -11595,29 +8989,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
-var _TicketActions = __webpack_require__(/*! ../../actions/ticket/TicketActions */ 197);
+var _TicketActions = __webpack_require__(/*! ../../actions/ticket/TicketActions */ 133);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
+var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 15);
 
 var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _ = __webpack_require__(/*! .. */ 3);
 
-var _ticket = __webpack_require__(/*! ../../constants/ticket/ticket */ 104);
+var _ticket = __webpack_require__(/*! ../../constants/ticket/ticket */ 63);
 
 var _ticket2 = _interopRequireDefault(_ticket);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11799,7 +9193,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 197 */
+/* 133 */
 /*!*************************************************!*\
   !*** ./src/app/actions/ticket/TicketActions.js ***!
   \*************************************************/
@@ -11815,7 +9209,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -11823,13 +9217,13 @@ var _actionTypes = __webpack_require__(/*! ../actionTypes */ 5);
 
 var types = _interopRequireWildcard(_actionTypes);
 
-var _crossFetch = __webpack_require__(/*! cross-fetch */ 27);
+var _crossFetch = __webpack_require__(/*! cross-fetch */ 16);
 
 var _crossFetch2 = _interopRequireDefault(_crossFetch);
 
-var _api = __webpack_require__(/*! ../../constants/urls/api */ 28);
+var _api = __webpack_require__(/*! ../../constants/urls/api */ 17);
 
-var _header = __webpack_require__(/*! ../../constants/request/header */ 38);
+var _header = __webpack_require__(/*! ../../constants/request/header */ 25);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -11928,97 +9322,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 198 */
-/*!***********************************************************!*\
-  !*** ./src/app/components/PapperBlock/papperStyle-jss.js ***!
-  \***********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var styles = function styles(theme) {
-  return {
-    root: theme.mixins.gutters({
-      paddingTop: theme.spacing.unit * 3,
-      paddingBottom: theme.spacing.unit * 3,
-      marginTop: theme.spacing.unit * 3,
-      '&$noMargin': {
-        margin: 0
-      }
-    }),
-    title: {
-      marginBottom: theme.spacing.unit * 4,
-      paddingBottom: theme.spacing.unit * 2,
-      position: 'relative',
-      textTransform: 'capitalize',
-      fontSize: 28,
-      '&:after': {
-        content: '""',
-        display: 'block',
-        position: 'absolute',
-        bottom: 0,
-        left: 0,
-        width: 40,
-        borderBottom: '4px solid ' + theme.palette.primary.main
-      }
-    },
-    description: {
-      maxWidth: 960,
-      fontSize: 16
-    },
-    content: {
-      marginTop: theme.spacing.unit * 2,
-      padding: theme.spacing.unit,
-      backgroundColor: theme.palette.background.default
-    },
-    whiteBg: {
-      backgroundColor: 'transparent',
-      margin: 0
-    },
-    noMargin: {},
-    colorMode: {
-      backgroundColor: theme.palette.secondary.main,
-      '& $title': {
-        color: theme.palette.grey[100],
-        '&:after': {
-          borderBottom: '5px solid ' + theme.palette.primary.light
-        }
-      },
-      '& $description': {
-        color: theme.palette.grey[100]
-      }
-    },
-    overflowX: {
-      width: '100%',
-      overflowX: 'auto'
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 199 */
+/* 134 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Counter/CounterWidget.js ***!
   \*****************************************************/
@@ -12043,17 +9347,17 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactCountup = __webpack_require__(/*! react-countup */ 200);
+var _reactCountup = __webpack_require__(/*! react-countup */ 135);
 
 var _reactCountup2 = _interopRequireDefault(_reactCountup);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
@@ -12184,7 +9488,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 200 */
+/* 135 */
 /*!********************************!*\
   !*** external "react-countup" ***!
   \********************************/
@@ -12195,7 +9499,7 @@ var _temp = function () {
 module.exports = require("react-countup");
 
 /***/ }),
-/* 201 */
+/* 136 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Widget/CounterIconsWidget.js ***!
   \*********************************************************/
@@ -12222,29 +9526,29 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 53);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 31);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 202);
+var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 137);
 
 var _AccountBox2 = _interopRequireDefault(_AccountBox);
 
-var _ImportContacts = __webpack_require__(/*! @material-ui/icons/ImportContacts */ 203);
+var _PersonAdd = __webpack_require__(/*! @material-ui/icons/PersonAdd */ 138);
 
-var _ImportContacts2 = _interopRequireDefault(_ImportContacts);
+var _PersonAdd2 = _interopRequireDefault(_PersonAdd);
 
-var _Pets = __webpack_require__(/*! @material-ui/icons/Pets */ 204);
+var _DirectionsBus = __webpack_require__(/*! @material-ui/icons/DirectionsBus */ 139);
 
-var _Pets2 = _interopRequireDefault(_Pets);
+var _DirectionsBus2 = _interopRequireDefault(_DirectionsBus);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 54);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 140);
 
 var _Star2 = _interopRequireDefault(_Star);
 
 var _components = __webpack_require__(/*! ./../../components */ 3);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 55);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 32);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -12299,11 +9603,11 @@ var CounterIconWidget = function (_PureComponent) {
               {
                 color: '388E3C',
                 start: 0,
-                end: 321,
+                end: 3,
                 duration: 3,
-                title: 'New Articles'
+                title: 'New Transporter'
               },
-              _react2.default.createElement(_ImportContacts2.default, { className: classes.counterIcon })
+              _react2.default.createElement(_DirectionsBus2.default, { className: classes.counterIcon })
             )
           ),
           _react2.default.createElement(
@@ -12314,11 +9618,11 @@ var CounterIconWidget = function (_PureComponent) {
               {
                 color: '00ACC1',
                 start: 0,
-                end: 67,
+                end: 15,
                 duration: 3,
-                title: 'New Contributor'
+                title: 'New Employee'
               },
-              _react2.default.createElement(_Pets2.default, { className: classes.counterIcon })
+              _react2.default.createElement(_PersonAdd2.default, { className: classes.counterIcon })
             )
           ),
           _react2.default.createElement(
@@ -12366,7 +9670,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 202 */
+/* 137 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/AccountBox" ***!
   \************************************************/
@@ -12377,29 +9681,51 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/AccountBox");
 
 /***/ }),
-/* 203 */
-/*!****************************************************!*\
-  !*** external "@material-ui/icons/ImportContacts" ***!
-  \****************************************************/
+/* 138 */
+/*!***********************************************!*\
+  !*** external "@material-ui/icons/PersonAdd" ***!
+  \***********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/ImportContacts");
+module.exports = require("@material-ui/icons/PersonAdd");
 
 /***/ }),
-/* 204 */
+/* 139 */
+/*!***************************************************!*\
+  !*** external "@material-ui/icons/DirectionsBus" ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/DirectionsBus");
+
+/***/ }),
+/* 140 */
 /*!******************************************!*\
-  !*** external "@material-ui/icons/Pets" ***!
+  !*** external "@material-ui/icons/Star" ***!
   \******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/Pets");
+module.exports = require("@material-ui/icons/Star");
 
 /***/ }),
-/* 205 */
+/* 141 */
+/*!************************************************!*\
+  !*** external "@material-ui/core/colors/blue" ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/blue");
+
+/***/ }),
+/* 142 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/deepOrange" ***!
   \******************************************************/
@@ -12410,7 +9736,18 @@ module.exports = require("@material-ui/icons/Pets");
 module.exports = require("@material-ui/core/colors/deepOrange");
 
 /***/ }),
-/* 206 */
+/* 143 */
+/*!***********************************************!*\
+  !*** external "@material-ui/core/colors/red" ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/red");
+
+/***/ }),
+/* 144 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/colors/purple" ***!
   \**************************************************/
@@ -12421,7 +9758,18 @@ module.exports = require("@material-ui/core/colors/deepOrange");
 module.exports = require("@material-ui/core/colors/purple");
 
 /***/ }),
-/* 207 */
+/* 145 */
+/*!******************************************************!*\
+  !*** external "@material-ui/core/colors/deepPurple" ***!
+  \******************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/deepPurple");
+
+/***/ }),
+/* 146 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/lime" ***!
   \************************************************/
@@ -12432,7 +9780,18 @@ module.exports = require("@material-ui/core/colors/purple");
 module.exports = require("@material-ui/core/colors/lime");
 
 /***/ }),
-/* 208 */
+/* 147 */
+/*!**************************************************!*\
+  !*** external "@material-ui/core/colors/indigo" ***!
+  \**************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/indigo");
+
+/***/ }),
+/* 148 */
 /*!******************************************************!*\
   !*** ./src/app/components/Widget/AreaChartWidget.js ***!
   \******************************************************/
@@ -12459,75 +9818,79 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 53);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 31);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 57);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 149);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _CardGiftcard = __webpack_require__(/*! @material-ui/icons/CardGiftcard */ 209);
+var _People = __webpack_require__(/*! @material-ui/icons/People */ 150);
 
-var _CardGiftcard2 = _interopRequireDefault(_CardGiftcard);
+var _People2 = _interopRequireDefault(_People);
 
-var _FilterVintage = __webpack_require__(/*! @material-ui/icons/FilterVintage */ 210);
+var _PermPhoneMsg = __webpack_require__(/*! @material-ui/icons/PermPhoneMsg */ 151);
 
-var _FilterVintage2 = _interopRequireDefault(_FilterVintage);
+var _PermPhoneMsg2 = _interopRequireDefault(_PermPhoneMsg);
 
-var _LocalCafe = __webpack_require__(/*! @material-ui/icons/LocalCafe */ 211);
+var _DateRange = __webpack_require__(/*! @material-ui/icons/DateRange */ 152);
 
-var _LocalCafe2 = _interopRequireDefault(_LocalCafe);
+var _DateRange2 = _interopRequireDefault(_DateRange);
 
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
+var _Assignment = __webpack_require__(/*! @material-ui/icons/Assignment */ 153);
+
+var _Assignment2 = _interopRequireDefault(_Assignment);
+
+var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 29);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 30);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 212);
+var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 154);
 
 var _CircularProgress2 = _interopRequireDefault(_CircularProgress);
 
-var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 213);
+var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 155);
 
 var _Style2 = _interopRequireDefault(_Style);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 64);
+var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 33);
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 105);
+var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 65);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _recharts = __webpack_require__(/*! recharts */ 214);
+var _recharts = __webpack_require__(/*! recharts */ 156);
 
-var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 52);
+var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 49);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 215);
+var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 157);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 58);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 158);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 55);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 32);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
-var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 43);
+var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 67);
 
 var _PapperBlock2 = _interopRequireDefault(_PapperBlock);
 
@@ -12565,7 +9928,7 @@ var AreaChartWidget = function (_PureComponent) {
 
       return _react2.default.createElement(
         _PapperBlock2.default,
-        { whiteBg: true, noMargin: true, title: 'Top Product Sales', desc: '' },
+        { whiteBg: true, noMargin: true, title: 'Notifications', desc: '' },
         _react2.default.createElement(
           _Grid2.default,
           { container: true, spacing: 16 },
@@ -12581,16 +9944,16 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Avatar2.default,
                   { className: (0, _classnames2.default)(classes.avatar, classes.greenAvatar) },
-                  _react2.default.createElement(_CardGiftcard2.default, null)
+                  _react2.default.createElement(_People2.default, null)
                 ),
                 _react2.default.createElement(
                   _Typography2.default,
                   { variant: 'title' },
-                  '4321',
+                  '460',
                   _react2.default.createElement(
                     _Typography2.default,
                     null,
-                    'Gift Card'
+                    'New Employees'
                   )
                 )
               ),
@@ -12600,16 +9963,16 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Avatar2.default,
                   { className: (0, _classnames2.default)(classes.avatar, classes.pinkAvatar) },
-                  _react2.default.createElement(_FilterVintage2.default, null)
+                  _react2.default.createElement(_Assignment2.default, null)
                 ),
                 _react2.default.createElement(
                   _Typography2.default,
                   { variant: 'title' },
-                  '9876',
+                  '1320',
                   _react2.default.createElement(
                     _Typography2.default,
                     null,
-                    'Flowers'
+                    'Tickets'
                   )
                 )
               ),
@@ -12619,7 +9982,7 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Avatar2.default,
                   { className: (0, _classnames2.default)(classes.avatar, classes.purpleAvatar) },
-                  _react2.default.createElement(_LocalCafe2.default, null)
+                  _react2.default.createElement(_PermPhoneMsg2.default, null)
                 ),
                 _react2.default.createElement(
                   _Typography2.default,
@@ -12628,7 +9991,7 @@ var AreaChartWidget = function (_PureComponent) {
                   _react2.default.createElement(
                     _Typography2.default,
                     null,
-                    'Cups'
+                    'Calls/Messages'
                   )
                 )
               ),
@@ -12638,16 +10001,16 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Avatar2.default,
                   { className: (0, _classnames2.default)(classes.avatar, classes.orangeAvatar) },
-                  _react2.default.createElement(_Style2.default, null)
+                  _react2.default.createElement(_DateRange2.default, null)
                 ),
                 _react2.default.createElement(
                   _Typography2.default,
                   { variant: 'title' },
-                  '996',
+                  '23',
                   _react2.default.createElement(
                     _Typography2.default,
                     null,
-                    'Name Cards'
+                    'Schedules'
                   )
                 )
               )
@@ -12695,7 +10058,7 @@ var AreaChartWidget = function (_PureComponent) {
               _react2.default.createElement(
                 'span',
                 { className: _Typography4.default.bold },
-                'Performance Listing'
+                'Performance Evaluation'
               )
             ),
             _react2.default.createElement(_Divider2.default, { className: classes.divider }),
@@ -12708,7 +10071,7 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Typography2.default,
                   { gutterBottom: true },
-                  'Giftcard Quality'
+                  'Engine'
                 ),
                 _react2.default.createElement(_Chip2.default, { label: 'Super', className: (0, _classnames2.default)(classes.chip, _Messages2.default.bgError) }),
                 _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.pinkProgress), size: 100, value: 70 })
@@ -12719,7 +10082,7 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Typography2.default,
                   { gutterBottom: true },
-                  'Monitoring Quality'
+                  'Service Attitude'
                 ),
                 _react2.default.createElement(_Chip2.default, { label: 'Good', className: (0, _classnames2.default)(classes.chip, _Messages2.default.bgSuccess) }),
                 _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.greenProgress), size: 100, value: 57 })
@@ -12730,10 +10093,10 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Typography2.default,
                   { gutterBottom: true },
-                  'Project Complete'
+                  'Safety'
                 ),
-                _react2.default.createElement(_Chip2.default, { label: 'Poor', className: (0, _classnames2.default)(classes.chip, _Messages2.default.bgWarning) }),
-                _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.orangeProgress), size: 100, value: 28 })
+                _react2.default.createElement(_Chip2.default, { label: 'Good', className: (0, _classnames2.default)(classes.chip, _Messages2.default.bgSuccess) }),
+                _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.greenProgress), size: 100, value: 55 })
               ),
               _react2.default.createElement(
                 _Grid2.default,
@@ -12741,10 +10104,10 @@ var AreaChartWidget = function (_PureComponent) {
                 _react2.default.createElement(
                   _Typography2.default,
                   { gutterBottom: true },
-                  'Deploy Progress'
+                  'Facilities'
                 ),
                 _react2.default.createElement(_Chip2.default, { label: 'Medium', className: (0, _classnames2.default)(classes.chip, _Messages2.default.bgInfo) }),
-                _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.blueProgress), size: 100, value: 70 })
+                _react2.default.createElement(_CircularProgress2.default, { variant: 'determinate', className: (0, _classnames2.default)(classes.progressCircle, classes.blueProgress), size: 100, value: 40 })
               )
             )
           )
@@ -12782,40 +10145,62 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 209 */
+/* 149 */
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Chip" ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Chip");
+
+/***/ }),
+/* 150 */
+/*!********************************************!*\
+  !*** external "@material-ui/icons/People" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/People");
+
+/***/ }),
+/* 151 */
 /*!**************************************************!*\
-  !*** external "@material-ui/icons/CardGiftcard" ***!
+  !*** external "@material-ui/icons/PermPhoneMsg" ***!
   \**************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/CardGiftcard");
+module.exports = require("@material-ui/icons/PermPhoneMsg");
 
 /***/ }),
-/* 210 */
-/*!***************************************************!*\
-  !*** external "@material-ui/icons/FilterVintage" ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/FilterVintage");
-
-/***/ }),
-/* 211 */
+/* 152 */
 /*!***********************************************!*\
-  !*** external "@material-ui/icons/LocalCafe" ***!
+  !*** external "@material-ui/icons/DateRange" ***!
   \***********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/LocalCafe");
+module.exports = require("@material-ui/icons/DateRange");
 
 /***/ }),
-/* 212 */
+/* 153 */
+/*!************************************************!*\
+  !*** external "@material-ui/icons/Assignment" ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Assignment");
+
+/***/ }),
+/* 154 */
 /*!*****************************************************!*\
   !*** external "@material-ui/core/CircularProgress" ***!
   \*****************************************************/
@@ -12826,7 +10211,7 @@ module.exports = require("@material-ui/icons/LocalCafe");
 module.exports = require("@material-ui/core/CircularProgress");
 
 /***/ }),
-/* 213 */
+/* 155 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Style" ***!
   \*******************************************/
@@ -12837,7 +10222,7 @@ module.exports = require("@material-ui/core/CircularProgress");
 module.exports = require("@material-ui/icons/Style");
 
 /***/ }),
-/* 214 */
+/* 156 */
 /*!***************************!*\
   !*** external "recharts" ***!
   \***************************/
@@ -12848,7 +10233,7 @@ module.exports = require("@material-ui/icons/Style");
 module.exports = require("recharts");
 
 /***/ }),
-/* 215 */
+/* 157 */
 /*!****************************************!*\
   !*** ./src/app/constants/chartData.js ***!
   \****************************************/
@@ -12863,37 +10248,37 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var data1 = exports.data1 = [{
-  name: 'Page A',
+  name: '07/12',
   uv: 4000,
   pv: 2400,
   amt: 2400
 }, {
-  name: 'Page B',
+  name: '08/12',
   uv: 3000,
   pv: 1398,
   amt: 2210
 }, {
-  name: 'Page C',
+  name: '09/12',
   uv: 2000,
   pv: 5800,
   amt: 2290
 }, {
-  name: 'Page D',
+  name: '10/12',
   uv: 2780,
   pv: 3908,
   amt: 2000
 }, {
-  name: 'Page E',
+  name: '11/12',
   uv: 1890,
   pv: 4800,
   amt: 2181
 }, {
-  name: 'Page F',
+  name: '12/12',
   uv: 2390,
   pv: 3800,
   amt: 2500
 }, {
-  name: 'Page G',
+  name: '13/12',
   uv: 3490,
   pv: 4300,
   amt: 2100
@@ -13124,7 +10509,134 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 216 */
+/* 158 */
+/*!***************************************************!*\
+  !*** ./src/app/styles/components/Typography.scss ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"lighter": "lighter__zrhRS",
+	"light": "light__2SYx4",
+	"regular": "regular__ZtPgf",
+	"medium": "medium__zjmls",
+	"bold": "bold__2Dj4Q",
+	"bolder": "bolder__XLYRV",
+	"italic": "italic__3gO-e",
+	"underline": "underline__3pdva",
+	"lineThrought": "lineThrought__1lI1u",
+	"textInfo": "textInfo__b5z-4",
+	"textSuccess": "textSuccess__1sx0i",
+	"textWarning": "textWarning__2mU_X",
+	"textError": "textError__XBAEd",
+	"textGreyDark": "textGreyDark__2tRjQ",
+	"textGrey": "textGrey__2tjDQ",
+	"textGreyLight": "textGreyLight__hmLc4",
+	"capitalyze": "capitalyze__1p14n",
+	"uppercase": "uppercase__2QID0",
+	"lowercase": "lowercase__2diBi",
+	"textLeft": "textLeft__3CzCe",
+	"textRight": "textRight__3upZd",
+	"textCenter": "textCenter__3NRog",
+	"textJustify": "textJustify__D7ONk",
+	"list": "list__3CltL",
+	"orderedlist": "orderedlist__2sLq-"
+};
+
+/***/ }),
+/* 159 */
+/*!***********************************************************!*\
+  !*** ./src/app/components/PapperBlock/papperStyle-jss.js ***!
+  \***********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var styles = function styles(theme) {
+  return {
+    root: theme.mixins.gutters({
+      paddingTop: theme.spacing.unit * 3,
+      paddingBottom: theme.spacing.unit * 3,
+      marginTop: theme.spacing.unit * 3,
+      '&$noMargin': {
+        margin: 0
+      }
+    }),
+    title: {
+      marginBottom: theme.spacing.unit * 4,
+      paddingBottom: theme.spacing.unit * 2,
+      position: 'relative',
+      textTransform: 'capitalize',
+      fontSize: 28,
+      '&:after': {
+        content: '""',
+        display: 'block',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        width: 40,
+        borderBottom: '4px solid ' + theme.palette.primary.main
+      }
+    },
+    description: {
+      maxWidth: 960,
+      fontSize: 16
+    },
+    content: {
+      marginTop: theme.spacing.unit * 2,
+      padding: theme.spacing.unit,
+      backgroundColor: theme.palette.background.default
+    },
+    whiteBg: {
+      backgroundColor: 'transparent',
+      margin: 0
+    },
+    noMargin: {},
+    colorMode: {
+      backgroundColor: theme.palette.secondary.main,
+      '& $title': {
+        color: theme.palette.grey[100],
+        '&:after': {
+          borderBottom: '5px solid ' + theme.palette.primary.light
+        }
+      },
+      '& $description': {
+        color: theme.palette.grey[100]
+      }
+    },
+    overflowX: {
+      width: '100%',
+      overflowX: 'auto'
+    }
+  };
+};
+
+var _default = styles;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
+}();
+
+;
+
+/***/ }),
+/* 160 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Widget/CarouselWidget.js ***!
   \*****************************************************/
@@ -13145,7 +10657,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactSlick = __webpack_require__(/*! react-slick */ 217);
+var _reactSlick = __webpack_require__(/*! react-slick */ 161);
 
 var _reactSlick2 = _interopRequireDefault(_reactSlick);
 
@@ -13155,37 +10667,37 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 76);
+var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 162);
 
 var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
 
-var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 108);
+var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 163);
 
 var _ArrowBack2 = _interopRequireDefault(_ArrowBack);
 
-var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 71);
+var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 40);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 218);
+var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 164);
 
 var _carouselData2 = _interopRequireDefault(_carouselData);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 219);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 165);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 220);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 166);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 221);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 167);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 55);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 32);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -13258,7 +10770,7 @@ var CarouselWidget = function (_React$Component) {
         infinite: true,
         centerMode: false,
         speed: 500,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 5500,
         pauseOnHover: true,
         autoplay: true,
         slidesToShow: 3,
@@ -13354,7 +10866,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 217 */
+/* 161 */
 /*!******************************!*\
   !*** external "react-slick" ***!
   \******************************/
@@ -13365,7 +10877,29 @@ var _temp = function () {
 module.exports = require("react-slick");
 
 /***/ }),
-/* 218 */
+/* 162 */
+/*!**************************************************!*\
+  !*** external "@material-ui/icons/ArrowForward" ***!
+  \**************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/ArrowForward");
+
+/***/ }),
+/* 163 */
+/*!***********************************************!*\
+  !*** external "@material-ui/icons/ArrowBack" ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/ArrowBack");
+
+/***/ }),
+/* 164 */
 /*!*******************************************!*\
   !*** ./src/app/constants/carouselData.js ***!
   \*******************************************/
@@ -13380,50 +10914,35 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var carouselData = [{
+  background: '#7CB342',
+  title: 'Satefy',
+  desc: 'An toàn là trên hết',
+  icon: 'mood'
+}, {
   background: '#E91E63',
   title: 'Feature',
-  desc: 'Vestibulum tempor, sem et molestie egestas, dui tortor laoreet tellus.',
+  desc: 'Tiện ích luôn đặt lên hàng đầu.',
   icon: 'flag'
 }, {
   background: '#0091EA',
   title: 'Unlimited',
-  desc: 'Aliquam nec ex aliquet, aliquam neque non, gravida est.',
+  desc: 'Không ngừng mở rộng phạm vi phục vụ.',
   icon: 'all_inclusive'
 }, {
   background: '#00BFA5',
   title: 'Complete',
-  desc: 'Vestibulum bibendum nisi eget magna malesuada',
+  desc: 'Hoàn thiện cả về chất lượng phục vụ và thái độ phục vụ',
   icon: 'done'
 }, {
   background: '#F57F17',
   title: 'Easy',
-  desc: 'Vestibulum tempor, sem et molestie egestas, dui tortor laoreet tellus.',
+  desc: 'Đơn giản hóa đế tiếp cận với khách hàng',
   icon: 'extension'
-}, {
-  background: '#7CB342',
-  title: 'Satisfy',
-  desc: 'Aliquam nec ex aliquet, aliquam neque non, gravida est.',
-  icon: 'mood'
 }, {
   background: '#546E7A',
   title: 'Public',
-  desc: 'Quisque a consequat ante, at volutpat enim. Aenean sit amet magna vel magna',
+  desc: 'Marketing thật mạnh',
   icon: 'public'
-}, {
-  background: '#00ACC1',
-  title: 'Awesome',
-  desc: 'Vestibulum tempor, sem et molestie egestas, dui tortor laoreet tellus.',
-  icon: 'thumb_up'
-}, {
-  background: '#C51162',
-  title: 'Safeguard',
-  desc: 'Quisque a consequat ante, at volutpat enim. Aenean sit amet magna vel magna',
-  icon: 'lock'
-}, {
-  background: '#7C4DFF',
-  title: 'Favorite',
-  desc: ' Aenean facilisis vitae purus facilisis semper.',
-  icon: 'favorite'
 }];
 
 var _default = carouselData;
@@ -13443,7 +10962,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 219 */
+/* 165 */
 /*!*****************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-carousel.css ***!
   \*****************************************************************************/
@@ -13454,7 +10973,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 220 */
+/* 166 */
 /*!********************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick.css ***!
   \********************************************************************/
@@ -13465,7 +10984,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 221 */
+/* 167 */
 /*!**************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-theme.css ***!
   \**************************************************************************/
@@ -13476,7 +10995,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 222 */
+/* 168 */
 /*!**************************************************!*\
   !*** ./src/app/components/Widget/AlbumWidget.js ***!
   \**************************************************/
@@ -13503,35 +11022,35 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 223);
+var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 169);
 
 var _GridList2 = _interopRequireDefault(_GridList);
 
-var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 224);
+var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 170);
 
 var _GridListTile2 = _interopRequireDefault(_GridListTile);
 
-var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 225);
+var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 171);
 
 var _GridListTileBar2 = _interopRequireDefault(_GridListTileBar);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 89);
+var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 45);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 226);
+var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 172);
 
 var _imgData2 = _interopRequireDefault(_imgData);
 
-var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 43);
+var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 67);
 
 var _PapperBlock2 = _interopRequireDefault(_PapperBlock);
 
-var _widgetJss = __webpack_require__(/*! ./widget-jss */ 55);
+var _widgetJss = __webpack_require__(/*! ./widget-jss */ 32);
 
 var _widgetJss2 = _interopRequireDefault(_widgetJss);
 
@@ -13559,7 +11078,7 @@ var AlbumWidget = function (_React$Component) {
 
       return _react2.default.createElement(
         _PapperBlock2.default,
-        { noMargin: true, title: 'My Albums (4)', whiteBg: true, desc: '' },
+        { noMargin: true, title: 'Albums (4)', whiteBg: true, desc: '' },
         _react2.default.createElement(
           'div',
           { className: classes.albumRoot },
@@ -13621,7 +11140,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 223 */
+/* 169 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/GridList" ***!
   \*********************************************/
@@ -13632,7 +11151,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/GridList");
 
 /***/ }),
-/* 224 */
+/* 170 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/GridListTile" ***!
   \*************************************************/
@@ -13643,7 +11162,7 @@ module.exports = require("@material-ui/core/GridList");
 module.exports = require("@material-ui/core/GridListTile");
 
 /***/ }),
-/* 225 */
+/* 171 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/GridListTileBar" ***!
   \****************************************************/
@@ -13654,7 +11173,7 @@ module.exports = require("@material-ui/core/GridListTile");
 module.exports = require("@material-ui/core/GridListTileBar");
 
 /***/ }),
-/* 226 */
+/* 172 */
 /*!**************************************!*\
   !*** ./src/app/constants/imgData.js ***!
   \**************************************/
@@ -13669,7 +11188,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _images = __webpack_require__(/*! ./images */ 109);
+var _images = __webpack_require__(/*! ./images */ 68);
 
 var _images2 = _interopRequireDefault(_images);
 
@@ -13678,68 +11197,26 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var imgData = [{
   img: _images2.default[3],
   thumb: _images2.default[3],
-  title: 'Breakfast',
-  author: 'jill111',
+  title: 'Hyundai',
+  author: 'vking34',
   cols: 2,
   featured: true
 }, {
   img: _images2.default[5],
   thumb: _images2.default[5],
-  title: 'Tasty burger',
-  author: 'director90'
+  title: 'Honda',
+  author: 'Antonie'
 }, {
   img: _images2.default[33],
   thumb: _images2.default[33],
-  title: 'Camera',
-  author: 'Danson67'
+  title: 'Toyota',
+  author: 'Dũng'
 }, {
   img: _images2.default[35],
   thumb: _images2.default[35],
-  title: 'Morning',
-  author: 'fancycrave1',
+  title: 'Deawoo',
+  author: 'Vương',
   featured: true
-}, {
-  img: _images2.default[41],
-  thumb: _images2.default[41],
-  title: 'Hats',
-  author: 'Hans'
-}, {
-  img: _images2.default[43],
-  thumb: _images2.default[43],
-  title: 'Honey',
-  author: 'fancycravel'
-}, {
-  img: _images2.default[7],
-  thumb: _images2.default[7],
-  title: 'Vegetables',
-  author: 'jill111',
-  cols: 2
-}, {
-  img: _images2.default[9],
-  thumb: _images2.default[9],
-  title: 'Water plant',
-  author: 'BkrmadtyaKarki'
-}, {
-  img: _images2.default[17],
-  thumb: _images2.default[17],
-  title: 'Mushrooms',
-  author: 'PublicDomainPictures'
-}, {
-  img: _images2.default[13],
-  thumb: _images2.default[13],
-  title: 'Olive oil',
-  author: 'congerdesign'
-}, {
-  img: _images2.default[19],
-  thumb: _images2.default[19],
-  title: 'Sea star',
-  cols: 2,
-  author: '821292'
-}, {
-  img: _images2.default[47],
-  thumb: _images2.default[47],
-  title: 'Bike',
-  author: 'danfador'
 }];
 
 var _default = imgData;
@@ -13759,344 +11236,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 227 */
-/*!************************************************!*\
-  !*** ./src/app/components/Tables/TreeTable.js ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _KeyboardArrowRight = __webpack_require__(/*! @material-ui/icons/KeyboardArrowRight */ 228);
-
-var _KeyboardArrowRight2 = _interopRequireDefault(_KeyboardArrowRight);
-
-var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 94);
-
-var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
-
-var _AddCircle = __webpack_require__(/*! @material-ui/icons/AddCircle */ 229);
-
-var _AddCircle2 = _interopRequireDefault(_AddCircle);
-
-var _RemoveCircleOutline = __webpack_require__(/*! @material-ui/icons/RemoveCircleOutline */ 230);
-
-var _RemoveCircleOutline2 = _interopRequireDefault(_RemoveCircleOutline);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    },
-    hideRow: {
-      display: 'none'
-    },
-    anchor: {
-      cursor: 'pointer'
-    },
-    icon: {
-      top: 5,
-      position: 'relative',
-      left: -5
-    }
-  };
-};
-
-var RenderRow = function RenderRow(props) {
-  var classes = props.classes,
-      toggleTree = props.toggleTree,
-      treeOpen = props.treeOpen,
-      item = props.item,
-      parent = props.parent,
-      arrowMore = props.arrowMore,
-      icon = props.icon,
-      branch = props.branch;
-
-
-  var keyID = item.id;
-  var dataBody = Object.keys(item);
-  var dataBodyVal = Object.values(item);
-
-  var renderIconMore = function renderIconMore(iconName) {
-    if (iconName === 'arrow') {
-      return _react2.default.createElement(_ExpandMore2.default, { className: classes.icon });
-    }
-    return _react2.default.createElement(_RemoveCircleOutline2.default, { className: classes.icon });
-  };
-
-  var renderIconLess = function renderIconLess(iconName) {
-    if (iconName === 'arrow') {
-      return _react2.default.createElement(_KeyboardArrowRight2.default, { className: classes.icon });
-    }
-    return _react2.default.createElement(_AddCircle2.default, { className: classes.icon });
-  };
-
-  var renderCell = function renderCell(dataArray, parentCell) {
-    return dataArray.map(function (itemCell, index) {
-      if (index < 1) {
-        if (parentCell) {
-          return _react2.default.createElement(
-            _TableCell2.default,
-            { key: index.toString(), style: { paddingLeft: keyID.split('_').length * 20 } },
-            arrowMore.indexOf(keyID) > -1 ? renderIconMore(icon) : renderIconLess(icon),
-            keyID
-          );
-        }
-        return _react2.default.createElement(
-          _TableCell2.default,
-          { key: index.toString(), style: { paddingLeft: keyID.split('_').length * 20 } },
-          keyID
-        );
-      }
-
-      if (itemCell !== 'child') {
-        return _react2.default.createElement(
-          _TableCell2.default,
-          { padding: 'dense', key: index.toString() },
-          dataBodyVal[index]
-        );
-      }
-
-      return false;
-    });
-  };
-
-  var row = parent ? _react2.default.createElement(
-    _TableRow2.default,
-    {
-      key: keyID,
-      className: treeOpen.indexOf(keyID) < 0 && keyID.indexOf('_') > -1 ? classes.hideRow : classes.anchor,
-      onClick: function onClick() {
-        return toggleTree(keyID, item.child, branch);
-      }
-    },
-    renderCell(dataBody, true)
-  ) : _react2.default.createElement(
-    _TableRow2.default,
-    {
-      key: keyID,
-      className: treeOpen.indexOf(keyID) < 0 && keyID.indexOf('_') > -1 ? classes.hideRow : ''
-    },
-    renderCell(dataBody, false)
-  );
-
-  return [row];
-};
-
-RenderRow.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  item: _propTypes2.default.object.isRequired,
-  parent: _propTypes2.default.bool.isRequired,
-  toggleTree: _propTypes2.default.func.isRequired,
-  treeOpen: _propTypes2.default.object.isRequired,
-  arrowMore: _propTypes2.default.object.isRequired,
-  branch: _propTypes2.default.string.isRequired,
-  icon: _propTypes2.default.string.isRequired
-};
-
-RenderRow = (0, _styles.withStyles)(styles)(RenderRow);
-
-var TreeTable = function (_React$Component) {
-  _inherits(TreeTable, _React$Component);
-
-  function TreeTable() {
-    _classCallCheck(this, TreeTable);
-
-    return _possibleConstructorReturn(this, (TreeTable.__proto__ || Object.getPrototypeOf(TreeTable)).apply(this, arguments));
-  }
-
-  _createClass(TreeTable, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          dataTable = _props.dataTable,
-          icon = _props.icon,
-          treeOpen = _props.treeOpen,
-          arrowMore = _props.arrowMore,
-          toggleTree = _props.toggleTree,
-          branch = _props.branch;
-
-      var parentRow = true;
-      var getData = function getData(dataArray) {
-        return dataArray.map(function (item, index) {
-          if (item.child) {
-            return [_react2.default.createElement(RenderRow, {
-              icon: icon,
-              treeOpen: treeOpen,
-              arrowMore: arrowMore,
-              toggleTree: toggleTree,
-              item: item,
-              key: index.toString(),
-              parent: parentRow,
-              branch: branch
-            }), getData(item.child)];
-          }
-          return _react2.default.createElement(RenderRow, {
-            icon: icon,
-            item: item,
-            treeOpen: treeOpen,
-            arrowMore: arrowMore,
-            toggleTree: toggleTree,
-            key: index.toString(),
-            branch: branch,
-            parent: false
-          });
-        });
-      };
-
-      var getHead = function getHead(dataArray) {
-        return dataArray.map(function (item, index) {
-          return _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense', key: index.toString() },
-            item.label
-          );
-        });
-      };
-
-      return _react2.default.createElement(
-        _Table2.default,
-        { className: classes.table },
-        _react2.default.createElement(
-          _TableHead2.default,
-          null,
-          _react2.default.createElement(
-            _TableRow2.default,
-            null,
-            getHead(dataTable.head)
-          )
-        ),
-        _react2.default.createElement(
-          _TableBody2.default,
-          null,
-          getData(dataTable.body)
-        )
-      );
-    }
-  }]);
-
-  return TreeTable;
-}(_react2.default.Component);
-
-TreeTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  dataTable: _propTypes2.default.object.isRequired,
-  treeOpen: _propTypes2.default.object.isRequired,
-  toggleTree: _propTypes2.default.func.isRequired,
-  arrowMore: _propTypes2.default.object.isRequired,
-  branch: _propTypes2.default.string.isRequired,
-  icon: _propTypes2.default.string.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(TreeTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/TreeTable.js');
-
-  __REACT_HOT_LOADER__.register(RenderRow, 'RenderRow', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/TreeTable.js');
-
-  __REACT_HOT_LOADER__.register(TreeTable, 'TreeTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/TreeTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/TreeTable.js');
-}();
-
-;
-
-/***/ }),
-/* 228 */
-/*!********************************************************!*\
-  !*** external "@material-ui/icons/KeyboardArrowRight" ***!
-  \********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/KeyboardArrowRight");
-
-/***/ }),
-/* 229 */
-/*!***********************************************!*\
-  !*** external "@material-ui/icons/AddCircle" ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/AddCircle");
-
-/***/ }),
-/* 230 */
-/*!*********************************************************!*\
-  !*** external "@material-ui/icons/RemoveCircleOutline" ***!
-  \*********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/RemoveCircleOutline");
-
-/***/ }),
-/* 231 */
+/* 173 */
 /*!************************************************!*\
   !*** ./src/app/components/Tables/CrudTable.js ***!
   \************************************************/
@@ -14121,7 +11261,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 232);
+var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 174);
 
 var _MainTable2 = _interopRequireDefault(_MainTable);
 
@@ -14145,6 +11285,8 @@ var CrudTable = function (_React$Component) {
   _createClass(CrudTable, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      // console.log(typeof this.props.dataInit);
+      // console.log(this.props.dataInit);
       this.props.fetchData(this.props.dataInit, this.props.branch);
     }
   }, {
@@ -14209,7 +11351,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 232 */
+/* 174 */
 /*!***********************************************************!*\
   !*** ./src/app/components/Tables/tableParts/MainTable.js ***!
   \***********************************************************/
@@ -14236,59 +11378,59 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 175);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
+var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 176);
 
 var _TableBody2 = _interopRequireDefault(_TableBody);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 177);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
+var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 178);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
+var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 44);
 
 var _Toolbar2 = _interopRequireDefault(_Toolbar);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
+var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 179);
 
 var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
+var _Button = __webpack_require__(/*! @material-ui/core/Button */ 36);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 59);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 180);
 
 var _Add2 = _interopRequireDefault(_Add);
 
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table4 = _interopRequireDefault(_Table3);
 
-var _Row = __webpack_require__(/*! ./Row */ 233);
+var _Row = __webpack_require__(/*! ./Row */ 181);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 112);
+var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 197);
 
 var _tableStyleJss2 = _interopRequireDefault(_tableStyleJss);
 
@@ -14453,7 +11595,73 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 233 */
+/* 175 */
+/*!******************************************!*\
+  !*** external "@material-ui/core/Table" ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Table");
+
+/***/ }),
+/* 176 */
+/*!**********************************************!*\
+  !*** external "@material-ui/core/TableBody" ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/TableBody");
+
+/***/ }),
+/* 177 */
+/*!**********************************************!*\
+  !*** external "@material-ui/core/TableHead" ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/TableHead");
+
+/***/ }),
+/* 178 */
+/*!*********************************************!*\
+  !*** external "@material-ui/core/TableRow" ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/TableRow");
+
+/***/ }),
+/* 179 */
+/*!********************************************!*\
+  !*** external "@material-ui/core/Tooltip" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Tooltip");
+
+/***/ }),
+/* 180 */
+/*!*****************************************!*\
+  !*** external "@material-ui/icons/Add" ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Add");
+
+/***/ }),
+/* 181 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Tables/tableParts/Row.js ***!
   \*****************************************************/
@@ -14478,53 +11686,53 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 77);
+var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 182);
 
 var _Delete2 = _interopRequireDefault(_Delete);
 
-var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 234);
+var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 183);
 
 var _BorderColor2 = _interopRequireDefault(_BorderColor);
 
-var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 235);
+var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 184);
 
 var _Done2 = _interopRequireDefault(_Done);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _EditableCell = __webpack_require__(/*! ./EditableCell */ 236);
+var _EditableCell = __webpack_require__(/*! ./EditableCell */ 185);
 
 var _EditableCell2 = _interopRequireDefault(_EditableCell);
 
-var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 238);
+var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 188);
 
 var _SelectableCell2 = _interopRequireDefault(_SelectableCell);
 
-var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 240);
+var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 190);
 
 var _ToggleCell2 = _interopRequireDefault(_ToggleCell);
 
-var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 242);
+var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 192);
 
 var _DatePickerCell2 = _interopRequireDefault(_DatePickerCell);
 
-var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 244);
+var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 194);
 
 var _TimePickerCell2 = _interopRequireDefault(_TimePickerCell);
 
@@ -14739,7 +11947,18 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 234 */
+/* 182 */
+/*!********************************************!*\
+  !*** external "@material-ui/icons/Delete" ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Delete");
+
+/***/ }),
+/* 183 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/BorderColor" ***!
   \*************************************************/
@@ -14750,7 +11969,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/BorderColor");
 
 /***/ }),
-/* 235 */
+/* 184 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Done" ***!
   \******************************************/
@@ -14761,7 +11980,7 @@ module.exports = require("@material-ui/icons/BorderColor");
 module.exports = require("@material-ui/icons/Done");
 
 /***/ }),
-/* 236 */
+/* 185 */
 /*!**************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/EditableCell.js ***!
   \**************************************************************/
@@ -14786,19 +12005,19 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _Input = __webpack_require__(/*! @material-ui/core/Input */ 110);
+var _Input = __webpack_require__(/*! @material-ui/core/Input */ 186);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 237);
+var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 187);
 
 var _TextField2 = _interopRequireDefault(_TextField);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -14928,7 +12147,18 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 237 */
+/* 186 */
+/*!******************************************!*\
+  !*** external "@material-ui/core/Input" ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Input");
+
+/***/ }),
+/* 187 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TextField" ***!
   \**********************************************/
@@ -14939,7 +12169,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/TextField");
 
 /***/ }),
-/* 238 */
+/* 188 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/SelectableCell.js ***!
   \****************************************************************/
@@ -14964,19 +12194,19 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Select = __webpack_require__(/*! @material-ui/core/Select */ 239);
+var _Select = __webpack_require__(/*! @material-ui/core/Select */ 189);
 
 var _Select2 = _interopRequireDefault(_Select);
 
-var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 41);
+var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 37);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -15085,7 +12315,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 239 */
+/* 189 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Select" ***!
   \*******************************************/
@@ -15096,7 +12326,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Select");
 
 /***/ }),
-/* 240 */
+/* 190 */
 /*!************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/ToggleCell.js ***!
   \************************************************************/
@@ -15121,23 +12351,23 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 44);
+var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 69);
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 241);
+var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 191);
 
 var _Switch2 = _interopRequireDefault(_Switch);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -15235,7 +12465,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 241 */
+/* 191 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Switch" ***!
   \*******************************************/
@@ -15246,7 +12476,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Switch");
 
 /***/ }),
-/* 242 */
+/* 192 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/DatePickerCell.js ***!
   \****************************************************************/
@@ -15271,23 +12501,23 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 78);
+var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 70);
 
 var _momentUtils2 = _interopRequireDefault(_momentUtils);
 
-var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 79);
+var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 71);
 
 var _MuiPickersUtilsProvider2 = _interopRequireDefault(_MuiPickersUtilsProvider);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 243);
+var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 193);
 
 var _DatePicker2 = _interopRequireDefault(_DatePicker);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -15397,7 +12627,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 243 */
+/* 193 */
 /*!*************************************************!*\
   !*** external "material-ui-pickers/DatePicker" ***!
   \*************************************************/
@@ -15408,7 +12638,7 @@ var _temp2 = function () {
 module.exports = require("material-ui-pickers/DatePicker");
 
 /***/ }),
-/* 244 */
+/* 194 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/TimePickerCell.js ***!
   \****************************************************************/
@@ -15433,33 +12663,33 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 78);
+var _momentUtils = __webpack_require__(/*! material-ui-pickers/utils/moment-utils */ 70);
 
 var _momentUtils2 = _interopRequireDefault(_momentUtils);
 
-var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 79);
+var _MuiPickersUtilsProvider = __webpack_require__(/*! material-ui-pickers/utils/MuiPickersUtilsProvider */ 71);
 
 var _MuiPickersUtilsProvider2 = _interopRequireDefault(_MuiPickersUtilsProvider);
 
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
+var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 111);
+var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 195);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 60);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 196);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
-var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 71);
+var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 40);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
+var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21);
 
 var _Table2 = _interopRequireDefault(_Table);
 
@@ -15580,599 +12810,32 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 245 */
-/*!***********************************************!*\
-  !*** ./src/app/components/Tables/AdvTable.js ***!
-  \***********************************************/
+/* 195 */
+/*!**************************************!*\
+  !*** external "material-ui-pickers" ***!
+  \**************************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _TablePagination = __webpack_require__(/*! @material-ui/core/TablePagination */ 97);
-
-var _TablePagination2 = _interopRequireDefault(_TablePagination);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 113);
-
-var _Checkbox2 = _interopRequireDefault(_Checkbox);
-
-var _Table3 = __webpack_require__(/*! ../../styles/components/Table.scss */ 16);
-
-var _Table4 = _interopRequireDefault(_Table3);
-
-var _TableHeader = __webpack_require__(/*! ./tableParts/TableHeader */ 246);
-
-var _TableHeader2 = _interopRequireDefault(_TableHeader);
-
-var _TableToolbar = __webpack_require__(/*! ./tableParts/TableToolbar */ 248);
-
-var _TableToolbar2 = _interopRequireDefault(_TableToolbar);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3
-    },
-    table: {
-      minWidth: 1020
-    },
-    tableWrapper: {
-      overflowX: 'auto'
-    }
-  };
-};
-
-var AdvTable = function (_React$Component) {
-  _inherits(AdvTable, _React$Component);
-
-  function AdvTable(props, context) {
-    _classCallCheck(this, AdvTable);
-
-    var _this = _possibleConstructorReturn(this, (AdvTable.__proto__ || Object.getPrototypeOf(AdvTable)).call(this, props, context));
-
-    _this.handleRequestSort = function () {
-      return _this.__handleRequestSort__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.handleSelectAllClick = function () {
-      return _this.__handleSelectAllClick__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.handleClick = function () {
-      return _this.__handleClick__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.handleChangePage = function () {
-      return _this.__handleChangePage__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.handleChangeRowsPerPage = function () {
-      return _this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.isSelected = function () {
-      return _this.__isSelected__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.state = {
-      order: _this.props.order,
-      orderBy: _this.props.orderBy,
-      selected: _this.props.selected,
-      data: _this.props.data.sort(function (a, b) {
-        return a.calories < b.calories ? -1 : 1;
-      }),
-      page: _this.props.page,
-      rowsPerPage: _this.props.rowsPerPage,
-      defaultPerPage: _this.props.defaultPerPage,
-      filterText: _this.props.filterText
-    };
-    return _this;
-  }
-
-  _createClass(AdvTable, [{
-    key: '__isSelected__REACT_HOT_LOADER__',
-    value: function __isSelected__REACT_HOT_LOADER__() {
-      return this.__isSelected__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClick__REACT_HOT_LOADER__',
-    value: function __handleClick__REACT_HOT_LOADER__() {
-      return this.__handleClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleSelectAllClick__REACT_HOT_LOADER__',
-    value: function __handleSelectAllClick__REACT_HOT_LOADER__() {
-      return this.__handleSelectAllClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleRequestSort__REACT_HOT_LOADER__',
-    value: function __handleRequestSort__REACT_HOT_LOADER__() {
-      return this.__handleRequestSort__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleRequestSort__REACT_HOT_LOADER__',
-    value: function __handleRequestSort__REACT_HOT_LOADER__(event, property) {
-      var orderBy = property;
-      var order = 'desc';
-
-      if (this.state.orderBy === property && this.state.order === 'desc') {
-        order = 'asc';
-      }
-
-      var data = order === 'desc' ? this.state.data.sort(function (a, b) {
-        return b[orderBy] < a[orderBy] ? -1 : 1;
-      }) : this.state.data.sort(function (a, b) {
-        return a[orderBy] < b[orderBy] ? -1 : 1;
-      });
-
-      this.setState({ data: data, order: order, orderBy: orderBy });
-    }
-  }, {
-    key: '__handleSelectAllClick__REACT_HOT_LOADER__',
-    value: function __handleSelectAllClick__REACT_HOT_LOADER__(event, checked) {
-      if (checked) {
-        this.setState({ selected: this.state.data.map(function (n) {
-            return n.id;
-          }) });
-        return;
-      }
-      this.setState({ selected: [] });
-    }
-  }, {
-    key: '__handleClick__REACT_HOT_LOADER__',
-    value: function __handleClick__REACT_HOT_LOADER__(event, id) {
-      var selected = this.state.selected;
-
-      var selectedIndex = selected.indexOf(id);
-      var newSelected = [];
-
-      if (selectedIndex === -1) {
-        newSelected = newSelected.concat(selected, id);
-      } else if (selectedIndex === 0) {
-        newSelected = newSelected.concat(selected.slice(1));
-      } else if (selectedIndex === selected.length - 1) {
-        newSelected = newSelected.concat(selected.slice(0, -1));
-      } else if (selectedIndex > 0) {
-        newSelected = newSelected.concat(selected.slice(0, selectedIndex), selected.slice(selectedIndex + 1));
-      }
-
-      this.setState({ selected: newSelected });
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {
-      this.setState({ page: page });
-    }
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      this.setState({ rowsPerPage: event.target.value });
-    }
-  }, {
-    key: '__isSelected__REACT_HOT_LOADER__',
-    value: function __isSelected__REACT_HOT_LOADER__(id) {
-      return this.state.selected.indexOf(id) !== -1;
-    }
-  }, {
-    key: 'handleUserInput',
-    value: function handleUserInput(value) {
-      // Show all item first
-      if (value !== '') {
-        this.setState({ rowsPerPage: this.state.data.length });
-      } else {
-        this.setState({ rowsPerPage: this.state.defaultPerPage });
-      }
-
-      // Show result base on keyword
-      this.setState({ filterText: value.toLowerCase() });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      var classes = this.props.classes;
-      var _state = this.state,
-          data = _state.data,
-          order = _state.order,
-          orderBy = _state.orderBy,
-          selected = _state.selected,
-          rowsPerPage = _state.rowsPerPage,
-          page = _state.page,
-          filterText = _state.filterText;
-      var columnData = this.props.columnData;
-
-      var checkcell = true;
-      var emptyRows = rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
-      var renderCell = function renderCell(dataArray, keyArray) {
-        return keyArray.map(function (itemCell, index) {
-          return _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: itemCell.numeric, key: index.toString() },
-            dataArray[itemCell.id]
-          );
-        });
-      };
-      return _react2.default.createElement(
-        _Paper2.default,
-        { className: classes.root },
-        _react2.default.createElement(_TableToolbar2.default, {
-          numSelected: selected.length,
-          filterText: filterText,
-          onUserInput: function onUserInput(event) {
-            return _this2.handleUserInput(event);
-          }
-        }),
-        _react2.default.createElement(
-          'div',
-          { className: classes.tableWrapper },
-          _react2.default.createElement(
-            _Table2.default,
-            { className: (0, _classnames2.default)(classes.table, _Table4.default.stripped) },
-            _react2.default.createElement(_TableHeader2.default, {
-              numSelected: selected.length,
-              order: order,
-              orderBy: orderBy,
-              onSelectAllClick: this.handleSelectAllClick,
-              onRequestSort: this.handleRequestSort,
-              rowCount: data.length,
-              columnData: columnData,
-              checkcell: checkcell
-            }),
-            _react2.default.createElement(
-              _TableBody2.default,
-              null,
-              data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(function (n) {
-                var isSelected = _this2.isSelected(n.id);
-                if (n.name.toLowerCase().indexOf(filterText) === -1) {
-                  return false;
-                }
-                return _react2.default.createElement(
-                  _TableRow2.default,
-                  {
-                    hover: true,
-                    onClick: function onClick(event) {
-                      return _this2.handleClick(event, n.id);
-                    },
-                    role: 'checkbox',
-                    'aria-checked': isSelected,
-                    tabIndex: -1,
-                    key: n.id,
-                    selected: isSelected
-                  },
-                  _react2.default.createElement(
-                    _TableCell2.default,
-                    { padding: 'checkbox' },
-                    _react2.default.createElement(_Checkbox2.default, { checked: isSelected })
-                  ),
-                  renderCell(n, columnData)
-                );
-              }),
-              emptyRows > 0 && _react2.default.createElement(
-                _TableRow2.default,
-                { style: { height: 49 * emptyRows } },
-                _react2.default.createElement(_TableCell2.default, { colSpan: 6 })
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(_TablePagination2.default, {
-          component: 'div',
-          count: data.length,
-          rowsPerPage: rowsPerPage,
-          page: page,
-          backIconButtonProps: {
-            'aria-label': 'Previous Page'
-          },
-          nextIconButtonProps: {
-            'aria-label': 'Next Page'
-          },
-          onChangePage: this.handleChangePage,
-          onChangeRowsPerPage: this.handleChangeRowsPerPage
-        })
-      );
-    }
-  }]);
-
-  return AdvTable;
-}(_react2.default.Component);
-
-AdvTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  data: _propTypes2.default.array.isRequired,
-  order: _propTypes2.default.string.isRequired,
-  orderBy: _propTypes2.default.string.isRequired,
-  selected: _propTypes2.default.array.isRequired,
-  rowsPerPage: _propTypes2.default.number.isRequired,
-  page: _propTypes2.default.number.isRequired,
-  defaultPerPage: _propTypes2.default.number.isRequired,
-  filterText: _propTypes2.default.string.isRequired,
-  columnData: _propTypes2.default.array.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(AdvTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/AdvTable.js');
-
-  __REACT_HOT_LOADER__.register(AdvTable, 'AdvTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/AdvTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/AdvTable.js');
-}();
-
-;
+module.exports = require("material-ui-pickers");
 
 /***/ }),
-/* 246 */
-/*!*************************************************************!*\
-  !*** ./src/app/components/Tables/tableParts/TableHeader.js ***!
-  \*************************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _TableSortLabel = __webpack_require__(/*! @material-ui/core/TableSortLabel */ 247);
-
-var _TableSortLabel2 = _interopRequireDefault(_TableSortLabel);
-
-var _Checkbox = __webpack_require__(/*! @material-ui/core/Checkbox */ 113);
-
-var _Checkbox2 = _interopRequireDefault(_Checkbox);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TableHeader = function (_React$Component) {
-  _inherits(TableHeader, _React$Component);
-
-  function TableHeader() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, TableHeader);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TableHeader.__proto__ || Object.getPrototypeOf(TableHeader)).call.apply(_ref, [this].concat(args))), _this), _this.createSortHandler = function () {
-      var _this2;
-
-      return (_this2 = _this).__createSortHandler__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(TableHeader, [{
-    key: '__createSortHandler__REACT_HOT_LOADER__',
-    value: function __createSortHandler__REACT_HOT_LOADER__() {
-      return this.__createSortHandler__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__createSortHandler__REACT_HOT_LOADER__',
-    value: function __createSortHandler__REACT_HOT_LOADER__(property) {
-      var _this3 = this;
-
-      return function (event) {
-        _this3.props.onRequestSort(event, property);
-      };
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this4 = this;
-
-      var _props = this.props,
-          onSelectAllClick = _props.onSelectAllClick,
-          order = _props.order,
-          orderBy = _props.orderBy,
-          numSelected = _props.numSelected,
-          rowCount = _props.rowCount,
-          columnData = _props.columnData,
-          checkcell = _props.checkcell;
-
-
-      return _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          checkcell && _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'checkbox', width: '80' },
-            _react2.default.createElement(_Checkbox2.default, {
-              indeterminate: numSelected > 0 && numSelected < rowCount,
-              checked: numSelected === rowCount,
-              onChange: onSelectAllClick
-            })
-          ),
-          columnData.map(function (column) {
-            return _react2.default.createElement(
-              _TableCell2.default,
-              {
-                key: column.id,
-                numeric: column.numeric,
-                padding: column.disablePadding ? 'none' : 'default',
-                sortDirection: orderBy === column.id ? order : false
-              },
-              _react2.default.createElement(
-                _Tooltip2.default,
-                {
-                  title: 'Sort',
-                  placement: column.numeric ? 'bottom-end' : 'bottom-start',
-                  enterDelay: 300
-                },
-                _react2.default.createElement(
-                  _TableSortLabel2.default,
-                  {
-                    active: orderBy === column.id,
-                    direction: order,
-                    onClick: _this4.createSortHandler(column.id)
-                  },
-                  column.label
-                )
-              )
-            );
-          }, this)
-        )
-      );
-    }
-  }]);
-
-  return TableHeader;
-}(_react2.default.Component);
-
-TableHeader.propTypes = {
-  numSelected: _propTypes2.default.number.isRequired,
-  onRequestSort: _propTypes2.default.func.isRequired,
-  onSelectAllClick: _propTypes2.default.func.isRequired,
-  order: _propTypes2.default.string.isRequired,
-  orderBy: _propTypes2.default.string.isRequired,
-  rowCount: _propTypes2.default.number.isRequired,
-  columnData: _propTypes2.default.array.isRequired,
-  checkcell: _propTypes2.default.bool.isRequired
-};
-
-var _default = TableHeader;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(TableHeader, 'TableHeader', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TableHeader.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TableHeader.js');
-}();
-
-;
-
-/***/ }),
-/* 247 */
+/* 196 */
 /*!***************************************************!*\
-  !*** external "@material-ui/core/TableSortLabel" ***!
+  !*** external "@material-ui/core/InputAdornment" ***!
   \***************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/TableSortLabel");
+module.exports = require("@material-ui/core/InputAdornment");
 
 /***/ }),
-/* 248 */
-/*!**************************************************************!*\
-  !*** ./src/app/components/Tables/tableParts/TableToolbar.js ***!
-  \**************************************************************/
+/* 197 */
+/*!****************************************************************!*\
+  !*** ./src/app/components/Tables/tableParts/tableStyle-jss.js ***!
+  \****************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16184,314 +12847,71 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _colorManipulator = __webpack_require__(/*! @material-ui/core/styles/colorManipulator */ 51);
 
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 77);
-
-var _Delete2 = _interopRequireDefault(_Delete);
-
-var _Archive = __webpack_require__(/*! @material-ui/icons/Archive */ 249);
-
-var _Archive2 = _interopRequireDefault(_Archive);
-
-var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 114);
-
-var _Bookmark2 = _interopRequireDefault(_Bookmark);
-
-var _FilterList = __webpack_require__(/*! @material-ui/icons/FilterList */ 250);
-
-var _FilterList2 = _interopRequireDefault(_FilterList);
-
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 51);
-
-var _Search2 = _interopRequireDefault(_Search);
-
-var _FormControl = __webpack_require__(/*! @material-ui/core/FormControl */ 80);
-
-var _FormControl2 = _interopRequireDefault(_FormControl);
-
-var _Input = __webpack_require__(/*! @material-ui/core/Input */ 110);
-
-var _Input2 = _interopRequireDefault(_Input);
-
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 60);
-
-var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
-
-var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 112);
-
-var _tableStyleJss2 = _interopRequireDefault(_tableStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TableToolbar = function (_React$Component) {
-  _inherits(TableToolbar, _React$Component);
-
-  function TableToolbar() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, TableToolbar);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
+var styles = function styles(theme) {
+  return {
+    root: {
+      paddingRight: theme.spacing.unit
+    },
+    rootTable: {
+      width: '100%',
+      marginTop: theme.spacing.unit * 3,
+      overflowX: 'auto'
+    },
+    highlight: theme.palette.type === 'light' ? {
+      color: theme.palette.secondary.main,
+      backgroundColor: (0, _colorManipulator.lighten)(theme.palette.secondary.light, 0.85)
+    } : {
+      color: theme.palette.text.primary,
+      backgroundColor: theme.palette.secondary.dark
+    },
+    spacer: {
+      flex: '1 1 100%'
+    },
+    actionsToolbar: {
+      color: theme.palette.text.secondary,
+      flex: '1 0 auto'
+    },
+    titleToolbar: {
+      flex: '0 0 auto'
+    },
+    filterBtn: {
+      top: -5
+    },
+    textField: {
+      flexBasis: 200,
+      width: 300
+    },
+    table: {
+      minWidth: 900
+    },
+    actions: {
+      color: theme.palette.text.secondary,
+      margin: 10
+    },
+    toolbar: {
+      backgroundColor: theme.palette.grey[800]
+    },
+    title: {
+      flex: '0 0 auto',
+      '& h2': {
+        color: theme.palette.common.white
+      }
+    },
+    button: {
+      margin: theme.spacing.unit
+    },
+    iconSmall: {
+      fontSize: 20
+    },
+    leftIcon: {
+      marginRight: theme.spacing.unit
     }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TableToolbar.__proto__ || Object.getPrototypeOf(TableToolbar)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      showSearch: false
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(TableToolbar, [{
-    key: 'toggleSearch',
-    value: function toggleSearch() {
-      this.setState({ showSearch: !this.state.showSearch });
-    }
-  }, {
-    key: 'handleChange',
-    value: function handleChange(event) {
-      event.persist();
-      this.props.onUserInput(event.target.value);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      var _props = this.props,
-          numSelected = _props.numSelected,
-          classes = _props.classes,
-          filterText = _props.filterText;
-      var showSearch = this.state.showSearch;
-
-
-      return _react2.default.createElement(
-        _Toolbar2.default,
-        {
-          className: (0, _classnames2.default)(classes.root, _defineProperty({}, classes.highlight, numSelected > 0))
-        },
-        _react2.default.createElement(
-          'div',
-          { className: classes.titleToolbar },
-          numSelected > 0 ? _react2.default.createElement(
-            _Typography2.default,
-            { color: 'inherit', variant: 'subheading' },
-            numSelected,
-            ' selected'
-          ) : _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'title' },
-            'Nutrition'
-          )
-        ),
-        _react2.default.createElement('div', { className: classes.spacer }),
-        _react2.default.createElement(
-          'div',
-          { className: classes.actionsToolbar },
-          numSelected > 0 ? _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              _Tooltip2.default,
-              { title: 'Bookmark' },
-              _react2.default.createElement(
-                _IconButton2.default,
-                { 'aria-label': 'Bookmark' },
-                _react2.default.createElement(_Bookmark2.default, null)
-              )
-            ),
-            _react2.default.createElement(
-              _Tooltip2.default,
-              { title: 'Archive' },
-              _react2.default.createElement(
-                _IconButton2.default,
-                { 'aria-label': 'Archive' },
-                _react2.default.createElement(_Archive2.default, null)
-              )
-            ),
-            _react2.default.createElement(
-              _Tooltip2.default,
-              { title: 'Delete' },
-              _react2.default.createElement(
-                _IconButton2.default,
-                { 'aria-label': 'Delete' },
-                _react2.default.createElement(_Delete2.default, null)
-              )
-            )
-          ) : _react2.default.createElement(
-            'div',
-            { className: classes.actions },
-            showSearch && _react2.default.createElement(
-              _FormControl2.default,
-              { className: (0, _classnames2.default)(classes.textField) },
-              _react2.default.createElement(_Input2.default, {
-                id: 'search_filter',
-                type: 'text',
-                placeholder: 'Search Desert',
-                value: filterText,
-                onChange: function onChange(event) {
-                  return _this2.handleChange(event);
-                },
-                endAdornment: _react2.default.createElement(
-                  _InputAdornment2.default,
-                  { position: 'end' },
-                  _react2.default.createElement(
-                    _IconButton2.default,
-                    { 'aria-label': 'Search filter' },
-                    _react2.default.createElement(_Search2.default, null)
-                  )
-                )
-              })
-            ),
-            _react2.default.createElement(
-              _Tooltip2.default,
-              { title: 'Filter list' },
-              _react2.default.createElement(
-                _IconButton2.default,
-                {
-                  'aria-label': 'Filter list',
-                  className: classes.filterBtn,
-                  onClick: function onClick() {
-                    return _this2.toggleSearch();
-                  }
-                },
-                _react2.default.createElement(_FilterList2.default, null)
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return TableToolbar;
-}(_react2.default.Component);
-
-TableToolbar.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  filterText: _propTypes2.default.string.isRequired,
-  onUserInput: _propTypes2.default.func.isRequired,
-  numSelected: _propTypes2.default.number.isRequired
+  };
 };
 
-var _default = (0, _styles.withStyles)(_tableStyleJss2.default)(TableToolbar);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(TableToolbar, 'TableToolbar', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TableToolbar.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TableToolbar.js');
-}();
-
-;
-
-/***/ }),
-/* 249 */
-/*!*********************************************!*\
-  !*** external "@material-ui/icons/Archive" ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Archive");
-
-/***/ }),
-/* 250 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/FilterList" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/FilterList");
-
-/***/ }),
-/* 251 */
-/*!************************************************!*\
-  !*** ./src/app/components/Tables/EmptyData.js ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Table = __webpack_require__(/*! ../../styles/components/Table.scss */ 16);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _Apps = __webpack_require__(/*! @material-ui/icons/Apps */ 252);
-
-var _Apps2 = _interopRequireDefault(_Apps);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function EmptyData() {
-  return _react2.default.createElement(
-    'div',
-    { className: _Table2.default.nodata },
-    _react2.default.createElement(_Apps2.default, null),
-    'No Data'
-  );
-}
-
-var _default = EmptyData;
+var _default = styles;
 exports.default = _default;
 ;
 
@@ -16500,26 +12920,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(EmptyData, 'EmptyData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/EmptyData.js');
+  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/EmptyData.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
 }();
 
 ;
 
 /***/ }),
-/* 252 */
-/*!******************************************!*\
-  !*** external "@material-ui/icons/Apps" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Apps");
-
-/***/ }),
-/* 253 */
+/* 198 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Notification/Notification.js ***!
   \*********************************************************/
@@ -16546,15 +12955,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 254);
+var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 199);
 
 var _Snackbar2 = _interopRequireDefault(_Snackbar);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 115);
+var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 200);
 
 var _Close2 = _interopRequireDefault(_Close);
 
@@ -16678,7 +13087,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 254 */
+/* 199 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Snackbar" ***!
   \*********************************************/
@@ -16689,1765 +13098,18 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Snackbar");
 
 /***/ }),
-/* 255 */
-/*!***********************************************!*\
-  !*** ./src/app/components/Forms/LoginForm.js ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 45);
-
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 61);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Visibility = __webpack_require__(/*! @material-ui/icons/Visibility */ 256);
-
-var _Visibility2 = _interopRequireDefault(_Visibility);
-
-var _VisibilityOff = __webpack_require__(/*! @material-ui/icons/VisibilityOff */ 257);
-
-var _VisibilityOff2 = _interopRequireDefault(_VisibilityOff);
-
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 60);
-
-var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
-
-var _FormControl = __webpack_require__(/*! @material-ui/core/FormControl */ 80);
-
-var _FormControl2 = _interopRequireDefault(_FormControl);
-
-var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 44);
-
-var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
-
-var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 116);
-
-var _AllInclusive2 = _interopRequireDefault(_AllInclusive);
-
-var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 117);
-
-var _Brightness2 = _interopRequireDefault(_Brightness);
-
-var _People = __webpack_require__(/*! @material-ui/icons/People */ 118);
-
-var _People2 = _interopRequireDefault(_People);
-
-var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 76);
-
-var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
-
-var _userJss = __webpack_require__(/*! ./user-jss */ 119);
-
-var _userJss2 = _interopRequireDefault(_userJss);
-
-var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 43);
-
-var _PapperBlock2 = _interopRequireDefault(_PapperBlock);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// validation functions
-var required = function required(value) {
-  return value == null ? 'Required' : undefined;
-};
-var email = function email(value) {
-  return value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ? 'Invalid email' : undefined;
-};
-
-var LoginForm = function (_React$Component) {
-  _inherits(LoginForm, _React$Component);
-
-  function LoginForm() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, LoginForm);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = LoginForm.__proto__ || Object.getPrototypeOf(LoginForm)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      showPassword: false
-    }, _this.handleClickShowPassword = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClickShowPassword__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleMouseDownPassword = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleMouseDownPassword__REACT_HOT_LOADER__.apply(_this3, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(LoginForm, [{
-    key: '__handleMouseDownPassword__REACT_HOT_LOADER__',
-    value: function __handleMouseDownPassword__REACT_HOT_LOADER__() {
-      return this.__handleMouseDownPassword__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickShowPassword__REACT_HOT_LOADER__',
-    value: function __handleClickShowPassword__REACT_HOT_LOADER__() {
-      return this.__handleClickShowPassword__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickShowPassword__REACT_HOT_LOADER__',
-    value: function __handleClickShowPassword__REACT_HOT_LOADER__() {
-      this.setState({ showPassword: !this.state.showPassword });
-    }
-  }, {
-    key: '__handleMouseDownPassword__REACT_HOT_LOADER__',
-    value: function __handleMouseDownPassword__REACT_HOT_LOADER__(event) {
-      event.preventDefault();
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          handleSubmit = _props.handleSubmit,
-          pristine = _props.pristine,
-          submitting = _props.submitting;
-
-      return _react2.default.createElement(
-        'div',
-        { className: classes.formWrap },
-        _react2.default.createElement(
-          _PapperBlock2.default,
-          { whiteBg: true, title: 'Login', desc: '' },
-          _react2.default.createElement(
-            'form',
-            { onSubmit: handleSubmit },
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'email',
-                  component: _reduxFormMaterialUi.TextField,
-                  placeholder: 'Your Email',
-                  label: 'Your Email',
-                  required: true,
-                  validate: [required, email],
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'password',
-                  component: _reduxFormMaterialUi.TextField,
-                  type: this.state.showPassword ? 'text' : 'password',
-                  label: 'Your Password',
-                  InputProps: {
-                    endAdornment: _react2.default.createElement(
-                      _InputAdornment2.default,
-                      { position: 'end' },
-                      _react2.default.createElement(
-                        _IconButton2.default,
-                        {
-                          'aria-label': 'Toggle password visibility',
-                          onClick: this.handleClickShowPassword,
-                          onMouseDown: this.handleMouseDownPassword
-                        },
-                        this.state.showPassword ? _react2.default.createElement(_VisibilityOff2.default, null) : _react2.default.createElement(_Visibility2.default, null)
-                      )
-                    )
-                  },
-                  required: true,
-                  validate: required,
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: classes.btnArea },
-              _react2.default.createElement(_FormControlLabel2.default, { control: _react2.default.createElement(_immutable.Field, { name: 'checkbox', component: _reduxFormMaterialUi.Checkbox }), label: 'Remember' }),
-              _react2.default.createElement(
-                _Button2.default,
-                { variant: 'raised', color: 'primary', type: 'submit' },
-                'Continue',
-                _react2.default.createElement(_ArrowForward2.default, { className: (0, _classnames2.default)(classes.rightIcon, classes.iconSmall), disabled: submitting || pristine })
-              )
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'div',
-              { className: classes.btnArea },
-              _react2.default.createElement(
-                _Button2.default,
-                { variant: 'raised', size: 'small', className: classes.redBtn, type: 'button' },
-                _react2.default.createElement(_AllInclusive2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-                'Socmed 1'
-              ),
-              _react2.default.createElement(
-                _Button2.default,
-                { variant: 'raised', size: 'small', className: classes.blueBtn, type: 'button' },
-                _react2.default.createElement(_Brightness2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-                'Socmed 2'
-              ),
-              _react2.default.createElement(
-                _Button2.default,
-                { variant: 'raised', size: 'small', className: classes.cyanBtn, type: 'button' },
-                _react2.default.createElement(_People2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-                'Socmed 3'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: classes.footer },
-              'Cannot Login?',
-              _react2.default.createElement(
-                _Button2.default,
-                { size: 'small', color: 'secondary', className: classes.button },
-                'Forgot Password'
-              ),
-              '| ',
-              _react2.default.createElement(
-                _Button2.default,
-                { size: 'small', color: 'secondary', className: classes.button },
-                'Register'
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return LoginForm;
-}(_react2.default.Component);
-
-LoginForm.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  handleSubmit: _propTypes2.default.func.isRequired,
-  pristine: _propTypes2.default.bool.isRequired,
-  submitting: _propTypes2.default.bool.isRequired
-};
-
-var LoginFormReduxed = (0, _immutable.reduxForm)({
-  form: 'immutableExample',
-  enableReinitialize: true
-})(LoginForm);
-
-var reducer = 'login';
-var FormInit = (0, _reactRedux.connect)(function (state) {
-  return {
-    force: state,
-    initialValues: state.getIn([reducer, 'usersLogin'])
-  };
-})(LoginFormReduxed);
-
-var _default = (0, _styles.withStyles)(_userJss2.default)(FormInit);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(required, 'required', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(email, 'email', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(LoginForm, 'LoginForm', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(LoginFormReduxed, 'LoginFormReduxed', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(FormInit, 'FormInit', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/LoginForm.js');
-}();
-
-;
-
-/***/ }),
-/* 256 */
-/*!************************************************!*\
-  !*** external "@material-ui/icons/Visibility" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Visibility");
-
-/***/ }),
-/* 257 */
-/*!***************************************************!*\
-  !*** external "@material-ui/icons/VisibilityOff" ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/VisibilityOff");
-
-/***/ }),
-/* 258 */
-/*!************************************************!*\
-  !*** external "@material-ui/core/colors/cyan" ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/cyan");
-
-/***/ }),
-/* 259 */
-/*!**************************************************!*\
-  !*** ./src/app/components/Forms/RegisterForm.js ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 45);
-
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 61);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _FormControl = __webpack_require__(/*! @material-ui/core/FormControl */ 80);
-
-var _FormControl2 = _interopRequireDefault(_FormControl);
-
-var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 44);
-
-var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
-
-var _Tabs = __webpack_require__(/*! @material-ui/core/Tabs */ 260);
-
-var _Tabs2 = _interopRequireDefault(_Tabs);
-
-var _Tab = __webpack_require__(/*! @material-ui/core/Tab */ 261);
-
-var _Tab2 = _interopRequireDefault(_Tab);
-
-var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 76);
-
-var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
-
-var _AllInclusive = __webpack_require__(/*! @material-ui/icons/AllInclusive */ 116);
-
-var _AllInclusive2 = _interopRequireDefault(_AllInclusive);
-
-var _Brightness = __webpack_require__(/*! @material-ui/icons/Brightness5 */ 117);
-
-var _Brightness2 = _interopRequireDefault(_Brightness);
-
-var _People = __webpack_require__(/*! @material-ui/icons/People */ 118);
-
-var _People2 = _interopRequireDefault(_People);
-
-var _userJss = __webpack_require__(/*! ./user-jss */ 119);
-
-var _userJss2 = _interopRequireDefault(_userJss);
-
-var _PapperBlock = __webpack_require__(/*! ./../PapperBlock/PapperBlock */ 43);
-
-var _PapperBlock2 = _interopRequireDefault(_PapperBlock);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// validation functions
-var required = function required(value) {
-  return value == null ? 'Required' : undefined;
-};
-var email = function email(value) {
-  return value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ? 'Invalid email' : undefined;
-};
-
-var passwordsMatch = function passwordsMatch(value, allValues) {
-  console.log(value, allValues.get('password'));
-  if (value !== allValues.get('password')) {
-    return 'Passwords dont match';
-  }
-  return undefined;
-};
-
-var RegisterForm = function (_React$Component) {
-  _inherits(RegisterForm, _React$Component);
-
-  function RegisterForm() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, RegisterForm);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = RegisterForm.__proto__ || Object.getPrototypeOf(RegisterForm)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      tab: 0
-    }, _this.handleClickShowPassword = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClickShowPassword__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleMouseDownPassword = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleMouseDownPassword__REACT_HOT_LOADER__.apply(_this3, arguments);
-    }, _this.handleChangeTab = function () {
-      var _this4;
-
-      return (_this4 = _this).__handleChangeTab__REACT_HOT_LOADER__.apply(_this4, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(RegisterForm, [{
-    key: '__handleChangeTab__REACT_HOT_LOADER__',
-    value: function __handleChangeTab__REACT_HOT_LOADER__() {
-      return this.__handleChangeTab__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleMouseDownPassword__REACT_HOT_LOADER__',
-    value: function __handleMouseDownPassword__REACT_HOT_LOADER__() {
-      return this.__handleMouseDownPassword__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickShowPassword__REACT_HOT_LOADER__',
-    value: function __handleClickShowPassword__REACT_HOT_LOADER__() {
-      return this.__handleClickShowPassword__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickShowPassword__REACT_HOT_LOADER__',
-    value: function __handleClickShowPassword__REACT_HOT_LOADER__() {
-      this.setState({ showPassword: !this.state.showPassword });
-    }
-  }, {
-    key: '__handleMouseDownPassword__REACT_HOT_LOADER__',
-    value: function __handleMouseDownPassword__REACT_HOT_LOADER__(event) {
-      event.preventDefault();
-    }
-  }, {
-    key: '__handleChangeTab__REACT_HOT_LOADER__',
-    value: function __handleChangeTab__REACT_HOT_LOADER__(event, value) {
-      this.setState({ tab: value });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          handleSubmit = _props.handleSubmit,
-          pristine = _props.pristine,
-          submitting = _props.submitting;
-      var tab = this.state.tab;
-
-      return _react2.default.createElement(
-        'div',
-        { className: classes.formWrap },
-        _react2.default.createElement(
-          _PapperBlock2.default,
-          { whiteBg: true, title: 'Create New Account', desc: '' },
-          _react2.default.createElement(
-            _Tabs2.default,
-            {
-              value: this.state.tab,
-              onChange: this.handleChangeTab,
-              indicatorColor: 'primary',
-              textColor: 'primary',
-              centered: true,
-              className: classes.tab
-            },
-            _react2.default.createElement(_Tab2.default, { label: 'With Email' }),
-            _react2.default.createElement(_Tab2.default, { label: 'With Social Network' })
-          ),
-          tab === 0 && _react2.default.createElement(
-            'form',
-            { onSubmit: handleSubmit },
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'name',
-                  component: _reduxFormMaterialUi.TextField,
-                  placeholder: 'Username',
-                  label: 'Username',
-                  required: true,
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'email',
-                  component: _reduxFormMaterialUi.TextField,
-                  placeholder: 'Your Email',
-                  label: 'Your Email',
-                  required: true,
-                  validate: [required, email],
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'password',
-                  component: _reduxFormMaterialUi.TextField,
-                  type: 'password',
-                  label: 'Your Password',
-                  required: true,
-                  validate: [required, passwordsMatch],
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _FormControl2.default,
-                { className: classes.formControl },
-                _react2.default.createElement(_immutable.Field, {
-                  name: 'passwordConfirm',
-                  component: _reduxFormMaterialUi.TextField,
-                  type: 'password',
-                  label: 'Re-type Password',
-                  required: true,
-                  validate: [required, passwordsMatch],
-                  className: classes.field
-                })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: (0, _classnames2.default)(classes.btnArea, classes.noMargin) },
-              _react2.default.createElement(
-                'div',
-                { className: classes.optArea },
-                _react2.default.createElement(_FormControlLabel2.default, { control: _react2.default.createElement(_immutable.Field, { name: 'checkbox', component: _reduxFormMaterialUi.Checkbox, className: classes.agree }), label: 'Agree with' }),
-                _react2.default.createElement(
-                  'a',
-                  { href: '#', className: classes.link },
-                  'Terms & Condition'
-                )
-              ),
-              _react2.default.createElement(
-                _Button2.default,
-                { variant: 'raised', color: 'primary', type: 'submit' },
-                'Continue',
-                _react2.default.createElement(_ArrowForward2.default, { className: (0, _classnames2.default)(classes.rightIcon, classes.iconSmall), disabled: submitting || pristine })
-              )
-            )
-          ),
-          tab === 1 && _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              _Button2.default,
-              { fullWidth: true, variant: 'raised', size: 'large', className: (0, _classnames2.default)(classes.redBtn, classes.socMedFull), type: 'button' },
-              _react2.default.createElement(_AllInclusive2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-              'Socmed 1'
-            ),
-            _react2.default.createElement(
-              _Button2.default,
-              { fullWidth: true, variant: 'raised', size: 'large', className: (0, _classnames2.default)(classes.blueBtn, classes.socMedFull), type: 'button' },
-              _react2.default.createElement(_Brightness2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-              'Socmed 2'
-            ),
-            _react2.default.createElement(
-              _Button2.default,
-              { fullWidth: true, variant: 'raised', size: 'large', className: classes.cyanBtn, type: 'button' },
-              _react2.default.createElement(_People2.default, { className: (0, _classnames2.default)(classes.leftIcon, classes.iconSmall) }),
-              'Socmed 3'
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return RegisterForm;
-}(_react2.default.Component);
-
-RegisterForm.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  handleSubmit: _propTypes2.default.func.isRequired,
-  pristine: _propTypes2.default.bool.isRequired,
-  submitting: _propTypes2.default.bool.isRequired
-};
-
-var RegisterFormReduxed = (0, _immutable.reduxForm)({
-  form: 'immutableExample',
-  enableReinitialize: true
-})(RegisterForm);
-
-var _default = (0, _styles.withStyles)(_userJss2.default)(RegisterFormReduxed);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(required, 'required', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-
-  __REACT_HOT_LOADER__.register(email, 'email', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-
-  __REACT_HOT_LOADER__.register(passwordsMatch, 'passwordsMatch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-
-  __REACT_HOT_LOADER__.register(RegisterForm, 'RegisterForm', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-
-  __REACT_HOT_LOADER__.register(RegisterFormReduxed, 'RegisterFormReduxed', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Forms/RegisterForm.js');
-}();
-
-;
-
-/***/ }),
-/* 260 */
-/*!*****************************************!*\
-  !*** external "@material-ui/core/Tabs" ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Tabs");
-
-/***/ }),
-/* 261 */
-/*!****************************************!*\
-  !*** external "@material-ui/core/Tab" ***!
-  \****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Tab");
-
-/***/ }),
-/* 262 */
-/*!****************************************************!*\
-  !*** ./src/app/components/Badges/LimitedBadges.js ***!
-  \****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 68);
-
-var _Badge2 = _interopRequireDefault(_Badge);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var LimitedBadges = function (_PureComponent) {
-  _inherits(LimitedBadges, _PureComponent);
-
-  function LimitedBadges() {
-    _classCallCheck(this, LimitedBadges);
-
-    return _possibleConstructorReturn(this, (LimitedBadges.__proto__ || Object.getPrototypeOf(LimitedBadges)).apply(this, arguments));
-  }
-
-  _createClass(LimitedBadges, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          children = _props.children,
-          limit = _props.limit,
-          value = _props.value,
-          rest = _objectWithoutProperties(_props, ['children', 'limit', 'value']);
-
-      return _react2.default.createElement(
-        _Badge2.default,
-        _extends({ badgeContent: value > limit ? limit + '+' : value }, rest),
-        children
-      );
-    }
-  }]);
-
-  return LimitedBadges;
-}(_react.PureComponent);
-
-LimitedBadges.propTypes = {
-  children: _propTypes2.default.node.isRequired,
-  value: _propTypes2.default.number.isRequired,
-  limit: _propTypes2.default.number.isRequired
-};
-
-var _default = LimitedBadges;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(LimitedBadges, 'LimitedBadges', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Badges/LimitedBadges.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Badges/LimitedBadges.js');
-}();
-
-;
-
-/***/ }),
-/* 263 */
+/* 200 */
 /*!*******************************************!*\
-  !*** ./src/app/components/Quote/Quote.js ***!
+  !*** external "@material-ui/icons/Close" ***!
   \*******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 120);
-
-var _blueGrey2 = _interopRequireDefault(_blueGrey);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = {
-  quoteWrap: {
-    padding: '0 25',
-    margin: 10,
-    position: 'relative',
-    '&:before': {
-      color: _blueGrey2.default[100],
-      fontSize: '4em',
-      lineHeight: '.1em',
-      marginRight: '.25em',
-      verticalAlign: '-.4em'
-    }
-  },
-  quoteLeft: {
-    extend: 'quoteWrap',
-    textAlign: 'left',
-    borderLeft: '5px solid' + _blueGrey2.default[50],
-    paddingLeft: 25,
-    '&:before': {
-      content: 'open-quote'
-    }
-  },
-  quoteRight: {
-    extend: 'quoteWrap',
-    textAlign: 'right',
-    borderRight: '5px solid' + _blueGrey2.default[50],
-    paddingRight: 25,
-    '&:before': {
-      content: 'close-quote'
-    }
-  },
-  quoteBody: {
-    minHeight: 100,
-    marginBottom: 20
-  }
-};
-
-var Quote = function (_React$Component) {
-  _inherits(Quote, _React$Component);
-
-  function Quote() {
-    _classCallCheck(this, Quote);
-
-    return _possibleConstructorReturn(this, (Quote.__proto__ || Object.getPrototypeOf(Quote)).apply(this, arguments));
-  }
-
-  _createClass(Quote, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          align = _props.align,
-          content = _props.content,
-          footnote = _props.footnote,
-          classes = _props.classes;
-
-      return _react2.default.createElement(
-        'div',
-        {
-          className: (0, _classnames2.default)(classes.quoteWrap, align === 'right' ? classes.quoteRight : classes.quoteLeft)
-        },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'subheading', className: classes.quoteBody, gutterBottom: true },
-          content
-        ),
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'caption' },
-          footnote
-        )
-      );
-    }
-  }]);
-
-  return Quote;
-}(_react2.default.Component);
-
-Quote.propTypes = {
-  align: _propTypes2.default.string.isRequired,
-  content: _propTypes2.default.string.isRequired,
-  footnote: _propTypes2.default.string.isRequired,
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(Quote);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Quote/Quote.js');
-
-  __REACT_HOT_LOADER__.register(Quote, 'Quote', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Quote/Quote.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Quote/Quote.js');
-}();
-
-;
-
-/***/ }),
-/* 264 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/CardPaper/ProfileCard.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 58);
-
-var _Typography4 = _interopRequireDefault(_Typography3);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
-
-var _CardMedia2 = _interopRequireDefault(_CardMedia);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 46);
-
-var _CardActions2 = _interopRequireDefault(_CardActions);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
-
-var _Avatar2 = _interopRequireDefault(_Avatar);
-
-var _VerifiedUser = __webpack_require__(/*! @material-ui/icons/VerifiedUser */ 265);
-
-var _VerifiedUser2 = _interopRequireDefault(_VerifiedUser);
-
-var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 121);
-
-var _BottomNavigation2 = _interopRequireDefault(_BottomNavigation);
-
-var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 122);
-
-var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
-
-var _SupervisorAccount = __webpack_require__(/*! @material-ui/icons/SupervisorAccount */ 266);
-
-var _SupervisorAccount2 = _interopRequireDefault(_SupervisorAccount);
-
-var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 81);
-
-var _Favorite2 = _interopRequireDefault(_Favorite);
-
-var _PhotoLibrary = __webpack_require__(/*! @material-ui/icons/PhotoLibrary */ 267);
-
-var _PhotoLibrary2 = _interopRequireDefault(_PhotoLibrary);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ProfileCard = function (_React$Component) {
-  _inherits(ProfileCard, _React$Component);
-
-  function ProfileCard() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, ProfileCard);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ProfileCard.__proto__ || Object.getPrototypeOf(ProfileCard)).call.apply(_ref, [this].concat(args))), _this), _this.state = { expanded: false }, _this.handleExpandClick = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleExpandClick__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(ProfileCard, [{
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      return this.__handleExpandClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      this.setState({ expanded: !this.state.expanded });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          cover = _props.cover,
-          avatar = _props.avatar,
-          name = _props.name,
-          title = _props.title,
-          connection = _props.connection,
-          isVerified = _props.isVerified,
-          btnText = _props.btnText;
-
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.cardSocmed },
-        _react2.default.createElement(_CardMedia2.default, {
-          className: classes.mediaProfile,
-          image: cover,
-          title: 'cover'
-        }),
-        _react2.default.createElement(
-          _CardContent2.default,
-          { className: classes.contentProfile },
-          _react2.default.createElement(_Avatar2.default, { alt: 'avatar', src: avatar, className: classes.avatarBig }),
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'title', className: classes.name, gutterBottom: true },
-            name,
-            isVerified && _react2.default.createElement(_VerifiedUser2.default, { className: classes.verified })
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { className: classes.subheading, gutterBottom: true },
-            _react2.default.createElement(
-              'span',
-              { className: _Typography4.default.regular },
-              title
-            )
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'caption', component: 'p' },
-            connection,
-            ' connection'
-          ),
-          _react2.default.createElement(
-            _Button2.default,
-            { className: classes.buttonProfile, size: 'large', variant: 'outlined', color: 'secondary' },
-            btnText
-          )
-        ),
-        _react2.default.createElement(_Divider2.default, null),
-        _react2.default.createElement(
-          _CardActions2.default,
-          null,
-          _react2.default.createElement(
-            _BottomNavigation2.default,
-            {
-              showLabels: true,
-              className: classes.bottomLink
-            },
-            _react2.default.createElement(_BottomNavigationAction2.default, { label: '20 Connection', icon: _react2.default.createElement(_SupervisorAccount2.default, null) }),
-            _react2.default.createElement(_BottomNavigationAction2.default, { label: '10 Favorites', icon: _react2.default.createElement(_Favorite2.default, null) }),
-            _react2.default.createElement(_BottomNavigationAction2.default, { label: '5 Albums', icon: _react2.default.createElement(_PhotoLibrary2.default, null) })
-          )
-        )
-      );
-    }
-  }]);
-
-  return ProfileCard;
-}(_react2.default.Component);
-
-ProfileCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  cover: _propTypes2.default.string.isRequired,
-  avatar: _propTypes2.default.string.isRequired,
-  name: _propTypes2.default.string.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  connection: _propTypes2.default.number.isRequired,
-  btnText: _propTypes2.default.string.isRequired,
-  isVerified: _propTypes2.default.bool
-};
-
-ProfileCard.defaultProps = {
-  isVerified: false
-};
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(ProfileCard);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ProfileCard, 'ProfileCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/ProfileCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/ProfileCard.js');
-}();
-
-;
-
-/***/ }),
-/* 265 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/VerifiedUser" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/VerifiedUser");
+module.exports = require("@material-ui/icons/Close");
 
 /***/ }),
-/* 266 */
-/*!*******************************************************!*\
-  !*** external "@material-ui/icons/SupervisorAccount" ***!
-  \*******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/SupervisorAccount");
-
-/***/ }),
-/* 267 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/PhotoLibrary" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/PhotoLibrary");
-
-/***/ }),
-/* 268 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/CardPaper/GeneralCard.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 46);
-
-var _CardActions2 = _interopRequireDefault(_CardActions);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 81);
-
-var _Favorite2 = _interopRequireDefault(_Favorite);
-
-var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 124);
-
-var _Share2 = _interopRequireDefault(_Share);
-
-var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 125);
-
-var _Comment2 = _interopRequireDefault(_Comment);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var GeneralCard = function (_React$Component) {
-  _inherits(GeneralCard, _React$Component);
-
-  function GeneralCard() {
-    _classCallCheck(this, GeneralCard);
-
-    return _possibleConstructorReturn(this, (GeneralCard.__proto__ || Object.getPrototypeOf(GeneralCard)).apply(this, arguments));
-  }
-
-  _createClass(GeneralCard, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          children = _props.children,
-          liked = _props.liked,
-          shared = _props.shared,
-          commented = _props.commented;
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.card },
-        _react2.default.createElement(
-          _CardContent2.default,
-          null,
-          children
-        ),
-        _react2.default.createElement(
-          _CardActions2.default,
-          { className: classes.actions, disableActionSpacing: true },
-          _react2.default.createElement(
-            _IconButton2.default,
-            { 'aria-label': 'Add to favorites', className: classes.button },
-            _react2.default.createElement(_Favorite2.default, { className: liked > 0 && classes.liked }),
-            _react2.default.createElement(
-              'span',
-              { className: classes.num },
-              liked
-            )
-          ),
-          _react2.default.createElement(
-            _IconButton2.default,
-            { 'aria-label': 'Share', className: classes.button },
-            _react2.default.createElement(_Share2.default, { className: shared > 0 && classes.shared }),
-            _react2.default.createElement(
-              'span',
-              { className: classes.num },
-              shared
-            )
-          ),
-          _react2.default.createElement(
-            _IconButton2.default,
-            { 'aria-label': 'Comment', className: classes.rightIcon },
-            _react2.default.createElement(_Comment2.default, null),
-            _react2.default.createElement(
-              'span',
-              { className: classes.num },
-              commented
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return GeneralCard;
-}(_react2.default.Component);
-
-GeneralCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  children: _propTypes2.default.node.isRequired,
-  liked: _propTypes2.default.number.isRequired,
-  shared: _propTypes2.default.number.isRequired,
-  commented: _propTypes2.default.number.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(GeneralCard);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(GeneralCard, 'GeneralCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/GeneralCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/GeneralCard.js');
-}();
-
-;
-
-/***/ }),
-/* 269 */
-/*!**************************************************!*\
-  !*** ./src/app/components/CardPaper/NewsCard.js ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
-
-var _CardMedia2 = _interopRequireDefault(_CardMedia);
-
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 46);
-
-var _CardActions2 = _interopRequireDefault(_CardActions);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var NewsCard = function (_React$Component) {
-  _inherits(NewsCard, _React$Component);
-
-  function NewsCard() {
-    _classCallCheck(this, NewsCard);
-
-    return _possibleConstructorReturn(this, (NewsCard.__proto__ || Object.getPrototypeOf(NewsCard)).apply(this, arguments));
-  }
-
-  _createClass(NewsCard, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          children = _props.children,
-          title = _props.title,
-          image = _props.image;
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.cardMedia },
-        _react2.default.createElement(_CardMedia2.default, {
-          className: classes.media,
-          image: image,
-          title: title
-        }),
-        _react2.default.createElement(
-          _CardContent2.default,
-          null,
-          children
-        ),
-        _react2.default.createElement(
-          _CardActions2.default,
-          null,
-          _react2.default.createElement(
-            _Button2.default,
-            { size: 'small', color: 'primary' },
-            'Share'
-          ),
-          _react2.default.createElement(
-            _Button2.default,
-            { size: 'small', color: 'primary' },
-            'Learn More'
-          )
-        )
-      );
-    }
-  }]);
-
-  return NewsCard;
-}(_react2.default.Component);
-
-NewsCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  children: _propTypes2.default.node.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  image: _propTypes2.default.string.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(NewsCard);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(NewsCard, 'NewsCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/NewsCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/NewsCard.js');
-}();
-
-;
-
-/***/ }),
-/* 270 */
-/*!****************************************************!*\
-  !*** ./src/app/components/CardPaper/PlayerCard.js ***!
-  \****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
-
-var _CardMedia2 = _interopRequireDefault(_CardMedia);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _SkipPrevious = __webpack_require__(/*! @material-ui/icons/SkipPrevious */ 271);
-
-var _SkipPrevious2 = _interopRequireDefault(_SkipPrevious);
-
-var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 126);
-
-var _PlayArrow2 = _interopRequireDefault(_PlayArrow);
-
-var _SkipNext = __webpack_require__(/*! @material-ui/icons/SkipNext */ 272);
-
-var _SkipNext2 = _interopRequireDefault(_SkipNext);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PlayerCard = function (_React$Component) {
-  _inherits(PlayerCard, _React$Component);
-
-  function PlayerCard() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, PlayerCard);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PlayerCard.__proto__ || Object.getPrototypeOf(PlayerCard)).call.apply(_ref, [this].concat(args))), _this), _this.state = { expanded: false }, _this.handleExpandClick = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleExpandClick__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(PlayerCard, [{
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      return this.__handleExpandClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      this.setState({ expanded: !this.state.expanded });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          theme = _props.theme,
-          title = _props.title,
-          artist = _props.artist,
-          cover = _props.cover;
-
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.cardPlayer },
-        _react2.default.createElement(
-          'div',
-          { className: classes.details },
-          _react2.default.createElement(
-            _CardContent2.default,
-            { className: classes.content },
-            _react2.default.createElement(
-              _Typography2.default,
-              { variant: 'headline' },
-              title
-            ),
-            _react2.default.createElement(
-              _Typography2.default,
-              { variant: 'subheading', color: 'textSecondary' },
-              artist
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: classes.controls },
-            _react2.default.createElement(
-              _IconButton2.default,
-              { 'aria-label': 'Previous' },
-              theme.direction === 'rtl' ? _react2.default.createElement(_SkipNext2.default, null) : _react2.default.createElement(_SkipPrevious2.default, null)
-            ),
-            _react2.default.createElement(
-              _IconButton2.default,
-              { 'aria-label': 'Play/pause' },
-              _react2.default.createElement(_PlayArrow2.default, { className: classes.playIcon })
-            ),
-            _react2.default.createElement(
-              _IconButton2.default,
-              { 'aria-label': 'Next' },
-              theme.direction === 'rtl' ? _react2.default.createElement(_SkipPrevious2.default, null) : _react2.default.createElement(_SkipNext2.default, null)
-            )
-          )
-        ),
-        _react2.default.createElement(_CardMedia2.default, {
-          className: classes.cover,
-          image: cover,
-          title: title
-        })
-      );
-    }
-  }]);
-
-  return PlayerCard;
-}(_react2.default.Component);
-
-PlayerCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  theme: _propTypes2.default.object.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  artist: _propTypes2.default.string.isRequired,
-  cover: _propTypes2.default.string.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default, { withTheme: true })(PlayerCard);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(PlayerCard, 'PlayerCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PlayerCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PlayerCard.js');
-}();
-
-;
-
-/***/ }),
-/* 271 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/SkipPrevious" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/SkipPrevious");
-
-/***/ }),
-/* 272 */
-/*!**********************************************!*\
-  !*** external "@material-ui/icons/SkipNext" ***!
-  \**********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/SkipNext");
-
-/***/ }),
-/* 273 */
+/* 201 */
 /*!**************************************************!*\
   !*** ./src/app/components/CardPaper/PostCard.js ***!
   \**************************************************/
@@ -18474,63 +13136,63 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
+var _Card = __webpack_require__(/*! @material-ui/core/Card */ 202);
 
 var _Card2 = _interopRequireDefault(_Card);
 
-var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 40);
+var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 46);
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
-var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 41);
+var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 37);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 127);
+var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 203);
 
 var _CardHeader2 = _interopRequireDefault(_CardHeader);
 
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
+var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 204);
 
 var _CardMedia2 = _interopRequireDefault(_CardMedia);
 
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
+var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 205);
 
 var _CardContent2 = _interopRequireDefault(_CardContent);
 
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 46);
+var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 206);
 
 var _CardActions2 = _interopRequireDefault(_CardActions);
 
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
+var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 14);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
+var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 29);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 81);
+var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 207);
 
 var _Favorite2 = _interopRequireDefault(_Favorite);
 
-var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 124);
+var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 208);
 
 var _Share2 = _interopRequireDefault(_Share);
 
-var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 125);
+var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 209);
 
 var _Comment2 = _interopRequireDefault(_Comment);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 62);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 210);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
+var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 211);
 
 var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
 
@@ -18742,3131 +13404,109 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 274 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/CardPaper/ProductCard.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _withWidth = __webpack_require__(/*! @material-ui/core/withWidth */ 128);
-
-var _withWidth2 = _interopRequireDefault(_withWidth);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
-
-var _CardMedia2 = _interopRequireDefault(_CardMedia);
-
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 46);
-
-var _CardActions2 = _interopRequireDefault(_CardActions);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 57);
-
-var _Chip2 = _interopRequireDefault(_Chip);
-
-var _AddShoppingCart = __webpack_require__(/*! @material-ui/icons/AddShoppingCart */ 275);
-
-var _AddShoppingCart2 = _interopRequireDefault(_AddShoppingCart);
-
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 54);
-
-var _Star2 = _interopRequireDefault(_Star);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 58);
-
-var _Typography4 = _interopRequireDefault(_Typography3);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ProductCard = function (_React$Component) {
-  _inherits(ProductCard, _React$Component);
-
-  function ProductCard() {
-    _classCallCheck(this, ProductCard);
-
-    return _possibleConstructorReturn(this, (ProductCard.__proto__ || Object.getPrototypeOf(ProductCard)).apply(this, arguments));
-  }
-
-  _createClass(ProductCard, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          discount = _props.discount,
-          soldout = _props.soldout,
-          thumbnail = _props.thumbnail,
-          name = _props.name,
-          desc = _props.desc,
-          ratting = _props.ratting,
-          price = _props.price,
-          prevPrice = _props.prevPrice,
-          list = _props.list,
-          detailOpen = _props.detailOpen,
-          addToCart = _props.addToCart,
-          width = _props.width;
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: (0, _classnames2.default)(classes.cardProduct, (0, _withWidth.isWidthUp)('sm', width) && list ? classes.cardList : '') },
-        _react2.default.createElement(
-          'div',
-          { className: classes.status },
-          discount !== '' && _react2.default.createElement(_Chip2.default, { label: 'Discount ' + discount, className: classes.chipDiscount }),
-          soldout && _react2.default.createElement(_Chip2.default, { label: 'Sold Out', className: classes.chipSold })
-        ),
-        _react2.default.createElement(_CardMedia2.default, {
-          className: classes.mediaProduct,
-          image: thumbnail,
-          title: name
-        }),
-        _react2.default.createElement(
-          _CardContent2.default,
-          { className: classes.floatingButtonWrap },
-          !soldout && _react2.default.createElement(
-            _Tooltip2.default,
-            { title: 'Add to cart', placement: 'top' },
-            _react2.default.createElement(
-              _Button2.default,
-              { variant: 'fab', onClick: addToCart, mini: true, color: 'secondary', 'aria-label': 'add', className: classes.buttonAdd },
-              _react2.default.createElement(_AddShoppingCart2.default, null)
-            )
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { noWrap: true, gutterBottom: true, variant: 'headline', className: classes.title, component: 'h2' },
-            name
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { component: 'p', className: classes.desc },
-            desc
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: classes.ratting },
-            ratting,
-            ' ',
-            _react2.default.createElement(_Star2.default, { className: classes.star })
-          )
-        ),
-        _react2.default.createElement(
-          _CardActions2.default,
-          { className: classes.price },
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'headline' },
-            _react2.default.createElement(
-              'span',
-              null,
-              '$',
-              price
-            )
-          ),
-          prevPrice > 0 && _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'caption', component: 'h5' },
-            _react2.default.createElement(
-              'span',
-              { className: _Typography4.default.lineThrought },
-              '$',
-              prevPrice
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: classes.rightAction },
-            _react2.default.createElement(
-              _Button2.default,
-              { size: 'small', variant: 'outlined', color: 'secondary', onClick: detailOpen },
-              'See Detail'
-            ),
-            !soldout && _react2.default.createElement(
-              _Tooltip2.default,
-              { title: 'Add to cart', placement: 'top' },
-              _react2.default.createElement(
-                _IconButton2.default,
-                { color: 'secondary', onClick: addToCart, className: classes.buttonAddList },
-                _react2.default.createElement(_AddShoppingCart2.default, null)
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return ProductCard;
-}(_react2.default.Component);
-
-ProductCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  discount: _propTypes2.default.string,
-  width: _propTypes2.default.string.isRequired,
-  soldout: _propTypes2.default.bool,
-  thumbnail: _propTypes2.default.string.isRequired,
-  name: _propTypes2.default.string.isRequired,
-  desc: _propTypes2.default.string.isRequired,
-  ratting: _propTypes2.default.number.isRequired,
-  price: _propTypes2.default.number.isRequired,
-  prevPrice: _propTypes2.default.number,
-  list: _propTypes2.default.bool,
-  detailOpen: _propTypes2.default.func,
-  addToCart: _propTypes2.default.func
-};
-
-ProductCard.defaultProps = {
-  discount: '',
-  soldout: false,
-  prevPrice: 0,
-  list: false,
-  detailOpen: function detailOpen() {
-    return false;
-  },
-  addToCart: function addToCart() {
-    return false;
-  }
-};
-
-var ProductCardResponsive = (0, _withWidth2.default)()(ProductCard);
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(ProductCardResponsive);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ProductCard, 'ProductCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/ProductCard.js');
-
-  __REACT_HOT_LOADER__.register(ProductCardResponsive, 'ProductCardResponsive', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/ProductCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/ProductCard.js');
-}();
-
-;
-
-/***/ }),
-/* 275 */
-/*!*****************************************************!*\
-  !*** external "@material-ui/icons/AddShoppingCart" ***!
-  \*****************************************************/
+/* 202 */
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Card" ***!
+  \*****************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/AddShoppingCart");
+module.exports = require("@material-ui/core/Card");
 
 /***/ }),
-/* 276 */
-/*!***************************************************!*\
-  !*** ./src/app/components/CardPaper/VideoCard.js ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 127);
-
-var _CardHeader2 = _interopRequireDefault(_CardHeader);
-
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 39);
-
-var _CardMedia2 = _interopRequireDefault(_CardMedia);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _PlayArrow = __webpack_require__(/*! @material-ui/icons/PlayArrow */ 126);
-
-var _PlayArrow2 = _interopRequireDefault(_PlayArrow);
-
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
-
-var _Avatar2 = _interopRequireDefault(_Avatar);
-
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 56);
-
-var _red2 = _interopRequireDefault(_red);
-
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 62);
-
-var _MoreVert2 = _interopRequireDefault(_MoreVert);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = function styles(theme) {
-  return {
-    playIcon: {
-      height: 38,
-      width: 38
-    },
-    cardSocmed: {
-      maxWidth: 400
-    },
-    media: {
-      height: 0,
-      paddingTop: '56.25%', // 16:9
-      position: 'relative'
-    },
-    avatar: {
-      backgroundColor: _red2.default[500]
-    },
-    playBtn: {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      width: 64,
-      height: 64,
-      transform: 'translate(-50%, -50%)',
-      '& svg': {
-        color: theme.palette.common.white,
-        fontSize: 64
-      }
-    }
-  };
-};
-
-var VideoCard = function (_React$Component) {
-  _inherits(VideoCard, _React$Component);
-
-  function VideoCard() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, VideoCard);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = VideoCard.__proto__ || Object.getPrototypeOf(VideoCard)).call.apply(_ref, [this].concat(args))), _this), _this.state = { expanded: false }, _this.handleExpandClick = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleExpandClick__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(VideoCard, [{
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      return this.__handleExpandClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleExpandClick__REACT_HOT_LOADER__',
-    value: function __handleExpandClick__REACT_HOT_LOADER__() {
-      this.setState({ expanded: !this.state.expanded });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          title = _props.title,
-          cover = _props.cover,
-          date = _props.date;
-
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.cardSocmed },
-        _react2.default.createElement(
-          _CardMedia2.default,
-          {
-            className: classes.media,
-            image: cover,
-            title: title
-          },
-          _react2.default.createElement(
-            _IconButton2.default,
-            { className: classes.playBtn },
-            _react2.default.createElement(_PlayArrow2.default, null)
-          )
-        ),
-        _react2.default.createElement(_CardHeader2.default, {
-          avatar: _react2.default.createElement(
-            _Avatar2.default,
-            { 'aria-label': 'Recipe', className: classes.avatar },
-            'R'
-          ),
-          action: _react2.default.createElement(
-            _IconButton2.default,
-            null,
-            _react2.default.createElement(_MoreVert2.default, null)
-          ),
-          title: title,
-          subheader: date
-        })
-      );
-    }
-  }]);
-
-  return VideoCard;
-}(_react2.default.Component);
-
-VideoCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  cover: _propTypes2.default.string.isRequired,
-  date: _propTypes2.default.string.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(VideoCard);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/VideoCard.js');
-
-  __REACT_HOT_LOADER__.register(VideoCard, 'VideoCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/VideoCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/VideoCard.js');
-}();
-
-;
-
-/***/ }),
-/* 277 */
-/*!******************************************************!*\
-  !*** ./src/app/components/CardPaper/IdentityCard.js ***!
-  \******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 29);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 33);
-
-var _CardContent2 = _interopRequireDefault(_CardContent);
-
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
-
-var _ListItem2 = _interopRequireDefault(_ListItem);
-
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
-
-var _ListItemText2 = _interopRequireDefault(_ListItemText);
-
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
-
-var _Avatar2 = _interopRequireDefault(_Avatar);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _LocalPhone = __webpack_require__(/*! @material-ui/icons/LocalPhone */ 82);
-
-var _LocalPhone2 = _interopRequireDefault(_LocalPhone);
-
-var _LocationOn = __webpack_require__(/*! @material-ui/icons/LocationOn */ 83);
-
-var _LocationOn2 = _interopRequireDefault(_LocationOn);
-
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 34);
-
-var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var IdentityCard = function (_React$Component) {
-  _inherits(IdentityCard, _React$Component);
-
-  function IdentityCard() {
-    _classCallCheck(this, IdentityCard);
-
-    return _possibleConstructorReturn(this, (IdentityCard.__proto__ || Object.getPrototypeOf(IdentityCard)).apply(this, arguments));
-  }
-
-  _createClass(IdentityCard, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          title = _props.title,
-          name = _props.name,
-          avatar = _props.avatar,
-          phone = _props.phone,
-          address = _props.address;
-
-      return _react2.default.createElement(
-        _Card2.default,
-        { className: classes.card },
-        _react2.default.createElement(
-          _CardContent2.default,
-          null,
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'subheading' },
-            title
-          ),
-          _react2.default.createElement(_Divider2.default, { className: classes.divider }),
-          _react2.default.createElement(
-            _ListItem2.default,
-            null,
-            _react2.default.createElement(_Avatar2.default, {
-              alt: name,
-              src: avatar,
-              className: classes.avatar
-            }),
-            _react2.default.createElement(_ListItemText2.default, { primary: 'Name', secondary: name })
-          ),
-          _react2.default.createElement(
-            _ListItem2.default,
-            null,
-            _react2.default.createElement(
-              _Avatar2.default,
-              null,
-              _react2.default.createElement(_LocalPhone2.default, null)
-            ),
-            _react2.default.createElement(_ListItemText2.default, { primary: 'Phone', secondary: phone })
-          ),
-          _react2.default.createElement(
-            _ListItem2.default,
-            null,
-            _react2.default.createElement(
-              _Avatar2.default,
-              null,
-              _react2.default.createElement(_LocationOn2.default, null)
-            ),
-            _react2.default.createElement(_ListItemText2.default, { primary: 'Address', secondary: address })
-          )
-        )
-      );
-    }
-  }]);
-
-  return IdentityCard;
-}(_react2.default.Component);
-
-IdentityCard.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  title: _propTypes2.default.string.isRequired,
-  name: _propTypes2.default.string.isRequired,
-  avatar: _propTypes2.default.string.isRequired,
-  phone: _propTypes2.default.string.isRequired,
-  address: _propTypes2.default.string.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(IdentityCard);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(IdentityCard, 'IdentityCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/IdentityCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/IdentityCard.js');
-}();
-
-;
-
-/***/ }),
-/* 278 */
-/*!****************************************************!*\
-  !*** ./src/app/components/Search/SearchProduct.js ***!
-  \****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 67);
-
-var _AppBar2 = _interopRequireDefault(_AppBar);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Badge = __webpack_require__(/*! @material-ui/core/Badge */ 68);
-
-var _Badge2 = _interopRequireDefault(_Badge);
-
-var _ShoppingCart = __webpack_require__(/*! @material-ui/icons/ShoppingCart */ 129);
-
-var _ShoppingCart2 = _interopRequireDefault(_ShoppingCart);
-
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 51);
-
-var _Search2 = _interopRequireDefault(_Search);
-
-var _Cart = __webpack_require__(/*! ./../Cart/Cart */ 130);
-
-var _Cart2 = _interopRequireDefault(_Cart);
-
-var _searchJss = __webpack_require__(/*! ./search-jss */ 282);
-
-var _searchJss2 = _interopRequireDefault(_searchJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SearchProduct = function (_React$Component) {
-  _inherits(SearchProduct, _React$Component);
-
-  function SearchProduct() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, SearchProduct);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SearchProduct.__proto__ || Object.getPrototypeOf(SearchProduct)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      anchorEl: null
-    }, _this.handleClick = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClick__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleClose = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleClose__REACT_HOT_LOADER__.apply(_this3, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(SearchProduct, [{
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__() {
-      return this.__handleClose__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClick__REACT_HOT_LOADER__',
-    value: function __handleClick__REACT_HOT_LOADER__() {
-      return this.__handleClick__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClick__REACT_HOT_LOADER__',
-    value: function __handleClick__REACT_HOT_LOADER__(event) {
-      this.setState({ anchorEl: event.currentTarget });
-    }
-  }, {
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__() {
-      this.setState({ anchorEl: null });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var anchorEl = this.state.anchorEl;
-      var _props = this.props,
-          classes = _props.classes,
-          dataCart = _props.dataCart,
-          removeItem = _props.removeItem,
-          checkout = _props.checkout,
-          totalItems = _props.totalItems,
-          totalPrice = _props.totalPrice,
-          search = _props.search;
-
-      return _react2.default.createElement(
-        'div',
-        { className: classes.root },
-        _react2.default.createElement(
-          _AppBar2.default,
-          { position: 'static', color: 'inherit' },
-          _react2.default.createElement(
-            _Toolbar2.default,
-            null,
-            _react2.default.createElement(
-              'div',
-              { className: classes.flex },
-              _react2.default.createElement(
-                'div',
-                { className: classes.wrapper },
-                _react2.default.createElement(
-                  'div',
-                  { className: classes.search },
-                  _react2.default.createElement(_Search2.default, null)
-                ),
-                _react2.default.createElement('input', { className: classes.input, placeholder: 'Search Product', onChange: function onChange(event) {
-                    return search(event);
-                  } })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                _IconButton2.default,
-                {
-                  color: 'inherit',
-                  'aria-owns': anchorEl ? 'simple-menu' : null,
-                  'aria-haspopup': 'true',
-                  onClick: this.handleClick
-                },
-                _react2.default.createElement(
-                  _Badge2.default,
-                  { badgeContent: totalItems, color: 'secondary' },
-                  _react2.default.createElement(_ShoppingCart2.default, null)
-                )
-              ),
-              _react2.default.createElement(_Cart2.default, {
-                anchorEl: anchorEl,
-                dataCart: dataCart,
-                close: this.handleClose,
-                removeItem: removeItem,
-                checkout: checkout,
-                totalPrice: totalPrice
-              })
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return SearchProduct;
-}(_react2.default.Component);
-
-SearchProduct.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  dataCart: _propTypes2.default.object.isRequired,
-  removeItem: _propTypes2.default.func.isRequired,
-  search: _propTypes2.default.func.isRequired,
-  checkout: _propTypes2.default.func.isRequired,
-  totalItems: _propTypes2.default.number.isRequired,
-  totalPrice: _propTypes2.default.number.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_searchJss2.default)(SearchProduct);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(SearchProduct, 'SearchProduct', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Search/SearchProduct.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Search/SearchProduct.js');
-}();
-
-;
-
-/***/ }),
-/* 279 */
-/*!**************************************************!*\
-  !*** external "@material-ui/core/ListSubheader" ***!
-  \**************************************************/
+/* 203 */
+/*!***********************************************!*\
+  !*** external "@material-ui/core/CardHeader" ***!
+  \***********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/ListSubheader");
+module.exports = require("@material-ui/core/CardHeader");
 
 /***/ }),
-/* 280 */
-/*!************************************************************!*\
-  !*** external "@material-ui/core/ListItemSecondaryAction" ***!
-  \************************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/ListItemSecondaryAction");
-
-/***/ }),
-/* 281 */
-/*!*********************************************!*\
-  !*** ./src/app/components/Cart/cart-jss.js ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var styles = function styles(theme) {
-  var _cartWrap;
-
-  return {
-    totalPrice: {
-      background: theme.palette.grey[200],
-      textAlign: 'right',
-      display: 'block'
-    },
-    cartWrap: (_cartWrap = {}, _defineProperty(_cartWrap, theme.breakpoints.up('sm'), {
-      width: 400
-    }), _defineProperty(_cartWrap, '&:focus', {
-      outline: 'none'
-    }), _cartWrap),
-    itemText: {
-      marginRight: 30,
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      textOverflow: 'ellipsis',
-      width: 220
-    },
-    cartPanel: {
-      '& figure': {
-        width: 120,
-        height: 70,
-        overflow: 'hidden',
-        '& img': {
-          maxWidth: '100%'
-        }
-      }
-    },
-    empty: {
-      textAlign: 'center',
-      padding: 20
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Cart/cart-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Cart/cart-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 282 */
-/*!*************************************************!*\
-  !*** ./src/app/components/Search/search-jss.js ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var styles = function styles(theme) {
-  return {
-    root: {
-      flexGrow: 1,
-      marginTop: 20,
-      marginBottom: 40
-    },
-    flex: {
-      flex: 1
-    },
-    menuButton: {
-      marginLeft: -12,
-      marginRight: 20
-    },
-    wrapper: {
-      fontFamily: theme.typography.fontFamily,
-      position: 'relative',
-      marginRight: theme.spacing.unit * 2,
-      marginLeft: theme.spacing.unit,
-      borderRadius: 2,
-      display: 'block'
-    },
-    search: {
-      width: 'auto',
-      height: '100%',
-      position: 'absolute',
-      pointerEvents: 'none',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center'
-    },
-    input: {
-      font: 'inherit',
-      padding: theme.spacing.unit + 'px ' + theme.spacing.unit + 'px ' + theme.spacing.unit + 'px ' + theme.spacing.unit * 4 + 'px',
-      border: 0,
-      display: 'block',
-      verticalAlign: 'middle',
-      whiteSpace: 'normal',
-      background: 'none',
-      margin: 0, // Reset for Safari
-      color: 'inherit',
-      width: '100%',
-      '&:focus': {
-        outline: 0
-      }
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Search/search-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Search/search-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 283 */
+/* 204 */
 /*!**********************************************!*\
-  !*** external "@material-ui/icons/CallMade" ***!
+  !*** external "@material-ui/core/CardMedia" ***!
   \**********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/CallMade");
+module.exports = require("@material-ui/core/CardMedia");
 
 /***/ }),
-/* 284 */
-/*!**************************************************!*\
-  !*** external "@material-ui/icons/CallReceived" ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/CallReceived");
-
-/***/ }),
-/* 285 */
-/*!***********************************************!*\
-  !*** ./src/app/components/Panel/panel-jss.js ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _colorManipulator = __webpack_require__(/*! @material-ui/core/styles/colorManipulator */ 70);
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var expand = {
-  bottom: 'auto',
-  right: 'auto',
-  left: '50%',
-  top: '50%',
-  transform: 'translateX(-50%) translateY(-50%)'
-};
-
-var styles = function styles(theme) {
-  var _floatingForm;
-
-  return {
-    formTheme: {
-      background: (0, _colorManipulator.darken)(theme.palette.primary.dark, 0.2),
-      boxShadow: theme.shadows[7]
-    },
-    hideForm: {
-      display: 'none'
-    },
-    showForm: {
-      display: 'block'
-    },
-    btnOpt: {},
-    expandButton: _defineProperty({}, theme.breakpoints.down('sm'), {
-      display: 'none'
-    }),
-    floatingForm: (_floatingForm = {
-      position: 'fixed',
-      width: 500,
-      bottom: 10,
-      right: 10,
-      zIndex: 1300,
-      borderRadius: 3,
-      overflow: 'hidden'
-    }, _defineProperty(_floatingForm, theme.breakpoints.down('sm'), _extends({
-      width: '95% !important'
-    }, expand)), _defineProperty(_floatingForm, '& header', {
-      color: theme.palette.common.white,
-      padding: '15px 20px',
-      '& $btnOpt': {
-        position: 'absolute',
-        right: 0,
-        top: 0,
-        '& > *': {
-          margin: '0 5px'
-        },
-        '& $expandButton': {
-          transform: 'rotate(270deg)'
-        },
-        '& svg': {
-          fill: theme.palette.common.white
-        }
-      }
-    }), _floatingForm),
-    bodyForm: {
-      position: 'relative',
-      background: theme.palette.common.white,
-      padding: '15px 30px',
-      maxHeight: 450,
-      overflow: 'auto'
-    },
-    buttonArea: {
-      background: theme.palette.grey[100],
-      position: 'relative',
-      bottom: 0,
-      left: 0,
-      width: '100%',
-      textAlign: 'right',
-      padding: '10px 30px',
-      '& button': {
-        marginRight: 5
-      }
-    },
-    expanded: _extends({}, expand),
-    formOverlay: {
-      position: 'fixed',
-      background: theme.palette.grey[900],
-      opacity: 0.7,
-      width: '100%',
-      height: '100%',
-      top: 0,
-      left: 0,
-      zIndex: 1300
-    },
-    large: {
-      width: 650
-    }
-  };
-};
-
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(expand, 'expand', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/panel-jss.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/panel-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Panel/panel-jss.js');
-}();
-
-;
-
-/***/ }),
-/* 286 */
-/*!**************************************************!*\
-  !*** ./src/app/components/Contact/AddContact.js ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 59);
-
-var _Add2 = _interopRequireDefault(_Add);
-
-var _AddContactForm = __webpack_require__(/*! ./AddContactForm */ 287);
-
-var _AddContactForm2 = _interopRequireDefault(_AddContactForm);
-
-var _FloatingPanel = __webpack_require__(/*! ./../Panel/FloatingPanel */ 84);
-
-var _FloatingPanel2 = _interopRequireDefault(_FloatingPanel);
-
-var _contactJss = __webpack_require__(/*! ./contact-jss */ 47);
-
-var _contactJss2 = _interopRequireDefault(_contactJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AddContact = function (_React$Component) {
-  _inherits(AddContact, _React$Component);
-
-  function AddContact(props) {
-    _classCallCheck(this, AddContact);
-
-    var _this = _possibleConstructorReturn(this, (AddContact.__proto__ || Object.getPrototypeOf(AddContact)).call(this, props));
-
-    _this.sendValues = function () {
-      return _this.__sendValues__REACT_HOT_LOADER__.apply(_this, arguments);
-    };
-
-    _this.state = {
-      img: '',
-      files: []
-    };
-    _this.onDrop = _this.onDrop.bind(_this);
-    return _this;
-  }
-
-  _createClass(AddContact, [{
-    key: '__sendValues__REACT_HOT_LOADER__',
-    value: function __sendValues__REACT_HOT_LOADER__() {
-      return this.__sendValues__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: 'onDrop',
-    value: function onDrop(files) {
-      var oldFiles = this.state.files;
-      var filesLimit = 2;
-      oldFiles = oldFiles.concat(files);
-      if (oldFiles.length > filesLimit) {
-        console.log('Cannot upload more than ' + filesLimit + ' items.');
-      } else {
-        this.setState({ img: files[0].preview || '/pic' + files[0].path });
-      }
-    }
-  }, {
-    key: '__sendValues__REACT_HOT_LOADER__',
-    value: function __sendValues__REACT_HOT_LOADER__(values) {
-      var _this2 = this;
-
-      setTimeout(function () {
-        _this2.props.submit(values, _this2.state.img);
-        _this2.setState({ img: '' });
-      }, 500);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          openForm = _props.openForm,
-          closeForm = _props.closeForm,
-          avatarInit = _props.avatarInit,
-          addContact = _props.addContact;
-      var img = this.state.img;
-
-      var branch = '';
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _Tooltip2.default,
-          { title: 'Add New Contact' },
-          _react2.default.createElement(
-            _Button2.default,
-            { variant: 'fab', color: 'secondary', onClick: function onClick() {
-                return addContact();
-              }, className: classes.addBtn },
-            _react2.default.createElement(_Add2.default, null)
-          )
-        ),
-        _react2.default.createElement(
-          _FloatingPanel2.default,
-          { openForm: openForm, branch: branch, closeForm: closeForm },
-          _react2.default.createElement(_AddContactForm2.default, {
-            onSubmit: this.sendValues,
-            onDrop: this.onDrop,
-            imgAvatar: img === '' ? avatarInit : img
-          })
-        )
-      );
-    }
-  }]);
-
-  return AddContact;
-}(_react2.default.Component);
-
-AddContact.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  submit: _propTypes2.default.func.isRequired,
-  addContact: _propTypes2.default.func.isRequired,
-  openForm: _propTypes2.default.bool.isRequired,
-  avatarInit: _propTypes2.default.string.isRequired,
-  closeForm: _propTypes2.default.func.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_contactJss2.default)(AddContact);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(AddContact, 'AddContact', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContact.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContact.js');
-}();
-
-;
-
-/***/ }),
-/* 287 */
-/*!******************************************************!*\
-  !*** ./src/app/components/Contact/AddContactForm.js ***!
-  \******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
-
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 45);
-
-var _reduxFormMaterialUi = __webpack_require__(/*! redux-form-material-ui */ 61);
-
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 60);
-
-var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
-
-var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContactCalendar */ 85);
-
-var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
-
-var _Bookmark = __webpack_require__(/*! @material-ui/icons/Bookmark */ 114);
-
-var _Bookmark2 = _interopRequireDefault(_Bookmark);
-
-var _LocalPhone = __webpack_require__(/*! @material-ui/icons/LocalPhone */ 82);
-
-var _LocalPhone2 = _interopRequireDefault(_LocalPhone);
-
-var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 131);
-
-var _Email2 = _interopRequireDefault(_Email);
-
-var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 132);
-
-var _Smartphone2 = _interopRequireDefault(_Smartphone);
-
-var _LocationOn = __webpack_require__(/*! @material-ui/icons/LocationOn */ 83);
-
-var _LocationOn2 = _interopRequireDefault(_LocationOn);
-
-var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 133);
-
-var _Work2 = _interopRequireDefault(_Work);
-
-var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 134);
-
-var _Language2 = _interopRequireDefault(_Language);
-
-var _Form = __webpack_require__(/*! ../../styles/components/Form.scss */ 135);
-
-var _Form2 = _interopRequireDefault(_Form);
-
-var _contactJss = __webpack_require__(/*! ./contact-jss */ 47);
-
-var _contactJss2 = _interopRequireDefault(_contactJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// validation functions
-var required = function required(value) {
-  return value == null ? 'Required' : undefined;
-};
-var email = function email(value) {
-  return value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ? 'Invalid email' : undefined;
-};
-
-var AddContactForm = function (_React$Component) {
-  _inherits(AddContactForm, _React$Component);
-
-  function AddContactForm() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, AddContactForm);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AddContactForm.__proto__ || Object.getPrototypeOf(AddContactForm)).call.apply(_ref, [this].concat(args))), _this), _this.saveRef = function () {
-      var _this2;
-
-      return (_this2 = _this).__saveRef__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(AddContactForm, [{
-    key: '__saveRef__REACT_HOT_LOADER__',
-    value: function __saveRef__REACT_HOT_LOADER__() {
-      return this.__saveRef__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__saveRef__REACT_HOT_LOADER__',
-    value: function __saveRef__REACT_HOT_LOADER__(ref) {
-      this.ref = ref;
-      return this.ref;
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          reset = _props.reset,
-          pristine = _props.pristine,
-          submitting = _props.submitting,
-          handleSubmit = _props.handleSubmit;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'form',
-          { onSubmit: handleSubmit },
-          _react2.default.createElement(
-            'section',
-            { className: _Form2.default.bodyForm },
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'name',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Name',
-                label: 'Name',
-                validate: required,
-                required: true,
-                ref: this.saveRef,
-                withRef: true,
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_PermContactCalendar2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'title',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Title',
-                label: 'Title',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_Bookmark2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'phone',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Phone',
-                type: 'tel',
-                label: 'Phone',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_LocalPhone2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'secondaryPhone',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Secondary Phone',
-                type: 'tel',
-                label: 'Secondary Phone',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_Smartphone2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'personalEmail',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Personal Email',
-                type: 'email',
-                validate: email,
-                label: 'Personal Email',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_Email2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'companyEmail',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Company Email',
-                type: 'email',
-                validate: email,
-                label: 'Company Email',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_Work2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'address',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Address',
-                label: 'Address',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_LocationOn2.default, null)
-                  )
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(_immutable.Field, {
-                name: 'website',
-                component: _reduxFormMaterialUi.TextField,
-                placeholder: 'Website',
-                type: 'url',
-                label: 'Website',
-                className: classes.field,
-                InputProps: {
-                  startAdornment: _react2.default.createElement(
-                    _InputAdornment2.default,
-                    { position: 'start' },
-                    _react2.default.createElement(_Language2.default, null)
-                  )
-                }
-              })
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: _Form2.default.buttonArea },
-            _react2.default.createElement(
-              _Button2.default,
-              { variant: 'raised', color: 'secondary', type: 'submit', disabled: submitting },
-              'Submit'
-            ),
-            _react2.default.createElement(
-              _Button2.default,
-              {
-                type: 'button',
-                disabled: pristine || submitting,
-                onClick: reset
-              },
-              'Reset'
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return AddContactForm;
-}(_react2.default.Component);
-
-AddContactForm.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  handleSubmit: _propTypes2.default.func.isRequired,
-  reset: _propTypes2.default.func.isRequired,
-  pristine: _propTypes2.default.bool.isRequired,
-  submitting: _propTypes2.default.bool.isRequired
-};
-
-var AddContactFormRedux = (0, _immutable.reduxForm)({
-  form: 'immutableAddContact',
-  enableReinitialize: true
-})(AddContactForm);
-
-var AddContactInit = (0, _reactRedux.connect)(function (state) {
-  return {
-    initialValues: state.getIn(['contact', 'formValues'])
-  };
-})(AddContactFormRedux);
-
-var _default = (0, _styles.withStyles)(_contactJss2.default)(AddContactInit);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(required, 'required', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-
-  __REACT_HOT_LOADER__.register(email, 'email', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-
-  __REACT_HOT_LOADER__.register(AddContactForm, 'AddContactForm', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-
-  __REACT_HOT_LOADER__.register(AddContactFormRedux, 'AddContactFormRedux', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-
-  __REACT_HOT_LOADER__.register(AddContactInit, 'AddContactInit', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/AddContactForm.js');
-}();
-
-;
-
-/***/ }),
-/* 288 */
-/*!*************************************************!*\
-  !*** external "@material-ui/core/colors/amber" ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/amber");
-
-/***/ }),
-/* 289 */
+/* 205 */
 /*!************************************************!*\
-  !*** external "@material-ui/core/colors/teal" ***!
+  !*** external "@material-ui/core/CardContent" ***!
   \************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/colors/teal");
+module.exports = require("@material-ui/core/CardContent");
 
 /***/ }),
-/* 290 */
-/*!*************************************************!*\
-  !*** external "@material-ui/core/colors/brown" ***!
-  \*************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/brown");
-
-/***/ }),
-/* 291 */
-/*!***************************************************!*\
-  !*** ./src/app/components/Contact/ContactList.js ***!
-  \***************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 93);
-
-var _Drawer2 = _interopRequireDefault(_Drawer);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _List = __webpack_require__(/*! @material-ui/core/List */ 42);
-
-var _List2 = _interopRequireDefault(_List);
-
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
-
-var _ListItem2 = _interopRequireDefault(_ListItem);
-
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
-
-var _ListItemText2 = _interopRequireDefault(_ListItemText);
-
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
-
-var _Avatar2 = _interopRequireDefault(_Avatar);
-
-var _BottomNavigation = __webpack_require__(/*! @material-ui/core/BottomNavigation */ 121);
-
-var _BottomNavigation2 = _interopRequireDefault(_BottomNavigation);
-
-var _BottomNavigationAction = __webpack_require__(/*! @material-ui/core/BottomNavigationAction */ 122);
-
-var _BottomNavigationAction2 = _interopRequireDefault(_BottomNavigationAction);
-
-var _Search = __webpack_require__(/*! @material-ui/icons/Search */ 51);
-
-var _Search2 = _interopRequireDefault(_Search);
-
-var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContactCalendar */ 85);
-
-var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
-
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 54);
-
-var _Star2 = _interopRequireDefault(_Star);
-
-var _contactJss = __webpack_require__(/*! ./contact-jss */ 47);
-
-var _contactJss2 = _interopRequireDefault(_contactJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ContactList = function (_React$Component) {
-  _inherits(ContactList, _React$Component);
-
-  function ContactList() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, ContactList);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ContactList.__proto__ || Object.getPrototypeOf(ContactList)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      filter: 'all'
-    }, _this.handleChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChange__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(ContactList, [{
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__() {
-      return this.__handleChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__(event, value) {
-      this.setState({ filter: value });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          dataContact = _props.dataContact,
-          itemSelected = _props.itemSelected,
-          showDetail = _props.showDetail,
-          search = _props.search,
-          keyword = _props.keyword,
-          clippedRight = _props.clippedRight;
-      var filter = this.state.filter;
-
-      var favoriteData = dataContact.filter(function (item) {
-        return item.get('favorited') === true;
-      });
-      var getItem = function getItem(dataArray) {
-        return dataArray.map(function (data, index) {
-          if (data.get('name').toLowerCase().indexOf(keyword) === -1) {
-            return false;
-          }
-          return _react2.default.createElement(
-            _ListItem2.default,
-            {
-              button: true,
-              key: data.get('id'),
-              className: index === itemSelected ? classes.selected : '',
-              onClick: function onClick() {
-                return showDetail(data);
-              }
-            },
-            _react2.default.createElement(_Avatar2.default, { alt: data.get('name'), src: data.get('avatar'), className: classes.avatar }),
-            _react2.default.createElement(_ListItemText2.default, { primary: data.get('name'), secondary: data.get('title') })
-          );
-        });
-      };
-      return _react2.default.createElement(
-        _react.Fragment,
-        null,
-        _react2.default.createElement(
-          _Drawer2.default,
-          {
-            variant: 'permanent',
-            anchor: 'left',
-            open: true,
-            classes: {
-              paper: classes.drawerPaper
-            }
-          },
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              'div',
-              { className: (0, _classnames2.default)(classes.toolbar, clippedRight && classes.clippedRight) },
-              _react2.default.createElement(
-                'div',
-                { className: classes.flex },
-                _react2.default.createElement(
-                  'div',
-                  { className: classes.searchWrapper },
-                  _react2.default.createElement(
-                    'div',
-                    { className: classes.search },
-                    _react2.default.createElement(_Search2.default, null)
-                  ),
-                  _react2.default.createElement('input', { className: classes.input, onChange: function onChange(event) {
-                      return search(event);
-                    }, placeholder: 'Search Contact' })
-                )
-              )
-            ),
-            _react2.default.createElement(_Divider2.default, null),
-            _react2.default.createElement(
-              _List2.default,
-              null,
-              filter === 'all' ? getItem(dataContact) : getItem(favoriteData)
-            )
-          )
-        ),
-        _react2.default.createElement(
-          _BottomNavigation2.default,
-          { value: filter, onChange: this.handleChange, className: classes.bottomFilter },
-          _react2.default.createElement(_BottomNavigationAction2.default, { label: 'All', value: 'all', icon: _react2.default.createElement(_PermContactCalendar2.default, null) }),
-          _react2.default.createElement(_BottomNavigationAction2.default, { label: 'Favorites', value: 'favorites', icon: _react2.default.createElement(_Star2.default, null) })
-        )
-      );
-    }
-  }]);
-
-  return ContactList;
-}(_react2.default.Component);
-
-ContactList.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  dataContact: _propTypes2.default.object.isRequired,
-  keyword: _propTypes2.default.string.isRequired,
-  itemSelected: _propTypes2.default.number.isRequired,
-  showDetail: _propTypes2.default.func.isRequired,
-  search: _propTypes2.default.func.isRequired,
-  clippedRight: _propTypes2.default.bool
-};
-
-ContactList.defaultProps = {
-  clippedRight: false
-};
-
-var _default = (0, _styles.withStyles)(_contactJss2.default)(ContactList);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ContactList, 'ContactList', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactList.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactList.js');
-}();
-
-;
-
-/***/ }),
-/* 292 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/Contact/ContactHeader.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _AppBar = __webpack_require__(/*! @material-ui/core/AppBar */ 67);
-
-var _AppBar2 = _interopRequireDefault(_AppBar);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
-
-var _Button2 = _interopRequireDefault(_Button);
-
-var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 108);
-
-var _ArrowBack2 = _interopRequireDefault(_ArrowBack);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _PermContactCalendar = __webpack_require__(/*! @material-ui/icons/PermContactCalendar */ 85);
-
-var _PermContactCalendar2 = _interopRequireDefault(_PermContactCalendar);
-
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 59);
-
-var _Add2 = _interopRequireDefault(_Add);
-
-var _contactJss = __webpack_require__(/*! ./contact-jss */ 47);
-
-var _contactJss2 = _interopRequireDefault(_contactJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ContactHeader = function (_React$Component) {
-  _inherits(ContactHeader, _React$Component);
-
-  function ContactHeader() {
-    _classCallCheck(this, ContactHeader);
-
-    return _possibleConstructorReturn(this, (ContactHeader.__proto__ || Object.getPrototypeOf(ContactHeader)).apply(this, arguments));
-  }
-
-  _createClass(ContactHeader, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          addContact = _props.addContact,
-          total = _props.total,
-          hideDetail = _props.hideDetail,
-          showMobileDetail = _props.showMobileDetail;
-
-      return _react2.default.createElement(
-        _AppBar2.default,
-        {
-          position: 'absolute',
-          className: classes.appBar
-        },
-        _react2.default.createElement(
-          _Toolbar2.default,
-          null,
-          showMobileDetail && _react2.default.createElement(
-            _IconButton2.default,
-            {
-              color: 'inherit',
-              'aria-label': 'open drawer',
-              onClick: function onClick() {
-                return hideDetail();
-              },
-              className: classes.navIconHide
-            },
-            _react2.default.createElement(_ArrowBack2.default, null)
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'subheading', className: classes.title, color: 'inherit', noWrap: true },
-            _react2.default.createElement(_PermContactCalendar2.default, null),
-            ' Contacts (',
-            total,
-            ')'
-          ),
-          _react2.default.createElement(
-            _Button2.default,
-            { onClick: function onClick() {
-                return addContact();
-              }, variant: 'outlined', color: 'inherit', className: classes.button },
-            _react2.default.createElement(_Add2.default, null),
-            ' Add New'
-          )
-        )
-      );
-    }
-  }]);
-
-  return ContactHeader;
-}(_react2.default.Component);
-
-ContactHeader.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  showMobileDetail: _propTypes2.default.bool.isRequired,
-  addContact: _propTypes2.default.func.isRequired,
-  hideDetail: _propTypes2.default.func.isRequired,
-  total: _propTypes2.default.number.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_contactJss2.default)(ContactHeader);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ContactHeader, 'ContactHeader', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactHeader.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactHeader.js');
-}();
-
-;
-
-/***/ }),
-/* 293 */
-/*!*****************************************************!*\
-  !*** ./src/app/components/Contact/ContactDetail.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _List = __webpack_require__(/*! @material-ui/core/List */ 42);
-
-var _List2 = _interopRequireDefault(_List);
-
-var _ListItem = __webpack_require__(/*! @material-ui/core/ListItem */ 37);
-
-var _ListItem2 = _interopRequireDefault(_ListItem);
-
-var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 31);
-
-var _ListItemText2 = _interopRequireDefault(_ListItemText);
-
-var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 24);
-
-var _Avatar2 = _interopRequireDefault(_Avatar);
-
-var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 40);
-
-var _Menu2 = _interopRequireDefault(_Menu);
-
-var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 41);
-
-var _MenuItem2 = _interopRequireDefault(_MenuItem);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Edit = __webpack_require__(/*! @material-ui/icons/Edit */ 294);
-
-var _Edit2 = _interopRequireDefault(_Edit);
-
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 54);
-
-var _Star2 = _interopRequireDefault(_Star);
-
-var _StarBorder = __webpack_require__(/*! @material-ui/icons/StarBorder */ 295);
-
-var _StarBorder2 = _interopRequireDefault(_StarBorder);
-
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 62);
-
-var _MoreVert2 = _interopRequireDefault(_MoreVert);
-
-var _LocalPhone = __webpack_require__(/*! @material-ui/icons/LocalPhone */ 82);
-
-var _LocalPhone2 = _interopRequireDefault(_LocalPhone);
-
-var _Email = __webpack_require__(/*! @material-ui/icons/Email */ 131);
-
-var _Email2 = _interopRequireDefault(_Email);
-
-var _Smartphone = __webpack_require__(/*! @material-ui/icons/Smartphone */ 132);
-
-var _Smartphone2 = _interopRequireDefault(_Smartphone);
-
-var _LocationOn = __webpack_require__(/*! @material-ui/icons/LocationOn */ 83);
-
-var _LocationOn2 = _interopRequireDefault(_LocationOn);
-
-var _Work = __webpack_require__(/*! @material-ui/icons/Work */ 133);
-
-var _Work2 = _interopRequireDefault(_Work);
-
-var _Language = __webpack_require__(/*! @material-ui/icons/Language */ 134);
-
-var _Language2 = _interopRequireDefault(_Language);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _contactJss = __webpack_require__(/*! ./contact-jss */ 47);
-
-var _contactJss2 = _interopRequireDefault(_contactJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var optionsOpt = ['Block Contact', 'Delete Contact', 'Option 1', 'Option 2', 'Option 3'];
-
-var ITEM_HEIGHT = 48;
-
-var ContactDetail = function (_React$Component) {
-  _inherits(ContactDetail, _React$Component);
-
-  function ContactDetail() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, ContactDetail);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ContactDetail.__proto__ || Object.getPrototypeOf(ContactDetail)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      anchorElOpt: null
-    }, _this.handleClickOpt = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClickOpt__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleCloseOpt = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleCloseOpt__REACT_HOT_LOADER__.apply(_this3, arguments);
-    }, _this.deleteContact = function () {
-      var _this4;
-
-      return (_this4 = _this).__deleteContact__REACT_HOT_LOADER__.apply(_this4, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(ContactDetail, [{
-    key: '__deleteContact__REACT_HOT_LOADER__',
-    value: function __deleteContact__REACT_HOT_LOADER__() {
-      return this.__deleteContact__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      return this.__handleCloseOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__() {
-      return this.__handleClickOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__(event) {
-      this.setState({ anchorElOpt: event.currentTarget });
-    }
-  }, {
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      this.setState({ anchorElOpt: null });
-    }
-  }, {
-    key: '__deleteContact__REACT_HOT_LOADER__',
-    value: function __deleteContact__REACT_HOT_LOADER__(item) {
-      this.props.remove(item);
-      this.setState({ anchorElOpt: null });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this5 = this;
-
-      var _props = this.props,
-          classes = _props.classes,
-          dataContact = _props.dataContact,
-          itemSelected = _props.itemSelected,
-          edit = _props.edit,
-          favorite = _props.favorite,
-          showMobileDetail = _props.showMobileDetail;
-      var anchorElOpt = this.state.anchorElOpt;
-
-      return _react2.default.createElement(
-        'main',
-        { className: (0, _classnames2.default)(classes.content, showMobileDetail ? classes.detailPopup : '') },
-        _react2.default.createElement(
-          'section',
-          { className: classes.cover },
-          _react2.default.createElement(
-            'div',
-            { className: classes.opt },
-            _react2.default.createElement(
-              _IconButton2.default,
-              { className: classes.favorite, 'aria-label': 'Favorite', onClick: function onClick() {
-                  return favorite(dataContact.get(itemSelected));
-                } },
-              dataContact.getIn([itemSelected, 'favorited']) ? _react2.default.createElement(_Star2.default, null) : _react2.default.createElement(_StarBorder2.default, null)
-            ),
-            _react2.default.createElement(
-              _IconButton2.default,
-              { 'aria-label': 'Edit', onClick: function onClick() {
-                  return edit(dataContact.get(itemSelected));
-                } },
-              _react2.default.createElement(_Edit2.default, null)
-            ),
-            _react2.default.createElement(
-              _IconButton2.default,
-              {
-                'aria-label': 'More',
-                'aria-owns': anchorElOpt ? 'long-menu' : null,
-                'aria-haspopup': 'true',
-                className: classes.button,
-                onClick: this.handleClickOpt
-              },
-              _react2.default.createElement(_MoreVert2.default, null)
-            ),
-            _react2.default.createElement(
-              _Menu2.default,
-              {
-                id: 'long-menu',
-                anchorEl: anchorElOpt,
-                open: Boolean(anchorElOpt),
-                onClose: this.handleCloseOpt,
-                PaperProps: {
-                  style: {
-                    maxHeight: ITEM_HEIGHT * 4.5,
-                    width: 200
-                  }
-                }
-              },
-              optionsOpt.map(function (option) {
-                if (option === 'Delete Contact') {
-                  return _react2.default.createElement(
-                    _MenuItem2.default,
-                    { key: option, selected: option === 'Edit Profile', onClick: function onClick() {
-                        return _this5.deleteContact(dataContact.get(itemSelected));
-                      } },
-                    option
-                  );
-                }
-                return _react2.default.createElement(
-                  _MenuItem2.default,
-                  { key: option, selected: option === 'Edit Profile', onClick: _this5.handleCloseOpt },
-                  option
-                );
-              })
-            )
-          ),
-          _react2.default.createElement(_Avatar2.default, { alt: dataContact.getIn([itemSelected, 'name']), src: dataContact.getIn([itemSelected, 'avatar']), className: classes.avatar }),
-          _react2.default.createElement(
-            _Typography2.default,
-            { className: classes.userName, variant: 'display1' },
-            dataContact.getIn([itemSelected, 'name']),
-            _react2.default.createElement(
-              _Typography2.default,
-              { variant: 'caption' },
-              dataContact.getIn([itemSelected, 'title'])
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            _List2.default,
-            null,
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.blueIcon },
-                _react2.default.createElement(_LocalPhone2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'phone']), secondary: 'Phone' })
-            ),
-            _react2.default.createElement(_Divider2.default, { inset: true }),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.amberIcon },
-                _react2.default.createElement(_Smartphone2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'secondaryPhone']), secondary: 'Secondary Phone' })
-            ),
-            _react2.default.createElement(_Divider2.default, { inset: true }),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.tealIcon },
-                _react2.default.createElement(_Email2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'personalEmail']), secondary: 'Personal Email' })
-            ),
-            _react2.default.createElement(_Divider2.default, { inset: true }),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.brownIcon },
-                _react2.default.createElement(_Work2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'companyEmail']), secondary: 'Company Email' })
-            ),
-            _react2.default.createElement(_Divider2.default, { inset: true }),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.redIcon },
-                _react2.default.createElement(_LocationOn2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'address']), secondary: 'Address' })
-            ),
-            _react2.default.createElement(_Divider2.default, { inset: true }),
-            _react2.default.createElement(
-              _ListItem2.default,
-              null,
-              _react2.default.createElement(
-                _Avatar2.default,
-                { className: classes.purpleIcon },
-                _react2.default.createElement(_Language2.default, null)
-              ),
-              _react2.default.createElement(_ListItemText2.default, { primary: dataContact.getIn([itemSelected, 'website']), secondary: 'Website' })
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return ContactDetail;
-}(_react2.default.Component);
-
-ContactDetail.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  showMobileDetail: _propTypes2.default.bool.isRequired,
-  dataContact: _propTypes2.default.object.isRequired,
-  itemSelected: _propTypes2.default.number.isRequired,
-  edit: _propTypes2.default.func.isRequired,
-  remove: _propTypes2.default.func.isRequired,
-  favorite: _propTypes2.default.func.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_contactJss2.default)(ContactDetail);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(optionsOpt, 'optionsOpt', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactDetail.js');
-
-  __REACT_HOT_LOADER__.register(ITEM_HEIGHT, 'ITEM_HEIGHT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactDetail.js');
-
-  __REACT_HOT_LOADER__.register(ContactDetail, 'ContactDetail', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactDetail.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Contact/ContactDetail.js');
-}();
-
-;
-
-/***/ }),
-/* 294 */
-/*!******************************************!*\
-  !*** external "@material-ui/icons/Edit" ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Edit");
-
-/***/ }),
-/* 295 */
+/* 206 */
 /*!************************************************!*\
-  !*** external "@material-ui/icons/StarBorder" ***!
+  !*** external "@material-ui/core/CardActions" ***!
   \************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/StarBorder");
+module.exports = require("@material-ui/core/CardActions");
 
 /***/ }),
-/* 296 */
-/*!******************************************************!*\
-  !*** ./src/app/components/Calendar/EventCalendar.js ***!
-  \******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _reactBigCalendar = __webpack_require__(/*! react-big-calendar */ 297);
-
-var _reactBigCalendar2 = _interopRequireDefault(_reactBigCalendar);
-
-var _moment = __webpack_require__(/*! moment */ 298);
-
-var _moment2 = _interopRequireDefault(_moment);
-
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 63);
-
-var _calendarJss2 = _interopRequireDefault(_calendarJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-_reactBigCalendar2.default.setLocalizer(_reactBigCalendar2.default.momentLocalizer(_moment2.default));
-
-function Event(event) {
-  return _react2.default.createElement(
-    'span',
-    { className: 'eventBlock' },
-    event.title
-  );
-}
-
-var EventCalendar = function (_React$Component) {
-  _inherits(EventCalendar, _React$Component);
-
-  function EventCalendar() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, EventCalendar);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = EventCalendar.__proto__ || Object.getPrototypeOf(EventCalendar)).call.apply(_ref, [this].concat(args))), _this), _this.eventStyleGetter = function () {
-      var _this2;
-
-      return (_this2 = _this).__eventStyleGetter__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(EventCalendar, [{
-    key: '__eventStyleGetter__REACT_HOT_LOADER__',
-    value: function __eventStyleGetter__REACT_HOT_LOADER__() {
-      return this.__eventStyleGetter__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__eventStyleGetter__REACT_HOT_LOADER__',
-    value: function __eventStyleGetter__REACT_HOT_LOADER__(event) {
-      var backgroundColor = '#' + event.hexColor;
-      var style = {
-        backgroundColor: backgroundColor
-      };
-      return {
-        style: style
-      };
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var allViews = Object.keys(_reactBigCalendar2.default.Views).map(function (k) {
-        return _reactBigCalendar2.default.Views[k];
-      });
-      var _props = this.props,
-          classes = _props.classes,
-          events = _props.events,
-          handleEventClick = _props.handleEventClick;
-
-      return _react2.default.createElement(
-        _Paper2.default,
-        { className: classes.root },
-        _react2.default.createElement(_reactBigCalendar2.default, {
-          className: classes.calendarWrap,
-          selectable: true,
-          events: events,
-          defaultView: 'month',
-          views: allViews,
-          step: 60,
-          showMultiDayTimes: true,
-          scrollToTime: new Date(1970, 1, 1, 6),
-          defaultDate: new Date(2015, 3, 12),
-          onSelectEvent: function onSelectEvent(selectedEvent) {
-            return handleEventClick(selectedEvent);
-          },
-          eventPropGetter: this.eventStyleGetter,
-          onSelectSlot: function onSelectSlot(slotInfo) {
-            return console.log('selected slot: \n\nstart ' + slotInfo.start.toLocaleString() + ' ' + ('\nend: ' + slotInfo.end.toLocaleString()) + ('\naction: ' + slotInfo.action));
-          },
-          components: {
-            event: Event
-          }
-        })
-      );
-    }
-  }]);
-
-  return EventCalendar;
-}(_react2.default.Component);
-
-EventCalendar.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  events: _propTypes2.default.array.isRequired,
-  handleEventClick: _propTypes2.default.func.isRequired
-};
-
-var _default = (0, _styles.withStyles)(_calendarJss2.default)(EventCalendar);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Event, 'Event', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/EventCalendar.js');
-
-  __REACT_HOT_LOADER__.register(EventCalendar, 'EventCalendar', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/EventCalendar.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/EventCalendar.js');
-}();
-
-;
-
-/***/ }),
-/* 297 */
-/*!*************************************!*\
-  !*** external "react-big-calendar" ***!
-  \*************************************/
+/* 207 */
+/*!**********************************************!*\
+  !*** external "@material-ui/icons/Favorite" ***!
+  \**********************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("react-big-calendar");
+module.exports = require("@material-ui/icons/Favorite");
 
 /***/ }),
-/* 298 */
-/*!*************************!*\
-  !*** external "moment" ***!
-  \*************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("moment");
-
-/***/ }),
-/* 299 */
-/*!*****************************************************!*\
-  !*** external "@material-ui/core/colors/lightBlue" ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/colors/lightBlue");
-
-/***/ }),
-/* 300 */
-/*!****************************************************!*\
-  !*** ./src/app/components/Calendar/DetailEvent.js ***!
-  \****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 10);
-
-var _IconButton2 = _interopRequireDefault(_IconButton);
-
-var _Menu = __webpack_require__(/*! @material-ui/core/Menu */ 40);
-
-var _Menu2 = _interopRequireDefault(_Menu);
-
-var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 41);
-
-var _MenuItem2 = _interopRequireDefault(_MenuItem);
-
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
-
-var _Divider2 = _interopRequireDefault(_Divider);
-
-var _Popover = __webpack_require__(/*! @material-ui/core/Popover */ 301);
-
-var _Popover2 = _interopRequireDefault(_Popover);
-
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 62);
-
-var _MoreVert2 = _interopRequireDefault(_MoreVert);
-
-var _Today = __webpack_require__(/*! @material-ui/icons/Today */ 302);
-
-var _Today2 = _interopRequireDefault(_Today);
-
-var _calendarJss = __webpack_require__(/*! ./calendar-jss */ 63);
-
-var _calendarJss2 = _interopRequireDefault(_calendarJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ITEM_HEIGHT = 48;
-
-var DetailEvent = function (_React$Component) {
-  _inherits(DetailEvent, _React$Component);
-
-  function DetailEvent() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, DetailEvent);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DetailEvent.__proto__ || Object.getPrototypeOf(DetailEvent)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      anchorElOpt: null
-    }, _this.handleClickOpt = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClickOpt__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleCloseOpt = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleCloseOpt__REACT_HOT_LOADER__.apply(_this3, arguments);
-    }, _this.handleDeleteEvent = function () {
-      var _this4;
-
-      return (_this4 = _this).__handleDeleteEvent__REACT_HOT_LOADER__.apply(_this4, arguments);
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(DetailEvent, [{
-    key: '__handleDeleteEvent__REACT_HOT_LOADER__',
-    value: function __handleDeleteEvent__REACT_HOT_LOADER__() {
-      return this.__handleDeleteEvent__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      return this.__handleCloseOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__() {
-      return this.__handleClickOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__(event) {
-      this.setState({ anchorElOpt: event.currentTarget });
-    }
-  }, {
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      this.setState({ anchorElOpt: null });
-    }
-  }, {
-    key: '__handleDeleteEvent__REACT_HOT_LOADER__',
-    value: function __handleDeleteEvent__REACT_HOT_LOADER__(event) {
-      this.setState({ anchorElOpt: null });
-      this.props.remove(event);
-      this.props.close();
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this5 = this;
-
-      var getDate = function getDate(date) {
-        if (date._isAMomentObject) {
-          return date.format('MMMM Do YYYY');
-        }
-        var dd = date.getDate();
-        var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        var mm = monthNames[date.getMonth()]; // January is 0!
-        var yyyy = date.getFullYear();
-
-        if (dd < 10) {
-          dd = '0' + dd;
-        }
-
-        var convertedDate = mm + ', ' + dd + ' ' + yyyy;
-
-        return convertedDate;
-      };
-
-      var getTime = function getTime(time) {
-        if (time._isAMomentObject) {
-          return time.format('LT');
-        }
-        var h = time.getHours();
-        var m = time.getMinutes();
-
-        if (h < 10) {
-          h = '0' + h;
-        }
-
-        if (m < 10) {
-          m = '0' + m;
-        }
-
-        var convertedTime = h + ':' + m;
-        return convertedTime;
-      };
-
-      var _props = this.props,
-          classes = _props.classes,
-          anchorEl = _props.anchorEl,
-          event = _props.event,
-          close = _props.close;
-      var anchorElOpt = this.state.anchorElOpt;
-
-      return _react2.default.createElement(
-        _Popover2.default,
-        {
-          open: Boolean(anchorEl),
-          anchorEl: anchorEl,
-          className: classes.eventDetail,
-          onClose: close,
-          anchorOrigin: {
-            vertical: 'bottom',
-            horizontal: 'center'
-          },
-          transformOrigin: {
-            vertical: 'top',
-            horizontal: 'center'
-          }
-        },
-        _react2.default.createElement(
-          _IconButton2.default,
-          {
-            'aria-label': 'More',
-            'aria-owns': anchorElOpt ? 'long-menu' : null,
-            'aria-haspopup': 'true',
-            className: classes.moreOpt,
-            onClick: this.handleClickOpt
-          },
-          _react2.default.createElement(_MoreVert2.default, null)
-        ),
-        event !== null && _react2.default.createElement(
-          _react.Fragment,
-          null,
-          _react2.default.createElement(
-            _Menu2.default,
-            {
-              id: 'long-menu',
-              anchorEl: anchorElOpt,
-              open: Boolean(anchorElOpt),
-              onClose: this.handleCloseOpt,
-              PaperProps: {
-                style: {
-                  maxHeight: ITEM_HEIGHT * 4.5,
-                  width: 200
-                }
-              }
-            },
-            _react2.default.createElement(
-              _MenuItem2.default,
-              { onClick: function onClick() {
-                  return _this5.handleDeleteEvent(event);
-                } },
-              'Delete Event'
-            )
-          ),
-          _react2.default.createElement(
-            _Typography2.default,
-            { variant: 'headline', style: { background: '#' + event.hexColor }, className: classes.eventName },
-            _react2.default.createElement(_Today2.default, null),
-            ' ',
-            event.title
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: classes.time },
-            _react2.default.createElement(
-              _Typography2.default,
-              null,
-              'Start: ',
-              getDate(event.start),
-              ' - ',
-              getTime(event.start)
-            ),
-            _react2.default.createElement(_Divider2.default, { className: classes.divider }),
-            _react2.default.createElement(
-              _Typography2.default,
-              null,
-              'End: ',
-              getDate(event.end),
-              ' - ',
-              getTime(event.end)
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return DetailEvent;
-}(_react2.default.Component);
-
-DetailEvent.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  anchorEl: _propTypes2.default.node,
-  event: _propTypes2.default.object,
-  close: _propTypes2.default.func.isRequired,
-  remove: _propTypes2.default.func.isRequired
-};
-
-DetailEvent.defaultProps = {
-  anchorEl: null,
-  event: null
-};
-
-var _default = (0, _styles.withStyles)(_calendarJss2.default)(DetailEvent);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ITEM_HEIGHT, 'ITEM_HEIGHT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/DetailEvent.js');
-
-  __REACT_HOT_LOADER__.register(DetailEvent, 'DetailEvent', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/DetailEvent.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/DetailEvent.js');
-}();
-
-;
-
-/***/ }),
-/* 301 */
-/*!********************************************!*\
-  !*** external "@material-ui/core/Popover" ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Popover");
-
-/***/ }),
-/* 302 */
+/* 208 */
 /*!*******************************************!*\
-  !*** external "@material-ui/icons/Today" ***!
+  !*** external "@material-ui/icons/Share" ***!
   \*******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/Today");
+module.exports = require("@material-ui/icons/Share");
 
 /***/ }),
-/* 303 */
-/*!*************************************************!*\
-  !*** ./src/app/components/Calendar/AddEvent.js ***!
-  \*************************************************/
+/* 209 */
+/*!*********************************************!*\
+  !*** external "@material-ui/icons/Comment" ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Comment");
+
+/***/ }),
+/* 210 */
+/*!**********************************************!*\
+  !*** external "@material-ui/icons/MoreVert" ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/MoreVert");
+
+/***/ }),
+/* 211 */
+/*!*******************************************************!*\
+  !*** ./src/app/components/CardPaper/cardStyle-jss.js ***!
+  \*******************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21878,120 +13518,214 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _pink = __webpack_require__(/*! @material-ui/core/colors/pink */ 64);
 
-var _react = __webpack_require__(/*! react */ 0);
+var _pink2 = _interopRequireDefault(_pink);
 
-var _react2 = _interopRequireDefault(_react);
+var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 66);
 
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
+var _orange2 = _interopRequireDefault(_orange);
 
-var _propTypes2 = _interopRequireDefault(_propTypes);
+var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 212);
 
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
+var _lightGreen2 = _interopRequireDefault(_lightGreen);
 
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
+var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 213);
 
-var _Button2 = _interopRequireDefault(_Button);
-
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 59);
-
-var _Add2 = _interopRequireDefault(_Add);
-
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 32);
-
-var _Tooltip2 = _interopRequireDefault(_Tooltip);
-
-var _FloatingPanel = __webpack_require__(/*! ./../Panel/FloatingPanel */ 84);
-
-var _FloatingPanel2 = _interopRequireDefault(_FloatingPanel);
-
-var _AddEventForm = __webpack_require__(/*! ./AddEventForm */ 136);
-
-var _AddEventForm2 = _interopRequireDefault(_AddEventForm);
-
-var _calendarJss = __webpack_require__(/*! ./calendar-jss.js */ 63);
-
-var _calendarJss2 = _interopRequireDefault(_calendarJss);
+var _blueGrey2 = _interopRequireDefault(_blueGrey);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AddEvent = function (_React$Component) {
-  _inherits(AddEvent, _React$Component);
-
-  function AddEvent() {
-    _classCallCheck(this, AddEvent);
-
-    return _possibleConstructorReturn(this, (AddEvent.__proto__ || Object.getPrototypeOf(AddEvent)).apply(this, arguments));
-  }
-
-  _createClass(AddEvent, [{
-    key: 'showResult',
-    value: function showResult(values) {
-      var _this2 = this;
-
-      setTimeout(function () {
-        _this2.props.submit(values);
-      }, 500); // simulate server latency
+var styles = function styles(theme) {
+  return {
+    divider: {
+      margin: theme.spacing.unit * 3 + 'px 0'
+    },
+    card: {
+      minWidth: 275
+    },
+    liked: {
+      color: _pink2.default[500]
+    },
+    shared: {
+      color: _lightGreen2.default[500]
+    },
+    num: {
+      fontSize: 14,
+      marginLeft: 5
+    },
+    rightIcon: {
+      marginLeft: 'auto',
+      display: 'flex',
+      alignItems: 'center'
+    },
+    button: {
+      marginRight: theme.spacing.unit
+    },
+    media: {
+      height: 0,
+      paddingTop: '56.25%' // 16:9
+    },
+    cardPlayer: {
+      display: 'flex',
+      justifyContent: 'space-between'
+    },
+    details: {
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    content: {
+      flex: '1 0 auto'
+    },
+    cover: {
+      width: 150,
+      height: 150
+    },
+    controls: {
+      display: 'flex',
+      alignItems: 'center',
+      paddingLeft: theme.spacing.unit,
+      paddingBottom: theme.spacing.unit
+    },
+    playIcon: {
+      height: 38,
+      width: 38
+    },
+    cardSocmed: {
+      minWidth: 275
+    },
+    cardProduct: {
+      position: 'relative'
+    },
+    mediaProduct: {
+      height: 0,
+      paddingTop: '60.25%' // 16:9
+    },
+    rightAction: {
+      marginLeft: 'auto',
+      display: 'flex',
+      alignItems: 'center'
+    },
+    floatingButtonWrap: {
+      position: 'relative',
+      paddingTop: 50
+    },
+    buttonAdd: {
+      position: 'absolute',
+      right: 20,
+      top: -20
+    },
+    buttonAddList: {
+      display: 'none',
+      marginLeft: 10
+    },
+    title: {
+      fontSize: 20,
+      height: 30
+    },
+    ratting: {
+      margin: '10px 0',
+      '& button': {
+        width: 24,
+        height: 24
+      }
+    },
+    status: {
+      position: 'absolute',
+      right: 0,
+      top: 0,
+      padding: 10,
+      '& > *': {
+        margin: 5
+      }
+    },
+    desc: {
+      height: 45,
+      overflow: 'hidden'
+    },
+    chipDiscount: {
+      background: theme.palette.primary.light,
+      color: theme.palette.primary.dark
+    },
+    chipSold: {
+      background: _blueGrey2.default[500],
+      color: theme.palette.getContrastText(_blueGrey2.default[500])
+    },
+    contentProfle: {
+      flex: '1 0 auto',
+      textAlign: 'center'
+    },
+    mediaProfile: {
+      height: 0,
+      paddingTop: '36.25%' // 16:9
+    },
+    actions: {
+      display: 'flex'
+    },
+    avatarBig: {
+      width: 80,
+      height: 80,
+      margin: '-56px auto 10px',
+      background: theme.palette.secondary.dark
+    },
+    name: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    },
+    buttonProfile: {
+      margin: 20
+    },
+    bottomLink: {
+      width: '100%'
+    },
+    price: {
+      paddingBottom: 20
+    },
+    contentProfile: {
+      textAlign: 'center'
+    },
+    verified: {
+      fontSize: 16,
+      color: theme.palette.primary.main
+    },
+    cardList: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      '& $buttonAddList': {
+        display: 'inline-block'
+      },
+      '& $floatingButtonWrap': {
+        flex: 1
+      },
+      '& $buttonAdd': {
+        display: 'none'
+      },
+      '& $status': {
+        right: 'auto',
+        left: 0
+      },
+      '& $mediaProduct': {
+        width: 300,
+        paddingTop: '21.25%'
+      },
+      '& $price': {
+        flexDirection: 'column',
+        justifyContent: 'center',
+        '& button': {
+          marginTop: 20
+        }
+      }
+    },
+    star: {
+      top: 5,
+      position: 'relative',
+      color: _orange2.default[500]
     }
-  }, {
-    key: 'render',
-    value: function render() {
-      var _this3 = this;
-
-      var _props = this.props,
-          classes = _props.classes,
-          openForm = _props.openForm,
-          _closeForm = _props.closeForm,
-          addEvent = _props.addEvent;
-
-      var branch = '';
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _Tooltip2.default,
-          { title: 'Add New Event' },
-          _react2.default.createElement(
-            _Button2.default,
-            { variant: 'fab', color: 'secondary', onClick: function onClick() {
-                return addEvent();
-              }, className: classes.addBtn },
-            _react2.default.createElement(_Add2.default, null)
-          )
-        ),
-        _react2.default.createElement(
-          _FloatingPanel2.default,
-          { title: 'Add New Event', openForm: openForm, branch: branch, closeForm: function closeForm() {
-              return _closeForm();
-            } },
-          _react2.default.createElement(_AddEventForm2.default, { onSubmit: function onSubmit(values) {
-              return _this3.showResult(values);
-            } })
-        )
-      );
-    }
-  }]);
-
-  return AddEvent;
-}(_react2.default.Component);
-
-AddEvent.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  openForm: _propTypes2.default.bool.isRequired,
-  addEvent: _propTypes2.default.func.isRequired,
-  closeForm: _propTypes2.default.func.isRequired,
-  submit: _propTypes2.default.func.isRequired
+  };
 };
 
-var _default = (0, _styles.withStyles)(_calendarJss2.default)(AddEvent);
-
+var _default = styles;
 exports.default = _default;
 ;
 
@@ -22000,26 +13734,37 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AddEvent, 'AddEvent', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEvent.js');
+  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Calendar/AddEvent.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
 }();
 
 ;
 
 /***/ }),
-/* 304 */
-/*!**********************************************!*\
-  !*** external "@material-ui/core/FormLabel" ***!
-  \**********************************************/
+/* 212 */
+/*!******************************************************!*\
+  !*** external "@material-ui/core/colors/lightGreen" ***!
+  \******************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/FormLabel");
+module.exports = require("@material-ui/core/colors/lightGreen");
 
 /***/ }),
-/* 305 */
+/* 213 */
+/*!****************************************************!*\
+  !*** external "@material-ui/core/colors/blueGrey" ***!
+  \****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/colors/blueGrey");
+
+/***/ }),
+/* 214 */
 /*!***********************************************!*\
   !*** ./src/app/components/Error/ErrorWrap.js ***!
   \***********************************************/
@@ -22044,15 +13789,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
+var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Button = __webpack_require__(/*! @material-ui/core/Button */ 15);
+var _Button = __webpack_require__(/*! @material-ui/core/Button */ 36);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22156,7 +13901,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 306 */
+/* 215 */
 /*!***************************************************!*\
   !*** ./src/app/containers/Dashboard/Dashboard.js ***!
   \***************************************************/
@@ -22181,31 +13926,31 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 53);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 31);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 21);
+var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 30);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _images = __webpack_require__(/*! ../../constants/images.js */ 109);
+var _images = __webpack_require__(/*! ../../constants/images.js */ 68);
 
 var _images2 = _interopRequireDefault(_images);
 
-var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 69);
+var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 39);
 
 var _avatars2 = _interopRequireDefault(_avatars);
 
-var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 307);
+var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 216);
 
 var _dashboardJss2 = _interopRequireDefault(_dashboardJss);
 
@@ -22280,11 +14025,11 @@ var DashboardV2 = function (_PureComponent) {
               liked: 1,
               shared: 20,
               commented: 15,
-              date: 'Sept, 25 2018',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed urna in justo euismod condimentum.',
+              date: 'Dec, 13 2018',
+              content: 'Fake data',
               image: _images2.default[16],
               avatar: _avatars2.default[6],
-              name: 'John Doe'
+              name: 'V\u01B0\u01A1ng'
             })
           ),
           _react2.default.createElement(
@@ -22322,7 +14067,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 307 */
+/* 216 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Dashboard/dashboard-jss.js ***!
   \*******************************************************/
@@ -22385,7 +14130,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 308 */
+/* 217 */
 /*!************************************************!*\
   !*** ./src/app/containers/Routes/RoutePage.js ***!
   \************************************************/
@@ -22410,27 +14155,27 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
-var _route = __webpack_require__(/*! ../../constants/route.js */ 72);
+var _route = __webpack_require__(/*! ../../constants/route.js */ 56);
 
 var _route2 = _interopRequireDefault(_route);
 
-var _helmet = __webpack_require__(/*! ../../constants/helmet.js */ 139);
+var _helmet = __webpack_require__(/*! ../../constants/helmet.js */ 72);
 
 var _helmet2 = _interopRequireDefault(_helmet);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
@@ -22517,7 +14262,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 309 */
+/* 218 */
 /*!***********************************************************!*\
   !*** ./src/app/containers/Transporter/TransporterPage.js ***!
   \***********************************************************/
@@ -22544,13 +14289,13 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _transporter = __webpack_require__(/*! ../../constants/transporter.js */ 98);
+var _transporter = __webpack_require__(/*! ../../constants/transporter.js */ 57);
 
 var _transporter2 = _interopRequireDefault(_transporter);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
@@ -22615,7 +14360,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 310 */
+/* 219 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Driver/DriverPage.js ***!
   \*************************************************/
@@ -22642,13 +14387,13 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _driver = __webpack_require__(/*! ../../constants/employee/driver */ 99);
+var _driver = __webpack_require__(/*! ../../constants/employee/driver */ 58);
 
 var _driver2 = _interopRequireDefault(_driver);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
@@ -22709,7 +14454,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 311 */
+/* 220 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Assistant/AssistantPage.js ***!
   \*******************************************************/
@@ -22736,13 +14481,13 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _assistant = __webpack_require__(/*! ../../constants/employee/assistant */ 100);
+var _assistant = __webpack_require__(/*! ../../constants/employee/assistant */ 59);
 
 var _assistant2 = _interopRequireDefault(_assistant);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
@@ -22803,7 +14548,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 312 */
+/* 221 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Client/ClientPage.js ***!
   \*************************************************/
@@ -22830,15 +14575,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
-var _client = __webpack_require__(/*! ../../constants/client/client */ 101);
+var _client = __webpack_require__(/*! ../../constants/client/client */ 60);
 
 var _client2 = _interopRequireDefault(_client);
 
@@ -22897,7 +14642,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 313 */
+/* 222 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Schedule/TSchedulePage.js ***!
   \******************************************************/
@@ -22924,15 +14669,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
-var _transport = __webpack_require__(/*! ../../constants/schedule/transport */ 102);
+var _transport = __webpack_require__(/*! ../../constants/schedule/transport */ 61);
 
 var _transport2 = _interopRequireDefault(_transport);
 
@@ -22991,7 +14736,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 314 */
+/* 223 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Schedule/WSchedulePage.js ***!
   \******************************************************/
@@ -23018,15 +14763,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
-var _work = __webpack_require__(/*! ../../constants/schedule/work */ 103);
+var _work = __webpack_require__(/*! ../../constants/schedule/work */ 62);
 
 var _work2 = _interopRequireDefault(_work);
 
@@ -23085,7 +14830,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 315 */
+/* 224 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Ticket/TicketPage.js ***!
   \*************************************************/
@@ -23112,15 +14857,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 13);
+var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 8);
 
-var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 35);
+var _pageTemplate = __webpack_require__(/*! ../../constants/template/pageTemplate */ 23);
 
 var _pageTemplate2 = _interopRequireDefault(_pageTemplate);
 
 var _components = __webpack_require__(/*! ../../components */ 3);
 
-var _ticket = __webpack_require__(/*! ../../constants/ticket/ticket */ 104);
+var _ticket = __webpack_require__(/*! ../../constants/ticket/ticket */ 63);
 
 var _ticket2 = _interopRequireDefault(_ticket);
 
@@ -23179,7 +14924,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 316 */
+/* 225 */
 /*!********************************************!*\
   !*** ./src/app/containers/Themes/index.js ***!
   \********************************************/
@@ -23200,17 +14945,17 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 138);
+var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 226);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
-var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 53);
+var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 31);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
@@ -23218,25 +14963,25 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 44);
+var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLabel */ 69);
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 65);
+var _UiActions = __webpack_require__(/*! ./../../actions/UiActions */ 34);
 
 var _components = __webpack_require__(/*! ./../../components */ 3);
 
-var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 140);
+var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 73);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
-var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 317);
+var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 227);
 
 var _ThemeThumb2 = _interopRequireDefault(_ThemeThumb);
 
@@ -23385,7 +15130,18 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 317 */
+/* 226 */
+/*!***********************************************!*\
+  !*** external "@material-ui/core/RadioGroup" ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/RadioGroup");
+
+/***/ }),
+/* 227 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Themes/ThemeThumb.js ***!
   \*************************************************/
@@ -23404,15 +15160,15 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 137);
+var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 228);
 
 var _Radio2 = _interopRequireDefault(_Radio);
 
-var _classnames = __webpack_require__(/*! classnames */ 4);
+var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
+var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 10);
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
@@ -23420,15 +15176,15 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
+var _reactRedux = __webpack_require__(/*! react-redux */ 7);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 64);
+var _themePalette = __webpack_require__(/*! ../../constants/themePalette.js */ 33);
 
 var _themePalette2 = _interopRequireDefault(_themePalette);
 
-var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 140);
+var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 73);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
@@ -23564,2757 +15320,18 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 318 */
-/*!************************************************!*\
-  !*** ./src/app/containers/Tables/CrudTable.js ***!
-  \************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
-
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
-
-var _brand2 = _interopRequireDefault(_brand);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _route = __webpack_require__(/*! ../../constants/route.js */ 72);
-
-var _route2 = _interopRequireDefault(_route);
-
-var _components = __webpack_require__(/*! ./../../components */ 3);
-
-var _demos = __webpack_require__(/*! ./demos */ 319);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = {
-  root: {
-    flexGrow: 1
-  }
-};
-
-var CrudTablePage = function (_Component) {
-  _inherits(CrudTablePage, _Component);
-
-  function CrudTablePage() {
-    _classCallCheck(this, CrudTablePage);
-
-    return _possibleConstructorReturn(this, (CrudTablePage.__proto__ || Object.getPrototypeOf(CrudTablePage)).apply(this, arguments));
-  }
-
-  _createClass(CrudTablePage, [{
-    key: 'render',
-    value: function render() {
-      var title = _brand2.default.name + ' - Table';
-      var description = _brand2.default.desc;
-      var classes = this.props.classes;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _reactHelmet.Helmet,
-          null,
-          _react2.default.createElement(
-            'title',
-            null,
-            title
-          ),
-          _react2.default.createElement('meta', { name: 'description', content: description }),
-          _react2.default.createElement('meta', { property: 'og:title', content: title }),
-          _react2.default.createElement('meta', { property: 'og:description', content: description }),
-          _react2.default.createElement('meta', { property: 'twitter:title', content: title }),
-          _react2.default.createElement('meta', { property: 'twitter:description', content: description })
-        ),
-        _react2.default.createElement(
-          _components.PapperBlock,
-          { title: _route2.default.title, desc: _route2.default.description },
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              _Paper2.default,
-              { className: classes.root },
-              _react2.default.createElement(_demos.CrudTableDemo, null)
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return CrudTablePage;
-}(_react.Component);
-
-CrudTablePage.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(CrudTablePage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/CrudTable.js');
-
-  __REACT_HOT_LOADER__.register(CrudTablePage, 'CrudTablePage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/CrudTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/CrudTable.js');
-}();
-
-;
-
-/***/ }),
-/* 319 */
-/*!**************************************************!*\
-  !*** ./src/app/containers/Tables/demos/index.js ***!
-  \**************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.TrackingTable = exports.EmptyTable = exports.StatusColorRow = exports.StatusLabel = exports.AdvTableDemo = exports.CrudTableDemo = exports.TreeTableDemo = exports.BorderedTable = exports.HoverTable = exports.StrippedTable = exports.SimpleTable = undefined;
-
-var _SimpleTable2 = __webpack_require__(/*! ./SimpleTable */ 320);
-
-var _SimpleTable3 = _interopRequireDefault(_SimpleTable2);
-
-var _StrippedTable2 = __webpack_require__(/*! ./StrippedTable */ 321);
-
-var _StrippedTable3 = _interopRequireDefault(_StrippedTable2);
-
-var _HoverTable2 = __webpack_require__(/*! ./HoverTable */ 322);
-
-var _HoverTable3 = _interopRequireDefault(_HoverTable2);
-
-var _BorderedTable2 = __webpack_require__(/*! ./BorderedTable */ 323);
-
-var _BorderedTable3 = _interopRequireDefault(_BorderedTable2);
-
-var _TreeTableDemo2 = __webpack_require__(/*! ./TreeTableDemo */ 324);
-
-var _TreeTableDemo3 = _interopRequireDefault(_TreeTableDemo2);
-
-var _CrudTableDemo2 = __webpack_require__(/*! ./CrudTableDemo */ 327);
-
-var _CrudTableDemo3 = _interopRequireDefault(_CrudTableDemo2);
-
-var _AdvTableDemo2 = __webpack_require__(/*! ./AdvTableDemo */ 329);
-
-var _AdvTableDemo3 = _interopRequireDefault(_AdvTableDemo2);
-
-var _StatusLabel2 = __webpack_require__(/*! ./StatusLabel */ 330);
-
-var _StatusLabel3 = _interopRequireDefault(_StatusLabel2);
-
-var _StatusColorRow2 = __webpack_require__(/*! ./StatusColorRow */ 331);
-
-var _StatusColorRow3 = _interopRequireDefault(_StatusColorRow2);
-
-var _EmptyTable2 = __webpack_require__(/*! ./EmptyTable */ 332);
-
-var _EmptyTable3 = _interopRequireDefault(_EmptyTable2);
-
-var _TrackingTable2 = __webpack_require__(/*! ./TrackingTable */ 333);
-
-var _TrackingTable3 = _interopRequireDefault(_TrackingTable2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.SimpleTable = _SimpleTable3.default;
-exports.StrippedTable = _StrippedTable3.default;
-exports.HoverTable = _HoverTable3.default;
-exports.BorderedTable = _BorderedTable3.default;
-exports.TreeTableDemo = _TreeTableDemo3.default;
-exports.CrudTableDemo = _CrudTableDemo3.default;
-exports.AdvTableDemo = _AdvTableDemo3.default;
-exports.StatusLabel = _StatusLabel3.default;
-exports.StatusColorRow = _StatusColorRow3.default;
-exports.EmptyTable = _EmptyTable3.default;
-exports.TrackingTable = _TrackingTable3.default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
-
-/***/ }),
-/* 320 */
-/*!********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/SimpleTable.js ***!
-  \********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    }
-  };
-};
-
-var id = 0;
-function createData(name, calories, fat, carbs, protein) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    calories: calories,
-    fat: fat,
-    carbs: carbs,
-    protein: protein
-  };
-}
-
-var data = [createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Eclair', 262, 16.0, 24, 6.0), createData('Cupcake', 305, 3.7, 67, 4.3), createData('Gingerbread', 356, 16.0, 49, 3.9)];
-
-function SimpleTable(props) {
-  var classes = props.classes;
-
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: classes.table },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Calories'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Fat (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Carbs (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Protein (g)'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.calories
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.fat
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.carbs
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.protein
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-SimpleTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(SimpleTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-
-  __REACT_HOT_LOADER__.register(SimpleTable, 'SimpleTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/SimpleTable.js');
-}();
-
-;
-
-/***/ }),
-/* 321 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/StrippedTable.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
-
-var _Table4 = _interopRequireDefault(_Table3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    }
-  };
-};
-
-var id = 0;
-function createData(name, calories, fat, carbs, protein) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    calories: calories,
-    fat: fat,
-    carbs: carbs,
-    protein: protein
-  };
-}
-
-var data = [createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Eclair', 262, 16.0, 24, 6.0), createData('Cupcake', 305, 3.7, 67, 4.3), createData('Gingerbread', 356, 16.0, 49, 3.9)];
-
-function StrippedTable(props) {
-  var classes = props.classes;
-
-
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: (0, _classnames2.default)(classes.table, _Table4.default.stripped) },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Calories'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Fat (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Carbs (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Protein (g)'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.calories
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.fat
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.carbs
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.protein
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-StrippedTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(StrippedTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-
-  __REACT_HOT_LOADER__.register(StrippedTable, 'StrippedTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StrippedTable.js');
-}();
-
-;
-
-/***/ }),
-/* 322 */
-/*!*******************************************************!*\
-  !*** ./src/app/containers/Tables/demos/HoverTable.js ***!
-  \*******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
-
-var _Table4 = _interopRequireDefault(_Table3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    }
-  };
-};
-
-var id = 0;
-function createData(name, calories, fat, carbs, protein) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    calories: calories,
-    fat: fat,
-    carbs: carbs,
-    protein: protein
-  };
-}
-
-var data = [createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Eclair', 262, 16.0, 24, 6.0), createData('Cupcake', 305, 3.7, 67, 4.3), createData('Gingerbread', 356, 16.0, 49, 3.9)];
-
-function HoverTable(props) {
-  var classes = props.classes;
-
-
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: (0, _classnames2.default)(classes.table, _Table4.default.hover) },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Calories'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Fat (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Carbs (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Protein (g)'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.calories
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.fat
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.carbs
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.protein
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-HoverTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(HoverTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-
-  __REACT_HOT_LOADER__.register(HoverTable, 'HoverTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/HoverTable.js');
-}();
-
-;
-
-/***/ }),
-/* 323 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/BorderedTable.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
-
-var _Table4 = _interopRequireDefault(_Table3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    }
-  };
-};
-
-var id = 0;
-function createData(name, calories, fat, carbs, protein) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    calories: calories,
-    fat: fat,
-    carbs: carbs,
-    protein: protein
-  };
-}
-
-var data = [createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Eclair', 262, 16.0, 24, 6.0), createData('Cupcake', 305, 3.7, 67, 4.3), createData('Gingerbread', 356, 16.0, 49, 3.9)];
-
-function BorderedTable(props) {
-  var classes = props.classes;
-
-
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: (0, _classnames2.default)(classes.table, _Table4.default.bordered) },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Calories'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Fat (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Carbs (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Protein (g)'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.calories
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.fat
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.carbs
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              n.protein
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-BorderedTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(BorderedTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-
-  __REACT_HOT_LOADER__.register(BorderedTable, 'BorderedTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/BorderedTable.js');
-}();
-
-;
-
-/***/ }),
-/* 324 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/TreeTableDemo.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _redux = __webpack_require__(/*! redux */ 14);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
-
-var _TreeTableActions = __webpack_require__(/*! ../../../actions/TreeTableActions */ 325);
-
-var _TreeTableActions2 = _interopRequireDefault(_TreeTableActions);
-
-var _components = __webpack_require__(/*! ./../../../components */ 3);
-
-var _dataTreeTable = __webpack_require__(/*! ./dataTreeTable.js */ 326);
-
-var _dataTreeTable2 = _interopRequireDefault(_dataTreeTable);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    }
-  };
-};
-
-var branch = 'treeTableArrow';
-
-var TreeTableDemo = function (_Component) {
-  _inherits(TreeTableDemo, _Component);
-
-  function TreeTableDemo() {
-    _classCallCheck(this, TreeTableDemo);
-
-    return _possibleConstructorReturn(this, (TreeTableDemo.__proto__ || Object.getPrototypeOf(TreeTableDemo)).apply(this, arguments));
-  }
-
-  _createClass(TreeTableDemo, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          arrowMore = _props.arrowMore,
-          treeOpen = _props.treeOpen,
-          classes = _props.classes,
-          toggleTree = _props.toggleTree;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _Paper2.default,
-          { className: classes.root },
-          _react2.default.createElement(_components.TreeTable, {
-            treeOpen: treeOpen,
-            toggleTree: toggleTree,
-            arrowMore: arrowMore,
-            dataTable: _dataTreeTable2.default,
-            branch: branch,
-            icon: 'arrow'
-          })
-        )
-      );
-    }
-  }]);
-
-  return TreeTableDemo;
-}(_react.Component);
-
-TreeTableDemo.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  treeOpen: _propTypes2.default.object.isRequired,
-  arrowMore: _propTypes2.default.object.isRequired,
-  toggleTree: _propTypes2.default.func.isRequired
-};
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    force: state, // force state from reducer
-    treeOpen: state.getIn([branch, 'treeOpen']),
-    arrowMore: state.getIn([branch, 'arrowMore'])
-  };
-};
-
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    toggleTree: (0, _redux.bindActionCreators)(_TreeTableActions2.default, dispatch)
-  };
-};
-
-var TreeTableDemoMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(TreeTableDemo);
-
-var _default = (0, _styles.withStyles)(styles)(TreeTableDemoMapped);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(TreeTableDemo, 'TreeTableDemo', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(TreeTableDemoMapped, 'TreeTableDemoMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TreeTableDemo.js');
-}();
-
-;
-
-/***/ }),
-/* 325 */
-/*!*********************************************!*\
-  !*** ./src/app/actions/TreeTableActions.js ***!
-  \*********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
-
-var types = _interopRequireWildcard(_actionTypes);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-var openAction = function openAction(keyID, child, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.TOGGLE_TREE,
-    keyID: keyID,
-    child: child
-  };
-};
-
-var _default = openAction;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(openAction, 'openAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TreeTableActions.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TreeTableActions.js');
-}();
-
-;
-
-/***/ }),
-/* 326 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/dataTreeTable.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = {
-  head: [{
-    label: 'KeyId'
-  }, {
-    label: 'Dessert (100g serving)'
-  }, {
-    label: 'Calories'
-  }, {
-    label: 'Fat(g)'
-  }],
-  body: [{
-    id: '1',
-    name: 'Frozen yoghurt',
-    calories: 159,
-    fat: 24,
-    child: [{
-      id: '1_1',
-      name: 'Frozen child 1',
-      calories: 159,
-      fat: 24
-    }, {
-      id: '1_2',
-      name: 'Frozen child 2',
-      calories: 159,
-      fat: 24,
-      child: [{
-        id: '1_2_1',
-        name: 'Frozen grand child 1',
-        calories: 159,
-        fat: 24
-      }]
-    }]
-  }, {
-    id: '2',
-    name: 'Eclair',
-    calories: 159,
-    fat: 24,
-    child: [{
-      id: '2_1',
-      name: 'Eclair Child',
-      calories: 159,
-      fat: 24,
-      child: [{
-        id: '2_1_1',
-        name: 'Eclair Grand Child 1',
-        calories: 159,
-        fat: 24
-      }, {
-        id: '2_1_2',
-        name: 'Eclair Grand Child 2',
-        calories: 159,
-        fat: 24
-      }]
-    }]
-  }, {
-    id: '3',
-    name: 'Cupcake',
-    calories: 159,
-    fat: 24
-  }, {
-    id: '4',
-    name: 'Ginger Bread',
-    calories: 159,
-    fat: 24,
-    child: [{
-      id: '4_1',
-      name: 'Ginger Bread Child',
-      calories: 159,
-      fat: 24,
-      child: [{
-        id: '4_1_1',
-        name: 'Ginger Bread Grand Child 1',
-        calories: 159,
-        fat: 24,
-        child: [{
-          id: '4_1_1_1',
-          name: 'Ginger Bread Super Grand Child 1',
-          calories: 159,
-          fat: 24
-        }, {
-          id: '4_1_1_2',
-          name: 'Ginger Bread Super Grand Child 2',
-          calories: 159,
-          fat: 24
-        }]
-      }, {
-        id: '4_1_2',
-        name: 'Ginger Bread Grand Child 2',
-        calories: 159,
-        fat: 24
-      }, {
-        id: '4_1_3',
-        name: 'Ginger Bread Grand Child 3',
-        calories: 159,
-        fat: 24
-      }]
-    }]
-  }]
-};
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
-
-/***/ }),
-/* 327 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/CrudTableDemo.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _redux = __webpack_require__(/*! redux */ 14);
-
-var _reactRedux = __webpack_require__(/*! react-redux */ 9);
-
-var _CrudTbActions = __webpack_require__(/*! ../../../actions/CrudTbActions */ 328);
-
-var _components = __webpack_require__(/*! ./../../../components */ 3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// Reducer Branch
-var branch = 'crudTableDemo';
-
-var styles = {
-  root: {
-    flexGrow: 1
-  }
-};
-
-var anchorTable = [{
-  name: 'id',
-  label: 'Id',
-  type: 'static',
-  initialValue: '',
-  hidden: true
-}, {
-  name: 'category',
-  label: 'Category',
-  type: 'selection',
-  initialValue: 'Electronics',
-  options: ['Electronics', 'Sporting Goods', 'Apparels', 'Other'],
-  width: '150',
-  hidden: false
-}, {
-  name: 'price',
-  label: 'Price',
-  type: 'number',
-  initialValue: 0,
-  width: '100',
-  hidden: false
-}, {
-  name: 'date',
-  label: 'Date Updated',
-  type: 'date',
-  initialValue: new Date(),
-  width: 'auto',
-  hidden: false
-}, {
-  name: 'time',
-  label: 'Time Updated',
-  type: 'time',
-  initialValue: new Date(),
-  width: 'auto',
-  hidden: false
-}, {
-  name: 'name',
-  label: 'Name',
-  type: 'text',
-  initialValue: '',
-  width: 'auto',
-  hidden: false
-}, {
-  name: 'available',
-  label: 'Available',
-  type: 'toggle',
-  initialValue: true,
-  width: '100',
-  hidden: false
-}, {
-  name: 'edited',
-  label: '',
-  type: 'static',
-  initialValue: '',
-  hidden: true
-}, {
-  name: 'action',
-  label: 'Action',
-  type: 'static',
-  initialValue: '',
-  hidden: false
-}];
-var dataApi = [{
-  id: 1,
-  category: 'Sporting Goods',
-  price: '49.99',
-  date: '4/3/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'football',
-  available: true,
-  edited: false
-}, {
-  id: 2,
-  category: 'Other',
-  price: '9.99',
-  date: '4/2/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'baseball',
-  available: true,
-  edited: false
-}, {
-  id: 3,
-  category: 'Sporting Goods',
-  price: '29.99',
-  date: '4/1/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'basketball',
-  available: false,
-  edited: false
-}, {
-  id: 4,
-  category: 'Electronics',
-  price: '99.99',
-  date: '3/30/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'iPod Touch',
-  available: true,
-  edited: false
-}, {
-  id: 5,
-  category: 'Electronics',
-  price: '399.99',
-  date: '3/29/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'iPhone 5',
-  available: false,
-  edited: false
-}, {
-  id: 6,
-  category: 'Electronics',
-  price: '199.99',
-  date: '3/28/2018',
-  time: 'Tue Apr 03 2018 00:00:00 GMT+0700 (WIB)',
-  name: 'nexus 7',
-  available: true,
-  edited: false
-}];
-
-var CrudTableDemo = function (_Component) {
-  _inherits(CrudTableDemo, _Component);
-
-  function CrudTableDemo() {
-    _classCallCheck(this, CrudTableDemo);
-
-    return _possibleConstructorReturn(this, (CrudTableDemo.__proto__ || Object.getPrototypeOf(CrudTableDemo)).apply(this, arguments));
-  }
-
-  _createClass(CrudTableDemo, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          fetchData = _props.fetchData,
-          addEmptyRow = _props.addEmptyRow,
-          dataTable = _props.dataTable,
-          removeRow = _props.removeRow,
-          updateRow = _props.updateRow,
-          editRow = _props.editRow,
-          finishEditRow = _props.finishEditRow,
-          closeNotif = _props.closeNotif,
-          messageNotif = _props.messageNotif;
-
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_components.Notification, { close: function close() {
-            return closeNotif(branch);
-          }, message: messageNotif }),
-        _react2.default.createElement(
-          _Paper2.default,
-          { className: classes.root },
-          _react2.default.createElement(_components.CrudTable, {
-            dataInit: dataApi,
-            anchor: anchorTable,
-            title: 'Inventory',
-            dataTable: dataTable,
-            fetchData: fetchData,
-            addEmptyRow: addEmptyRow,
-            removeRow: removeRow,
-            updateRow: updateRow,
-            editRow: editRow,
-            finishEditRow: finishEditRow,
-            branch: branch
-          })
-        )
-      );
-    }
-  }]);
-
-  return CrudTableDemo;
-}(_react.Component);
-
-CrudTableDemo.propTypes = {
-  classes: _propTypes2.default.object.isRequired,
-  fetchData: _propTypes2.default.func.isRequired,
-  dataTable: _propTypes2.default.object.isRequired,
-  addEmptyRow: _propTypes2.default.func.isRequired,
-  removeRow: _propTypes2.default.func.isRequired,
-  updateRow: _propTypes2.default.func.isRequired,
-  editRow: _propTypes2.default.func.isRequired,
-  finishEditRow: _propTypes2.default.func.isRequired,
-  closeNotif: _propTypes2.default.func.isRequired,
-  messageNotif: _propTypes2.default.string.isRequired
-};
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    force: state, // force state from reducer
-    dataTable: state.getIn([branch, 'dataTable']),
-    messageNotif: state.getIn([branch, 'notifMsg'])
-  };
-};
-
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    fetchData: (0, _redux.bindActionCreators)(_CrudTbActions.fetchAction, dispatch),
-    addEmptyRow: (0, _redux.bindActionCreators)(_CrudTbActions.addAction, dispatch),
-    removeRow: (0, _redux.bindActionCreators)(_CrudTbActions.removeAction, dispatch),
-    updateRow: (0, _redux.bindActionCreators)(_CrudTbActions.updateAction, dispatch),
-    editRow: (0, _redux.bindActionCreators)(_CrudTbActions.editAction, dispatch),
-    finishEditRow: (0, _redux.bindActionCreators)(_CrudTbActions.saveAction, dispatch),
-    closeNotif: (0, _redux.bindActionCreators)(_CrudTbActions.closeNotifAction, dispatch)
-  };
-};
-
-var CrudTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(CrudTableDemo);
-
-var _default = (0, _styles.withStyles)(styles)(CrudTableMapped);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(anchorTable, 'anchorTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(dataApi, 'dataApi', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(CrudTableDemo, 'CrudTableDemo', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(CrudTableMapped, 'CrudTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/CrudTableDemo.js');
-}();
-
-;
-
-/***/ }),
-/* 328 */
+/* 228 */
 /*!******************************************!*\
-  !*** ./src/app/actions/CrudTbActions.js ***!
+  !*** external "@material-ui/core/Radio" ***!
   \******************************************/
 /*! dynamic exports provided */
 /*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.closeNotifAction = exports.saveAction = exports.editAction = exports.updateAction = exports.removeAction = exports.addAction = exports.fetchAction = undefined;
-
-var _actionTypes = __webpack_require__(/*! ./actionTypes */ 5);
-
-var types = _interopRequireWildcard(_actionTypes);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-var fetchAction = exports.fetchAction = function fetchAction(items, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.FETCH_DATA,
-    items: items
-  };
-};
-var addAction = exports.addAction = function addAction(anchor, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.ADD_EMPTY_ROW,
-    anchor: anchor
-  };
-};
-var removeAction = exports.removeAction = function removeAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.REMOVE_ROW,
-    item: item
-  };
-};
-var updateAction = exports.updateAction = function updateAction(event, item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.UPDATE_ROW,
-    event: event,
-    item: item
-  };
-};
-var editAction = exports.editAction = function editAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.EDIT_ROW,
-    item: item
-  };
-};
-var saveAction = exports.saveAction = function saveAction(item, branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.SAVE_ROW,
-    item: item
-  };
-};
-var closeNotifAction = exports.closeNotifAction = function closeNotifAction(branch) {
-  return {
-    branch: branch,
-    type: branch + '/' + types.CLOSE_NOTIF
-  };
-};
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-
-  __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/CrudTbActions.js');
-}();
-
-;
+module.exports = require("@material-ui/core/Radio");
 
 /***/ }),
-/* 329 */
-/*!*********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/AdvTableDemo.js ***!
-  \*********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _components = __webpack_require__(/*! ./../../../components */ 3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var counter = 0;
-function createData(name, calories, fat, carbs, protein) {
-  counter += 1;
-  return {
-    id: counter,
-    name: name,
-    calories: calories,
-    fat: fat,
-    carbs: carbs,
-    protein: protein
-  };
-}
-
-var AdvTableDemo = function (_React$Component) {
-  _inherits(AdvTableDemo, _React$Component);
-
-  function AdvTableDemo() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, AdvTableDemo);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AdvTableDemo.__proto__ || Object.getPrototypeOf(AdvTableDemo)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      order: 'asc',
-      orderBy: 'calories',
-      selected: [],
-      columnData: [{
-        id: 'name',
-        numeric: false,
-        disablePadding: true,
-        label: 'Dessert (100g serving)'
-      }, {
-        id: 'calories',
-        numeric: true,
-        disablePadding: false,
-        label: 'Calories'
-      }, {
-        id: 'fat',
-        numeric: true,
-        disablePadding: false,
-        label: 'Fat (g)'
-      }, {
-        id: 'carbs',
-        numeric: true,
-        disablePadding: false,
-        label: 'Carbs (g)'
-      }, {
-        id: 'protein',
-        numeric: true,
-        disablePadding: false,
-        label: 'Protein (g)'
-      }],
-      data: [createData('Cupcake', 305, 3.7, 67, 4.3), createData('Donut', 452, 25.0, 51, 4.9), createData('Eclair', 262, 16.0, 24, 6.0), createData('Frozen yoghurt', 159, 6.0, 24, 4.0), createData('Gingerbread', 356, 16.0, 49, 3.9), createData('Honeycomb', 408, 3.2, 87, 6.5), createData('Ice cream sandwich', 237, 9.0, 37, 4.3), createData('Jelly Bean', 375, 0.0, 94, 0.0), createData('KitKat', 518, 26.0, 65, 7.0), createData('Lollipop', 392, 0.2, 98, 0.0), createData('Marshmallow', 318, 0, 81, 2.0), createData('Nougat', 360, 19.0, 9, 37.0), createData('Oreo', 437, 18.0, 63, 4.0)].sort(function (a, b) {
-        return a.calories < b.calories ? -1 : 1;
-      }),
-      page: 0,
-      rowsPerPage: 5,
-      defaultPerPage: 5,
-      filterText: ''
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(AdvTableDemo, [{
-    key: 'render',
-    value: function render() {
-      var _state = this.state,
-          order = _state.order,
-          orderBy = _state.orderBy,
-          selected = _state.selected,
-          data = _state.data,
-          page = _state.page,
-          rowsPerPage = _state.rowsPerPage,
-          defaultPerPage = _state.defaultPerPage,
-          filterText = _state.filterText,
-          columnData = _state.columnData;
-
-
-      return _react2.default.createElement(_components.AdvTable, {
-        order: order,
-        orderBy: orderBy,
-        selected: selected,
-        data: data,
-        page: page,
-        rowsPerPage: rowsPerPage,
-        defaultPerPage: defaultPerPage,
-        filterText: filterText,
-        columnData: columnData
-      });
-    }
-  }]);
-
-  return AdvTableDemo;
-}(_react2.default.Component);
-
-var _default = AdvTableDemo;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(counter, 'counter', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/AdvTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/AdvTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(AdvTableDemo, 'AdvTableDemo', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/AdvTableDemo.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/AdvTableDemo.js');
-}();
-
-;
-
-/***/ }),
-/* 330 */
-/*!********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/StatusLabel.js ***!
-  \********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 57);
-
-var _Chip2 = _interopRequireDefault(_Chip);
-
-var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 141);
-
-var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
-
-var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 16);
-
-var _Table4 = _interopRequireDefault(_Table3);
-
-var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 52);
-
-var _Messages2 = _interopRequireDefault(_Messages);
-
-var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 142);
-
-var _Progress2 = _interopRequireDefault(_Progress);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    chip: {
-      margin: theme.spacing.unit,
-      fontWeight: 'bold',
-      color: '#FFF'
-    }
-  };
-};
-
-var id = 0;
-function createData(name, progress, status) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    progress: progress,
-    status: status
-  };
-}
-
-var data = [createData('Frozen yoghurt', 24, 'Error'), createData('Ice cream sandwich', 37, 'Warning'), createData('Eclair', 24, 'Info'), createData('Cupcake', 67, 'Default'), createData('Gingerbread', 89, 'Success')];
-
-function StatusLabel(props) {
-  var classes = props.classes;
-
-  var getStatus = function getStatus(status) {
-    switch (status) {
-      case 'Error':
-        return _Messages2.default.bgError;
-      case 'Warning':
-        return _Messages2.default.bgWarning;
-      case 'Info':
-        return _Messages2.default.bgInfo;
-      case 'Success':
-        return _Messages2.default.bgSuccess;
-      default:
-        return _Messages2.default.bgDefault;
-    }
-  };
-  var getProgress = function getProgress(status) {
-    switch (status) {
-      case 'Error':
-        return _Progress2.default.bgError;
-      case 'Warning':
-        return _Progress2.default.bgWarning;
-      case 'Info':
-        return _Progress2.default.bgInfo;
-      case 'Success':
-        return _Progress2.default.bgSuccess;
-      default:
-        return _Progress2.default.bgDefault;
-    }
-  };
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: (0, _classnames2.default)(classes.table, _Table4.default.stripped) },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            null,
-            'Progress'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            null,
-            'Status'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              _react2.default.createElement(_LinearProgress2.default, { variant: 'determinate', className: getProgress(n.status), value: n.progress })
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              null,
-              _react2.default.createElement(_Chip2.default, { label: n.status, className: (0, _classnames2.default)(classes.chip, getStatus(n.status)) })
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-StatusLabel.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(StatusLabel);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-
-  __REACT_HOT_LOADER__.register(StatusLabel, 'StatusLabel', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusLabel.js');
-}();
-
-;
-
-/***/ }),
-/* 331 */
-/*!***********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/StatusColorRow.js ***!
-  \***********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _classnames = __webpack_require__(/*! classnames */ 4);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 25);
-
-var _TableBody2 = _interopRequireDefault(_TableBody);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 57);
-
-var _Chip2 = _interopRequireDefault(_Chip);
-
-var _LinearProgress = __webpack_require__(/*! @material-ui/core/LinearProgress */ 141);
-
-var _LinearProgress2 = _interopRequireDefault(_LinearProgress);
-
-var _Messages = __webpack_require__(/*! ../../../styles/components/Messages.scss */ 52);
-
-var _Messages2 = _interopRequireDefault(_Messages);
-
-var _Progress = __webpack_require__(/*! ../../../styles/components/Progress.scss */ 142);
-
-var _Progress2 = _interopRequireDefault(_Progress);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// import tableStyles from 'ba-components/Table.scss';
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    chip: {
-      margin: theme.spacing.unit,
-      fontWeight: 500,
-      color: '#FFF'
-    }
-  };
-};
-
-var id = 0;
-function createData(name, progress, status) {
-  id += 1;
-  return {
-    id: id,
-    name: name,
-    progress: progress,
-    status: status
-  };
-}
-
-var data = [createData('Frozen yoghurt', 24, 'Error'), createData('Ice cream sandwich', 37, 'Warning'), createData('Eclair', 24, 'Info'), createData('Cupcake', 67, 'Default'), createData('Gingerbread', 89, 'Success')];
-
-function StatusLabel(props) {
-  var classes = props.classes;
-
-  var getStatus = function getStatus(status) {
-    switch (status) {
-      case 'Error':
-        return _Messages2.default.bgError;
-      case 'Warning':
-        return _Messages2.default.bgWarning;
-      case 'Info':
-        return _Messages2.default.bgInfo;
-      case 'Success':
-        return _Messages2.default.bgSuccess;
-      default:
-        return _Messages2.default.bgDefault;
-    }
-  };
-  var getProgress = function getProgress(status) {
-    switch (status) {
-      case 'Error':
-        return _Progress2.default.bgError;
-      case 'Warning':
-        return _Progress2.default.bgWarning;
-      case 'Info':
-        return _Progress2.default.bgInfo;
-      case 'Success':
-        return _Progress2.default.bgSuccess;
-      default:
-        return _Progress2.default.bgDefault;
-    }
-  };
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: classes.table },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            null,
-            'Progress'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            null,
-            'Status'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _TableBody2.default,
-        null,
-        data.map(function (n) {
-          return [_react2.default.createElement(
-            _TableRow2.default,
-            { key: n.id, className: getStatus(n.status) },
-            _react2.default.createElement(
-              _TableCell2.default,
-              { padding: 'dense' },
-              n.name
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              { numeric: true },
-              _react2.default.createElement(_LinearProgress2.default, { variant: 'determinate', className: getProgress(n.status), value: n.progress })
-            ),
-            _react2.default.createElement(
-              _TableCell2.default,
-              null,
-              _react2.default.createElement(_Chip2.default, { label: n.status, className: (0, _classnames2.default)(classes.chip, getStatus(n.status)) })
-            )
-          )];
-        })
-      )
-    )
-  );
-}
-
-StatusLabel.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(StatusLabel);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-
-  __REACT_HOT_LOADER__.register(id, 'id', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-
-  __REACT_HOT_LOADER__.register(createData, 'createData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-
-  __REACT_HOT_LOADER__.register(data, 'data', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-
-  __REACT_HOT_LOADER__.register(StatusLabel, 'StatusLabel', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/StatusColorRow.js');
-}();
-
-;
-
-/***/ }),
-/* 332 */
-/*!*******************************************************!*\
-  !*** ./src/app/containers/Tables/demos/EmptyTable.js ***!
-  \*******************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Toolbar = __webpack_require__(/*! @material-ui/core/Toolbar */ 17);
-
-var _Toolbar2 = _interopRequireDefault(_Toolbar);
-
-var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 8);
-
-var _Typography2 = _interopRequireDefault(_Typography);
-
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 22);
-
-var _Table2 = _interopRequireDefault(_Table);
-
-var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 12);
-
-var _TableCell2 = _interopRequireDefault(_TableCell);
-
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 23);
-
-var _TableHead2 = _interopRequireDefault(_TableHead);
-
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 18);
-
-var _TableRow2 = _interopRequireDefault(_TableRow);
-
-var _Paper = __webpack_require__(/*! @material-ui/core/Paper */ 6);
-
-var _Paper2 = _interopRequireDefault(_Paper);
-
-var _components = __webpack_require__(/*! ./../../../components */ 3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      width: '100%',
-      marginTop: theme.spacing.unit * 3,
-      overflowX: 'auto'
-    },
-    table: {
-      minWidth: 700
-    }
-  };
-};
-
-function EmptyTable(props) {
-  var classes = props.classes;
-
-  return _react2.default.createElement(
-    _Paper2.default,
-    { className: classes.root },
-    _react2.default.createElement(
-      _Toolbar2.default,
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: classes.title },
-        _react2.default.createElement(
-          _Typography2.default,
-          { variant: 'title' },
-          'Nutrition'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _Table2.default,
-      { className: classes.table },
-      _react2.default.createElement(
-        _TableHead2.default,
-        null,
-        _react2.default.createElement(
-          _TableRow2.default,
-          null,
-          _react2.default.createElement(
-            _TableCell2.default,
-            { padding: 'dense' },
-            'Dessert (100g serving)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Calories'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Fat (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Carbs (g)'
-          ),
-          _react2.default.createElement(
-            _TableCell2.default,
-            { numeric: true },
-            'Protein (g)'
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(_components.EmptyData, null)
-  );
-}
-
-EmptyTable.propTypes = {
-  classes: _propTypes2.default.object.isRequired
-};
-
-var _default = (0, _styles.withStyles)(styles)(EmptyTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/EmptyTable.js');
-
-  __REACT_HOT_LOADER__.register(EmptyTable, 'EmptyTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/EmptyTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/EmptyTable.js');
-}();
-
-;
-
-/***/ }),
-/* 333 */
-/*!**********************************************************!*\
-  !*** ./src/app/containers/Tables/demos/TrackingTable.js ***!
-  \**********************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
-
-var _brand = __webpack_require__(/*! ../../../constants/brand.js */ 20);
-
-var _brand2 = _interopRequireDefault(_brand);
-
-var _screenshoot = __webpack_require__(/*! ../../../constants/screenshoot.js */ 334);
-
-var _screenshoot2 = _interopRequireDefault(_screenshoot);
-
-var _components = __webpack_require__(/*! ./../../../components */ 3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var TrackingTable = function (_React$Component) {
-  _inherits(TrackingTable, _React$Component);
-
-  function TrackingTable() {
-    _classCallCheck(this, TrackingTable);
-
-    return _possibleConstructorReturn(this, (TrackingTable.__proto__ || Object.getPrototypeOf(TrackingTable)).apply(this, arguments));
-  }
-
-  _createClass(TrackingTable, [{
-    key: 'render',
-    value: function render() {
-      var title = _brand2.default.name + ' - Dashboard v2';
-      var description = _brand2.default.desc;
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _reactHelmet.Helmet,
-          null,
-          _react2.default.createElement(
-            'title',
-            null,
-            title
-          ),
-          _react2.default.createElement('meta', { name: 'description', content: description }),
-          _react2.default.createElement('meta', { property: 'og:title', content: title }),
-          _react2.default.createElement('meta', { property: 'og:description', content: description }),
-          _react2.default.createElement('meta', { property: 'twitter:title', content: title }),
-          _react2.default.createElement('meta', { property: 'twitter:description', content: description })
-        ),
-        _react2.default.createElement(_components.MarketingAds, { title: 'Tracking Table', preview: _screenshoot2.default.trackingTable, link: 'http://boss.ux-maestro.com/app/tables/basic-table' })
-      );
-    }
-  }]);
-
-  return TrackingTable;
-}(_react2.default.Component);
-
-var _default = TrackingTable;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(TrackingTable, 'TrackingTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TrackingTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Tables/demos/TrackingTable.js');
-}();
-
-;
-
-/***/ }),
-/* 334 */
-/*!******************************************!*\
-  !*** ./src/app/constants/screenshoot.js ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var screenshoots = {
-  dashboardv2: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879965/boss-lite/dashboardv2.jpg',
-  trackingTable: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879978/boss-lite/tracking_table.jpg',
-  crudTable: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879960/boss-lite/crud_table.jpg',
-  treetable: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879979/boss-lite/treetable.jpg',
-  datatable: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879965/boss-lite/datatable.jpg',
-  ratting: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879972/boss-lite/ratting.jpg',
-  slider: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879976/boss-lite/slider.jpg',
-  texteditor: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879984/boss-lite/texteditor.jpg',
-  upload: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879992/boss-lite/upload.jpg',
-  imageLightbox: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879969/boss-lite/imageLightbox.jpg',
-  dividers: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879962/boss-lite/dividers.jpg',
-  pagination: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879972/boss-lite/pagination.jpg',
-  sliderCarousel: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879974/boss-lite/sliderCarousel.jpg',
-  sliderCarousel2: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879982/boss-lite/sliderCarousel2.jpg',
-  chat: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879963/boss-lite/chat.jpg',
-  email: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879966/boss-lite/email.jpg',
-  ecommerce: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879963/boss-lite/ecommerce.jpg',
-  socmed: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879984/boss-lite/socmed.jpg',
-  profile: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879972/boss-lite/profile.jpg',
-  gallery: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879978/boss-lite/gallery.jpg',
-  lock: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879969/boss-lite/lock.jpg',
-  maintenance: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879969/boss-lite/maintenance.jpg',
-  reset: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879972/boss-lite/reset.jpg',
-  traffic: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879990/boss-lite/trafic.jpg',
-  street: 'https://res.cloudinary.com/ux-maestro/image/upload/v1531879989/boss-lite/street.jpg'
-};
-
-var _default = screenshoots;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(screenshoots, 'screenshoots', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/screenshoot.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/screenshoot.js');
-}();
-
-;
-
-/***/ }),
-/* 335 */
+/* 229 */
 /*!*************************************************!*\
   !*** ./src/app/containers/NotFound/NotFound.js ***!
   \*************************************************/
@@ -26333,13 +15350,13 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
 var _components = __webpack_require__(/*! ./../../components */ 3);
 
@@ -26400,7 +15417,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 336 */
+/* 230 */
 /*!******************************************************************!*\
   !*** ./src/app/containers/Pages/Standalone/NotFoundDedicated.js ***!
   \******************************************************************/
@@ -26425,11 +15442,11 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-jss */ 50);
+var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-jss */ 28);
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
-var _Error = __webpack_require__(/*! ./../Error */ 337);
+var _Error = __webpack_require__(/*! ./../Error */ 231);
 
 var _Error2 = _interopRequireDefault(_Error);
 
@@ -26492,7 +15509,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 337 */
+/* 231 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Pages/Error/index.js ***!
   \*************************************************/
@@ -26511,13 +15528,13 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
-var _brand = __webpack_require__(/*! ../../../constants/brand.js */ 20);
+var _brand = __webpack_require__(/*! ../../../constants/brand.js */ 13);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 30);
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 18);
 
 var _components = __webpack_require__(/*! ./../../../components */ 3);
 
@@ -26578,7 +15595,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 338 */
+/* 232 */
 /*!*******************************************!*\
   !*** ./src/app/containers/withTracker.js ***!
   \*******************************************/
@@ -26605,11 +15622,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactGa = __webpack_require__(/*! react-ga */ 339);
+var _reactGa = __webpack_require__(/*! react-ga */ 233);
 
 var _reactGa2 = _interopRequireDefault(_reactGa);
 
-var _config = __webpack_require__(/*! ../config */ 48);
+var _config = __webpack_require__(/*! ../config */ 26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26695,7 +15712,7 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 339 */
+/* 233 */
 /*!***************************!*\
   !*** external "react-ga" ***!
   \***************************/
@@ -26706,7 +15723,7 @@ var _temp2 = function () {
 module.exports = require("react-ga");
 
 /***/ }),
-/* 340 */
+/* 234 */
 /*!***********************************!*\
   !*** ./src/app/config/default.js ***!
   \***********************************/
@@ -26721,7 +15738,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 341);
+var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 235);
 
 var _isUndefined2 = _interopRequireDefault(_isUndefined);
 
@@ -26806,7 +15823,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 341 */
+/* 235 */
 /*!*************************************!*\
   !*** external "lodash/isUndefined" ***!
   \*************************************/
@@ -26817,7 +15834,7 @@ var _temp = function () {
 module.exports = require("lodash/isUndefined");
 
 /***/ }),
-/* 342 */
+/* 236 */
 /*!***************************************!*\
   !*** ./src/app/config/environment.js ***!
   \***************************************/
@@ -26853,7 +15870,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 343 */
+/* 237 */
 /*!********************************!*\
   !*** ./src/server/SSR/html.js ***!
   \********************************/
@@ -26874,13 +15891,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _server = __webpack_require__(/*! react-dom/server */ 87);
+var _server = __webpack_require__(/*! react-dom/server */ 42);
 
-var _reactHelmet = __webpack_require__(/*! react-helmet */ 26);
+var _reactHelmet = __webpack_require__(/*! react-helmet */ 22);
 
 var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 
-var _config = __webpack_require__(/*! ./../../app/config */ 48);
+var _config = __webpack_require__(/*! ./../../app/config */ 26);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -26992,7 +16009,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 344 */
+/* 238 */
 /*!**********************************!*\
   !*** ./src/helpers/ApiClient.js ***!
   \**********************************/
@@ -27011,11 +16028,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _axios = __webpack_require__(/*! axios */ 345);
+var _axios = __webpack_require__(/*! axios */ 239);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _config = __webpack_require__(/*! ./../app/config */ 48);
+var _config = __webpack_require__(/*! ./../app/config */ 26);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -27111,7 +16128,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 345 */
+/* 239 */
 /*!************************!*\
   !*** external "axios" ***!
   \************************/
@@ -27122,7 +16139,7 @@ var _temp = function () {
 module.exports = require("axios");
 
 /***/ }),
-/* 346 */
+/* 240 */
 /*!********************************!*\
   !*** ./src/app/redux/store.js ***!
   \********************************/
@@ -27138,17 +16155,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = configureStore;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _redux = __webpack_require__(/*! redux */ 14);
+var _redux = __webpack_require__(/*! redux */ 9);
 
-var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 143);
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 74);
 
-var _reducer = __webpack_require__(/*! ./reducer */ 347);
+var _reducer = __webpack_require__(/*! ./reducer */ 241);
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
-var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 365);
+var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 260);
 
 var _clientMiddleware2 = _interopRequireDefault(_clientMiddleware);
 
@@ -27193,7 +16210,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 347 */
+/* 241 */
 /*!**********************************!*\
   !*** ./src/app/redux/reducer.js ***!
   \**********************************/
@@ -27209,73 +16226,73 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = createReducer;
 
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 45);
+var _immutable = __webpack_require__(/*! redux-form/immutable */ 242);
 
-var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 348);
+var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 243);
 
-var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 143);
+var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 74);
 
-var _ui = __webpack_require__(/*! ./modules/ui */ 349);
+var _ui = __webpack_require__(/*! ./modules/ui */ 244);
 
 var _ui2 = _interopRequireDefault(_ui);
 
-var _initForm = __webpack_require__(/*! ./modules/initForm */ 350);
+var _initForm = __webpack_require__(/*! ./modules/initForm */ 245);
 
 var _initForm2 = _interopRequireDefault(_initForm);
 
-var _login = __webpack_require__(/*! ./modules/login */ 351);
+var _login = __webpack_require__(/*! ./modules/login */ 246);
 
 var _login2 = _interopRequireDefault(_login);
 
-var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 352);
+var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 247);
 
 var _ecommerce2 = _interopRequireDefault(_ecommerce);
 
-var _contact = __webpack_require__(/*! ./modules/contact */ 353);
+var _contact = __webpack_require__(/*! ./modules/contact */ 248);
 
 var _contact2 = _interopRequireDefault(_contact);
 
-var _calendar = __webpack_require__(/*! ./modules/calendar */ 354);
+var _calendar = __webpack_require__(/*! ./modules/calendar */ 249);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
-var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 355);
+var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 250);
 
 var _routeTable2 = _interopRequireDefault(_routeTable);
 
-var _transporterTable = __webpack_require__(/*! ./modules/transporterTable */ 356);
+var _transporterTable = __webpack_require__(/*! ./modules/transporterTable */ 251);
 
 var _transporterTable2 = _interopRequireDefault(_transporterTable);
 
-var _driverTable = __webpack_require__(/*! ./modules/driverTable */ 357);
+var _driverTable = __webpack_require__(/*! ./modules/driverTable */ 252);
 
 var _driverTable2 = _interopRequireDefault(_driverTable);
 
-var _assistantTable = __webpack_require__(/*! ./modules/assistantTable */ 358);
+var _assistantTable = __webpack_require__(/*! ./modules/assistantTable */ 253);
 
 var _assistantTable2 = _interopRequireDefault(_assistantTable);
 
-var _clientTable = __webpack_require__(/*! ./modules/clientTable */ 359);
+var _clientTable = __webpack_require__(/*! ./modules/clientTable */ 254);
 
 var _clientTable2 = _interopRequireDefault(_clientTable);
 
-var _tscheduleTable = __webpack_require__(/*! ./modules/tscheduleTable */ 360);
+var _tscheduleTable = __webpack_require__(/*! ./modules/tscheduleTable */ 255);
 
 var _tscheduleTable2 = _interopRequireDefault(_tscheduleTable);
 
-var _wscheduleTable = __webpack_require__(/*! ./modules/wscheduleTable */ 361);
+var _wscheduleTable = __webpack_require__(/*! ./modules/wscheduleTable */ 256);
 
 var _wscheduleTable2 = _interopRequireDefault(_wscheduleTable);
 
-var _ticketTable = __webpack_require__(/*! ./modules/ticketTable */ 362);
+var _ticketTable = __webpack_require__(/*! ./modules/ticketTable */ 257);
 
 var _ticketTable2 = _interopRequireDefault(_ticketTable);
 
-var _userInfo = __webpack_require__(/*! ./modules/userInfo */ 363);
+var _userInfo = __webpack_require__(/*! ./modules/userInfo */ 258);
 
 var _userInfo2 = _interopRequireDefault(_userInfo);
 
-var _branch = __webpack_require__(/*! ../constants/reducer/branch */ 364);
+var _branch = __webpack_require__(/*! ../constants/reducer/branch */ 259);
 
 var branchName = _interopRequireWildcard(_branch);
 
@@ -27331,7 +16348,18 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 348 */
+/* 242 */
+/*!***************************************!*\
+  !*** external "redux-form/immutable" ***!
+  \***************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("redux-form/immutable");
+
+/***/ }),
+/* 243 */
 /*!************************************!*\
   !*** external "redux-immutablejs" ***!
   \************************************/
@@ -27342,7 +16370,7 @@ var _temp = function () {
 module.exports = require("redux-immutablejs");
 
 /***/ }),
-/* 349 */
+/* 244 */
 /*!*************************************!*\
   !*** ./src/app/redux/modules/ui.js ***!
   \*************************************/
@@ -27358,9 +16386,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _menu = __webpack_require__(/*! ../../constants/menu.js */ 95);
+var _menu = __webpack_require__(/*! ../../constants/menu.js */ 54);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -27470,7 +16498,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 350 */
+/* 245 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/initForm.js ***!
   \*******************************************/
@@ -27486,7 +16514,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
@@ -27529,7 +16557,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 351 */
+/* 246 */
 /*!****************************************!*\
   !*** ./src/app/redux/modules/login.js ***!
   \****************************************/
@@ -27545,7 +16573,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
@@ -27585,7 +16613,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 352 */
+/* 247 */
 /*!********************************************!*\
   !*** ./src/app/redux/modules/ecommerce.js ***!
   \********************************************/
@@ -27601,9 +16629,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
@@ -27709,7 +16737,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 353 */
+/* 248 */
 /*!******************************************!*\
   !*** ./src/app/redux/modules/contact.js ***!
   \******************************************/
@@ -27725,9 +16753,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
@@ -27861,7 +16889,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 354 */
+/* 249 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/calendar.js ***!
   \*******************************************/
@@ -27877,9 +16905,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
@@ -27970,7 +16998,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 355 */
+/* 250 */
 /*!*********************************************!*\
   !*** ./src/app/redux/modules/routeTable.js ***!
   \*********************************************/
@@ -27986,15 +17014,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
@@ -28119,7 +17147,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 356 */
+/* 251 */
 /*!***************************************************!*\
   !*** ./src/app/redux/modules/transporterTable.js ***!
   \***************************************************/
@@ -28135,19 +17163,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28230,7 +17258,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 357 */
+/* 252 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/driverTable.js ***!
   \**********************************************/
@@ -28246,19 +17274,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28342,7 +17370,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 358 */
+/* 253 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/assistantTable.js ***!
   \*************************************************/
@@ -28358,19 +17386,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28454,7 +17482,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 359 */
+/* 254 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/clientTable.js ***!
   \**********************************************/
@@ -28470,19 +17498,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28566,7 +17594,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 360 */
+/* 255 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/tscheduleTable.js ***!
   \*************************************************/
@@ -28582,19 +17610,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28678,7 +17706,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 361 */
+/* 256 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/wscheduleTable.js ***!
   \*************************************************/
@@ -28694,19 +17722,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28790,7 +17818,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 362 */
+/* 257 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/ticketTable.js ***!
   \**********************************************/
@@ -28806,19 +17834,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 19);
+var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
 
 var _notifMessage2 = _interopRequireDefault(_notifMessage);
 
 var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
 
-var _show = __webpack_require__(/*! ../../constants/show.js */ 7);
+var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
-var _table = __webpack_require__(/*! ../../constants/reducer/table */ 36);
+var _table = __webpack_require__(/*! ../../constants/reducer/table */ 24);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28902,7 +17930,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 363 */
+/* 258 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/userInfo.js ***!
   \*******************************************/
@@ -28918,7 +17946,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
 var initialState = {
     user: {
@@ -28957,7 +17985,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 364 */
+/* 259 */
 /*!*********************************************!*\
   !*** ./src/app/constants/reducer/branch.js ***!
   \*********************************************/
@@ -29009,7 +18037,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 365 */
+/* 260 */
 /*!******************************************************!*\
   !*** ./src/app/redux/middleware/clientMiddleware.js ***!
   \******************************************************/
@@ -29030,7 +18058,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 exports.default = clientMiddleware;
 
-var _immutable = __webpack_require__(/*! immutable */ 11);
+var _immutable = __webpack_require__(/*! immutable */ 6);
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 

@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import AccountBox from '@material-ui/icons/AccountBox';
-import ImportContacts from '@material-ui/icons/ImportContacts';
-import Pets from '@material-ui/icons/Pets';
+import PersonAdd from '@material-ui/icons/PersonAdd';
+import DirectionsBus from '@material-ui/icons/DirectionsBus';
 import Star from '@material-ui/icons/Star';
 import { CounterWidget } from './../../components';
 import styles from './widget-jss';
@@ -31,22 +31,22 @@ class CounterIconWidget extends PureComponent {
             <CounterWidget
               color="388E3C"
               start={0}
-              end={321}
+              end={3}
               duration={3}
-              title="New Articles"
+              title="New Transporter"
             >
-              <ImportContacts className={classes.counterIcon} />
+              <DirectionsBus className={classes.counterIcon} />
             </CounterWidget>
           </Grid>
           <Grid item md={3} xs={6}>
             <CounterWidget
               color="00ACC1"
               start={0}
-              end={67}
+              end={15}
               duration={3}
-              title="New Contributor"
+              title="New Employee"
             >
-              <Pets className={classes.counterIcon} />
+              <PersonAdd className={classes.counterIcon} />
             </CounterWidget>
           </Grid>
           <Grid item md={3} xs={6}>

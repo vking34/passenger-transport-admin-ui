@@ -4,6 +4,8 @@ import MainTable from './tableParts/MainTable';
 
 class CrudTable extends React.Component {
   componentDidMount() {
+    // console.log(typeof this.props.dataInit);
+    // console.log(this.props.dataInit);
     this.props.fetchData(this.props.dataInit, this.props.branch);
   }
 
