@@ -112,15 +112,11 @@ module.exports = require("@material-ui/core/styles");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ErrorWrap = exports.PostCard = exports.Notification = exports.CrudTable = exports.AlbumWidget = exports.CarouselWidget = exports.AreaChartWidget = exports.CounterIconsWidget = exports.CounterWidget = exports.PapperBlock = exports.TicketTable = exports.WScheduleTable = exports.TScheduleTable = exports.ClientTable = exports.AssistantTable = exports.DriverTable = exports.TransporterTable = exports.RouteTable = exports.BreadCrumb = exports.Footer = exports.Sidebar = exports.Header = exports.Dashboard = exports.Outer = exports.App = undefined;
+exports.ErrorWrap = exports.PostCard = exports.Notification = exports.CrudTable = exports.AlbumWidget = exports.CarouselWidget = exports.AreaChartWidget = exports.CounterIconsWidget = exports.CounterWidget = exports.PapperBlock = exports.TicketTable = exports.WScheduleTable = exports.TScheduleTable = exports.ClientTable = exports.AssistantTable = exports.DriverTable = exports.TransporterTable = exports.RouteTable = exports.BreadCrumb = exports.Footer = exports.Sidebar = exports.Header = exports.Dashboard = exports.App = undefined;
 
 var _App2 = __webpack_require__(/*! ./App/App */ 87);
 
 var _App3 = _interopRequireDefault(_App2);
-
-var _Outer2 = __webpack_require__(/*! ./App/Outer */ 91);
-
-var _Outer3 = _interopRequireDefault(_Outer2);
 
 var _Dashboard2 = __webpack_require__(/*! ./App/Dashboard */ 92);
 
@@ -218,7 +214,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.App = _App3.default; // Main UI
 
-exports.Outer = _Outer3.default;
 exports.Dashboard = _Dashboard3.default;
 exports.Header = _Header3.default;
 exports.Sidebar = _Sidebar3.default;
@@ -257,6 +252,7 @@ exports.TicketTable = _TicketTable3.default;
 // Papper
 
 exports.PapperBlock = _PapperBlock3.default;
+
 // Dashboard and Widget
 
 exports.CounterWidget = _CounterWidget3.default;
@@ -4371,129 +4367,7 @@ module.exports = require("react-loading-bar");
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMTIwMCA3MDAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcwMCI+PGRlZnM+PHBhdGggZD0iTTEwNDYuNjcgMzU4LjI4QzEwNDYuNjcgNTEyLjQ4IDkyMS40OCA2MzcuNjcgNzY3LjI4IDYzNy42N0M2MTMuMDcgNjM3LjY3IDQ4Ny44OCA1MTIuNDggNDg3Ljg4IDM1OC4yOEM0ODcuODggMjA0LjA3IDYxMy4wNyA3OC44OCA3NjcuMjggNzguODhDOTIxLjQ4IDc4Ljg4IDEwNDYuNjcgMjA0LjA3IDEwNDYuNjcgMzU4LjI4WiIgaWQ9ImJ1b1Qwd0ZBQiI+PC9wYXRoPjxwYXRoIGQ9Ik05MzAuMDUgMzU4LjI4QzkzMC4wNSA0NDguMTEgODU3LjExIDUyMS4wNSA3NjcuMjggNTIxLjA1QzY3Ny40NCA1MjEuMDUgNjA0LjUgNDQ4LjExIDYwNC41IDM1OC4yOEM2MDQuNSAyNjguNDQgNjc3LjQ0IDE5NS41IDc2Ny4yOCAxOTUuNUM4NTcuMTEgMTk1LjUgOTMwLjA1IDI2OC40NCA5MzAuMDUgMzU4LjI4WiIgaWQ9ImJMTEJQbW9jZyI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjAwIDEyNi4zMUwxMjAwIDcwMEwwIDcwMEwxMjAwIDEyNi4zMVoiIGlkPSJjMllrSGQwaVhjIj48L3BhdGg+PHBhdGggZD0iTTYxMy4yMiA3MDQuMzdMMCA3MDQuMzdMMCAxNjMuNjNMNjEzLjIyIDcwNC4zN1oiIGlkPSJhY1lWQWVpQ3kiPjwvcGF0aD48L2RlZnM+PGc+PGc+PGc+PGc+PHVzZSB4bGluazpocmVmPSIjYnVvVDB3RkFCIiBvcGFjaXR5PSIwLjE5IiBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjEiPjwvdXNlPjwvZz48Zz48dXNlIHhsaW5rOmhyZWY9IiNiTExCUG1vY2ciIG9wYWNpdHk9IjAuMiIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2MyWWtIZDBpWGMiIG9wYWNpdHk9IjAuMDkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMSI+PC91c2U+PC9nPjxnPjx1c2UgeGxpbms6aHJlZj0iI2FjWVZBZWlDeSIgb3BhY2l0eT0iMC4xNSIgZmlsbD0iIzAwMDAwMCIgZmlsbC1vcGFjaXR5PSIxIj48L3VzZT48L2c+PC9nPjwvZz48L3N2Zz4="
 
 /***/ }),
-/* 91 */
-/*!*****************************************!*\
-  !*** ./src/app/components/App/Outer.js ***!
-  \*****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ 1);
-
-var _reactRouterConfig = __webpack_require__(/*! react-router-config */ 27);
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
-
-var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 35);
-
-var _Hidden2 = _interopRequireDefault(_Hidden);
-
-var _brand = __webpack_require__(/*! ../../constants/brand.js */ 13);
-
-var _brand2 = _interopRequireDefault(_brand);
-
-var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 43);
-
-var _logo2 = _interopRequireDefault(_logo);
-
-var _appStylesJss = __webpack_require__(/*! ./appStyles-jss */ 28);
-
-var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Outer = function (_React$Component) {
-  _inherits(Outer, _React$Component);
-
-  function Outer() {
-    _classCallCheck(this, Outer);
-
-    return _possibleConstructorReturn(this, (Outer.__proto__ || Object.getPrototypeOf(Outer)).apply(this, arguments));
-  }
-
-  _createClass(Outer, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          classes = _props.classes,
-          route = _props.route;
-
-      return _react2.default.createElement(
-        'div',
-        { className: classes.appFrameOuter },
-        _react2.default.createElement(
-          'main',
-          { className: classes.outerContent, id: 'mainContent' },
-          _react2.default.createElement(
-            _Hidden2.default,
-            { mdUp: true },
-            _react2.default.createElement(
-              'div',
-              { className: classes.brand },
-              _react2.default.createElement('img', { src: _logo2.default, alt: _brand2.default.name }),
-              _react2.default.createElement(
-                'h3',
-                null,
-                _brand2.default.name
-              )
-            )
-          ),
-          (0, _reactRouterConfig.renderRoutes)(route.routes)
-        )
-      );
-    }
-  }]);
-
-  return Outer;
-}(_react2.default.Component);
-
-Outer.propTypes = {
-  classes: _propTypes.PropTypes.object.isRequired,
-  route: _propTypes.object
-};
-
-Outer.defaultProps = {
-  route: _propTypes.object
-};
-
-var _default = (0, _styles.withStyles)(_appStylesJss2.default)(Outer);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Outer, 'Outer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Outer.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Outer.js');
-}();
-
-;
-
-/***/ }),
+/* 91 */,
 /* 92 */
 /*!*********************************************!*\
   !*** ./src/app/components/App/Dashboard.js ***!
@@ -16210,18 +16084,6 @@ var _initForm = __webpack_require__(/*! ./modules/initForm */ 245);
 
 var _initForm2 = _interopRequireDefault(_initForm);
 
-var _login = __webpack_require__(/*! ./modules/login */ 246);
-
-var _login2 = _interopRequireDefault(_login);
-
-var _ecommerce = __webpack_require__(/*! ./modules/ecommerce */ 247);
-
-var _ecommerce2 = _interopRequireDefault(_ecommerce);
-
-var _contact = __webpack_require__(/*! ./modules/contact */ 248);
-
-var _contact2 = _interopRequireDefault(_contact);
-
 var _calendar = __webpack_require__(/*! ./modules/calendar */ 249);
 
 var _calendar2 = _interopRequireDefault(_calendar);
@@ -16288,10 +16150,7 @@ function createReducer() {
     router: _reactRouterRedux.routerReducer,
     ui: _ui2.default,
     initval: _initForm2.default,
-    login: _login2.default,
     calendar: _calendar2.default,
-    ecommerce: _ecommerce2.default,
-    contact: _contact2.default,
     routeTable: branchReducer(_routeTable2.default, branchName.ROUTE),
     transporterTable: branchReducer(_transporterTable2.default, branchName.TRANSPORTER),
     driverTable: branchReducer(_driverTable2.default, branchName.DRIVER),
@@ -16527,338 +16386,9 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 246 */
-/*!****************************************!*\
-  !*** ./src/app/redux/modules/login.js ***!
-  \****************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = reducer;
-
-var _immutable = __webpack_require__(/*! immutable */ 6);
-
-var _actionTypes = __webpack_require__(/*! ../../actions/actionTypes */ 5);
-
-var initialState = {
-  usersLogin: (0, _immutable.Map)({
-    email: 'johndoe@mail.com',
-    password: '12345678',
-    remember: false
-  })
-};
-var initialImmutableState = (0, _immutable.fromJS)(initialState);
-function reducer() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialImmutableState;
-  var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-  switch (action.type) {
-    case _actionTypes.INIT:
-      return state;
-    default:
-      return state;
-  }
-}
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/login.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/login.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/login.js');
-}();
-
-;
-
-/***/ }),
-/* 247 */
-/*!********************************************!*\
-  !*** ./src/app/redux/modules/ecommerce.js ***!
-  \********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = reducer;
-
-var _immutable = __webpack_require__(/*! immutable */ 6);
-
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
-
-var _notifMessage2 = _interopRequireDefault(_notifMessage);
-
-var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 5);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var initialState = {
-  productList: (0, _immutable.List)([]),
-  cart: (0, _immutable.List)([]),
-  totalItems: 0,
-  totalPrice: 0,
-  productIndex: 0,
-  keywordValue: '',
-  notifMsg: ''
-};
-
-var itemId = [];
-
-var initialImmutableState = (0, _immutable.fromJS)(initialState);
-function reducer() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialImmutableState;
-  var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-  switch (action.type) {
-    case _actionTypes.FETCH_PRODUCT_DATA:
-      return state.withMutations(function (mutableState) {
-        var items = (0, _immutable.fromJS)(action.items);
-        mutableState.set('productList', items);
-      });
-    case _actionTypes.SEARCH_PRODUCT:
-      return state.withMutations(function (mutableState) {
-        action.keyword.persist();
-        var keyword = action.keyword.target.value.toLowerCase();
-        mutableState.set('keywordValue', keyword);
-      });
-    case _actionTypes.ADD_TO_CART:
-      return state.withMutations(function (mutableState) {
-        var item = (0, _immutable.fromJS)(action.item);
-        var qty = Number(item.get('quantity'));
-        var price = item.get('price');
-        var index = itemId.indexOf(action.item.id);
-        if (index > -1) {
-          // If item already added to cart
-          mutableState.update('cart', function (cart) {
-            return cart.setIn([index, 'quantity'], state.getIn(['cart', index, 'quantity']) + qty);
-          });
-        } else {
-          // item not exist in cart
-          itemId.push(action.item.id);
-          mutableState.update('cart', function (cart) {
-            return cart.push(item);
-          });
-        }
-        mutableState.set('totalItems', state.get('totalItems') + qty).set('totalPrice', state.get('totalPrice') + price * qty).set('notifMsg', _notifMessage2.default.addCart);
-      });
-    case _actionTypes.DELETE_CART_ITEM:
-      return state.withMutations(function (mutableState) {
-        var index = state.get('cart').indexOf(action.item);
-        var qty = Number(action.item.get('quantity'));
-        var price = action.item.get('price');
-        itemId = itemId.filter(function (item) {
-          return item !== action.item.get('id');
-        });
-        mutableState.update('cart', function (cart) {
-          return cart.splice(index, 1);
-        }).set('totalItems', state.get('totalItems') - qty).set('totalPrice', state.get('totalPrice') - price * qty).set('notifMsg', _notifMessage2.default.removed);
-      });
-    case _actionTypes.CHECKOUT:
-      itemId = [];
-      return state.withMutations(function (mutableState) {
-        mutableState.set('cart', (0, _immutable.List)([])).set('totalItems', 0).set('totalPrice', 0).set('notifMsg', _notifMessage2.default.checkout);
-      });
-    case _actionTypes.SHOW_DETAIL_PRODUCT:
-      return state.withMutations(function (mutableState) {
-        var index = state.get('productList').indexOf(action.item);
-        mutableState.set('productIndex', index);
-      });
-    case _actionTypes.CLOSE_NOTIF:
-      return state.withMutations(function (mutableState) {
-        mutableState.set('notifMsg', '');
-      });
-    default:
-      return state;
-  }
-}
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ecommerce.js');
-
-  __REACT_HOT_LOADER__.register(itemId, 'itemId', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ecommerce.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ecommerce.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ecommerce.js');
-}();
-
-;
-
-/***/ }),
-/* 248 */
-/*!******************************************!*\
-  !*** ./src/app/redux/modules/contact.js ***!
-  \******************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = reducer;
-
-var _immutable = __webpack_require__(/*! immutable */ 6);
-
-var _notifMessage = __webpack_require__(/*! ../../constants/notifMessage.js */ 12);
-
-var _notifMessage2 = _interopRequireDefault(_notifMessage);
-
-var _actionTypes = __webpack_require__(/*! ./../../actions/actionTypes */ 5);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var initialState = {
-  contactList: (0, _immutable.List)([]),
-  formValues: (0, _immutable.Map)(),
-  selectedIndex: 0,
-  selectedId: '',
-  keywordValue: '',
-  avatarInit: '',
-  openFrm: false,
-  showMobileDetail: false,
-  notifMsg: ''
-};
-var editingIndex = 0;
-
-var initialImmutableState = (0, _immutable.fromJS)(initialState);
-
-function reducer() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialImmutableState;
-  var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-  switch (action.type) {
-    case _actionTypes.FETCH_CONTACT_DATA:
-      return state.withMutations(function (mutableState) {
-        var items = (0, _immutable.fromJS)(action.items);
-        mutableState.set('contactList', items);
-      });
-    case _actionTypes.SEARCH_CONTACT:
-      return state.withMutations(function (mutableState) {
-        action.keyword.persist();
-        var keyword = action.keyword.target.value.toLowerCase();
-        mutableState.set('keywordValue', keyword);
-      });
-    case _actionTypes.ADD_CONTACT:
-      return state.withMutations(function (mutableState) {
-        mutableState.set('openFrm', true).set('formValues', (0, _immutable.Map)()).set('avatarInit', '');
-      });
-    case _actionTypes.CLOSE_CONTACT_FORM:
-      return state.withMutations(function (mutableState) {
-        mutableState.set('openFrm', false).set('formValues', (0, _immutable.Map)()).set('avatarInit', '').set('notifMsg', _notifMessage2.default.discard);
-      });
-    case _actionTypes.EDIT_CONTACT:
-      return state.withMutations(function (mutableState) {
-        editingIndex = state.get('contactList').indexOf(action.item);
-        mutableState.set('openFrm', true).set('selectedId', action.item.get('id')).set('formValues', action.item).set('avatarInit', action.item.get('avatar'));
-      });
-    case _actionTypes.SUBMIT_CONTACT:
-      return state.withMutations(function (mutableState) {
-        var initItem = (0, _immutable.Map)(action.newData);
-        if (state.get('selectedId') === action.newData.get('id')) {
-          // Update data
-          var avatar = action.avatar !== '' ? action.avatar : state.get('avatarInit');
-          var newItem = initItem.update(function (initUpdated) {
-            return initUpdated.set('avatar', avatar);
-          });
-          mutableState.update('contactList', function (contactList) {
-            return contactList.setIn([editingIndex], newItem);
-          }).set('notifMsg', _notifMessage2.default.updated);
-        } else {
-          // Insert data
-          var _avatar = action.avatar !== '' ? action.avatar : '/images/pp_boy.svg';
-          var id = (+new Date() + Math.floor(Math.random() * 999999)).toString(36);
-          var _newItem = initItem.update('id', function () {
-            var val = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : id;
-            return val;
-          }).update('avatar', function () {
-            var val = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _avatar;
-            return val;
-          }).update('favorited', function () {
-            var val = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-            return val;
-          });
-          mutableState.update('contactList', function (contactList) {
-            return contactList.unshift(_newItem);
-          }).set('selectedIndex', 0).set('notifMsg', _notifMessage2.default.saved);
-        }
-        mutableState.set('formValues', (0, _immutable.Map)()).set('avatarInit', '').set('openFrm', false);
-      });
-    case _actionTypes.SHOW_DETAIL_CONTACT:
-      return state.withMutations(function (mutableState) {
-        var index = state.get('contactList').indexOf(action.item);
-        mutableState.set('selectedIndex', index).set('showMobileDetail', true);
-      });
-    case _actionTypes.HIDE_DETAIL:
-      return state.withMutations(function (mutableState) {
-        mutableState.set('showMobileDetail', false);
-      });
-    case _actionTypes.DELETE_CONTACT:
-      return state.withMutations(function (mutableState) {
-        var index = state.get('contactList').indexOf(action.item);
-        mutableState.update('contactList', function (contactList) {
-          return contactList.splice(index, 1);
-        }).set('notifMsg', _notifMessage2.default.removed);
-      });
-    case _actionTypes.TOGGLE_FAVORITE:
-      return state.withMutations(function (mutableState) {
-        var index = state.get('contactList').indexOf(action.item);
-        mutableState.update('contactList', function (contactList) {
-          return contactList.setIn([index, 'favorited'], !state.getIn(['contactList', index, 'favorited']));
-        });
-      });
-    case _actionTypes.CLOSE_NOTIF:
-      return state.withMutations(function (mutableState) {
-        mutableState.set('notifMsg', '');
-      });
-    default:
-      return state;
-  }
-}
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/contact.js');
-
-  __REACT_HOT_LOADER__.register(editingIndex, 'editingIndex', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/contact.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/contact.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/contact.js');
-}();
-
-;
-
-/***/ }),
+/* 246 */,
+/* 247 */,
+/* 248 */,
 /* 249 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/calendar.js ***!

@@ -1,6 +1,5 @@
 // Main UI
 export App from './App/App';
-export Outer from './App/Outer';
 export Dashboard from './App/Dashboard';
 export Header from './Header/Header';
 export Sidebar from './Sidebar/Sidebar';
@@ -31,6 +30,7 @@ export TicketTable from './Ticket/TicketTable';
 
 // Papper
 export PapperBlock from './PapperBlock/PapperBlock';
+
 // Dashboard and Widget
 export CounterWidget from './Counter/CounterWidget';
 export CounterIconsWidget from './Widget/CounterIconsWidget';

@@ -4,9 +4,6 @@ import { routerReducer as router } from 'react-router-redux';
 
 import ui from './modules/ui';
 import initval from './modules/initForm';
-import login from './modules/login';
-import ecommerce from './modules/ecommerce';
-import contact from './modules/contact';
 import calendar from './modules/calendar';
 import routeTable from './modules/routeTable';
 import transporterTable from './modules/transporterTable';
@@ -37,10 +34,7 @@ export default function createReducer() {
     router,
     ui,
     initval,
-    login,
     calendar,
-    ecommerce,
-    contact,
     routeTable: branchReducer(routeTable, branchName.ROUTE),
     transporterTable: branchReducer(transporterTable, branchName.TRANSPORTER),
     driverTable: branchReducer(driverTable, branchName.DRIVER),

@@ -1,4 +1,4 @@
-import { App, Dashboard, Outer } from './../components';
+import { App, Dashboard } from './../components';
 // Dashboard
 import DashboardV1 from './Dashboard/Dashboard';
 
