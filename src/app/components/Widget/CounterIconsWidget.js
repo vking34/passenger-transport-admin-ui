@@ -33,7 +33,7 @@ class CounterIconWidget extends PureComponent {
               start={0}
               end={3}
               duration={3}
-              title="New Transporter"
+              title="New Transporters"
             >
               <DirectionsBus className={classes.counterIcon} />
             </CounterWidget>
@@ -44,7 +44,7 @@ class CounterIconWidget extends PureComponent {
               start={0}
               end={15}
               duration={3}
-              title="New Employee"
+              title="New Employees"
             >
               <PersonAdd className={classes.counterIcon} />
             </CounterWidget>

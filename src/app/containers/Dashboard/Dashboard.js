@@ -18,7 +18,7 @@ import {
 
 class DashboardV2 extends PureComponent {
   render() {
-    const title = brand.name + ' - Dashboard Version 2';
+    const title = brand.name;
     const description = brand.desc;
     const { classes } = this.props;
     return (

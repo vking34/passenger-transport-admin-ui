@@ -23,6 +23,7 @@ import avatarApi from 'ba-utils/avatars';
 import styles from './header-jss';
 import { connect } from 'react-redux';
 import show from 'ba-utils/show';
+import Cookies from 'js-cookie';
 
 class UserMenu extends React.Component {
   state = {
@@ -40,6 +41,12 @@ class UserMenu extends React.Component {
   handleClose = () => {
     this.setState({ anchorEl: null, openMenu: null });
   };
+
+  logout = () =>{
+    Cookies.remove('TRANSPORT-JWT', { path : ''});
+    localStorage.clear();
+    window.location.replace('/');
+  }
 
   render() {
     const { classes } = this.props;
@@ -148,7 +155,7 @@ class UserMenu extends React.Component {
             </ListItemIcon>
           </MenuItem>
           <Divider />
-          <MenuItem onClick={this.handleClose}>
+          <MenuItem onClick={this.logout}>
             <ListItemIcon>
               <ExitToApp />
             </ListItemIcon>

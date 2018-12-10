@@ -1,5 +1,5 @@
 // const API = 'https://passenger-transport.herokuapp.com/api';
-const API = '';
+const API = '/api';
 
 // route
 export const ROUTE_URL =  API + '/route';

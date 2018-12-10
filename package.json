@@ -1,13 +1,9 @@
 {
   "name": "Boss-Lite",
-  "description": "Boss Lite - React Redux Material Admin Template",
+  "description": "React Redux Material Admin Template",
   "version": "1.0.0",
   "main": "./src/server/start.js",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ilhammeidi/boss-lite.git"
-  },
   "scripts": {
     "start": "npm run dev",
     "dev": "run-p dev:client:build dev:server:prepare dev:server:build dev:server:delay",
@@ -56,6 +52,7 @@
     "express": "^4.16.2",
     "history": "^4.7.2",
     "immutable": "^4.0.0-rc.9",
+    "js-cookie": "^2.2.0",
     "keycode": "^2.2.0",
     "lodash": "^4.17.4",
     "lru-memoize": "^1.0.2",

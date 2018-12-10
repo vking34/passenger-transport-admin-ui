@@ -58,7 +58,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://localhost:3001/assets/";
+/******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 74);
@@ -126,47 +126,47 @@ var _Header2 = __webpack_require__(/*! ./Header/Header */ 92);
 
 var _Header3 = _interopRequireDefault(_Header2);
 
-var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 103);
+var _Sidebar2 = __webpack_require__(/*! ./Sidebar/Sidebar */ 104);
 
 var _Sidebar3 = _interopRequireDefault(_Sidebar2);
 
-var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 113);
+var _Footer2 = __webpack_require__(/*! ./Footer/Footer */ 114);
 
 var _Footer3 = _interopRequireDefault(_Footer2);
 
-var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 115);
+var _BreadCrumb2 = __webpack_require__(/*! ./BreadCrumb/BreadCrumb */ 116);
 
 var _BreadCrumb3 = _interopRequireDefault(_BreadCrumb2);
 
-var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 117);
+var _RouteTable2 = __webpack_require__(/*! ./Route/RouteTable */ 118);
 
 var _RouteTable3 = _interopRequireDefault(_RouteTable2);
 
-var _TransporterTable2 = __webpack_require__(/*! ./Transporter/TransporterTable */ 119);
+var _TransporterTable2 = __webpack_require__(/*! ./Transporter/TransporterTable */ 120);
 
 var _TransporterTable3 = _interopRequireDefault(_TransporterTable2);
 
-var _DriverTable2 = __webpack_require__(/*! ./Driver/DriverTable */ 121);
+var _DriverTable2 = __webpack_require__(/*! ./Driver/DriverTable */ 122);
 
 var _DriverTable3 = _interopRequireDefault(_DriverTable2);
 
-var _AssistantTable2 = __webpack_require__(/*! ./Assistant/AssistantTable */ 123);
+var _AssistantTable2 = __webpack_require__(/*! ./Assistant/AssistantTable */ 124);
 
 var _AssistantTable3 = _interopRequireDefault(_AssistantTable2);
 
-var _ClientTable2 = __webpack_require__(/*! ./Client/ClientTable */ 125);
+var _ClientTable2 = __webpack_require__(/*! ./Client/ClientTable */ 126);
 
 var _ClientTable3 = _interopRequireDefault(_ClientTable2);
 
-var _TScheduleTable2 = __webpack_require__(/*! ./Schedule/TScheduleTable */ 127);
+var _TScheduleTable2 = __webpack_require__(/*! ./Schedule/TScheduleTable */ 128);
 
 var _TScheduleTable3 = _interopRequireDefault(_TScheduleTable2);
 
-var _WScheduleTable2 = __webpack_require__(/*! ./Schedule/WScheduleTable */ 129);
+var _WScheduleTable2 = __webpack_require__(/*! ./Schedule/WScheduleTable */ 130);
 
 var _WScheduleTable3 = _interopRequireDefault(_WScheduleTable2);
 
-var _TicketTable2 = __webpack_require__(/*! ./Ticket/TicketTable */ 131);
+var _TicketTable2 = __webpack_require__(/*! ./Ticket/TicketTable */ 132);
 
 var _TicketTable3 = _interopRequireDefault(_TicketTable2);
 
@@ -174,39 +174,39 @@ var _PapperBlock2 = __webpack_require__(/*! ./PapperBlock/PapperBlock */ 40);
 
 var _PapperBlock3 = _interopRequireDefault(_PapperBlock2);
 
-var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 134);
+var _CounterWidget2 = __webpack_require__(/*! ./Counter/CounterWidget */ 135);
 
 var _CounterWidget3 = _interopRequireDefault(_CounterWidget2);
 
-var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 136);
+var _CounterIconsWidget2 = __webpack_require__(/*! ./Widget/CounterIconsWidget */ 137);
 
 var _CounterIconsWidget3 = _interopRequireDefault(_CounterIconsWidget2);
 
-var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 148);
+var _AreaChartWidget2 = __webpack_require__(/*! ./Widget/AreaChartWidget */ 149);
 
 var _AreaChartWidget3 = _interopRequireDefault(_AreaChartWidget2);
 
-var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 159);
+var _CarouselWidget2 = __webpack_require__(/*! ./Widget/CarouselWidget */ 160);
 
 var _CarouselWidget3 = _interopRequireDefault(_CarouselWidget2);
 
-var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 167);
+var _AlbumWidget2 = __webpack_require__(/*! ./Widget/AlbumWidget */ 168);
 
 var _AlbumWidget3 = _interopRequireDefault(_AlbumWidget2);
 
-var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 172);
+var _CrudTable2 = __webpack_require__(/*! ./Tables/CrudTable */ 173);
 
 var _CrudTable3 = _interopRequireDefault(_CrudTable2);
 
-var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 197);
+var _Notification2 = __webpack_require__(/*! ./Notification/Notification */ 198);
 
 var _Notification3 = _interopRequireDefault(_Notification2);
 
-var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 200);
+var _PostCard2 = __webpack_require__(/*! ./CardPaper/PostCard */ 201);
 
 var _PostCard3 = _interopRequireDefault(_PostCard2);
 
-var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 213);
+var _ErrorWrap2 = __webpack_require__(/*! ./Error/ErrorWrap */ 214);
 
 var _ErrorWrap3 = _interopRequireDefault(_ErrorWrap2);
 
@@ -273,15 +273,6 @@ exports.PostCard = _PostCard3.default;
 // Error
 
 exports.ErrorWrap = _ErrorWrap3.default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 4 */
@@ -300,17 +291,6 @@ var show = function show(data) {
 };
 
 module.exports = show;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(show, "show", "/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/show.js");
-}();
-
-;
 
 /***/ }),
 /* 5 */
@@ -380,87 +360,6 @@ var CLOSE_NOTIF = exports.CLOSE_NOTIF = 'CLOSE_NOTIF';
 
 // Route
 var FETCH_ROUTES = exports.FETCH_ROUTES = 'FETCH_ROUTES';
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(TOGGLE_SIDEBAR, 'TOGGLE_SIDEBAR', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(OPEN_SUBMENU, 'OPEN_SUBMENU', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(CHANGE_THEME, 'CHANGE_THEME', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(LOAD_PAGE, 'LOAD_PAGE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(TOGGLE_TREE, 'TOGGLE_TREE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(INIT, 'INIT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(CLEAR, 'CLEAR', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(FETCH_DATA, 'FETCH_DATA', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(ADD_EMPTY_ROW, 'ADD_EMPTY_ROW', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(UPDATE_ROW, 'UPDATE_ROW', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(REMOVE_ROW, 'REMOVE_ROW', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(EDIT_ROW, 'EDIT_ROW', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SAVE_ROW, 'SAVE_ROW', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(FETCH_PRODUCT_DATA, 'FETCH_PRODUCT_DATA', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SEARCH_PRODUCT, 'SEARCH_PRODUCT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SHOW_DETAIL_PRODUCT, 'SHOW_DETAIL_PRODUCT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(ADD_TO_CART, 'ADD_TO_CART', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(DELETE_CART_ITEM, 'DELETE_CART_ITEM', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(CHECKOUT, 'CHECKOUT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(FETCH_CONTACT_DATA, 'FETCH_CONTACT_DATA', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SHOW_DETAIL_CONTACT, 'SHOW_DETAIL_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(HIDE_DETAIL, 'HIDE_DETAIL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(ADD_CONTACT, 'ADD_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(EDIT_CONTACT, 'EDIT_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SUBMIT_CONTACT, 'SUBMIT_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(CLOSE_CONTACT_FORM, 'CLOSE_CONTACT_FORM', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(DELETE_CONTACT, 'DELETE_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(TOGGLE_FAVORITE, 'TOGGLE_FAVORITE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SEARCH_CONTACT, 'SEARCH_CONTACT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(FETCH_CALENDAR_DATA, 'FETCH_CALENDAR_DATA', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(ADD_EVENT, 'ADD_EVENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(DISCARD_EVENT, 'DISCARD_EVENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(SUBMIT_EVENT, 'SUBMIT_EVENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(DELETE_EVENT, 'DELETE_EVENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(CLOSE_NOTIF, 'CLOSE_NOTIF', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-
-  __REACT_HOT_LOADER__.register(FETCH_ROUTES, 'FETCH_ROUTES', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/actionTypes.js');
-}();
-
-;
 
 /***/ }),
 /* 6 */
@@ -493,17 +392,6 @@ var styles = exports.styles = {
     flexGrow: 1
   }
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, "styles", "/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/styles.js");
-}();
-
-;
 
 /***/ }),
 /* 8 */
@@ -573,15 +461,6 @@ module.exports = {
   sent: 'Email sent',
   labeled: 'You just changed email label'
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 13 */
@@ -632,7 +511,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 // const API = 'https://passenger-transport.herokuapp.com/api';
-var API = '';
+var API = '/api';
 
 // route
 var ROUTE_URL = exports.ROUTE_URL = API + '/route';
@@ -655,33 +534,6 @@ var WORK_SCHEDULE_URL = exports.WORK_SCHEDULE_URL = API + '/work-schedule';
 
 // ticket
 var TICKET_URL = exports.TICKET_URL = API + '/ticket';
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(API, 'API', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(ROUTE_URL, 'ROUTE_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(TRANPSPORTER_URL, 'TRANPSPORTER_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(DRIVER_URL, 'DRIVER_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(ASSISTANT_URL, 'ASSISTANT_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(CLIENT_URL, 'CLIENT_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(TRANSPORT_SCHEDULE_URL, 'TRANSPORT_SCHEDULE_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(WORK_SCHEDULE_URL, 'WORK_SCHEDULE_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-
-  __REACT_HOT_LOADER__.register(TICKET_URL, 'TICKET_URL', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/urls/api.js');
-}();
-
-;
 
 /***/ }),
 /* 17 */
@@ -707,22 +559,13 @@ module.exports = require("react-router-dom");
 
 
 module.exports = {
-  name: 'AVD transport',
+  name: 'AVD Admin',
   desc: 'This admin page made by VKing34',
   prefix: 'VKING34',
   footerText: 'Dont ever insult clients',
   logoText: 'AVD transport',
   needLogin: false
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 19 */
@@ -860,21 +703,7 @@ var pageTemplate = function pageTemplate(Table, pageConst, classes) {
   );
 };
 
-var _default = pageTemplate;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(pageTemplate, 'pageTemplate', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/template/pageTemplate.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/template/pageTemplate.js');
-}();
-
-;
+exports.default = pageTemplate;
 
 /***/ }),
 /* 24 */
@@ -930,21 +759,6 @@ var initialItem = exports.initialItem = function initialItem(keyTemplate, anchor
   staticKey.edited = true;
   return (0, _immutable.Map)(staticKey);
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/table.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/table.js');
-
-  __REACT_HOT_LOADER__.register(initialItem, 'initialItem', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/table.js');
-}();
-
-;
 
 /***/ }),
 /* 25 */
@@ -966,17 +780,6 @@ var Method = exports.Method = {
     POST: 'POST',
     DELETE: 'DELETE'
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(Method, 'Method', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/request/header.js');
-}();
-
-;
 
 /***/ }),
 /* 26 */
@@ -996,30 +799,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _default2 = __webpack_require__(/*! ./default */ 233);
+var _default = __webpack_require__(/*! ./default */ 234);
 
-var _default3 = _interopRequireDefault(_default2);
+var _default2 = _interopRequireDefault(_default);
 
-var _environment = __webpack_require__(/*! ./environment */ 235);
+var _environment = __webpack_require__(/*! ./environment */ 236);
 
 var _environment2 = _interopRequireDefault(_environment);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _default = _extends({}, _default3.default, _environment2.default);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/index.js');
-}();
-
-;
+exports.default = _extends({}, _default2.default, _environment2.default);
 
 /***/ }),
 /* 27 */
@@ -1078,15 +868,15 @@ var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 65);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 141);
+var _blue = __webpack_require__(/*! @material-ui/core/colors/blue */ 142);
 
 var _blue2 = _interopRequireDefault(_blue);
 
-var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 142);
+var _deepOrange = __webpack_require__(/*! @material-ui/core/colors/deepOrange */ 143);
 
 var _deepOrange2 = _interopRequireDefault(_deepOrange);
 
-var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 143);
+var _red = __webpack_require__(/*! @material-ui/core/colors/red */ 144);
 
 var _red2 = _interopRequireDefault(_red);
 
@@ -1094,19 +884,19 @@ var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 66);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 144);
+var _purple = __webpack_require__(/*! @material-ui/core/colors/purple */ 145);
 
 var _purple2 = _interopRequireDefault(_purple);
 
-var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 145);
+var _deepPurple = __webpack_require__(/*! @material-ui/core/colors/deepPurple */ 146);
 
 var _deepPurple2 = _interopRequireDefault(_deepPurple);
 
-var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 146);
+var _lime = __webpack_require__(/*! @material-ui/core/colors/lime */ 147);
 
 var _lime2 = _interopRequireDefault(_lime);
 
-var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 147);
+var _indigo = __webpack_require__(/*! @material-ui/core/colors/indigo */ 148);
 
 var _indigo2 = _interopRequireDefault(_indigo);
 
@@ -1400,21 +1190,7 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/widget-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/widget-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
 /* 31 */
@@ -1489,15 +1265,6 @@ module.exports = {
     }
   }
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 33 */
@@ -1541,23 +1308,6 @@ var playTransitionAction = exports.playTransitionAction = function playTransitio
     isLoaded: isLoaded
   };
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(toggleAction, 'toggleAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/UiActions.js');
-
-  __REACT_HOT_LOADER__.register(openAction, 'openAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/UiActions.js');
-
-  __REACT_HOT_LOADER__.register(changeThemeAction, 'changeThemeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/UiActions.js');
-
-  __REACT_HOT_LOADER__.register(playTransitionAction, 'playTransitionAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/UiActions.js');
-}();
-
-;
 
 /***/ }),
 /* 34 */
@@ -1694,23 +1444,7 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(appFrame, 'appFrame', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/appStyles-jss.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/appStyles-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/appStyles-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
 /* 35 */
@@ -1762,21 +1496,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var avatars = ['/images/avatars/pp_girl.svg', '/images/avatars/pp_girl.svg', '/images/avatars/pp_girl2.svg', '/images/avatars/pp_girl3.svg', '/images/avatars/pp_girl4.svg', '/images/avatars/pp_girl5.svg', '/images/avatars/pp_boy.svg', '/images/avatars/pp_boy2.svg', '/images/avatars/pp_boy3.svg', '/images/avatars/pp_boy4.svg', '/images/avatars/pp_boy5.svg'];
 
-var _default = avatars;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(avatars, 'avatars', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/avatars.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/avatars.js');
-}();
-
-;
+exports.default = avatars;
 
 /***/ }),
 /* 39 */
@@ -1827,7 +1547,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 133);
+var _papperStyleJss = __webpack_require__(/*! ./papperStyle-jss */ 134);
 
 var _papperStyleJss2 = _interopRequireDefault(_papperStyleJss);
 
@@ -1886,22 +1606,7 @@ PaperSheet.defaultProps = {
   overflowX: false
 };
 
-var _default = (0, _styles.withStyles)(_papperStyleJss2.default)(PaperSheet);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(PaperSheet, 'PaperSheet', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/PapperBlock.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_papperStyleJss2.default)(PaperSheet);
 
 /***/ }),
 /* 41 */
@@ -2012,15 +1717,6 @@ module.exports = {
     date: 'Nov 28, 2018'
   }
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 49 */
@@ -2217,23 +1913,7 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(drawerWidth, 'drawerWidth', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/header-jss.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/header-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/header-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
 /* 51 */
@@ -2336,15 +2016,6 @@ module.exports = [{
   icon: 'palette',
   link: '/admin/settings/themes'
 }];
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
 /* 55 */
@@ -2544,23 +2215,7 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(drawerWidth, 'drawerWidth', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/sidebar-jss.js');
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/sidebar-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/sidebar-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
 /* 56 */
@@ -2622,15 +2277,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 57 */
@@ -2700,15 +2346,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 58 */
@@ -2778,15 +2415,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 59 */
@@ -2849,15 +2477,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 60 */
@@ -2913,15 +2532,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 61 */
@@ -2984,15 +2594,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 62 */
@@ -3048,15 +2649,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 63 */
@@ -3161,15 +2753,6 @@ module.exports = {
         }]
     }
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 64 */
@@ -3231,21 +2814,7 @@ var images = [
 // 5
 'http://via.placeholder.com/1050x700/E040FB/FFFFFF/', 'http://via.placeholder.com/1050x700/C62828/FFFFFF/', 'http://via.placeholder.com/1050x700/AD1457/FFFFFF/', 'http://via.placeholder.com/1050x700/673AB7/FFFFFF/', 'http://via.placeholder.com/1050x700/651FFF/FFFFFF/', 'http://via.placeholder.com/1050x700/00BFA5/FFFFFF/', 'http://via.placeholder.com/1050x700/A5D6A7/767676/', 'http://via.placeholder.com/1050x700/AED581/767676/', 'http://via.placeholder.com/1050x700/FFB74D/767676/', 'http://via.placeholder.com/1050x700/00BFA5/767676/'];
 
-var _default = images;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(images, 'images', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/images.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/images.js');
-}();
-
-;
+exports.default = images;
 
 /***/ }),
 /* 68 */
@@ -3299,15 +2868,6 @@ module.exports = {
     tw_tittle: 'twitter:title',
     tw_desc: 'twitter:description'
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-}();
-
-;
 
 /***/ }),
 /* 72 */
@@ -3434,21 +2994,7 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/themeStyles-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/themeStyles-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
 /* 73 */
@@ -3477,49 +3023,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path = __webpack_require__(/*! path */ 75);
-
-var _path2 = _interopRequireDefault(_path);
-
-var _compression = __webpack_require__(/*! compression */ 76);
-
-var _compression2 = _interopRequireDefault(_compression);
-
-var _express = __webpack_require__(/*! express */ 77);
-
-var _express2 = _interopRequireDefault(_express);
-
-var _serveFavicon = __webpack_require__(/*! serve-favicon */ 78);
-
-var _serveFavicon2 = _interopRequireDefault(_serveFavicon);
-
-__webpack_require__(/*! ./env */ 79);
-
-var _rawdocs = __webpack_require__(/*! ./rawdocs */ 81);
-
-var _rawdocs2 = _interopRequireDefault(_rawdocs);
-
-var _rawicons = __webpack_require__(/*! ./rawicons */ 82);
-
-var _rawicons2 = _interopRequireDefault(_rawicons);
-
-var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 83);
-
-var _createSSR2 = _interopRequireDefault(_createSSR);
-
-var _config = __webpack_require__(/*! ./../app/config */ 26);
-
-var _config2 = _interopRequireDefault(_config);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _config$server = _config2.default.server,
-    host = _config$server.host,
-    port = _config$server.port;
-
-var app = (0, _express2.default)();
-
-var _default = function _default(parameters) {
+exports.default = function (parameters) {
   if (_config2.default.isProd) {
     app.use((0, _compression2.default)());
   }
@@ -3574,24 +3078,47 @@ var _default = function _default(parameters) {
   };
 };
 
-exports.default = _default;
-;
+var _path = __webpack_require__(/*! path */ 75);
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+var _path2 = _interopRequireDefault(_path);
 
-  __REACT_HOT_LOADER__.register(host, 'host', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/server.js');
+var _compression = __webpack_require__(/*! compression */ 76);
 
-  __REACT_HOT_LOADER__.register(port, 'port', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/server.js');
+var _compression2 = _interopRequireDefault(_compression);
 
-  __REACT_HOT_LOADER__.register(app, 'app', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/server.js');
+var _express = __webpack_require__(/*! express */ 77);
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/server.js');
-}();
+var _express2 = _interopRequireDefault(_express);
 
-;
+var _serveFavicon = __webpack_require__(/*! serve-favicon */ 78);
+
+var _serveFavicon2 = _interopRequireDefault(_serveFavicon);
+
+__webpack_require__(/*! ./env */ 79);
+
+var _rawdocs = __webpack_require__(/*! ./rawdocs */ 81);
+
+var _rawdocs2 = _interopRequireDefault(_rawdocs);
+
+var _rawicons = __webpack_require__(/*! ./rawicons */ 82);
+
+var _rawicons2 = _interopRequireDefault(_rawicons);
+
+var _createSSR = __webpack_require__(/*! ./SSR/createSSR */ 83);
+
+var _createSSR2 = _interopRequireDefault(_createSSR);
+
+var _config = __webpack_require__(/*! ./../app/config */ 26);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _config$server = _config2.default.server,
+    host = _config$server.host,
+    port = _config$server.port;
+
+var app = (0, _express2.default)();
 
 /***/ }),
 /* 75 */
@@ -3659,20 +3186,7 @@ var _dotenv2 = _interopRequireDefault(_dotenv);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _default = _dotenv2.default.config();
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/env.js');
-}();
-
-;
+exports.default = _dotenv2.default.config();
 
 /***/ }),
 /* 80 */
@@ -3713,17 +3227,6 @@ function rawdoc(componentName) {
   var content = _fs2.default.readFileSync(dir + componentName.src, 'utf8');
   return content.toString();
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(rawdoc, 'rawdoc', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/rawdocs.js');
-}();
-
-;
 
 /***/ }),
 /* 82 */
@@ -3753,17 +3256,6 @@ function rawdoc(fileName) {
   var content = _fs2.default.readFileSync(dir + fileName.src, 'utf8');
   return content.toString();
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(rawdoc, 'rawdoc', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/rawicons.js');
-}();
-
-;
 
 /***/ }),
 /* 83 */
@@ -3800,15 +3292,15 @@ var _containers = __webpack_require__(/*! ./../../app/containers */ 85);
 
 var _containers2 = _interopRequireDefault(_containers);
 
-var _html = __webpack_require__(/*! ./html */ 236);
+var _html = __webpack_require__(/*! ./html */ 237);
 
 var _html2 = _interopRequireDefault(_html);
 
-var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 237);
+var _ApiClient = __webpack_require__(/*! ./../../helpers/ApiClient */ 238);
 
 var _ApiClient2 = _interopRequireDefault(_ApiClient);
 
-var _store = __webpack_require__(/*! ./../../app/redux/store */ 239);
+var _store = __webpack_require__(/*! ./../../app/redux/store */ 240);
 
 var _store2 = _interopRequireDefault(_store);
 
@@ -3885,17 +3377,6 @@ function createSSR(assets) {
     });
   };
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(createSSR, 'createSSR', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/SSR/createSSR.js');
-}();
-
-;
 
 /***/ }),
 /* 84 */
@@ -3926,55 +3407,55 @@ Object.defineProperty(exports, "__esModule", {
 
 var _components = __webpack_require__(/*! ./../components */ 3);
 
-var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 214);
+var _Dashboard = __webpack_require__(/*! ./Dashboard/Dashboard */ 215);
 
 var _Dashboard2 = _interopRequireDefault(_Dashboard);
 
-var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 216);
+var _RoutePage = __webpack_require__(/*! ./Routes/RoutePage */ 217);
 
 var _RoutePage2 = _interopRequireDefault(_RoutePage);
 
-var _TransporterPage = __webpack_require__(/*! ./Transporter/TransporterPage */ 217);
+var _TransporterPage = __webpack_require__(/*! ./Transporter/TransporterPage */ 218);
 
 var _TransporterPage2 = _interopRequireDefault(_TransporterPage);
 
-var _DriverPage = __webpack_require__(/*! ./Driver/DriverPage */ 218);
+var _DriverPage = __webpack_require__(/*! ./Driver/DriverPage */ 219);
 
 var _DriverPage2 = _interopRequireDefault(_DriverPage);
 
-var _AssistantPage = __webpack_require__(/*! ./Assistant/AssistantPage */ 219);
+var _AssistantPage = __webpack_require__(/*! ./Assistant/AssistantPage */ 220);
 
 var _AssistantPage2 = _interopRequireDefault(_AssistantPage);
 
-var _ClientPage = __webpack_require__(/*! ./Client/ClientPage */ 220);
+var _ClientPage = __webpack_require__(/*! ./Client/ClientPage */ 221);
 
 var _ClientPage2 = _interopRequireDefault(_ClientPage);
 
-var _TSchedulePage = __webpack_require__(/*! ./Schedule/TSchedulePage */ 221);
+var _TSchedulePage = __webpack_require__(/*! ./Schedule/TSchedulePage */ 222);
 
 var _TSchedulePage2 = _interopRequireDefault(_TSchedulePage);
 
-var _WSchedulePage = __webpack_require__(/*! ./Schedule/WSchedulePage */ 222);
+var _WSchedulePage = __webpack_require__(/*! ./Schedule/WSchedulePage */ 223);
 
 var _WSchedulePage2 = _interopRequireDefault(_WSchedulePage);
 
-var _TicketPage = __webpack_require__(/*! ./Ticket/TicketPage */ 223);
+var _TicketPage = __webpack_require__(/*! ./Ticket/TicketPage */ 224);
 
 var _TicketPage2 = _interopRequireDefault(_TicketPage);
 
-var _Themes = __webpack_require__(/*! ./Themes */ 224);
+var _Themes = __webpack_require__(/*! ./Themes */ 225);
 
 var _Themes2 = _interopRequireDefault(_Themes);
 
-var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 228);
+var _NotFound = __webpack_require__(/*! ./NotFound/NotFound */ 229);
 
 var _NotFound2 = _interopRequireDefault(_NotFound);
 
-var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 229);
+var _NotFoundDedicated = __webpack_require__(/*! ./Pages/Standalone/NotFoundDedicated */ 230);
 
 var _NotFoundDedicated2 = _interopRequireDefault(_NotFoundDedicated);
 
-var _withTracker = __webpack_require__(/*! ./withTracker */ 231);
+var _withTracker = __webpack_require__(/*! ./withTracker */ 232);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
@@ -3992,7 +3473,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 // Route
-var _default = function _default(store) {
+exports.default = function (store) {
   // eslint-disable-line
   // we can get an access to store
   return [{
@@ -4061,20 +3542,6 @@ var _default = function _default(store) {
 // Transporter
 
 // Dashboard
-
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/index.js');
-}();
-
-;
 
 /***/ }),
 /* 86 */
@@ -4149,95 +3616,31 @@ var App = function (_React$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       pageLoaded: true
     }, _this.componentWillMount = function () {
-      var _this2;
-
-      return (_this2 = _this).__componentWillMount__REACT_HOT_LOADER__.apply(_this2, arguments);
+      _this.onProgressShow();
+      /* Uncomment this bellow if want to change theme randomly */
+      // this.props.changeTheme('randomTheme');
     }, _this.componentDidMount = function () {
-      var _this3;
-
-      return (_this3 = _this).__componentDidMount__REACT_HOT_LOADER__.apply(_this3, arguments);
+      _this.playProgress();
+      _this.unlisten = _this.props.history.listen(function () {
+        _this.playProgress();
+      });
     }, _this.onProgressShow = function () {
-      var _this4;
-
-      return (_this4 = _this).__onProgressShow__REACT_HOT_LOADER__.apply(_this4, arguments);
+      _this.setState({ pageLoaded: true });
     }, _this.onProgressHide = function () {
-      var _this5;
-
-      return (_this5 = _this).__onProgressHide__REACT_HOT_LOADER__.apply(_this5, arguments);
+      _this.setState({ pageLoaded: false });
     }, _this.playProgress = function () {
-      var _this6;
-
-      return (_this6 = _this).__playProgress__REACT_HOT_LOADER__.apply(_this6, arguments);
+      _this.onProgressShow();
+      setTimeout(function () {
+        _this.onProgressHide();
+      }, 500);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(App, [{
-    key: '__playProgress__REACT_HOT_LOADER__',
-    value: function __playProgress__REACT_HOT_LOADER__() {
-      return this.__playProgress__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__onProgressHide__REACT_HOT_LOADER__',
-    value: function __onProgressHide__REACT_HOT_LOADER__() {
-      return this.__onProgressHide__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__onProgressShow__REACT_HOT_LOADER__',
-    value: function __onProgressShow__REACT_HOT_LOADER__() {
-      return this.__onProgressShow__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__componentDidMount__REACT_HOT_LOADER__',
-    value: function __componentDidMount__REACT_HOT_LOADER__() {
-      return this.__componentDidMount__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__componentWillMount__REACT_HOT_LOADER__',
-    value: function __componentWillMount__REACT_HOT_LOADER__() {
-      return this.__componentWillMount__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__componentWillMount__REACT_HOT_LOADER__',
-    value: function __componentWillMount__REACT_HOT_LOADER__() {
-      this.onProgressShow();
-      /* Uncomment this bellow if want to change theme randomly */
-      // this.props.changeTheme('randomTheme');
-    }
-  }, {
-    key: '__componentDidMount__REACT_HOT_LOADER__',
-    value: function __componentDidMount__REACT_HOT_LOADER__() {
-      var _this7 = this;
-
-      this.playProgress();
-      this.unlisten = this.props.history.listen(function () {
-        _this7.playProgress();
-      });
-    }
-  }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
       this.unlisten();
       this.onProgressShow();
-    }
-  }, {
-    key: '__onProgressShow__REACT_HOT_LOADER__',
-    value: function __onProgressShow__REACT_HOT_LOADER__() {
-      this.setState({ pageLoaded: true });
-    }
-  }, {
-    key: '__onProgressHide__REACT_HOT_LOADER__',
-    value: function __onProgressHide__REACT_HOT_LOADER__() {
-      this.setState({ pageLoaded: false });
-    }
-  }, {
-    key: '__playProgress__REACT_HOT_LOADER__',
-    value: function __playProgress__REACT_HOT_LOADER__() {
-      var _this8 = this;
-
-      this.onProgressShow();
-      setTimeout(function () {
-        _this8.onProgressHide();
-      }, 500);
     }
   }, {
     key: 'render',
@@ -4298,30 +3701,7 @@ var dispatchToProps = function dispatchToProps(dispatch) {
 
 var AppMapped = (0, _reactRedux.connect)(mapStateToProps, dispatchToProps)(App);
 
-var _default = (0, _styles.withTheme)()((0, _styles.withStyles)(_appStylesJss2.default)(AppMapped));
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(App, 'App', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-
-  __REACT_HOT_LOADER__.register(dispatchToProps, 'dispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-
-  __REACT_HOT_LOADER__.register(AppMapped, 'AppMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/App.js');
-}();
-
-;
+exports.default = (0, _styles.withTheme)()((0, _styles.withStyles)(_appStylesJss2.default)(AppMapped));
 
 /***/ }),
 /* 87 */
@@ -4431,63 +3811,37 @@ var Dashboard = function (_React$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Dashboard.__proto__ || Object.getPrototypeOf(Dashboard)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       transform: 0
     }, _this.componentDidMount = function () {
-      var _this2;
+      // Scroll content to top
+      var mainContent = document.getElementById('mainContent');
+      mainContent.addEventListener('scroll', _this.handleScroll);
 
-      return (_this2 = _this).__componentDidMount__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleScroll = function () {
-      var _this3;
+      // Set expanded sidebar menu
+      var currentPath = _this.props.history.location.pathname;
+      _this.props.initialOpen(currentPath);
 
-      return (_this3 = _this).__handleScroll__REACT_HOT_LOADER__.apply(_this3, arguments);
+      // Play page transition
+      _this.props.loadTransition(true);
+
+      // Execute all arguments when page changes
+      _this.unlisten = _this.props.history.listen(function () {
+        mainContent.scrollTo(0, 0);
+        setTimeout(function () {
+          _this.props.loadTransition(true);
+        }, 500);
+      });
+    }, _this.handleScroll = function (event) {
+      var scoll = event.target.scrollTop;
+      _this.setState({
+        transform: scoll
+      });
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Dashboard, [{
-    key: '__handleScroll__REACT_HOT_LOADER__',
-    value: function __handleScroll__REACT_HOT_LOADER__() {
-      return this.__handleScroll__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__componentDidMount__REACT_HOT_LOADER__',
-    value: function __componentDidMount__REACT_HOT_LOADER__() {
-      return this.__componentDidMount__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__componentDidMount__REACT_HOT_LOADER__',
-    value: function __componentDidMount__REACT_HOT_LOADER__() {
-      var _this4 = this;
-
-      // Scroll content to top
-      var mainContent = document.getElementById('mainContent');
-      mainContent.addEventListener('scroll', this.handleScroll);
-
-      // Set expanded sidebar menu
-      var currentPath = this.props.history.location.pathname;
-      this.props.initialOpen(currentPath);
-
-      // Play page transition
-      this.props.loadTransition(true);
-
-      // Execute all arguments when page changes
-      this.unlisten = this.props.history.listen(function () {
-        mainContent.scrollTo(0, 0);
-        setTimeout(function () {
-          _this4.props.loadTransition(true);
-        }, 500);
-      });
-    }
-  }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
       var mainContent = document.getElementById('mainContent');
       mainContent.removeEventListener('scroll', this.handleScroll);
-    }
-  }, {
-    key: '__handleScroll__REACT_HOT_LOADER__',
-    value: function __handleScroll__REACT_HOT_LOADER__(event) {
-      var scoll = event.target.scrollTop;
-      this.setState({
-        transform: scoll
-      });
     }
   }, {
     key: 'render',
@@ -4577,30 +3931,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var DashboardMaped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Dashboard);
 
-var _default = (0, _styles.withStyles)(_appStylesJss2.default)(DashboardMaped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Dashboard, 'Dashboard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(DashboardMaped, 'DashboardMaped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/App/Dashboard.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_appStylesJss2.default)(DashboardMaped);
 
 /***/ }),
 /* 91 */
@@ -4767,22 +4098,7 @@ Header.propTypes = {
   turnDarker: _propTypes2.default.bool.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_headerJss2.default)(Header);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Header, 'Header', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/Header.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/Header.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_headerJss2.default)(Header);
 
 /***/ }),
 /* 93 */
@@ -4931,6 +4247,10 @@ var _show = __webpack_require__(/*! ../../constants/show.js */ 4);
 
 var _show2 = _interopRequireDefault(_show);
 
+var _jsCookie = __webpack_require__(/*! js-cookie */ 103);
+
+var _jsCookie2 = _interopRequireDefault(_jsCookie);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -4956,45 +4276,23 @@ var UserMenu = function (_React$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = UserMenu.__proto__ || Object.getPrototypeOf(UserMenu)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       anchorEl: null,
       openMenu: null
-    }, _this.handleMenu = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleMenu__REACT_HOT_LOADER__.apply(_this2, arguments);
+    }, _this.handleMenu = function (menu) {
+      return function (event) {
+        _this.setState({
+          openMenu: _this.state.openMenu === menu ? null : menu,
+          anchorEl: event.currentTarget
+        });
+      };
     }, _this.handleClose = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleClose__REACT_HOT_LOADER__.apply(_this3, arguments);
+      _this.setState({ anchorEl: null, openMenu: null });
+    }, _this.logout = function () {
+      _jsCookie2.default.remove('TRANSPORT-JWT', { path: '' });
+      localStorage.clear();
+      window.location.replace('/');
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(UserMenu, [{
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__() {
-      return this.__handleClose__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleMenu__REACT_HOT_LOADER__',
-    value: function __handleMenu__REACT_HOT_LOADER__() {
-      return this.__handleMenu__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleMenu__REACT_HOT_LOADER__',
-    value: function __handleMenu__REACT_HOT_LOADER__(menu) {
-      var _this4 = this;
-
-      return function (event) {
-        _this4.setState({
-          openMenu: _this4.state.openMenu === menu ? null : menu,
-          anchorEl: event.currentTarget
-        });
-      };
-    }
-  }, {
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__() {
-      this.setState({ anchorEl: null, openMenu: null });
-    }
-  }, {
     key: 'render',
     value: function render() {
       var classes = this.props.classes;
@@ -5159,7 +4457,7 @@ var UserMenu = function (_React$Component) {
           _react2.default.createElement(_Divider2.default, null),
           _react2.default.createElement(
             _MenuItem2.default,
-            { onClick: this.handleClose },
+            { onClick: this.logout },
             _react2.default.createElement(
               _ListItemIcon2.default,
               null,
@@ -5193,28 +4491,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var UserMenuMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(UserMenu);
 
-var _default = (0, _styles.withStyles)(_headerJss2.default)(UserMenuMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(UserMenu, 'UserMenu', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/UserMenu.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/UserMenu.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/UserMenu.js');
-
-  __REACT_HOT_LOADER__.register(UserMenuMapped, 'UserMenuMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/UserMenu.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Header/UserMenu.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_headerJss2.default)(UserMenuMapped);
 
 /***/ }),
 /* 97 */
@@ -5284,6 +4561,17 @@ module.exports = require("@material-ui/core/Badge");
 
 /***/ }),
 /* 103 */
+/*!****************************!*\
+  !*** external "js-cookie" ***!
+  \****************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("js-cookie");
+
+/***/ }),
+/* 104 */
 /*!***********************************************!*\
   !*** ./src/app/components/Sidebar/Sidebar.js ***!
   \***********************************************/
@@ -5318,11 +4606,11 @@ var _Hidden = __webpack_require__(/*! @material-ui/core/Hidden */ 44);
 
 var _Hidden2 = _interopRequireDefault(_Hidden);
 
-var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 104);
+var _Drawer = __webpack_require__(/*! @material-ui/core/Drawer */ 105);
 
 var _Drawer2 = _interopRequireDefault(_Drawer);
 
-var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 105);
+var _SwipeableDrawer = __webpack_require__(/*! @material-ui/core/SwipeableDrawer */ 106);
 
 var _SwipeableDrawer2 = _interopRequireDefault(_SwipeableDrawer);
 
@@ -5346,15 +4634,15 @@ var _dummyContents = __webpack_require__(/*! ../../constants/dummyContents.js */
 
 var _dummyContents2 = _interopRequireDefault(_dummyContents);
 
-var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 106);
+var _logo = __webpack_require__(/*! ../../../../static/images/logo.svg */ 107);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _MainMenu = __webpack_require__(/*! ./MainMenu */ 107);
+var _MainMenu = __webpack_require__(/*! ./MainMenu */ 108);
 
 var _MainMenu2 = _interopRequireDefault(_MainMenu);
 
-var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 111);
+var _OtherMenu = __webpack_require__(/*! ./OtherMenu */ 112);
 
 var _OtherMenu2 = _interopRequireDefault(_OtherMenu);
 
@@ -5548,35 +4836,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var SidebarMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Sidebar);
 
-var _default = (0, _styles.withStyles)(_sidebarJss2.default)(SidebarMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(MenuContent, 'MenuContent', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(MenuContentStyle, 'MenuContentStyle', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(Sidebar, 'Sidebar', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(SidebarMapped, 'SidebarMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/Sidebar.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_sidebarJss2.default)(SidebarMapped);
 
 /***/ }),
-/* 104 */
+/* 105 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Drawer" ***!
   \*******************************************/
@@ -5587,7 +4850,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Drawer");
 
 /***/ }),
-/* 105 */
+/* 106 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/SwipeableDrawer" ***!
   \****************************************************/
@@ -5598,7 +4861,7 @@ module.exports = require("@material-ui/core/Drawer");
 module.exports = require("@material-ui/core/SwipeableDrawer");
 
 /***/ }),
-/* 106 */
+/* 107 */
 /*!********************************!*\
   !*** ./static/images/logo.svg ***!
   \********************************/
@@ -5609,7 +4872,7 @@ module.exports = require("@material-ui/core/SwipeableDrawer");
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgaGVpZ2h0PSIxMTBweCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTEwIDExMDsiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDExMCAxMTAiIHdpZHRoPSIxMTBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGcgaWQ9IkFydGJvYXJkIi8+PGcgaWQ9Ik11bHRpY29sb3IiPjxjaXJjbGUgY3g9IjU1IiBjeT0iNTUiIHI9IjU1IiBzdHlsZT0iZmlsbDojRkFCQzNEOyIvPjxnPjxnPjxwYXRoIGQ9Ik03OSwzMWMwLTQuNDE4LTMuNTgyLTgtOC04SDM5Yy00LjQxOCwwLTgsMy41ODItOCw4djUwYzAsMS4xMDUsMC44OTUsMiwyLDJoNDQgICAgIGMxLjEwNSwwLDItMC44OTUsMi0yVjMxeiIgc3R5bGU9ImZpbGw6I0RGMkMyQzsiLz48L2c+PGc+PHBhdGggZD0iTTc2LjE5OCwyNC45MjZDNzQuNzk5LDIzLjcyOCw3Mi45ODYsMjMsNzEsMjNIMzljLTQuNDE4LDAtOCwzLjU4Mi04LDh2MzkuMTI0TDc2LjE5OCwyNC45MjZ6IiBzdHlsZT0iZmlsbDojRkE1NjU1OyIvPjwvZz48Zz48cGF0aCBkPSJNMzEsODN2MmMwLDEuMTA0LDAuODk2LDIsMiwyaDhjMS4xMDQsMCwyLTAuODk2LDItMnYtMkgzMXoiIHN0eWxlPSJmaWxsOiMzRTNFM0Y7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik02Nyw4NWMwLDEuMTA0LDAuODk2LDIsMiwyaDhjMS4xMDQsMCwyLTAuODk2LDItMnYtMkg2N1Y4NXoiIHN0eWxlPSJmaWxsOiMzRTNFM0Y7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik04MSw3NGMwLTIuMjA5LTEuNzkxLTQtNC00aC05bC0yLjQ0Ny0yLjg5NEM2NS4yMTQsNjYuNDI4LDY0LjUyMSw2Niw2My43NjQsNjZINDYuMjM2ICAgICBjLTAuNzU4LDAtMS40NSwwLjQyOC0xLjc4OSwxLjEwNkw0Miw3MGgtOWMtMi4yMDksMC00LDEuNzkxLTQsNHY3YzAsMS4xMDUsMC44OTUsMiwyLDJoNDhjMS4xMDUsMCwyLTAuODk1LDItMlY3NHoiIHN0eWxlPSJmaWxsOiNGQTU2NTU7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik01NCw2OWgtN2MtMS4xMDQsMC0yLDAuODk2LTIsMnY3YzAsMS4xMDQsMC44OTYsMiwyLDJoN1Y2OXoiIHN0eWxlPSJmaWxsOiNCRjAzMDI7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik01Niw2OWg3YzEuMTA0LDAsMiwwLjg5NiwyLDJ2N2MwLDEuMTA0LTAuODk2LDItMiwyaC03VjY5eiIgc3R5bGU9ImZpbGw6I0JGMDMwMjsiLz48L2c+PGc+PGNpcmNsZSBjeD0iMzciIGN5PSI3NyIgcj0iMyIgc3R5bGU9ImZpbGw6I0ZCRTE1ODsiLz48L2c+PGc+PGNpcmNsZSBjeD0iNzIiIGN5PSI3NyIgcj0iMyIgc3R5bGU9ImZpbGw6I0ZCRTE1ODsiLz48L2c+PGc+PHJlY3QgaGVpZ2h0PSIyIiBzdHlsZT0iZmlsbDojRTJFNEU1OyIgd2lkdGg9IjQ4IiB4PSIzMSIgeT0iNDciLz48L2c+PGc+PHBvbHlnb24gcG9pbnRzPSI1NC4xMjQsNDcgMzEsNDcgMzEsNDkgNTIuMTI0LDQ5ICAgICIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiLz48L2c+PGc+PHBhdGggZD0iTTc1LDQ5SDU3djEyYzAsMS4xMDUsMC44OTUsMiwyLDJoMTRjMS4xMDUsMCwyLTAuODk1LDItMlY0OXoiIHN0eWxlPSJmaWxsOiM0MEM5RTc7Ii8+PC9nPjxnPjxwYXRoIGQ9Ik0zNSwzN2MwLDEuMTA1LDAuODk1LDIsMiwyaDE0YzEuMTA1LDAsMi0wLjg5NSwyLTJ2LThjMC0xLjEwNS0wLjg5NS0yLTItMkgzNyAgICAgYy0xLjEwNSwwLTIsMC44OTUtMiwyVjM3eiIgc3R5bGU9ImZpbGw6IzZGREFGMTsiLz48L2c+PGc+PHBhdGggZD0iTTU3LDM3YzAsMS4xMDUsMC44OTUsMiwyLDJoMTRjMS4xMDUsMCwyLTAuODk1LDItMnYtOGMwLTEuMTA1LTAuODk1LTItMi0ySDU5ICAgICBjLTEuMTA1LDAtMiwwLjg5NS0yLDJWMzd6IiBzdHlsZT0iZmlsbDojNDBDOUU3OyIvPjwvZz48Zz48cGF0aCBkPSJNNzMsMjdINTljLTEuMTA0LDAtMiwwLjg5Ni0yLDJ2OGMwLDEuMTA0LDAuODk2LDIsMiwyaDMuMTI0TDczLjksMjcuMjIzICAgICBDNzMuNjI4LDI3LjA4NSw3My4zMjYsMjcsNzMsMjd6IiBzdHlsZT0iZmlsbDojNkZEQUYxOyIvPjwvZz48Zz48cGF0aCBkPSJNNzIsNzQuMDQ0Yy0xLjY1NywwLTMsMS4zNDMtMywzYzAsMC43NTEsMC4yODYsMS40MywwLjc0MiwxLjk1Nmw0LjIxNC00LjIxNCAgICAgQzczLjQzLDc0LjMzLDcyLjc1MSw3NC4wNDQsNzIsNzQuMDQ0eiIgc3R5bGU9ImZpbGw6I0ZCRUM5QTsiLz48L2c+PGc+PHBhdGggZD0iTTM3LDc0Yy0xLjY1NywwLTMsMS4zNDMtMywzYzAsMC43NTEsMC4yODYsMS40MywwLjc0MiwxLjk1Nmw0LjIxNC00LjIxNCAgICAgQzM4LjQzLDc0LjI4NiwzNy43NTEsNzQsMzcsNzR6IiBzdHlsZT0iZmlsbDojRkJFQzlBOyIvPjwvZz48cmVjdCBoZWlnaHQ9IjgiIHN0eWxlPSJmaWxsOiM0MEM5RTc7IiB3aWR0aD0iMTgiIHg9IjM1IiB5PSI0OSIvPjxwYXRoIGQ9Ik0zNSw2MWMwLDEuMTA0LDAuODk2LDIsMiwyaDE0YzEuMTA0LDAsMi0wLjg5NiwyLTJ2LTJIMzVWNjF6IiBzdHlsZT0iZmlsbDojNDBDOUU3OyIvPjxwb2x5Z29uIHBvaW50cz0iNDQuMTI0LDU3IDUyLjEyNCw0OSAzNSw0OSAzNSw1NyAgICIgc3R5bGU9ImZpbGw6IzZGREFGMTsiLz48cGF0aCBkPSJNMzUsNTl2MmMwLDEuMTA0LDAuODk2LDIsMiwyaDEuMTI0bDQtNEgzNXoiIHN0eWxlPSJmaWxsOiM2RkRBRjE7Ii8+PC9nPjwvZz48L3N2Zz4="
 
 /***/ }),
-/* 107 */
+/* 108 */
 /*!************************************************!*\
   !*** ./src/app/components/Sidebar/MainMenu.js ***!
   \************************************************/
@@ -5662,7 +4925,7 @@ var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 37
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 108);
+var _Collapse = __webpack_require__(/*! @material-ui/core/Collapse */ 109);
 
 var _Collapse2 = _interopRequireDefault(_Collapse);
 
@@ -5670,11 +4933,11 @@ var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 39);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 109);
+var _ExpandLess = __webpack_require__(/*! @material-ui/icons/ExpandLess */ 110);
 
 var _ExpandLess2 = _interopRequireDefault(_ExpandLess);
 
-var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 110);
+var _ExpandMore = __webpack_require__(/*! @material-ui/icons/ExpandMore */ 111);
 
 var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
@@ -5848,35 +5111,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var MainMenuMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(MainMenu);
 
-var _default = (0, _styles.withStyles)(_sidebarJss2.default)(MainMenuMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(MainMenu, 'MainMenu', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(openAction, 'openAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(MainMenuMapped, 'MainMenuMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/MainMenu.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_sidebarJss2.default)(MainMenuMapped);
 
 /***/ }),
-/* 108 */
+/* 109 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Collapse" ***!
   \*********************************************/
@@ -5887,7 +5125,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Collapse");
 
 /***/ }),
-/* 109 */
+/* 110 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/ExpandLess" ***!
   \************************************************/
@@ -5898,7 +5136,7 @@ module.exports = require("@material-ui/core/Collapse");
 module.exports = require("@material-ui/icons/ExpandLess");
 
 /***/ }),
-/* 110 */
+/* 111 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/ExpandMore" ***!
   \************************************************/
@@ -5909,7 +5147,7 @@ module.exports = require("@material-ui/icons/ExpandLess");
 module.exports = require("@material-ui/icons/ExpandMore");
 
 /***/ }),
-/* 111 */
+/* 112 */
 /*!*************************************************!*\
   !*** ./src/app/components/Sidebar/OtherMenu.js ***!
   \*************************************************/
@@ -5944,7 +5182,7 @@ var _ListItemText = __webpack_require__(/*! @material-ui/core/ListItemText */ 37
 
 var _ListItemText2 = _interopRequireDefault(_ListItemText);
 
-var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 112);
+var _otherMenu = __webpack_require__(/*! ../../constants/otherMenu.js */ 113);
 
 var _otherMenu2 = _interopRequireDefault(_otherMenu);
 
@@ -6005,24 +5243,10 @@ OtherMenu.propTypes = {
   toggleDrawerOpen: _propTypes2.default.func.isRequired
 };
 
-var _default = OtherMenu;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(OtherMenu, 'OtherMenu', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/OtherMenu.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Sidebar/OtherMenu.js');
-}();
-
-;
+exports.default = OtherMenu;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /*!****************************************!*\
   !*** ./src/app/constants/otherMenu.js ***!
   \****************************************/
@@ -6042,18 +5266,9 @@ module.exports = [{
   name: 'Help & Support',
   link: '/#'
 }];
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /*!*********************************************!*\
   !*** ./src/app/components/Footer/Footer.js ***!
   \*********************************************/
@@ -6072,7 +5287,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = __webpack_require__(/*! ./Footer.scss */ 114);
+var _Footer = __webpack_require__(/*! ./Footer.scss */ 115);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -6086,24 +5301,10 @@ var Footer = function Footer() {
   );
 };
 
-var _default = Footer;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Footer, 'Footer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Footer/Footer.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Footer/Footer.js');
-}();
-
-;
+exports.default = Footer;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /*!***********************************************!*\
   !*** ./src/app/components/Footer/Footer.scss ***!
   \***********************************************/
@@ -6116,7 +5317,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /*!*****************************************************!*\
   !*** ./src/app/components/BreadCrumb/BreadCrumb.js ***!
   \*****************************************************/
@@ -6147,7 +5348,7 @@ var _classnames2 = _interopRequireDefault(_classnames);
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ 17);
 
-var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 116);
+var _breadCrumbJss = __webpack_require__(/*! ./breadCrumb-jss */ 117);
 
 var _breadCrumbJss2 = _interopRequireDefault(_breadCrumbJss);
 
@@ -6206,25 +5407,10 @@ Breadcrumbs.propTypes = {
   separator: _propTypes2.default.string.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_breadCrumbJss2.default)(Breadcrumbs);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Breadcrumbs, 'Breadcrumbs', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/BreadCrumb/BreadCrumb.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/BreadCrumb/BreadCrumb.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_breadCrumbJss2.default)(Breadcrumbs);
 
 /***/ }),
-/* 116 */
+/* 117 */
 /*!*********************************************************!*\
   !*** ./src/app/components/BreadCrumb/breadCrumb-jss.js ***!
   \*********************************************************/
@@ -6268,24 +5454,10 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/BreadCrumb/breadCrumb-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/BreadCrumb/breadCrumb-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /*!************************************************!*\
   !*** ./src/app/components/Route/RouteTable.js ***!
   \************************************************/
@@ -6324,7 +5496,7 @@ var _TablePagination2 = _interopRequireDefault(_TablePagination);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _RouteActions = __webpack_require__(/*! ../../actions/RouteActions */ 118);
+var _RouteActions = __webpack_require__(/*! ../../actions/RouteActions */ 119);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -6363,36 +5535,12 @@ var RouteTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = RouteTable.__proto__ || Object.getPrototypeOf(RouteTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = RouteTable.__proto__ || Object.getPrototypeOf(RouteTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(RouteTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -6489,33 +5637,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var RouteTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(RouteTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(RouteTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-
-  __REACT_HOT_LOADER__.register(RouteTable, 'RouteTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-
-  __REACT_HOT_LOADER__.register(RouteTableMapped, 'RouteTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Route/RouteTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(RouteTableMapped);
 
 /***/ }),
-/* 118 */
+/* 119 */
 /*!*****************************************!*\
   !*** ./src/app/actions/RouteActions.js ***!
   \*****************************************/
@@ -6628,32 +5753,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
     type: branch + '/' + types.CLOSE_NOTIF
   };
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-
-  __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/RouteActions.js');
-}();
-
-;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /*!************************************************************!*\
   !*** ./src/app/components/Transporter/TransporterTable.js ***!
   \************************************************************/
@@ -6688,7 +5790,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _TransporterActions = __webpack_require__(/*! ../../actions/TransporterActions */ 120);
+var _TransporterActions = __webpack_require__(/*! ../../actions/TransporterActions */ 121);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -6727,36 +5829,12 @@ var TransporterTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TransporterTable.__proto__ || Object.getPrototypeOf(TransporterTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TransporterTable.__proto__ || Object.getPrototypeOf(TransporterTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(TransporterTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -6853,33 +5931,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var TransporterTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(TransporterTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TransporterTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-
-  __REACT_HOT_LOADER__.register(TransporterTable, 'TransporterTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-
-  __REACT_HOT_LOADER__.register(TransporterTableMapped, 'TransporterTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Transporter/TransporterTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TransporterTableMapped);
 
 /***/ }),
-/* 120 */
+/* 121 */
 /*!***********************************************!*\
   !*** ./src/app/actions/TransporterActions.js ***!
   \***********************************************/
@@ -6981,32 +6036,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/TransporterActions.js');
-}();
-
-;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /*!**************************************************!*\
   !*** ./src/app/components/Driver/DriverTable.js ***!
   \**************************************************/
@@ -7041,7 +6073,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _DriverActions = __webpack_require__(/*! ../../actions/DriverActions */ 122);
+var _DriverActions = __webpack_require__(/*! ../../actions/DriverActions */ 123);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -7084,36 +6116,12 @@ var DriverTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DriverTable.__proto__ || Object.getPrototypeOf(DriverTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DriverTable.__proto__ || Object.getPrototypeOf(DriverTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(DriverTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -7211,33 +6219,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var DriverTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(DriverTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(DriverTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-
-  __REACT_HOT_LOADER__.register(DriverTable, 'DriverTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-
-  __REACT_HOT_LOADER__.register(DriverTableMapped, 'DriverTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Driver/DriverTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(DriverTableMapped);
 
 /***/ }),
-/* 122 */
+/* 123 */
 /*!******************************************!*\
   !*** ./src/app/actions/DriverActions.js ***!
   \******************************************/
@@ -7339,32 +6324,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/DriverActions.js');
-}();
-
-;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /*!********************************************************!*\
   !*** ./src/app/components/Assistant/AssistantTable.js ***!
   \********************************************************/
@@ -7399,7 +6361,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _AssistantActions = __webpack_require__(/*! ../../actions/AssistantActions */ 124);
+var _AssistantActions = __webpack_require__(/*! ../../actions/AssistantActions */ 125);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -7442,36 +6404,12 @@ var AssistantTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AssistantTable.__proto__ || Object.getPrototypeOf(AssistantTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AssistantTable.__proto__ || Object.getPrototypeOf(AssistantTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(AssistantTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -7569,33 +6507,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var AssistantTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(AssistantTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(AssistantTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-
-  __REACT_HOT_LOADER__.register(AssistantTable, 'AssistantTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-
-  __REACT_HOT_LOADER__.register(AssistantTableMapped, 'AssistantTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Assistant/AssistantTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(AssistantTableMapped);
 
 /***/ }),
-/* 124 */
+/* 125 */
 /*!*********************************************!*\
   !*** ./src/app/actions/AssistantActions.js ***!
   \*********************************************/
@@ -7700,32 +6615,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/AssistantActions.js');
-}();
-
-;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /*!**************************************************!*\
   !*** ./src/app/components/Client/ClientTable.js ***!
   \**************************************************/
@@ -7760,7 +6652,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _ClientActions = __webpack_require__(/*! ../../actions/ClientActions */ 126);
+var _ClientActions = __webpack_require__(/*! ../../actions/ClientActions */ 127);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -7803,36 +6695,12 @@ var ClientTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ClientTable.__proto__ || Object.getPrototypeOf(ClientTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ClientTable.__proto__ || Object.getPrototypeOf(ClientTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ClientTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -7930,33 +6798,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var ClientTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(ClientTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(ClientTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-
-  __REACT_HOT_LOADER__.register(ClientTable, 'ClientTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-
-  __REACT_HOT_LOADER__.register(ClientTableMapped, 'ClientTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Client/ClientTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(ClientTableMapped);
 
 /***/ }),
-/* 126 */
+/* 127 */
 /*!******************************************!*\
   !*** ./src/app/actions/ClientActions.js ***!
   \******************************************/
@@ -8060,32 +6905,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ClientActions.js');
-}();
-
-;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /*!*******************************************************!*\
   !*** ./src/app/components/Schedule/TScheduleTable.js ***!
   \*******************************************************/
@@ -8120,7 +6942,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _TScheduleActions = __webpack_require__(/*! ../../actions/schedule/TScheduleActions */ 128);
+var _TScheduleActions = __webpack_require__(/*! ../../actions/schedule/TScheduleActions */ 129);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -8163,36 +6985,12 @@ var TScheduleTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TScheduleTable.__proto__ || Object.getPrototypeOf(TScheduleTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TScheduleTable.__proto__ || Object.getPrototypeOf(TScheduleTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(TScheduleTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -8290,33 +7088,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var TScheduleTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(TScheduleTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TScheduleTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(TScheduleTable, 'TScheduleTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(TScheduleTableMapped, 'TScheduleTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/TScheduleTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TScheduleTableMapped);
 
 /***/ }),
-/* 128 */
+/* 129 */
 /*!******************************************************!*\
   !*** ./src/app/actions/schedule/TScheduleActions.js ***!
   \******************************************************/
@@ -8420,32 +7195,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/TScheduleActions.js');
-}();
-
-;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /*!*******************************************************!*\
   !*** ./src/app/components/Schedule/WScheduleTable.js ***!
   \*******************************************************/
@@ -8480,7 +7232,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _WScheduleActions = __webpack_require__(/*! ../../actions/schedule/WScheduleActions */ 130);
+var _WScheduleActions = __webpack_require__(/*! ../../actions/schedule/WScheduleActions */ 131);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -8523,36 +7275,12 @@ var WScheduleTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = WScheduleTable.__proto__ || Object.getPrototypeOf(WScheduleTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = WScheduleTable.__proto__ || Object.getPrototypeOf(WScheduleTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(WScheduleTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -8650,33 +7378,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var WScheduleTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(WScheduleTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(WScheduleTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(WScheduleTable, 'WScheduleTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(WScheduleTableMapped, 'WScheduleTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Schedule/WScheduleTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(WScheduleTableMapped);
 
 /***/ }),
-/* 130 */
+/* 131 */
 /*!******************************************************!*\
   !*** ./src/app/actions/schedule/WScheduleActions.js ***!
   \******************************************************/
@@ -8780,32 +7485,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/schedule/WScheduleActions.js');
-}();
-
-;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /*!**************************************************!*\
   !*** ./src/app/components/Ticket/TicketTable.js ***!
   \**************************************************/
@@ -8840,7 +7522,7 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRedux = __webpack_require__(/*! react-redux */ 6);
 
-var _TicketActions = __webpack_require__(/*! ../../actions/ticket/TicketActions */ 132);
+var _TicketActions = __webpack_require__(/*! ../../actions/ticket/TicketActions */ 133);
 
 var _styles2 = __webpack_require__(/*! ../../constants/styles.js */ 7);
 
@@ -8883,36 +7565,12 @@ var TicketTable = function (_Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TicketTable.__proto__ || Object.getPrototypeOf(TicketTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChangePage__REACT_HOT_LOADER__.apply(_this2, arguments);
-    }, _this.handleChangeRowsPerPage = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(_this3, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TicketTable.__proto__ || Object.getPrototypeOf(TicketTable)).call.apply(_ref, [this].concat(args))), _this), _this.handleChangePage = function (event, page) {}, _this.handleChangeRowsPerPage = function (event) {
+      //  show(event);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(TicketTable, [{
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__() {
-      return this.__handleChangeRowsPerPage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__() {
-      return this.__handleChangePage__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChangePage__REACT_HOT_LOADER__',
-    value: function __handleChangePage__REACT_HOT_LOADER__(event, page) {}
-  }, {
-    key: '__handleChangeRowsPerPage__REACT_HOT_LOADER__',
-    value: function __handleChangeRowsPerPage__REACT_HOT_LOADER__(event) {
-      //  show(event);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -9010,33 +7668,10 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 var TicketTableMapped = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(TicketTable);
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TicketTableMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branch, 'branch', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-
-  __REACT_HOT_LOADER__.register(TicketTable, 'TicketTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-
-  __REACT_HOT_LOADER__.register(TicketTableMapped, 'TicketTableMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Ticket/TicketTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TicketTableMapped);
 
 /***/ }),
-/* 132 */
+/* 133 */
 /*!*************************************************!*\
   !*** ./src/app/actions/ticket/TicketActions.js ***!
   \*************************************************/
@@ -9140,32 +7775,9 @@ var closeNotifAction = exports.closeNotifAction = function closeNotifAction(bran
         type: branch + '/' + types.CLOSE_NOTIF
     };
 };
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(fetchAction, 'fetchAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(addAction, 'addAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(removeAction, 'removeAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(updateAction, 'updateAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(editAction, 'editAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(saveAction, 'saveAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-
-    __REACT_HOT_LOADER__.register(closeNotifAction, 'closeNotifAction', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/actions/ticket/TicketActions.js');
-}();
-
-;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /*!***********************************************************!*\
   !*** ./src/app/components/PapperBlock/papperStyle-jss.js ***!
   \***********************************************************/
@@ -9238,24 +7850,10 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/PapperBlock/papperStyle-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Counter/CounterWidget.js ***!
   \*****************************************************/
@@ -9280,7 +7878,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactCountup = __webpack_require__(/*! react-countup */ 135);
+var _reactCountup = __webpack_require__(/*! react-countup */ 136);
 
 var _reactCountup2 = _interopRequireDefault(_reactCountup);
 
@@ -9401,27 +7999,10 @@ CounterWidget.propTypes = {
   children: _propTypes2.default.node.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(CounterWidget);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Counter/CounterWidget.js');
-
-  __REACT_HOT_LOADER__.register(CounterWidget, 'CounterWidget', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Counter/CounterWidget.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Counter/CounterWidget.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(styles)(CounterWidget);
 
 /***/ }),
-/* 135 */
+/* 136 */
 /*!********************************!*\
   !*** external "react-countup" ***!
   \********************************/
@@ -9432,7 +8013,7 @@ var _temp = function () {
 module.exports = require("react-countup");
 
 /***/ }),
-/* 136 */
+/* 137 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Widget/CounterIconsWidget.js ***!
   \*********************************************************/
@@ -9463,19 +8044,19 @@ var _Grid = __webpack_require__(/*! @material-ui/core/Grid */ 29);
 
 var _Grid2 = _interopRequireDefault(_Grid);
 
-var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 137);
+var _AccountBox = __webpack_require__(/*! @material-ui/icons/AccountBox */ 138);
 
 var _AccountBox2 = _interopRequireDefault(_AccountBox);
 
-var _PersonAdd = __webpack_require__(/*! @material-ui/icons/PersonAdd */ 138);
+var _PersonAdd = __webpack_require__(/*! @material-ui/icons/PersonAdd */ 139);
 
 var _PersonAdd2 = _interopRequireDefault(_PersonAdd);
 
-var _DirectionsBus = __webpack_require__(/*! @material-ui/icons/DirectionsBus */ 139);
+var _DirectionsBus = __webpack_require__(/*! @material-ui/icons/DirectionsBus */ 140);
 
 var _DirectionsBus2 = _interopRequireDefault(_DirectionsBus);
 
-var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 140);
+var _Star = __webpack_require__(/*! @material-ui/icons/Star */ 141);
 
 var _Star2 = _interopRequireDefault(_Star);
 
@@ -9538,7 +8119,7 @@ var CounterIconWidget = function (_PureComponent) {
                 start: 0,
                 end: 3,
                 duration: 3,
-                title: 'New Transporter'
+                title: 'New Transporters'
               },
               _react2.default.createElement(_DirectionsBus2.default, { className: classes.counterIcon })
             )
@@ -9553,7 +8134,7 @@ var CounterIconWidget = function (_PureComponent) {
                 start: 0,
                 end: 15,
                 duration: 3,
-                title: 'New Employee'
+                title: 'New Employees'
               },
               _react2.default.createElement(_PersonAdd2.default, { className: classes.counterIcon })
             )
@@ -9585,25 +8166,10 @@ CounterIconWidget.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_widgetJss2.default)(CounterIconWidget);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(CounterIconWidget, 'CounterIconWidget', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CounterIconsWidget.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CounterIconsWidget.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_widgetJss2.default)(CounterIconWidget);
 
 /***/ }),
-/* 137 */
+/* 138 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/AccountBox" ***!
   \************************************************/
@@ -9614,7 +8180,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/AccountBox");
 
 /***/ }),
-/* 138 */
+/* 139 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/PersonAdd" ***!
   \***********************************************/
@@ -9625,7 +8191,7 @@ module.exports = require("@material-ui/icons/AccountBox");
 module.exports = require("@material-ui/icons/PersonAdd");
 
 /***/ }),
-/* 139 */
+/* 140 */
 /*!***************************************************!*\
   !*** external "@material-ui/icons/DirectionsBus" ***!
   \***************************************************/
@@ -9636,7 +8202,7 @@ module.exports = require("@material-ui/icons/PersonAdd");
 module.exports = require("@material-ui/icons/DirectionsBus");
 
 /***/ }),
-/* 140 */
+/* 141 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Star" ***!
   \******************************************/
@@ -9647,7 +8213,7 @@ module.exports = require("@material-ui/icons/DirectionsBus");
 module.exports = require("@material-ui/icons/Star");
 
 /***/ }),
-/* 141 */
+/* 142 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/blue" ***!
   \************************************************/
@@ -9658,7 +8224,7 @@ module.exports = require("@material-ui/icons/Star");
 module.exports = require("@material-ui/core/colors/blue");
 
 /***/ }),
-/* 142 */
+/* 143 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/deepOrange" ***!
   \******************************************************/
@@ -9669,7 +8235,7 @@ module.exports = require("@material-ui/core/colors/blue");
 module.exports = require("@material-ui/core/colors/deepOrange");
 
 /***/ }),
-/* 143 */
+/* 144 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/colors/red" ***!
   \***********************************************/
@@ -9680,7 +8246,7 @@ module.exports = require("@material-ui/core/colors/deepOrange");
 module.exports = require("@material-ui/core/colors/red");
 
 /***/ }),
-/* 144 */
+/* 145 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/colors/purple" ***!
   \**************************************************/
@@ -9691,7 +8257,7 @@ module.exports = require("@material-ui/core/colors/red");
 module.exports = require("@material-ui/core/colors/purple");
 
 /***/ }),
-/* 145 */
+/* 146 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/deepPurple" ***!
   \******************************************************/
@@ -9702,7 +8268,7 @@ module.exports = require("@material-ui/core/colors/purple");
 module.exports = require("@material-ui/core/colors/deepPurple");
 
 /***/ }),
-/* 146 */
+/* 147 */
 /*!************************************************!*\
   !*** external "@material-ui/core/colors/lime" ***!
   \************************************************/
@@ -9713,7 +8279,7 @@ module.exports = require("@material-ui/core/colors/deepPurple");
 module.exports = require("@material-ui/core/colors/lime");
 
 /***/ }),
-/* 147 */
+/* 148 */
 /*!**************************************************!*\
   !*** external "@material-ui/core/colors/indigo" ***!
   \**************************************************/
@@ -9724,7 +8290,7 @@ module.exports = require("@material-ui/core/colors/lime");
 module.exports = require("@material-ui/core/colors/indigo");
 
 /***/ }),
-/* 148 */
+/* 149 */
 /*!******************************************************!*\
   !*** ./src/app/components/Widget/AreaChartWidget.js ***!
   \******************************************************/
@@ -9759,23 +8325,23 @@ var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 149);
+var _Chip = __webpack_require__(/*! @material-ui/core/Chip */ 150);
 
 var _Chip2 = _interopRequireDefault(_Chip);
 
-var _People = __webpack_require__(/*! @material-ui/icons/People */ 150);
+var _People = __webpack_require__(/*! @material-ui/icons/People */ 151);
 
 var _People2 = _interopRequireDefault(_People);
 
-var _PermPhoneMsg = __webpack_require__(/*! @material-ui/icons/PermPhoneMsg */ 151);
+var _PermPhoneMsg = __webpack_require__(/*! @material-ui/icons/PermPhoneMsg */ 152);
 
 var _PermPhoneMsg2 = _interopRequireDefault(_PermPhoneMsg);
 
-var _DateRange = __webpack_require__(/*! @material-ui/icons/DateRange */ 152);
+var _DateRange = __webpack_require__(/*! @material-ui/icons/DateRange */ 153);
 
 var _DateRange2 = _interopRequireDefault(_DateRange);
 
-var _Assignment = __webpack_require__(/*! @material-ui/icons/Assignment */ 153);
+var _Assignment = __webpack_require__(/*! @material-ui/icons/Assignment */ 154);
 
 var _Assignment2 = _interopRequireDefault(_Assignment);
 
@@ -9787,11 +8353,11 @@ var _Divider = __webpack_require__(/*! @material-ui/core/Divider */ 28);
 
 var _Divider2 = _interopRequireDefault(_Divider);
 
-var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 154);
+var _CircularProgress = __webpack_require__(/*! @material-ui/core/CircularProgress */ 155);
 
 var _CircularProgress2 = _interopRequireDefault(_CircularProgress);
 
-var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 155);
+var _Style = __webpack_require__(/*! @material-ui/icons/Style */ 156);
 
 var _Style2 = _interopRequireDefault(_Style);
 
@@ -9807,15 +8373,15 @@ var _green = __webpack_require__(/*! @material-ui/core/colors/green */ 65);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _recharts = __webpack_require__(/*! recharts */ 156);
+var _recharts = __webpack_require__(/*! recharts */ 157);
 
 var _Messages = __webpack_require__(/*! ../../styles/components/Messages.scss */ 49);
 
 var _Messages2 = _interopRequireDefault(_Messages);
 
-var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 157);
+var _chartData = __webpack_require__(/*! ../../constants/chartData.js */ 158);
 
-var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 158);
+var _Typography3 = __webpack_require__(/*! ../../styles/components/Typography.scss */ 159);
 
 var _Typography4 = _interopRequireDefault(_Typography3);
 
@@ -10056,29 +8622,10 @@ AreaChartWidget.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_widgetJss2.default)(AreaChartWidget);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(theme, 'theme', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AreaChartWidget.js');
-
-  __REACT_HOT_LOADER__.register(color, 'color', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AreaChartWidget.js');
-
-  __REACT_HOT_LOADER__.register(AreaChartWidget, 'AreaChartWidget', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AreaChartWidget.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AreaChartWidget.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_widgetJss2.default)(AreaChartWidget);
 
 /***/ }),
-/* 149 */
+/* 150 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Chip" ***!
   \*****************************************/
@@ -10089,7 +8636,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Chip");
 
 /***/ }),
-/* 150 */
+/* 151 */
 /*!********************************************!*\
   !*** external "@material-ui/icons/People" ***!
   \********************************************/
@@ -10100,7 +8647,7 @@ module.exports = require("@material-ui/core/Chip");
 module.exports = require("@material-ui/icons/People");
 
 /***/ }),
-/* 151 */
+/* 152 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/PermPhoneMsg" ***!
   \**************************************************/
@@ -10111,7 +8658,7 @@ module.exports = require("@material-ui/icons/People");
 module.exports = require("@material-ui/icons/PermPhoneMsg");
 
 /***/ }),
-/* 152 */
+/* 153 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/DateRange" ***!
   \***********************************************/
@@ -10122,7 +8669,7 @@ module.exports = require("@material-ui/icons/PermPhoneMsg");
 module.exports = require("@material-ui/icons/DateRange");
 
 /***/ }),
-/* 153 */
+/* 154 */
 /*!************************************************!*\
   !*** external "@material-ui/icons/Assignment" ***!
   \************************************************/
@@ -10133,7 +8680,7 @@ module.exports = require("@material-ui/icons/DateRange");
 module.exports = require("@material-ui/icons/Assignment");
 
 /***/ }),
-/* 154 */
+/* 155 */
 /*!*****************************************************!*\
   !*** external "@material-ui/core/CircularProgress" ***!
   \*****************************************************/
@@ -10144,7 +8691,7 @@ module.exports = require("@material-ui/icons/Assignment");
 module.exports = require("@material-ui/core/CircularProgress");
 
 /***/ }),
-/* 155 */
+/* 156 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Style" ***!
   \*******************************************/
@@ -10155,7 +8702,7 @@ module.exports = require("@material-ui/core/CircularProgress");
 module.exports = require("@material-ui/icons/Style");
 
 /***/ }),
-/* 156 */
+/* 157 */
 /*!***************************!*\
   !*** external "recharts" ***!
   \***************************/
@@ -10166,7 +8713,7 @@ module.exports = require("@material-ui/icons/Style");
 module.exports = require("recharts");
 
 /***/ }),
-/* 157 */
+/* 158 */
 /*!****************************************!*\
   !*** ./src/app/constants/chartData.js ***!
   \****************************************/
@@ -10413,36 +8960,9 @@ var data9 = exports.data9 = [{
   x: 120,
   y: 190
 }];
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(data1, 'data1', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data2, 'data2', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data3, 'data3', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data4, 'data4', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data5, 'data5', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data6, 'data6', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data7, 'data7', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data8, 'data8', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-
-  __REACT_HOT_LOADER__.register(data9, 'data9', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/chartData.js');
-}();
-
-;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /*!***************************************************!*\
   !*** ./src/app/styles/components/Typography.scss ***!
   \***************************************************/
@@ -10479,7 +8999,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Widget/CarouselWidget.js ***!
   \*****************************************************/
@@ -10500,7 +9020,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactSlick = __webpack_require__(/*! react-slick */ 160);
+var _reactSlick = __webpack_require__(/*! react-slick */ 161);
 
 var _reactSlick2 = _interopRequireDefault(_reactSlick);
 
@@ -10518,11 +9038,11 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 13);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 161);
+var _ArrowForward = __webpack_require__(/*! @material-ui/icons/ArrowForward */ 162);
 
 var _ArrowForward2 = _interopRequireDefault(_ArrowForward);
 
-var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 162);
+var _ArrowBack = __webpack_require__(/*! @material-ui/icons/ArrowBack */ 163);
 
 var _ArrowBack2 = _interopRequireDefault(_ArrowBack);
 
@@ -10530,15 +9050,15 @@ var _Icon = __webpack_require__(/*! @material-ui/core/Icon */ 39);
 
 var _Icon2 = _interopRequireDefault(_Icon);
 
-var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 163);
+var _carouselData = __webpack_require__(/*! ../../constants/carouselData.js */ 164);
 
 var _carouselData2 = _interopRequireDefault(_carouselData);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 164);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-carousel.css */ 165);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 165);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick.css */ 166);
 
-__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 166);
+__webpack_require__(/*! ../../styles/components/vendors/slick-carousel/slick-theme.css */ 167);
 
 var _widgetJss = __webpack_require__(/*! ./widget-jss */ 30);
 
@@ -10687,29 +9207,10 @@ CarouselWidget.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_widgetJss2.default)(CarouselWidget);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(SampleNextArrow, 'SampleNextArrow', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CarouselWidget.js');
-
-  __REACT_HOT_LOADER__.register(SamplePrevArrow, 'SamplePrevArrow', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CarouselWidget.js');
-
-  __REACT_HOT_LOADER__.register(CarouselWidget, 'CarouselWidget', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CarouselWidget.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/CarouselWidget.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_widgetJss2.default)(CarouselWidget);
 
 /***/ }),
-/* 160 */
+/* 161 */
 /*!******************************!*\
   !*** external "react-slick" ***!
   \******************************/
@@ -10720,7 +9221,7 @@ var _temp = function () {
 module.exports = require("react-slick");
 
 /***/ }),
-/* 161 */
+/* 162 */
 /*!**************************************************!*\
   !*** external "@material-ui/icons/ArrowForward" ***!
   \**************************************************/
@@ -10731,7 +9232,7 @@ module.exports = require("react-slick");
 module.exports = require("@material-ui/icons/ArrowForward");
 
 /***/ }),
-/* 162 */
+/* 163 */
 /*!***********************************************!*\
   !*** external "@material-ui/icons/ArrowBack" ***!
   \***********************************************/
@@ -10742,7 +9243,7 @@ module.exports = require("@material-ui/icons/ArrowForward");
 module.exports = require("@material-ui/icons/ArrowBack");
 
 /***/ }),
-/* 163 */
+/* 164 */
 /*!*******************************************!*\
   !*** ./src/app/constants/carouselData.js ***!
   \*******************************************/
@@ -10788,24 +9289,10 @@ var carouselData = [{
   icon: 'public'
 }];
 
-var _default = carouselData;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(carouselData, 'carouselData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/carouselData.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/carouselData.js');
-}();
-
-;
+exports.default = carouselData;
 
 /***/ }),
-/* 164 */
+/* 165 */
 /*!*****************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-carousel.css ***!
   \*****************************************************************************/
@@ -10816,7 +9303,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /*!********************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick.css ***!
   \********************************************************************/
@@ -10827,7 +9314,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /*!**************************************************************************!*\
   !*** ./src/app/styles/components/vendors/slick-carousel/slick-theme.css ***!
   \**************************************************************************/
@@ -10838,7 +9325,7 @@ var _temp = function () {
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /*!**************************************************!*\
   !*** ./src/app/components/Widget/AlbumWidget.js ***!
   \**************************************************/
@@ -10865,15 +9352,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 168);
+var _GridList = __webpack_require__(/*! @material-ui/core/GridList */ 169);
 
 var _GridList2 = _interopRequireDefault(_GridList);
 
-var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 169);
+var _GridListTile = __webpack_require__(/*! @material-ui/core/GridListTile */ 170);
 
 var _GridListTile2 = _interopRequireDefault(_GridListTile);
 
-var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 170);
+var _GridListTileBar = __webpack_require__(/*! @material-ui/core/GridListTileBar */ 171);
 
 var _GridListTileBar2 = _interopRequireDefault(_GridListTileBar);
 
@@ -10885,7 +9372,7 @@ var _Info = __webpack_require__(/*! @material-ui/icons/Info */ 45);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 171);
+var _imgData = __webpack_require__(/*! ../../constants/imgData.js */ 172);
 
 var _imgData2 = _interopRequireDefault(_imgData);
 
@@ -10965,25 +9452,10 @@ AlbumWidget.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_widgetJss2.default)(AlbumWidget);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(AlbumWidget, 'AlbumWidget', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AlbumWidget.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Widget/AlbumWidget.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_widgetJss2.default)(AlbumWidget);
 
 /***/ }),
-/* 168 */
+/* 169 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/GridList" ***!
   \*********************************************/
@@ -10994,7 +9466,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/GridList");
 
 /***/ }),
-/* 169 */
+/* 170 */
 /*!*************************************************!*\
   !*** external "@material-ui/core/GridListTile" ***!
   \*************************************************/
@@ -11005,7 +9477,7 @@ module.exports = require("@material-ui/core/GridList");
 module.exports = require("@material-ui/core/GridListTile");
 
 /***/ }),
-/* 170 */
+/* 171 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/GridListTileBar" ***!
   \****************************************************/
@@ -11016,7 +9488,7 @@ module.exports = require("@material-ui/core/GridListTile");
 module.exports = require("@material-ui/core/GridListTileBar");
 
 /***/ }),
-/* 171 */
+/* 172 */
 /*!**************************************!*\
   !*** ./src/app/constants/imgData.js ***!
   \**************************************/
@@ -11062,24 +9534,10 @@ var imgData = [{
   featured: true
 }];
 
-var _default = imgData;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(imgData, 'imgData', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/imgData.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/imgData.js');
-}();
-
-;
+exports.default = imgData;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /*!************************************************!*\
   !*** ./src/app/components/Tables/CrudTable.js ***!
   \************************************************/
@@ -11104,7 +9562,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 173);
+var _MainTable = __webpack_require__(/*! ./tableParts/MainTable */ 174);
 
 var _MainTable2 = _interopRequireDefault(_MainTable);
 
@@ -11177,24 +9635,10 @@ CrudTable.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = CrudTable;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(CrudTable, 'CrudTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/CrudTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/CrudTable.js');
-}();
-
-;
+exports.default = CrudTable;
 
 /***/ }),
-/* 173 */
+/* 174 */
 /*!***********************************************************!*\
   !*** ./src/app/components/Tables/tableParts/MainTable.js ***!
   \***********************************************************/
@@ -11221,11 +9665,11 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Table = __webpack_require__(/*! @material-ui/core/Table */ 174);
+var _Table = __webpack_require__(/*! @material-ui/core/Table */ 175);
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 175);
+var _TableBody = __webpack_require__(/*! @material-ui/core/TableBody */ 176);
 
 var _TableBody2 = _interopRequireDefault(_TableBody);
 
@@ -11233,11 +9677,11 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 176);
+var _TableHead = __webpack_require__(/*! @material-ui/core/TableHead */ 177);
 
 var _TableHead2 = _interopRequireDefault(_TableHead);
 
-var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 177);
+var _TableRow = __webpack_require__(/*! @material-ui/core/TableRow */ 178);
 
 var _TableRow2 = _interopRequireDefault(_TableRow);
 
@@ -11249,7 +9693,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 178);
+var _Tooltip = __webpack_require__(/*! @material-ui/core/Tooltip */ 179);
 
 var _Tooltip2 = _interopRequireDefault(_Tooltip);
 
@@ -11261,7 +9705,7 @@ var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 179);
+var _Add = __webpack_require__(/*! @material-ui/icons/Add */ 180);
 
 var _Add2 = _interopRequireDefault(_Add);
 
@@ -11269,11 +9713,11 @@ var _Table3 = __webpack_require__(/*! ../../../styles/components/Table.scss */ 2
 
 var _Table4 = _interopRequireDefault(_Table3);
 
-var _Row = __webpack_require__(/*! ./Row */ 180);
+var _Row = __webpack_require__(/*! ./Row */ 181);
 
 var _Row2 = _interopRequireDefault(_Row);
 
-var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 196);
+var _tableStyleJss = __webpack_require__(/*! ./tableStyle-jss */ 197);
 
 var _tableStyleJss2 = _interopRequireDefault(_tableStyleJss);
 
@@ -11420,25 +9864,10 @@ MainTable.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_tableStyleJss2.default)(MainTable);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(MainTable, 'MainTable', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/MainTable.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/MainTable.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_tableStyleJss2.default)(MainTable);
 
 /***/ }),
-/* 174 */
+/* 175 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Table" ***!
   \******************************************/
@@ -11449,7 +9878,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Table");
 
 /***/ }),
-/* 175 */
+/* 176 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TableBody" ***!
   \**********************************************/
@@ -11460,7 +9889,7 @@ module.exports = require("@material-ui/core/Table");
 module.exports = require("@material-ui/core/TableBody");
 
 /***/ }),
-/* 176 */
+/* 177 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TableHead" ***!
   \**********************************************/
@@ -11471,7 +9900,7 @@ module.exports = require("@material-ui/core/TableBody");
 module.exports = require("@material-ui/core/TableHead");
 
 /***/ }),
-/* 177 */
+/* 178 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/TableRow" ***!
   \*********************************************/
@@ -11482,7 +9911,7 @@ module.exports = require("@material-ui/core/TableHead");
 module.exports = require("@material-ui/core/TableRow");
 
 /***/ }),
-/* 178 */
+/* 179 */
 /*!********************************************!*\
   !*** external "@material-ui/core/Tooltip" ***!
   \********************************************/
@@ -11493,7 +9922,7 @@ module.exports = require("@material-ui/core/TableRow");
 module.exports = require("@material-ui/core/Tooltip");
 
 /***/ }),
-/* 179 */
+/* 180 */
 /*!*****************************************!*\
   !*** external "@material-ui/icons/Add" ***!
   \*****************************************/
@@ -11504,7 +9933,7 @@ module.exports = require("@material-ui/core/Tooltip");
 module.exports = require("@material-ui/icons/Add");
 
 /***/ }),
-/* 180 */
+/* 181 */
 /*!*****************************************************!*\
   !*** ./src/app/components/Tables/tableParts/Row.js ***!
   \*****************************************************/
@@ -11543,15 +9972,15 @@ var _classnames = __webpack_require__(/*! classnames */ 11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 181);
+var _Delete = __webpack_require__(/*! @material-ui/icons/Delete */ 182);
 
 var _Delete2 = _interopRequireDefault(_Delete);
 
-var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 182);
+var _BorderColor = __webpack_require__(/*! @material-ui/icons/BorderColor */ 183);
 
 var _BorderColor2 = _interopRequireDefault(_BorderColor);
 
-var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 183);
+var _Done = __webpack_require__(/*! @material-ui/icons/Done */ 184);
 
 var _Done2 = _interopRequireDefault(_Done);
 
@@ -11559,23 +9988,23 @@ var _Table = __webpack_require__(/*! ../../../styles/components/Table.scss */ 21
 
 var _Table2 = _interopRequireDefault(_Table);
 
-var _EditableCell = __webpack_require__(/*! ./EditableCell */ 184);
+var _EditableCell = __webpack_require__(/*! ./EditableCell */ 185);
 
 var _EditableCell2 = _interopRequireDefault(_EditableCell);
 
-var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 187);
+var _SelectableCell = __webpack_require__(/*! ./SelectableCell */ 188);
 
 var _SelectableCell2 = _interopRequireDefault(_SelectableCell);
 
-var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 189);
+var _ToggleCell = __webpack_require__(/*! ./ToggleCell */ 190);
 
 var _ToggleCell2 = _interopRequireDefault(_ToggleCell);
 
-var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 191);
+var _DatePickerCell = __webpack_require__(/*! ./DatePickerCell */ 192);
 
 var _DatePickerCell2 = _interopRequireDefault(_DatePickerCell);
 
-var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 193);
+var _TimePickerCell = __webpack_require__(/*! ./TimePickerCell */ 194);
 
 var _TimePickerCell2 = _interopRequireDefault(_TimePickerCell);
 
@@ -11770,27 +10199,10 @@ Row.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(Row);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/Row.js');
-
-  __REACT_HOT_LOADER__.register(Row, 'Row', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/Row.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/Row.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(styles)(Row);
 
 /***/ }),
-/* 181 */
+/* 182 */
 /*!********************************************!*\
   !*** external "@material-ui/icons/Delete" ***!
   \********************************************/
@@ -11801,7 +10213,7 @@ var _temp = function () {
 module.exports = require("@material-ui/icons/Delete");
 
 /***/ }),
-/* 182 */
+/* 183 */
 /*!*************************************************!*\
   !*** external "@material-ui/icons/BorderColor" ***!
   \*************************************************/
@@ -11812,7 +10224,7 @@ module.exports = require("@material-ui/icons/Delete");
 module.exports = require("@material-ui/icons/BorderColor");
 
 /***/ }),
-/* 183 */
+/* 184 */
 /*!******************************************!*\
   !*** external "@material-ui/icons/Done" ***!
   \******************************************/
@@ -11823,7 +10235,7 @@ module.exports = require("@material-ui/icons/BorderColor");
 module.exports = require("@material-ui/icons/Done");
 
 /***/ }),
-/* 184 */
+/* 185 */
 /*!**************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/EditableCell.js ***!
   \**************************************************************/
@@ -11852,11 +10264,11 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _Input = __webpack_require__(/*! @material-ui/core/Input */ 185);
+var _Input = __webpack_require__(/*! @material-ui/core/Input */ 186);
 
 var _Input2 = _interopRequireDefault(_Input);
 
-var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 186);
+var _TextField = __webpack_require__(/*! @material-ui/core/TextField */ 187);
 
 var _TextField2 = _interopRequireDefault(_TextField);
 
@@ -11973,24 +10385,10 @@ EditableCell.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = EditableCell;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(EditableCell, 'EditableCell', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/EditableCell.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/EditableCell.js');
-}();
-
-;
+exports.default = EditableCell;
 
 /***/ }),
-/* 185 */
+/* 186 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Input" ***!
   \******************************************/
@@ -12001,7 +10399,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Input");
 
 /***/ }),
-/* 186 */
+/* 187 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/TextField" ***!
   \**********************************************/
@@ -12012,7 +10410,7 @@ module.exports = require("@material-ui/core/Input");
 module.exports = require("@material-ui/core/TextField");
 
 /***/ }),
-/* 187 */
+/* 188 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/SelectableCell.js ***!
   \****************************************************************/
@@ -12037,7 +10435,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Select = __webpack_require__(/*! @material-ui/core/Select */ 188);
+var _Select = __webpack_require__(/*! @material-ui/core/Select */ 189);
 
 var _Select2 = _interopRequireDefault(_Select);
 
@@ -12077,25 +10475,13 @@ var SelectableCell = function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SelectableCell.__proto__ || Object.getPrototypeOf(SelectableCell)).call.apply(_ref, [this].concat(args))), _this), _this.handleChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChange__REACT_HOT_LOADER__.apply(_this2, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SelectableCell.__proto__ || Object.getPrototypeOf(SelectableCell)).call.apply(_ref, [this].concat(args))), _this), _this.handleChange = function (event) {
+      _this.props.updateRow(event, _this.props.branch);
+      _this.setState(_defineProperty({}, event.target.name, event.target.value));
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(SelectableCell, [{
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__() {
-      return this.__handleChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__(event) {
-      this.props.updateRow(event, this.props.branch);
-      this.setState(_defineProperty({}, event.target.name, event.target.value));
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -12141,24 +10527,10 @@ SelectableCell.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = SelectableCell;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(SelectableCell, 'SelectableCell', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/SelectableCell.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/SelectableCell.js');
-}();
-
-;
+exports.default = SelectableCell;
 
 /***/ }),
-/* 188 */
+/* 189 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Select" ***!
   \*******************************************/
@@ -12169,7 +10541,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Select");
 
 /***/ }),
-/* 189 */
+/* 190 */
 /*!************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/ToggleCell.js ***!
   \************************************************************/
@@ -12206,7 +10578,7 @@ var _FormControlLabel = __webpack_require__(/*! @material-ui/core/FormControlLab
 
 var _FormControlLabel2 = _interopRequireDefault(_FormControlLabel);
 
-var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 190);
+var _Switch = __webpack_require__(/*! @material-ui/core/Switch */ 191);
 
 var _Switch2 = _interopRequireDefault(_Switch);
 
@@ -12238,25 +10610,13 @@ var ToggleCell = function (_React$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ToggleCell.__proto__ || Object.getPrototypeOf(ToggleCell)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       isChecked: _this.props.cellData.value
-    }, _this.handleChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChange__REACT_HOT_LOADER__.apply(_this2, arguments);
+    }, _this.handleChange = function (event) {
+      _this.setState({ isChecked: event.target.checked });
+      _this.props.updateRow(event, _this.props.branch);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(ToggleCell, [{
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__() {
-      return this.__handleChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__(event) {
-      this.setState({ isChecked: event.target.checked });
-      this.props.updateRow(event, this.props.branch);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -12291,24 +10651,10 @@ ToggleCell.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = ToggleCell;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ToggleCell, 'ToggleCell', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/ToggleCell.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/ToggleCell.js');
-}();
-
-;
+exports.default = ToggleCell;
 
 /***/ }),
-/* 190 */
+/* 191 */
 /*!*******************************************!*\
   !*** external "@material-ui/core/Switch" ***!
   \*******************************************/
@@ -12319,7 +10665,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Switch");
 
 /***/ }),
-/* 191 */
+/* 192 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/DatePickerCell.js ***!
   \****************************************************************/
@@ -12356,7 +10702,7 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 192);
+var _DatePicker = __webpack_require__(/*! material-ui-pickers/DatePicker */ 193);
 
 var _DatePicker2 = _interopRequireDefault(_DatePicker);
 
@@ -12393,25 +10739,13 @@ var DatePickerCell = function (_React$Component) {
           value: _this.props.cellData.value
         }
       }
-    }, _this.handleDateChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleDateChange__REACT_HOT_LOADER__.apply(_this2, arguments);
+    }, _this.handleDateChange = function (date) {
+      _this.state.event.target.value = date;
+      _this.props.updateRow(_this.state.event, _this.props.branch);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(DatePickerCell, [{
-    key: '__handleDateChange__REACT_HOT_LOADER__',
-    value: function __handleDateChange__REACT_HOT_LOADER__() {
-      return this.__handleDateChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleDateChange__REACT_HOT_LOADER__',
-    value: function __handleDateChange__REACT_HOT_LOADER__(date) {
-      this.state.event.target.value = date;
-      this.props.updateRow(this.state.event, this.props.branch);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -12453,24 +10787,10 @@ DatePickerCell.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = DatePickerCell;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(DatePickerCell, 'DatePickerCell', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/DatePickerCell.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/DatePickerCell.js');
-}();
-
-;
+exports.default = DatePickerCell;
 
 /***/ }),
-/* 192 */
+/* 193 */
 /*!*************************************************!*\
   !*** external "material-ui-pickers/DatePicker" ***!
   \*************************************************/
@@ -12481,7 +10801,7 @@ var _temp2 = function () {
 module.exports = require("material-ui-pickers/DatePicker");
 
 /***/ }),
-/* 193 */
+/* 194 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/TimePickerCell.js ***!
   \****************************************************************/
@@ -12518,9 +10838,9 @@ var _TableCell = __webpack_require__(/*! @material-ui/core/TableCell */ 20);
 
 var _TableCell2 = _interopRequireDefault(_TableCell);
 
-var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 194);
+var _materialUiPickers = __webpack_require__(/*! material-ui-pickers */ 195);
 
-var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 195);
+var _InputAdornment = __webpack_require__(/*! @material-ui/core/InputAdornment */ 196);
 
 var _InputAdornment2 = _interopRequireDefault(_InputAdornment);
 
@@ -12565,25 +10885,13 @@ var TimePickerCell = function (_React$Component) {
           value: _this.props.cellData.value
         }
       }
-    }, _this.handleTimeChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleTimeChange__REACT_HOT_LOADER__.apply(_this2, arguments);
+    }, _this.handleTimeChange = function (date) {
+      _this.state.event.target.value = date;
+      _this.props.updateRow(_this.state.event, _this.props.branch);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(TimePickerCell, [{
-    key: '__handleTimeChange__REACT_HOT_LOADER__',
-    value: function __handleTimeChange__REACT_HOT_LOADER__() {
-      return this.__handleTimeChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleTimeChange__REACT_HOT_LOADER__',
-    value: function __handleTimeChange__REACT_HOT_LOADER__(date) {
-      this.state.event.target.value = date;
-      this.props.updateRow(this.state.event, this.props.branch);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -12636,24 +10944,10 @@ TimePickerCell.propTypes = {
   branch: _propTypes2.default.string.isRequired
 };
 
-var _default = TimePickerCell;
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(TimePickerCell, 'TimePickerCell', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TimePickerCell.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/TimePickerCell.js');
-}();
-
-;
+exports.default = TimePickerCell;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /*!**************************************!*\
   !*** external "material-ui-pickers" ***!
   \**************************************/
@@ -12664,7 +10958,7 @@ var _temp2 = function () {
 module.exports = require("material-ui-pickers");
 
 /***/ }),
-/* 195 */
+/* 196 */
 /*!***************************************************!*\
   !*** external "@material-ui/core/InputAdornment" ***!
   \***************************************************/
@@ -12675,7 +10969,7 @@ module.exports = require("material-ui-pickers");
 module.exports = require("@material-ui/core/InputAdornment");
 
 /***/ }),
-/* 196 */
+/* 197 */
 /*!****************************************************************!*\
   !*** ./src/app/components/Tables/tableParts/tableStyle-jss.js ***!
   \****************************************************************/
@@ -12754,24 +11048,10 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Tables/tableParts/tableStyle-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
-/* 197 */
+/* 198 */
 /*!*********************************************************!*\
   !*** ./src/app/components/Notification/Notification.js ***!
   \*********************************************************/
@@ -12798,7 +11078,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ 2);
 
-var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 198);
+var _Snackbar = __webpack_require__(/*! @material-ui/core/Snackbar */ 199);
 
 var _Snackbar2 = _interopRequireDefault(_Snackbar);
 
@@ -12806,7 +11086,7 @@ var _IconButton = __webpack_require__(/*! @material-ui/core/IconButton */ 13);
 
 var _IconButton2 = _interopRequireDefault(_IconButton);
 
-var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 199);
+var _Close = __webpack_require__(/*! @material-ui/icons/Close */ 200);
 
 var _Close2 = _interopRequireDefault(_Close);
 
@@ -12841,30 +11121,18 @@ var Notification = function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Notification.__proto__ || Object.getPrototypeOf(Notification)).call.apply(_ref, [this].concat(args))), _this), _this.handleClose = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClose__REACT_HOT_LOADER__.apply(_this2, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Notification.__proto__ || Object.getPrototypeOf(Notification)).call.apply(_ref, [this].concat(args))), _this), _this.handleClose = function (event, reason) {
+      if (reason === 'clickaway') {
+        return;
+      }
+      _this.props.close('crudTableDemo');
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Notification, [{
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__() {
-      return this.__handleClose__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClose__REACT_HOT_LOADER__',
-    value: function __handleClose__REACT_HOT_LOADER__(event, reason) {
-      if (reason === 'clickaway') {
-        return;
-      }
-      this.props.close('crudTableDemo');
-    }
-  }, {
     key: 'render',
     value: function render() {
-      var _this3 = this;
+      var _this2 = this;
 
       var _props = this.props,
           classes = _props.classes,
@@ -12878,7 +11146,7 @@ var Notification = function (_React$Component) {
         open: message !== '',
         autoHideDuration: 3000,
         onClose: function onClose() {
-          return _this3.handleClose();
+          return _this2.handleClose();
         },
         ContentProps: {
           'aria-describedby': 'message-id'
@@ -12892,7 +11160,7 @@ var Notification = function (_React$Component) {
             color: 'inherit',
             className: classes.close,
             onClick: function onClick() {
-              return _this3.handleClose();
+              return _this2.handleClose();
             }
           },
           _react2.default.createElement(_Close2.default, null)
@@ -12910,27 +11178,10 @@ Notification.propTypes = {
   message: _propTypes2.default.string.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(Notification);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Notification/Notification.js');
-
-  __REACT_HOT_LOADER__.register(Notification, 'Notification', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Notification/Notification.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Notification/Notification.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(styles)(Notification);
 
 /***/ }),
-/* 198 */
+/* 199 */
 /*!*********************************************!*\
   !*** external "@material-ui/core/Snackbar" ***!
   \*********************************************/
@@ -12941,7 +11192,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Snackbar");
 
 /***/ }),
-/* 199 */
+/* 200 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Close" ***!
   \*******************************************/
@@ -12952,7 +11203,7 @@ module.exports = require("@material-ui/core/Snackbar");
 module.exports = require("@material-ui/icons/Close");
 
 /***/ }),
-/* 200 */
+/* 201 */
 /*!**************************************************!*\
   !*** ./src/app/components/CardPaper/PostCard.js ***!
   \**************************************************/
@@ -12983,7 +11234,7 @@ var _Typography = __webpack_require__(/*! @material-ui/core/Typography */ 19);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
-var _Card = __webpack_require__(/*! @material-ui/core/Card */ 201);
+var _Card = __webpack_require__(/*! @material-ui/core/Card */ 202);
 
 var _Card2 = _interopRequireDefault(_Card);
 
@@ -12995,19 +11246,19 @@ var _MenuItem = __webpack_require__(/*! @material-ui/core/MenuItem */ 36);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 202);
+var _CardHeader = __webpack_require__(/*! @material-ui/core/CardHeader */ 203);
 
 var _CardHeader2 = _interopRequireDefault(_CardHeader);
 
-var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 203);
+var _CardMedia = __webpack_require__(/*! @material-ui/core/CardMedia */ 204);
 
 var _CardMedia2 = _interopRequireDefault(_CardMedia);
 
-var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 204);
+var _CardContent = __webpack_require__(/*! @material-ui/core/CardContent */ 205);
 
 var _CardContent2 = _interopRequireDefault(_CardContent);
 
-var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 205);
+var _CardActions = __webpack_require__(/*! @material-ui/core/CardActions */ 206);
 
 var _CardActions2 = _interopRequireDefault(_CardActions);
 
@@ -13019,23 +11270,23 @@ var _Avatar = __webpack_require__(/*! @material-ui/core/Avatar */ 27);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 206);
+var _Favorite = __webpack_require__(/*! @material-ui/icons/Favorite */ 207);
 
 var _Favorite2 = _interopRequireDefault(_Favorite);
 
-var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 207);
+var _Share = __webpack_require__(/*! @material-ui/icons/Share */ 208);
 
 var _Share2 = _interopRequireDefault(_Share);
 
-var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 208);
+var _Comment = __webpack_require__(/*! @material-ui/icons/Comment */ 209);
 
 var _Comment2 = _interopRequireDefault(_Comment);
 
-var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 209);
+var _MoreVert = __webpack_require__(/*! @material-ui/icons/MoreVert */ 210);
 
 var _MoreVert2 = _interopRequireDefault(_MoreVert);
 
-var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 210);
+var _cardStyleJss = __webpack_require__(/*! ./cardStyle-jss */ 211);
 
 var _cardStyleJss2 = _interopRequireDefault(_cardStyleJss);
 
@@ -13065,41 +11316,17 @@ var PostCard = function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PostCard.__proto__ || Object.getPrototypeOf(PostCard)).call.apply(_ref, [this].concat(args))), _this), _this.state = { anchorElOpt: null }, _this.handleClickOpt = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleClickOpt__REACT_HOT_LOADER__.apply(_this2, arguments);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = PostCard.__proto__ || Object.getPrototypeOf(PostCard)).call.apply(_ref, [this].concat(args))), _this), _this.state = { anchorElOpt: null }, _this.handleClickOpt = function (event) {
+      _this.setState({ anchorElOpt: event.currentTarget });
     }, _this.handleCloseOpt = function () {
-      var _this3;
-
-      return (_this3 = _this).__handleCloseOpt__REACT_HOT_LOADER__.apply(_this3, arguments);
+      _this.setState({ anchorElOpt: null });
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(PostCard, [{
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      return this.__handleCloseOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__() {
-      return this.__handleClickOpt__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleClickOpt__REACT_HOT_LOADER__',
-    value: function __handleClickOpt__REACT_HOT_LOADER__(event) {
-      this.setState({ anchorElOpt: event.currentTarget });
-    }
-  }, {
-    key: '__handleCloseOpt__REACT_HOT_LOADER__',
-    value: function __handleCloseOpt__REACT_HOT_LOADER__() {
-      this.setState({ anchorElOpt: null });
-    }
-  }, {
     key: 'render',
     value: function render() {
-      var _this4 = this;
+      var _this2 = this;
 
       var _props = this.props,
           classes = _props.classes,
@@ -13149,7 +11376,7 @@ var PostCard = function (_React$Component) {
           optionsOpt.map(function (option) {
             return _react2.default.createElement(
               _MenuItem2.default,
-              { key: option, selected: option === 'Edit Profile', onClick: _this4.handleCloseOpt },
+              { key: option, selected: option === 'Edit Profile', onClick: _this2.handleCloseOpt },
               option
             );
           })
@@ -13225,29 +11452,10 @@ PostCard.defaultProps = {
   image: ''
 };
 
-var _default = (0, _styles.withStyles)(_cardStyleJss2.default)(PostCard);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(optionsOpt, 'optionsOpt', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PostCard.js');
-
-  __REACT_HOT_LOADER__.register(ITEM_HEIGHT, 'ITEM_HEIGHT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PostCard.js');
-
-  __REACT_HOT_LOADER__.register(PostCard, 'PostCard', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PostCard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/PostCard.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_cardStyleJss2.default)(PostCard);
 
 /***/ }),
-/* 201 */
+/* 202 */
 /*!*****************************************!*\
   !*** external "@material-ui/core/Card" ***!
   \*****************************************/
@@ -13258,7 +11466,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/Card");
 
 /***/ }),
-/* 202 */
+/* 203 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/CardHeader" ***!
   \***********************************************/
@@ -13269,7 +11477,7 @@ module.exports = require("@material-ui/core/Card");
 module.exports = require("@material-ui/core/CardHeader");
 
 /***/ }),
-/* 203 */
+/* 204 */
 /*!**********************************************!*\
   !*** external "@material-ui/core/CardMedia" ***!
   \**********************************************/
@@ -13280,7 +11488,7 @@ module.exports = require("@material-ui/core/CardHeader");
 module.exports = require("@material-ui/core/CardMedia");
 
 /***/ }),
-/* 204 */
+/* 205 */
 /*!************************************************!*\
   !*** external "@material-ui/core/CardContent" ***!
   \************************************************/
@@ -13291,7 +11499,7 @@ module.exports = require("@material-ui/core/CardMedia");
 module.exports = require("@material-ui/core/CardContent");
 
 /***/ }),
-/* 205 */
+/* 206 */
 /*!************************************************!*\
   !*** external "@material-ui/core/CardActions" ***!
   \************************************************/
@@ -13302,7 +11510,7 @@ module.exports = require("@material-ui/core/CardContent");
 module.exports = require("@material-ui/core/CardActions");
 
 /***/ }),
-/* 206 */
+/* 207 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/Favorite" ***!
   \**********************************************/
@@ -13313,7 +11521,7 @@ module.exports = require("@material-ui/core/CardActions");
 module.exports = require("@material-ui/icons/Favorite");
 
 /***/ }),
-/* 207 */
+/* 208 */
 /*!*******************************************!*\
   !*** external "@material-ui/icons/Share" ***!
   \*******************************************/
@@ -13324,7 +11532,7 @@ module.exports = require("@material-ui/icons/Favorite");
 module.exports = require("@material-ui/icons/Share");
 
 /***/ }),
-/* 208 */
+/* 209 */
 /*!*********************************************!*\
   !*** external "@material-ui/icons/Comment" ***!
   \*********************************************/
@@ -13335,7 +11543,7 @@ module.exports = require("@material-ui/icons/Share");
 module.exports = require("@material-ui/icons/Comment");
 
 /***/ }),
-/* 209 */
+/* 210 */
 /*!**********************************************!*\
   !*** external "@material-ui/icons/MoreVert" ***!
   \**********************************************/
@@ -13346,7 +11554,7 @@ module.exports = require("@material-ui/icons/Comment");
 module.exports = require("@material-ui/icons/MoreVert");
 
 /***/ }),
-/* 210 */
+/* 211 */
 /*!*******************************************************!*\
   !*** ./src/app/components/CardPaper/cardStyle-jss.js ***!
   \*******************************************************/
@@ -13369,11 +11577,11 @@ var _orange = __webpack_require__(/*! @material-ui/core/colors/orange */ 66);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 211);
+var _lightGreen = __webpack_require__(/*! @material-ui/core/colors/lightGreen */ 212);
 
 var _lightGreen2 = _interopRequireDefault(_lightGreen);
 
-var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 212);
+var _blueGrey = __webpack_require__(/*! @material-ui/core/colors/blueGrey */ 213);
 
 var _blueGrey2 = _interopRequireDefault(_blueGrey);
 
@@ -13568,24 +11776,10 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/CardPaper/cardStyle-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
-/* 211 */
+/* 212 */
 /*!******************************************************!*\
   !*** external "@material-ui/core/colors/lightGreen" ***!
   \******************************************************/
@@ -13596,7 +11790,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/colors/lightGreen");
 
 /***/ }),
-/* 212 */
+/* 213 */
 /*!****************************************************!*\
   !*** external "@material-ui/core/colors/blueGrey" ***!
   \****************************************************/
@@ -13607,7 +11801,7 @@ module.exports = require("@material-ui/core/colors/lightGreen");
 module.exports = require("@material-ui/core/colors/blueGrey");
 
 /***/ }),
-/* 213 */
+/* 214 */
 /*!***********************************************!*\
   !*** ./src/app/components/Error/ErrorWrap.js ***!
   \***********************************************/
@@ -13724,27 +11918,10 @@ ErrorWrap.propTypes = {
   title: _propTypes2.default.string.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(ErrorWrap);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Error/ErrorWrap.js');
-
-  __REACT_HOT_LOADER__.register(ErrorWrap, 'ErrorWrap', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Error/ErrorWrap.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/components/Error/ErrorWrap.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(styles)(ErrorWrap);
 
 /***/ }),
-/* 214 */
+/* 215 */
 /*!***************************************************!*\
   !*** ./src/app/containers/Dashboard/Dashboard.js ***!
   \***************************************************/
@@ -13793,7 +11970,7 @@ var _avatars = __webpack_require__(/*! ../../constants/avatars.js */ 38);
 
 var _avatars2 = _interopRequireDefault(_avatars);
 
-var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 215);
+var _dashboardJss = __webpack_require__(/*! ./dashboard-jss */ 216);
 
 var _dashboardJss2 = _interopRequireDefault(_dashboardJss);
 
@@ -13819,7 +11996,7 @@ var DashboardV2 = function (_PureComponent) {
   _createClass(DashboardV2, [{
     key: 'render',
     value: function render() {
-      var title = _brand2.default.name + ' - Dashboard Version 2';
+      var title = _brand2.default.name;
       var description = _brand2.default.desc;
       var classes = this.props.classes;
 
@@ -13892,25 +12069,10 @@ DashboardV2.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_dashboardJss2.default)(DashboardV2);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(DashboardV2, 'DashboardV2', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Dashboard/Dashboard.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Dashboard/Dashboard.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_dashboardJss2.default)(DashboardV2);
 
 /***/ }),
-/* 215 */
+/* 216 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Dashboard/dashboard-jss.js ***!
   \*******************************************************/
@@ -13956,24 +12118,10 @@ var styles = function styles(theme) {
   };
 };
 
-var _default = styles;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(styles, 'styles', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Dashboard/dashboard-jss.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Dashboard/dashboard-jss.js');
-}();
-
-;
+exports.default = styles;
 
 /***/ }),
-/* 216 */
+/* 217 */
 /*!************************************************!*\
   !*** ./src/app/containers/Routes/RoutePage.js ***!
   \************************************************/
@@ -14087,25 +12235,10 @@ RoutePage.propTypes = {
   classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(RoutePage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(RoutePage, 'RoutePage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Routes/RoutePage.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Routes/RoutePage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(RoutePage);
 
 /***/ }),
-/* 217 */
+/* 218 */
 /*!***********************************************************!*\
   !*** ./src/app/containers/Transporter/TransporterPage.js ***!
   \***********************************************************/
@@ -14185,25 +12318,10 @@ TransporterPage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TransporterPage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(TransporterPage, 'TransporterPage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Transporter/TransporterPage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Transporter/TransporterPage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TransporterPage);
 
 /***/ }),
-/* 218 */
+/* 219 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Driver/DriverPage.js ***!
   \*************************************************/
@@ -14279,25 +12397,10 @@ DriverPage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(DriverPage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(DriverPage, 'DriverPage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Driver/DriverPage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Driver/DriverPage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(DriverPage);
 
 /***/ }),
-/* 219 */
+/* 220 */
 /*!*******************************************************!*\
   !*** ./src/app/containers/Assistant/AssistantPage.js ***!
   \*******************************************************/
@@ -14373,25 +12476,10 @@ AssistantPage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(AssistantPage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(AssistantPage, 'AssistantPage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Assistant/AssistantPage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Assistant/AssistantPage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(AssistantPage);
 
 /***/ }),
-/* 220 */
+/* 221 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Client/ClientPage.js ***!
   \*************************************************/
@@ -14467,25 +12555,10 @@ ClientPage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(ClientPage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(ClientPage, 'ClientPage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Client/ClientPage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Client/ClientPage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(ClientPage);
 
 /***/ }),
-/* 221 */
+/* 222 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Schedule/TSchedulePage.js ***!
   \******************************************************/
@@ -14561,25 +12634,10 @@ TSchedulePage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TSchedulePage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(TSchedulePage, 'TSchedulePage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Schedule/TSchedulePage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Schedule/TSchedulePage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TSchedulePage);
 
 /***/ }),
-/* 222 */
+/* 223 */
 /*!******************************************************!*\
   !*** ./src/app/containers/Schedule/WSchedulePage.js ***!
   \******************************************************/
@@ -14655,25 +12713,10 @@ WSchedulePage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(WSchedulePage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(WSchedulePage, 'WSchedulePage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Schedule/WSchedulePage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Schedule/WSchedulePage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(WSchedulePage);
 
 /***/ }),
-/* 223 */
+/* 224 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Ticket/TicketPage.js ***!
   \*************************************************/
@@ -14749,25 +12792,10 @@ TicketPage.propTypes = {
     classes: _propTypes2.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_styles2.styles)(TicketPage);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(TicketPage, 'TicketPage', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Ticket/TicketPage.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Ticket/TicketPage.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_styles2.styles)(TicketPage);
 
 /***/ }),
-/* 224 */
+/* 225 */
 /*!********************************************!*\
   !*** ./src/app/containers/Themes/index.js ***!
   \********************************************/
@@ -14794,7 +12822,7 @@ var _brand = __webpack_require__(/*! ../../constants/brand.js */ 18);
 
 var _brand2 = _interopRequireDefault(_brand);
 
-var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 225);
+var _RadioGroup = __webpack_require__(/*! @material-ui/core/RadioGroup */ 226);
 
 var _RadioGroup2 = _interopRequireDefault(_RadioGroup);
 
@@ -14824,7 +12852,7 @@ var _themeStylesJss = __webpack_require__(/*! ./themeStyles-jss */ 72);
 
 var _themeStylesJss2 = _interopRequireDefault(_themeStylesJss);
 
-var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 226);
+var _ThemeThumb = __webpack_require__(/*! ./ThemeThumb */ 227);
 
 var _ThemeThumb2 = _interopRequireDefault(_ThemeThumb);
 
@@ -14852,25 +12880,13 @@ var Themes = function (_React$Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Themes.__proto__ || Object.getPrototypeOf(Themes)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       value: 'purpleRedTheme'
-    }, _this.handleChange = function () {
-      var _this2;
-
-      return (_this2 = _this).__handleChange__REACT_HOT_LOADER__.apply(_this2, arguments);
+    }, _this.handleChange = function (event) {
+      _this.setState({ value: event.target.value });
+      _this.props.changeTheme(event.target.value);
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Themes, [{
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__() {
-      return this.__handleChange__REACT_HOT_LOADER__.apply(this, arguments);
-    }
-  }, {
-    key: '__handleChange__REACT_HOT_LOADER__',
-    value: function __handleChange__REACT_HOT_LOADER__(event) {
-      this.setState({ value: event.target.value });
-      this.props.changeTheme(event.target.value);
-    }
-  }, {
     key: 'render',
     value: function render() {
       var title = _brand2.default.name + ' - Choose Theme';
@@ -14947,33 +12963,10 @@ var dispatchToProps = function dispatchToProps(dispatch) {
 
 var ThemesMapped = (0, _reactRedux.connect)(mapStateToProps, dispatchToProps)(Themes);
 
-var _default = (0, _styles.withStyles)(_themeStylesJss2.default)(ThemesMapped);
-
-exports.default = _default;
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Themes, 'Themes', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-
-  __REACT_HOT_LOADER__.register(dispatchToProps, 'dispatchToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-
-  __REACT_HOT_LOADER__.register(ThemesMapped, 'ThemesMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/index.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_themeStylesJss2.default)(ThemesMapped);
 
 /***/ }),
-/* 225 */
+/* 226 */
 /*!***********************************************!*\
   !*** external "@material-ui/core/RadioGroup" ***!
   \***********************************************/
@@ -14984,7 +12977,7 @@ var _temp2 = function () {
 module.exports = require("@material-ui/core/RadioGroup");
 
 /***/ }),
-/* 226 */
+/* 227 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Themes/ThemeThumb.js ***!
   \*************************************************/
@@ -15003,7 +12996,7 @@ var _react = __webpack_require__(/*! react */ 0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 227);
+var _Radio = __webpack_require__(/*! @material-ui/core/Radio */ 228);
 
 var _Radio2 = _interopRequireDefault(_Radio);
 
@@ -15139,31 +13132,10 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var ThumbsMapped = (0, _reactRedux.connect)(mapStateToProps)(ThemeThumb);
 
-var _default = (0, _styles.withStyles)(_themeStylesJss2.default)(ThumbsMapped);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ThemeThumb, 'ThemeThumb', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/ThemeThumb.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/ThemeThumb.js');
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/ThemeThumb.js');
-
-  __REACT_HOT_LOADER__.register(ThumbsMapped, 'ThumbsMapped', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/ThemeThumb.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Themes/ThemeThumb.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_themeStylesJss2.default)(ThumbsMapped);
 
 /***/ }),
-/* 227 */
+/* 228 */
 /*!******************************************!*\
   !*** external "@material-ui/core/Radio" ***!
   \******************************************/
@@ -15174,7 +13146,7 @@ var _temp = function () {
 module.exports = require("@material-ui/core/Radio");
 
 /***/ }),
-/* 228 */
+/* 229 */
 /*!*************************************************!*\
   !*** ./src/app/containers/NotFound/NotFound.js ***!
   \*************************************************/
@@ -15239,28 +13211,10 @@ var NotFound = function NotFound() {
   });
 };
 
-var _default = NotFound;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(title, 'title', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/NotFound/NotFound.js');
-
-  __REACT_HOT_LOADER__.register(description, 'description', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/NotFound/NotFound.js');
-
-  __REACT_HOT_LOADER__.register(NotFound, 'NotFound', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/NotFound/NotFound.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/NotFound/NotFound.js');
-}();
-
-;
+exports.default = NotFound;
 
 /***/ }),
-/* 229 */
+/* 230 */
 /*!******************************************************************!*\
   !*** ./src/app/containers/Pages/Standalone/NotFoundDedicated.js ***!
   \******************************************************************/
@@ -15289,7 +13243,7 @@ var _appStylesJss = __webpack_require__(/*! ./../../../components/App/appStyles-
 
 var _appStylesJss2 = _interopRequireDefault(_appStylesJss);
 
-var _Error = __webpack_require__(/*! ./../Error */ 230);
+var _Error = __webpack_require__(/*! ./../Error */ 231);
 
 var _Error2 = _interopRequireDefault(_Error);
 
@@ -15334,25 +13288,10 @@ NotFoundDedicated.propTypes = {
   classes: _propTypes.PropTypes.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(_appStylesJss2.default)(NotFoundDedicated);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(NotFoundDedicated, 'NotFoundDedicated', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Standalone/NotFoundDedicated.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Standalone/NotFoundDedicated.js');
-}();
-
-;
+exports.default = (0, _styles.withStyles)(_appStylesJss2.default)(NotFoundDedicated);
 
 /***/ }),
-/* 230 */
+/* 231 */
 /*!*************************************************!*\
   !*** ./src/app/containers/Pages/Error/index.js ***!
   \*************************************************/
@@ -15417,28 +13356,10 @@ var Error = function Error() {
   });
 };
 
-var _default = Error;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(title, 'title', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Error/index.js');
-
-  __REACT_HOT_LOADER__.register(description, 'description', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Error/index.js');
-
-  __REACT_HOT_LOADER__.register(Error, 'Error', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Error/index.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/Pages/Error/index.js');
-}();
-
-;
+exports.default = Error;
 
 /***/ }),
-/* 231 */
+/* 232 */
 /*!*******************************************!*\
   !*** ./src/app/containers/withTracker.js ***!
   \*******************************************/
@@ -15465,7 +13386,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(/*! prop-types */ 1);
 
-var _reactGa = __webpack_require__(/*! react-ga */ 232);
+var _reactGa = __webpack_require__(/*! react-ga */ 233);
 
 var _reactGa2 = _interopRequireDefault(_reactGa);
 
@@ -15542,20 +13463,9 @@ function withTracker(WrappedComponent) {
 
   return HOC;
 }
-;
-
-var _temp2 = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(withTracker, 'withTracker', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/containers/withTracker.js');
-}();
-
-;
 
 /***/ }),
-/* 232 */
+/* 233 */
 /*!***************************!*\
   !*** external "react-ga" ***!
   \***************************/
@@ -15566,7 +13476,7 @@ var _temp2 = function () {
 module.exports = require("react-ga");
 
 /***/ }),
-/* 233 */
+/* 234 */
 /*!***********************************!*\
   !*** ./src/app/config/default.js ***!
   \***********************************/
@@ -15581,13 +13491,13 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 234);
+var _isUndefined = __webpack_require__(/*! lodash/isUndefined */ 235);
 
 var _isUndefined2 = _interopRequireDefault(_isUndefined);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var env = process.env.NODE_ENV;
+var env = "production";
 var ssl = !(0, _isUndefined2.default)(process.env.SSL) && +process.env.SSL === 1 ? 1 : 0;
 var prefix = 'http' + (ssl ? 's' : '') + '://';
 var host = prefix + (process.env.HOST || 'localhost');
@@ -15599,7 +13509,7 @@ var apiHost = prefixHost + (!(0, _isUndefined2.default)(process.env.APIHOST) ? p
 var ssr = !(0, _isUndefined2.default)(process.env.SSR) && +process.env.SSR === 1;
 var googleAnaliticsId = process.env.GOOGLE_ANALITICS_ID !== 'undefined' ? process.env.GOOGLE_ANALITICS_ID : '';
 
-var _default = {
+exports.default = {
   env: env,
   ssl: ssl,
   host: host + (port ? ':' + port : ''),
@@ -15630,43 +13540,9 @@ var _default = {
     }
   }
 };
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(env, 'env', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(ssl, 'ssl', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(prefix, 'prefix', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(host, 'host', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(port, 'port', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(apiSsl, 'apiSsl', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(prefixHost, 'prefixHost', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(apiPort, 'apiPort', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(apiHost, 'apiHost', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(ssr, 'ssr', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(googleAnaliticsId, 'googleAnaliticsId', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/default.js');
-}();
-
-;
 
 /***/ }),
-/* 234 */
+/* 235 */
 /*!*************************************!*\
   !*** external "lodash/isUndefined" ***!
   \*************************************/
@@ -15677,7 +13553,7 @@ var _temp = function () {
 module.exports = require("lodash/isUndefined");
 
 /***/ }),
-/* 235 */
+/* 236 */
 /*!***************************************!*\
   !*** ./src/app/config/environment.js ***!
   \***************************************/
@@ -15691,29 +13567,17 @@ module.exports = require("lodash/isUndefined");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var _default = {
+exports.default = {
   development: {
     isProd: false
   },
   production: {
     isProd: true
   }
-}[process.env.NODE_ENV || 'development'];
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/config/environment.js');
-}();
-
-;
+}["production" || 'development'];
 
 /***/ }),
-/* 236 */
+/* 237 */
 /*!********************************!*\
   !*** ./src/server/SSR/html.js ***!
   \********************************/
@@ -15835,24 +13699,10 @@ Html.propTypes = {
   store: _propTypes.object.isRequired
 };
 
-var _default = Html;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(Html, 'Html', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/SSR/html.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/server/SSR/html.js');
-}();
-
-;
+exports.default = Html;
 
 /***/ }),
-/* 237 */
+/* 238 */
 /*!**********************************!*\
   !*** ./src/helpers/ApiClient.js ***!
   \**********************************/
@@ -15871,7 +13721,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _axios = __webpack_require__(/*! axios */ 238);
+var _axios = __webpack_require__(/*! axios */ 239);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -15948,30 +13798,10 @@ var _ApiClient = function _ApiClient() {
 
 var ApiClient = _ApiClient;
 
-var _default = ApiClient;
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(methods, 'methods', '/root/Desktop/ui-itss/passenger-transport-admin/src/helpers/ApiClient.js');
-
-  __REACT_HOT_LOADER__.register(formatUrl, 'formatUrl', '/root/Desktop/ui-itss/passenger-transport-admin/src/helpers/ApiClient.js');
-
-  __REACT_HOT_LOADER__.register(_ApiClient, '_ApiClient', '/root/Desktop/ui-itss/passenger-transport-admin/src/helpers/ApiClient.js');
-
-  __REACT_HOT_LOADER__.register(ApiClient, 'ApiClient', '/root/Desktop/ui-itss/passenger-transport-admin/src/helpers/ApiClient.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/root/Desktop/ui-itss/passenger-transport-admin/src/helpers/ApiClient.js');
-}();
-
-;
+exports.default = ApiClient;
 
 /***/ }),
-/* 238 */
+/* 239 */
 /*!************************!*\
   !*** external "axios" ***!
   \************************/
@@ -15982,7 +13812,7 @@ var _temp = function () {
 module.exports = require("axios");
 
 /***/ }),
-/* 239 */
+/* 240 */
 /*!********************************!*\
   !*** ./src/app/redux/store.js ***!
   \********************************/
@@ -16004,11 +13834,11 @@ var _redux = __webpack_require__(/*! redux */ 9);
 
 var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 73);
 
-var _reducer = __webpack_require__(/*! ./reducer */ 240);
+var _reducer = __webpack_require__(/*! ./reducer */ 241);
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
-var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 256);
+var _clientMiddleware = __webpack_require__(/*! ./middleware/clientMiddleware */ 257);
 
 var _clientMiddleware2 = _interopRequireDefault(_clientMiddleware);
 
@@ -16040,20 +13870,9 @@ function configureStore(history, client) {
 
   return store;
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(configureStore, 'configureStore', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/store.js');
-}();
-
-;
 
 /***/ }),
-/* 240 */
+/* 241 */
 /*!**********************************!*\
   !*** ./src/app/redux/reducer.js ***!
   \**********************************/
@@ -16069,61 +13888,61 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = createReducer;
 
-var _immutable = __webpack_require__(/*! redux-form/immutable */ 241);
+var _immutable = __webpack_require__(/*! redux-form/immutable */ 242);
 
-var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 242);
+var _reduxImmutablejs = __webpack_require__(/*! redux-immutablejs */ 243);
 
 var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 73);
 
-var _ui = __webpack_require__(/*! ./modules/ui */ 243);
+var _ui = __webpack_require__(/*! ./modules/ui */ 244);
 
 var _ui2 = _interopRequireDefault(_ui);
 
-var _initForm = __webpack_require__(/*! ./modules/initForm */ 244);
+var _initForm = __webpack_require__(/*! ./modules/initForm */ 245);
 
 var _initForm2 = _interopRequireDefault(_initForm);
 
-var _calendar = __webpack_require__(/*! ./modules/calendar */ 245);
+var _calendar = __webpack_require__(/*! ./modules/calendar */ 246);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
-var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 246);
+var _routeTable = __webpack_require__(/*! ./modules/routeTable */ 247);
 
 var _routeTable2 = _interopRequireDefault(_routeTable);
 
-var _transporterTable = __webpack_require__(/*! ./modules/transporterTable */ 247);
+var _transporterTable = __webpack_require__(/*! ./modules/transporterTable */ 248);
 
 var _transporterTable2 = _interopRequireDefault(_transporterTable);
 
-var _driverTable = __webpack_require__(/*! ./modules/driverTable */ 248);
+var _driverTable = __webpack_require__(/*! ./modules/driverTable */ 249);
 
 var _driverTable2 = _interopRequireDefault(_driverTable);
 
-var _assistantTable = __webpack_require__(/*! ./modules/assistantTable */ 249);
+var _assistantTable = __webpack_require__(/*! ./modules/assistantTable */ 250);
 
 var _assistantTable2 = _interopRequireDefault(_assistantTable);
 
-var _clientTable = __webpack_require__(/*! ./modules/clientTable */ 250);
+var _clientTable = __webpack_require__(/*! ./modules/clientTable */ 251);
 
 var _clientTable2 = _interopRequireDefault(_clientTable);
 
-var _tscheduleTable = __webpack_require__(/*! ./modules/tscheduleTable */ 251);
+var _tscheduleTable = __webpack_require__(/*! ./modules/tscheduleTable */ 252);
 
 var _tscheduleTable2 = _interopRequireDefault(_tscheduleTable);
 
-var _wscheduleTable = __webpack_require__(/*! ./modules/wscheduleTable */ 252);
+var _wscheduleTable = __webpack_require__(/*! ./modules/wscheduleTable */ 253);
 
 var _wscheduleTable2 = _interopRequireDefault(_wscheduleTable);
 
-var _ticketTable = __webpack_require__(/*! ./modules/ticketTable */ 253);
+var _ticketTable = __webpack_require__(/*! ./modules/ticketTable */ 254);
 
 var _ticketTable2 = _interopRequireDefault(_ticketTable);
 
-var _userInfo = __webpack_require__(/*! ./modules/userInfo */ 254);
+var _userInfo = __webpack_require__(/*! ./modules/userInfo */ 255);
 
 var _userInfo2 = _interopRequireDefault(_userInfo);
 
-var _branch = __webpack_require__(/*! ../constants/reducer/branch */ 255);
+var _branch = __webpack_require__(/*! ../constants/reducer/branch */ 256);
 
 var branchName = _interopRequireWildcard(_branch);
 
@@ -16161,22 +13980,9 @@ function createReducer() {
     userInfo: branchReducer(_userInfo2.default, branchName.USER_INFO)
   });
 };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(branchReducer, 'branchReducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/reducer.js');
-
-  __REACT_HOT_LOADER__.register(createReducer, 'createReducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/reducer.js');
-}();
-
-;
 
 /***/ }),
-/* 241 */
+/* 242 */
 /*!***************************************!*\
   !*** external "redux-form/immutable" ***!
   \***************************************/
@@ -16187,7 +13993,7 @@ var _temp = function () {
 module.exports = require("redux-form/immutable");
 
 /***/ }),
-/* 242 */
+/* 243 */
 /*!************************************!*\
   !*** external "redux-immutablejs" ***!
   \************************************/
@@ -16198,7 +14004,7 @@ module.exports = require("redux-form/immutable");
 module.exports = require("redux-immutablejs");
 
 /***/ }),
-/* 243 */
+/* 244 */
 /*!*************************************!*\
   !*** ./src/app/redux/modules/ui.js ***!
   \*************************************/
@@ -16305,28 +14111,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ui.js');
-
-  __REACT_HOT_LOADER__.register(getMenus, 'getMenus', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ui.js');
-
-  __REACT_HOT_LOADER__.register(setNavCollapse, 'setNavCollapse', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ui.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ui.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ui.js');
-}();
-
-;
 
 /***/ }),
-/* 244 */
+/* 245 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/initForm.js ***!
   \*******************************************/
@@ -16368,24 +14155,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/initForm.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/initForm.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/initForm.js');
-}();
-
-;
 
 /***/ }),
-/* 245 */
+/* 246 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/calendar.js ***!
   \*******************************************/
@@ -16475,26 +14247,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/calendar.js');
-
-  __REACT_HOT_LOADER__.register(initForm, 'initForm', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/calendar.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/calendar.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/calendar.js');
-}();
-
-;
 
 /***/ }),
-/* 246 */
+/* 247 */
 /*!*********************************************!*\
   !*** ./src/app/redux/modules/routeTable.js ***!
   \*********************************************/
@@ -16624,26 +14379,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
-
-  __REACT_HOT_LOADER__.register(initialItem, 'initialItem', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
-
-  __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/routeTable.js');
-}();
-
-;
 
 /***/ }),
-/* 247 */
+/* 248 */
 /*!***************************************************!*\
   !*** ./src/app/redux/modules/transporterTable.js ***!
   \***************************************************/
@@ -16741,20 +14479,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/transporterTable.js');
-}();
-
-;
 
 /***/ }),
-/* 248 */
+/* 249 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/driverTable.js ***!
   \**********************************************/
@@ -16853,20 +14580,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/driverTable.js');
-}();
-
-;
 
 /***/ }),
-/* 249 */
+/* 250 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/assistantTable.js ***!
   \*************************************************/
@@ -16965,20 +14681,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/assistantTable.js');
-}();
-
-;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/clientTable.js ***!
   \**********************************************/
@@ -17077,20 +14782,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/clientTable.js');
-}();
-
-;
 
 /***/ }),
-/* 251 */
+/* 252 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/tscheduleTable.js ***!
   \*************************************************/
@@ -17189,20 +14883,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/tscheduleTable.js');
-}();
-
-;
 
 /***/ }),
-/* 252 */
+/* 253 */
 /*!*************************************************!*\
   !*** ./src/app/redux/modules/wscheduleTable.js ***!
   \*************************************************/
@@ -17301,20 +14984,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/wscheduleTable.js');
-}();
-
-;
 
 /***/ }),
-/* 253 */
+/* 254 */
 /*!**********************************************!*\
   !*** ./src/app/redux/modules/ticketTable.js ***!
   \**********************************************/
@@ -17413,20 +15085,9 @@ function reducer() {
       return state;
   }
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/ticketTable.js');
-}();
-
-;
 
 /***/ }),
-/* 254 */
+/* 255 */
 /*!*******************************************!*\
   !*** ./src/app/redux/modules/userInfo.js ***!
   \*******************************************/
@@ -17464,24 +15125,9 @@ function reducer() {
             return state;
     }
 }
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(initialState, 'initialState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/userInfo.js');
-
-    __REACT_HOT_LOADER__.register(initialImmutableState, 'initialImmutableState', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/userInfo.js');
-
-    __REACT_HOT_LOADER__.register(reducer, 'reducer', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/modules/userInfo.js');
-}();
-
-;
 
 /***/ }),
-/* 255 */
+/* 256 */
 /*!*********************************************!*\
   !*** ./src/app/constants/reducer/branch.js ***!
   \*********************************************/
@@ -17504,36 +15150,9 @@ var TICKET = exports.TICKET = 'ticketTable';
 var T_SCHEDULE = exports.T_SCHEDULE = 'tscheduleTable';
 var W_SCHEDULE = exports.W_SCHEDULE = 'wscheduleTable';
 var USER_INFO = exports.USER_INFO = 'userInfo';
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(ROUTE, 'ROUTE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(TRANSPORTER, 'TRANSPORTER', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(DRIVER, 'DRIVER', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(ASSISTANT, 'ASSISTANT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(CLIENT, 'CLIENT', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(TICKET, 'TICKET', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(T_SCHEDULE, 'T_SCHEDULE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(W_SCHEDULE, 'W_SCHEDULE', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-
-  __REACT_HOT_LOADER__.register(USER_INFO, 'USER_INFO', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/constants/reducer/branch.js');
-}();
-
-;
 
 /***/ }),
-/* 256 */
+/* 257 */
 /*!******************************************************!*\
   !*** ./src/app/redux/middleware/clientMiddleware.js ***!
   \******************************************************/
@@ -17603,17 +15222,6 @@ function clientMiddleware(client) {
     };
   };
 }
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(clientMiddleware, 'clientMiddleware', '/root/Desktop/ui-itss/passenger-transport-admin/src/app/redux/middleware/clientMiddleware.js');
-}();
-
-;
 
 /***/ })
 /******/ ]);
